@@ -47,7 +47,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "AmsterdamCoin"
-#define QAPP_ORG_DOMAIN "amsterdamcoin.org"
+#define QAPP_ORG_DOMAIN "amsterdamcoin.com"
 #define QAPP_APP_NAME_DEFAULT "AmsterdamCoin-Qt"
 #define QAPP_APP_NAME_TESTNET "AmsterdamCoin-Qt-testnet"
 
