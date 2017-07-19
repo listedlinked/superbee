@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: pivxd.service
-Upstart: pivxd.conf
-OpenRC:  pivxd.openrc
-         pivxd.openrcconf
-CentOS:  pivxd.init
+SystemD: amsterdamcoind.service
+Upstart: amsterdamcoind.conf
+OpenRC:  amsterdamcoind.openrc
+         amsterdamcoind.openrcconf
+CentOS:  amsterdamcoind.init
 
 have been made available to assist packagers in creating node packages here.
 

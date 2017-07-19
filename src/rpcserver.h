@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * PIVX RPC command dispatcher.
+ * AmsterdamCoin RPC command dispatcher.
  */
 class CRPCTable
 {
