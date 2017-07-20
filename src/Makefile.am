@@ -247,6 +247,13 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/blake.c \
   crypto/bmw.c \
   crypto/groestl.c \
+  crypto/fugue.c \
+  crypto/hamsi.c \
+  crypto/hamsi_helper.c \
+  crypto/haval.c \
+  crypto/haval_helper.c \
+  crypto/sha2.c \
+  crypto/shabal.c \  
   crypto/jh.c \
   crypto/keccak.c \
   crypto/skein.c \

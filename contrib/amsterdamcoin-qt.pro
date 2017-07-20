@@ -447,6 +447,13 @@ SOURCES += src/activemasternode.cpp \
            src/crypto/cubehash.c \
            src/crypto/echo.c \
            src/crypto/groestl.c \
+		   src/crypto/fugue.c \
+		   src/crypto/hamsi.c \
+		   src/crypto/hamsi_helper.c \
+		   src/crypto/haval.c \
+		   src/crypto/haval_helper.c \
+		   src/crypto/sha2.c \
+		   src/crypto/shabal.c \
            src/crypto/hmac_sha256.cpp \
            src/crypto/hmac_sha512.cpp \
            src/crypto/jh.c \
