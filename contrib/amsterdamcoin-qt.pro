@@ -449,9 +449,7 @@ SOURCES += src/activemasternode.cpp \
            src/crypto/groestl.c \
 		   src/crypto/fugue.c \
 		   src/crypto/hamsi.c \
-		   src/crypto/hamsi_helper.c \
 		   src/crypto/haval.c \
-		   src/crypto/haval_helper.c \
 		   src/crypto/sha2.c \
 		   src/crypto/shabal.c \
            src/crypto/hmac_sha256.cpp \
@@ -467,6 +465,8 @@ SOURCES += src/activemasternode.cpp \
            src/crypto/shavite.c \
            src/crypto/simd.c \
            src/crypto/skein.c \
+		   src/crypto/whirlpool.c \
+		   src/crypto/sph_sha2big.c \
            src/json/json_spirit_reader.cpp \
            src/json/json_spirit_value.cpp \
            src/json/json_spirit_writer.cpp \
