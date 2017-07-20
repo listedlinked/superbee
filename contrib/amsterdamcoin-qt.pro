@@ -133,6 +133,7 @@ HEADERS += src/activemasternode.h \
            src/compat/sanity.h \
            src/config/amsterdamcoin-config.h \
            src/crypto/common.h \
+		   src/crypto/scrypt.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
            src/crypto/rfc6979_hmac_sha256.h \
@@ -441,6 +442,7 @@ SOURCES += src/activemasternode.cpp \
            src/compat/glibcxx_compat.cpp \
            src/compat/glibcxx_sanity.cpp \
            src/compat/strnlen.cpp \
+		   src/crypto/scrypt.cpp \
            src/crypto/aes_helper.c \
            src/crypto/blake.c \
            src/crypto/bmw.c \
