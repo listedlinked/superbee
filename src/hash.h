@@ -10,6 +10,7 @@
 
 #include "crypto/ripemd160.h"
 #include "crypto/sha256.h"
+#include "prevector.h"
 #include "serialize.h"
 #include "uint256.h"
 #include "version.h"
@@ -36,8 +37,65 @@
 #include <openssl/sha.h>
 #include <sstream>
 #include <vector>
-
 using namespace std;
+typedef uint256 ChainCode;
+
+#ifdef GLOBALDEFINED
+#define GLOBAL
+#else
+#define GLOBAL extern
+#endif
+
+GLOBAL sph_blake512_context     z_blake;
+GLOBAL sph_bmw512_context       z_bmw;
+GLOBAL sph_groestl512_context   z_groestl;
+GLOBAL sph_jh512_context        z_jh;
+GLOBAL sph_keccak512_context    z_keccak;
+GLOBAL sph_skein512_context     z_skein;
+GLOBAL sph_luffa512_context     z_luffa;
+GLOBAL sph_cubehash512_context  z_cubehash;
+GLOBAL sph_shavite512_context   z_shavite;
+GLOBAL sph_simd512_context      z_simd;
+GLOBAL sph_echo512_context      z_echo;
+GLOBAL sph_hamsi512_context     z_hamsi;
+GLOBAL sph_fugue512_context     z_fugue;
+GLOBAL sph_shabal512_context    z_shabal;
+GLOBAL sph_whirlpool_context    z_whirlpool;
+GLOBAL sph_sha512_context       z_sha2;
+GLOBAL sph_haval256_5_context   z_haval;
+
+#define fillz() do { \
+    sph_blake512_init(&z_blake); \
+    sph_bmw512_init(&z_bmw); \
+    sph_groestl512_init(&z_groestl); \
+    sph_jh512_init(&z_jh); \
+    sph_keccak512_init(&z_keccak); \
+    sph_skein512_init(&z_skein); \
+    sph_luffa512_init(&z_luffa); \
+    sph_cubehash512_init(&z_cubehash); \
+    sph_shavite512_init(&z_shavite); \
+    sph_simd512_init(&z_simd); \
+    sph_echo512_init(&z_echo); \
+    sph_hamsi512_init(&z_hamsi); \
+    sph_fugue512_init(&z_fugue); \
+    sph_shabal512_init(&z_shabal); \
+    sph_whirlpool_init(&z_whirlpool); \
+    sph_sha512_init(&z_sha2); \
+    sph_haval256_5_init(&z_haval); \
+} while (0) 
+
+#define ZBLAKE (memcpy(&ctx_blake, &z_blake, sizeof(z_blake)))
+#define ZBMW (memcpy(&ctx_bmw, &z_bmw, sizeof(z_bmw)))
+#define ZGROESTL (memcpy(&ctx_groestl, &z_groestl, sizeof(z_groestl)))
+#define ZJH (memcpy(&ctx_jh, &z_jh, sizeof(z_jh)))
+#define ZKECCAK (memcpy(&ctx_keccak, &z_keccak, sizeof(z_keccak)))
+#define ZSKEIN (memcpy(&ctx_skein, &z_skein, sizeof(z_skein)))
+#define ZHAMSI (memcpy(&ctx_hamsi, &z_hamsi, sizeof(z_hamsi)))
+#define ZFUGUE (memcpy(&ctx_fugue, &z_fugue, sizeof(z_fugue)))
+#define ZSHABAL (memcpy(&ctx_shabal, &z_shabal, sizeof(z_shabal)))
+#define ZWHIRLPOOL (memcpy(&ctx_whirlpool, &z_whirlpool, sizeof(z_whirlpool)))
+#define ZSHA2 (memcpy(&ctx_sha2, &z_sha2, sizeof(z_sha2)))
+#define ZHAVAL (memcpy(&ctx_haval, &z_haval, sizeof(z_haval)))
 
 /** A hasher class for Bitcoin's 256-bit hash (double SHA-256). */
 class CHash256
@@ -96,6 +154,14 @@ public:
         return *this;
     }
 };
+
+inline void Hash(void* in, unsigned int len, unsigned char* out)
+{
+    SHA256_CTX sha256;
+    SHA256_Init(&sha256);
+    SHA256_Update(&sha256, in, len);
+    SHA256_Final(out, &sha256);
+}
 
 /** Compute the 256-bit hash of an object. */
 template <typename T1>
@@ -248,45 +314,31 @@ inline uint256 XEVAN(const T1 pbegin, const T1 pend)
     sph_haval256_5_context    ctx_haval;
 static unsigned char pblank[1];
 
-    uint512 mask = 8;
-    uint512 zero = 0;
-
-    uint512 hash[9];
+#ifndef QT_NO_DEBUG
+    //std::string strhash;
+    //strhash = "";
+#endif
+    int worknumber =128;
+    uint512 hash[34];
 
     sph_blake512_init(&ctx_blake);
-    // ZBLAKE;
-    sph_blake512(&ctx_blake, (pbegin == pend ? pblank : static_cast<const void*>(&pbegin[0])), (pend - pbegin) * sizeof(pbegin[0]));
+    sph_blake512 (&ctx_blake, (pbegin == pend ? pblank : static_cast<const void*>(&pbegin[0])), (pend - pbegin) * sizeof(pbegin[0]));
     sph_blake512_close(&ctx_blake, static_cast<void*>(&hash[0]));
-
+    
     sph_bmw512_init(&ctx_bmw);
-    // ZBMW;
-    sph_bmw512(&ctx_bmw, static_cast<const void*>(&hash[0]), 64);
+    sph_bmw512 (&ctx_bmw, static_cast<const void*>(&hash[0]), worknumber);
     sph_bmw512_close(&ctx_bmw, static_cast<void*>(&hash[1]));
 
-    if ((hash[1] & mask) != zero) {
-        sph_groestl512_init(&ctx_groestl);
-        // ZGROESTL;
-        sph_groestl512(&ctx_groestl, static_cast<const void*>(&hash[1]), 64);
-        sph_groestl512_close(&ctx_groestl, static_cast<void*>(&hash[2]));
-    } else {
-        sph_skein512_init(&ctx_skein);
-        // ZSKEIN;
-        sph_skein512(&ctx_skein, static_cast<const void*>(&hash[1]), 64);
-        sph_skein512_close(&ctx_skein, static_cast<void*>(&hash[2]));
-    }
-
     sph_groestl512_init(&ctx_groestl);
-    // ZGROESTL;
-    sph_groestl512(&ctx_groestl, static_cast<const void*>(&hash[2]), 64);
-    sph_groestl512_close(&ctx_groestl, static_cast<void*>(&hash[3]));
+    sph_groestl512 (&ctx_groestl, static_cast<const void*>(&hash[1]), worknumber);
+    sph_groestl512_close(&ctx_groestl, static_cast<void*>(&hash[2]));
 
     sph_skein512_init(&ctx_skein);
     sph_skein512 (&ctx_skein, static_cast<const void*>(&hash[2]), worknumber);
     sph_skein512_close(&ctx_skein, static_cast<void*>(&hash[3]));
     
     sph_jh512_init(&ctx_jh);
-    // ZJH;
-    sph_jh512(&ctx_jh, static_cast<const void*>(&hash[3]), 64);
+    sph_jh512 (&ctx_jh, static_cast<const void*>(&hash[3]), worknumber);
     sph_jh512_close(&ctx_jh, static_cast<void*>(&hash[4]));
     
     sph_keccak512_init(&ctx_keccak);
