@@ -261,6 +261,12 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sph_blake.h \
   crypto/sph_bmw.h \
   crypto/sph_groestl.h \
+  crypto/sph_haval.h \
+  crypto/sph_sha2.h \
+  crypto/sph_whirlpool.h \
+  crypto/sph_shabal.h \
+  crypto/sph_fugue.h \
+  crypto/sph_hamsi.h \
   crypto/sph_jh.h \
   crypto/sph_keccak.h \
   crypto/sph_skein.h \
