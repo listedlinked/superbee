@@ -10,7 +10,7 @@
 #include "random.h"
 #include "util.h"
 #include "utilstrencodings.h"
-
+#include "arith_uint256.h"
 #include <assert.h>
 
 #include <boost/assign/list_of.hpp>
@@ -105,7 +105,7 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // AmsterdamCoin: 1 day
+        nTargetTimespan = 1 * 60; // AmsterdamCoin: 1 minute
         nTargetSpacing = 1 * 60;  // AmsterdamCoin: 1 minute
         nLastPOWBlock = 259200;
         nMaturity = 100;
@@ -122,7 +122,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "U.S. News & World Report Jan 28 2016 With His Absence, Trump Dominates Another Debate";
+        const char* pszTimestamp = "Geen zorgen over bitcoin bij zakenbank Goldman Sachs: koers gaat naar nieuw record, misschien $3.700";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -133,21 +133,46 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1454124731;
+        genesis.nTime = 1500535877;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 2402015;
+        genesis.nNonce = 0;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
-        assert(genesis.hashMerkleRoot == uint256("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
 
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "amsterdamcoin.seed.fuzzbawls.pw"));     // Primary DNS Seeder from Fuzzbawls
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "amsterdamcoin.seed2.fuzzbawls.pw"));    // Secondary DNS Seeder from Fuzzbawls
-        vSeeds.push_back(CDNSSeedData("coin-server.com", "coin-server.com"));         // Single node address
-        vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net")); // Single node address
-        vSeeds.push_back(CDNSSeedData("178.254.23.111", "178.254.23.111"));           // Single node address
+		 printf("Searching for genesis block...\n");
+                           arith_uint256 hashTarget = arith_uint256().SetCompact(genesis.nBits);
+                           uint256 thash;
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
+                           while (true)
+                           {
+                               thash = genesis.GetHash();
+                               if (UintToArith256(thash) <= hashTarget)
+                                   break;
+                               if ((genesis.nNonce & 0xFFF) == 0)
+                               {
+                                   printf("nonce %08X: hash = %s (target = %s)\n", genesis.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
+                               }
+                               ++genesis.nNonce;
+                               if (genesis.nNonce == 0)
+                               {
+                                   printf("NONCE WRAPPED, incrementing time\n");
+                                   ++genesis.nTime;
+                               }
+                           }
+                           printf("genesis.nTime = %u \n", genesis.nTime);
+                           printf("genesis.nNonce = %u \n", genesis.nNonce);
+                           printf("genesis.nVersion = %u \n", genesis.nVersion);
+                           printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str()); 
+                           printf("genesis.hashMerkleRoot = %s \n", genesis.hashMerkleRoot.ToString().c_str());
+						   
+        assert(hashGenesisBlock == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0x"));
+
+        vSeeds.push_back(CDNSSeedData("host.blockexplorer.pro", "host.blockexplorer.pro"));     // Primary DNS Seeder from keesdewit
+		vSeeds.push_back(CDNSSeedData("amshost1.dyndns.org", "amshost1.dyndns.org"));     				// Secondary DNS Seeder from keesdewit
+
+
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
