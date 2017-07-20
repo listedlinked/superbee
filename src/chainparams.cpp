@@ -10,7 +10,7 @@
 #include "random.h"
 #include "util.h"
 #include "utilstrencodings.h"
-#include "arith_uint256.h"
+
 #include <assert.h>
 
 #include <boost/assign/list_of.hpp>
@@ -96,7 +96,7 @@ public:
         pchMessageStart[1] = 0x22;
         pchMessageStart[2] = 0x00;
         pchMessageStart[3] = 0xaa;
-        vAlertPubKey = ParseHex("020020020020020020020020020020020020020020020020020020020020020020020020020020020020020020020020020020020020020020020020020020020");
+        vAlertPubKey = ParseHex("0421fb0665876637d9d79d03a24f383393838fb9e3340858a6d5a70b079f4af57cfff3ca00310be5300d532adf6261ba98ac70d24d943a6be333bec6d7a6d93013");
         nDefaultPort = 50020;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // AmsterdamCoin starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
@@ -112,23 +112,14 @@ public:
         nMasternodeCountDrift = 20;
         nModifierUpdateBlock = 615800;
 
-        /**
-         * Build the genesis block. Note that the output of the genesis coinbase cannot
-         * be spent as it did not originally exist in the database.
-         *
-         * CBlock(hash=00000ffd590b14, ver=1, hashPrevBlock=00000000000000, hashMerkleRoot=e0028e, nTime=1390095618, nBits=1e0ffff0, nNonce=28917698, vtx=1)
-         *   CTransaction(hash=e0028e, ver=1, vin.size=1, vout.size=1, nLockTime=0)
-         *     CTxIn(COutPoint(000000, -1), coinbase 04ffff001d01044c5957697265642030392f4a616e2f3230313420546865204772616e64204578706572696d656e7420476f6573204c6976653a204f76657273746f636b2e636f6d204973204e6f7720416363657074696e6720426974636f696e73)
-         *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
-         *   vMerkleTree: e0028e
-         */
+
         const char* pszTimestamp = "Geen zorgen over bitcoin bij zakenbank Goldman Sachs: koers gaat naar nieuw record, misschien $3.700";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 250 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("04c10e83b2703ccf322f7dbd62dd5855ac7c10bd055814ce121ba32607d573b8810c02c0582aed05b4deb9c4b77b26d92428c61256cd42774babea0a073b2ed0c9") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("0421fb0665876637d9d79d03a24f383393838fb9e3340858a6d5a70b079f4af57cfff3ca00310be5300d532adf6261ba98ac70d24d943a6be333bec6d7a6d93013") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
@@ -139,31 +130,14 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
 
-		 printf("Searching for genesis block...\n");
-                           arith_uint256 hashTarget = arith_uint256().SetCompact(genesis.nBits);
-                           uint256 thash;
 
-                           while (true)
-                           {
-                               thash = genesis.GetHash();
-                               if (UintToArith256(thash) <= hashTarget)
-                                   break;
-                               if ((genesis.nNonce & 0xFFF) == 0)
-                               {
-                                   printf("nonce %08X: hash = %s (target = %s)\n", genesis.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
-                               }
-                               ++genesis.nNonce;
-                               if (genesis.nNonce == 0)
-                               {
-                                   printf("NONCE WRAPPED, incrementing time\n");
-                                   ++genesis.nTime;
-                               }
-                           }
-                           printf("genesis.nTime = %u \n", genesis.nTime);
-                           printf("genesis.nNonce = %u \n", genesis.nNonce);
-                           printf("genesis.nVersion = %u \n", genesis.nVersion);
-                           printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str()); 
-                           printf("genesis.hashMerkleRoot = %s \n", genesis.hashMerkleRoot.ToString().c_str());
+
+            Logprintf("recalculating params for mainnet.\n");
+            for(genesis.nNonce == 0; genesis.GetHash() > bnProofOfWorkLimit; genesis.nNonce++){ } 
+            Logprintf("new mainnet genesis merkle root: %s\n", genesis.hashMerkleRoot.ToString().c_str());
+            Logprintf("new mainnet genesis nonce: %s\n", genesis.nNonce.ToString().c_str());
+            Logprintf("new mainnet genesis hash: %s\n", genesis.GetHash().ToString().c_str());
+        
 						   
         assert(hashGenesisBlock == uint256("0x"));
         assert(genesis.hashMerkleRoot == uint256("0x"));
