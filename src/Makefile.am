@@ -89,6 +89,7 @@ BITCOIN_CORE_H = \
   coins.h \
   compat.h \
   compressor.h \
+  hash.h \
   primitives/block.h \
   primitives/transaction.h \
   core_io.h \
@@ -97,8 +98,7 @@ BITCOIN_CORE_H = \
   obfuscation-relay.h \
   db.h \
   eccryptoverify.h \
-  ecwrapper.h \
-  hash.h \
+  ecwrapper.h \  
   init.h \
   kernel.h \
   swifttx.h \
@@ -249,12 +249,10 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/groestl.c \
   crypto/fugue.c \
   crypto/hamsi.c \
-  crypto/hamsi_helper.c \
   crypto/haval.c \
-  crypto/haval_helper.c \
   crypto/whirlpool.c \
   crypto/sha2.c \
-  crypto/shabal.c \  
+  crypto/shabal.c \
   crypto/jh.c \
   crypto/keccak.c \
   crypto/skein.c \
