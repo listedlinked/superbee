@@ -27,7 +27,7 @@
 </ul>
 <p><strong><span style="color: #800080;"><em>PoW Phase 1:</em></span></strong></p>
 <ul>
-<li>[block# 1] 80000 Premine to support the swap.</li>
+<li>[block# 1] 80000000 Premine to support the swap.</li>
 </ul>
 <p><strong><span style="color: #800080;"><em>PoW Phase 2:</em></span></strong></p>
 <ul>
