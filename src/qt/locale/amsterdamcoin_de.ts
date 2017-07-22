@@ -239,8 +239,16 @@
         <translation>&amp;BIP 38 Verschlüsselung</translation>
     </message>
     <message>
+        <source>Enter a AmsterdamCoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Gib eine AmsterdamCoin Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
+    </message>
+    <message>
         <source>Address:</source>
         <translation>Adresse:</translation>
+    </message>
+    <message>
+        <source>The AmsterdamCoin address to sign the message with</source>
+        <translation>AmsterdamCoin Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -263,8 +271,64 @@
         <translation>Passphrase: </translation>
     </message>
     <message>
+        <source>Encrypted Key:</source>
+        <translation>Geschützer Schlüssel:</translation>
+    </message>
+    <message>
+        <source>Copy the current signature to the system clipboard</source>
+        <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
+    </message>
+    <message>
+        <source>Sign the message to prove you own this AmsterdamCoin address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese AmsterdamCoin Adresse besitzt</translation>
+    </message>
+    <message>
+        <source>Encrypt &amp;Key</source>
+        <translation>Verschlüsselt &amp;Schlüssel</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Setze alle signierten Nachrichten Felder zurück</translation>
+    </message>
+    <message>
         <source>Clear &amp;All</source>
         <translation>&amp;Alles zurücksetzen</translation>
+    </message>
+    <message>
+        <source>&amp;BIP 38 Decrypt</source>
+        <translation>&amp;BIP 38 Entschlüsseln</translation>
+    </message>
+    <message>
+        <source>Import Address</source>
+        <translation>Adresse importieren</translation>
+    </message>
+    <message>
+        <source>Allowed: 0-9,a-z,A-Z,</source>
+        <translation>Zulässig: 0-9,a-z,A-Z</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>Die eingegebene Adresse ist falsch</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Bitte die Adresse prüfen und erneut eingeben</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>Die eingegebene Adresse passt nicht zu einem Schlüssel</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>Privater Schlüssel für die eingegebene Adresse ist nicht verfügbar</translation>
+    </message>
+    <message>
+        <source>Data Not Valid.</source>
+        <translation>Daten fehlerhaft</translation>
+    </message>
+    <message>
+        <source>Please try again.</source>
+        <translation>Bitte versuche es noch einmal</translation>
     </message>
     </context>
 <context>
@@ -449,10 +513,6 @@
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandozeilenoptionen</translation>
     </message>
-    <message numerus="yes">
-        <source>Processed %n blocks of transaction history.</source>
-        <translation><numerusform>%n Block des Transaktionsverlaufs verarbeitet.</numerusform><numerusform>%n Blöcke des Transaktionsverlaufs verarbeitet.</numerusform></translation>
-    </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
         <translation>Synchronisiere zusätzliche Daten:  %p%</translation>
@@ -522,6 +582,14 @@
         <translation>&amp;BIP38 Hilfsprogramm</translation>
     </message>
     <message>
+        <source>MultiSend Settings</source>
+        <translation>MultiSend Einstellungen</translation>
+    </message>
+    <message>
+        <source>AmsterdamCoin Core client</source>
+        <translation>AmsterdamCoin Core Client</translation>
+    </message>
+    <message>
         <source>Synchronizing with network...</source>
         <translation>Synchronisiere mit Netzwerk...</translation>
     </message>
@@ -541,25 +609,9 @@
         <source>Up to date</source>
         <translation>Auf aktuellem Stand</translation>
     </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n Stunde</numerusform><numerusform>%n Stunden</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n Tag</numerusform><numerusform>%n Tage</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n Woche</numerusform><numerusform>%n Wochen</numerusform></translation>
-    </message>
     <message>
         <source>%1 and %2</source>
         <translation>%1 und %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n Jahr</numerusform><numerusform>%n Jahre</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -598,6 +650,10 @@
         <translation>Eingehende Transaktion</translation>
     </message>
     <message>
+        <source>Sent MultiSend transaction</source>
+        <translation>Versende MultiSend Transaktion</translation>
+    </message>
+    <message>
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -611,6 +667,10 @@ Adresse: %4</translation>
     <message>
         <source>Active</source>
         <translation>Aktiv</translation>
+    </message>
+    <message>
+        <source>Not Active</source>
+        <translation>Nicht Aktiv</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
@@ -694,12 +754,20 @@ Adresse: %4</translation>
         <translation>Betrag</translation>
     </message>
     <message>
+        <source>Received with address</source>
+        <translation>Empfangen mit Adresse</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
         <source>Confirmed</source>
         <translation>Bestätigt</translation>
+    </message>
+    <message>
+        <source>Priority</source>
+        <translation>Priorität</translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -718,12 +786,52 @@ Adresse: %4</translation>
         <translation>Transaktions-ID kopieren</translation>
     </message>
     <message>
+        <source>highest</source>
+        <translation>höchste</translation>
+    </message>
+    <message>
+        <source>higher</source>
+        <translation>höher</translation>
+    </message>
+    <message>
+        <source>high</source>
+        <translation>hoch</translation>
+    </message>
+    <message>
+        <source>medium-high</source>
+        <translation>mittel-hoch</translation>
+    </message>
+    <message>
         <source>n/a</source>
         <translation>k.A.</translation>
     </message>
     <message>
         <source>medium</source>
         <translation>mittel</translation>
+    </message>
+    <message>
+        <source>low-medium</source>
+        <translation>niedrig-mittel</translation>
+    </message>
+    <message>
+        <source>low</source>
+        <translation>niedrig</translation>
+    </message>
+    <message>
+        <source>lower</source>
+        <translation>niedriger</translation>
+    </message>
+    <message>
+        <source>lowest</source>
+        <translation>am niedrigsten</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>keine</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ja</translation>
     </message>
     <message>
         <source>no</source>
@@ -843,14 +951,6 @@ Adresse: %4</translation>
         <translation>Kommandozeilenoptionen</translation>
     </message>
     <message>
-        <source>UI options</source>
-        <translation>UI-Optionen</translation>
-    </message>
-    <message>
-        <source>Choose data directory on startup (default: 0)</source>
-        <translation>Datenverzeichnis beim Starten auswählen (Standard: 0)</translation>
-    </message>
-    <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
         <translation>Sprache festlegen, z.B. "de_DE" (Standard: Systemstandard)</translation>
     </message>
@@ -861,10 +961,6 @@ Adresse: %4</translation>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>SSL-Wurzelzertifikate für Zahlungsanforderungen festlegen (Standard: Systemstandard)</translation>
-    </message>
-    <message>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation>Startbildschirm beim Starten anzeigen (Standard: 1)</translation>
     </message>
 </context>
 <context>
@@ -981,22 +1077,6 @@ Adresse: %4</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>All Masternodes</source>
-        <translation>Alle Masternodes</translation>
-    </message>
-    <message>
-        <source>Filter List:</source>
-        <translation>Liste filtern:</translation>
-    </message>
-    <message>
-        <source>Filter masternode list</source>
-        <translation>Masternode-Liste filtern</translation>
-    </message>
-    <message>
-        <source>Node Count:</source>
-        <translation>Anzahl Masternodes:</translation>
-    </message>
-    <message>
         <source>Start alias</source>
         <translation>Starten</translation>
     </message>
@@ -1043,6 +1123,18 @@ Adresse: %4</translation>
         <source>Address:</source>
         <translation>Adresse:</translation>
     </message>
+    <message>
+        <source>Delete</source>
+        <translation>Löschen</translation>
+    </message>
+    <message>
+        <source>Activate</source>
+        <translation>Aktivieren</translation>
+    </message>
+    <message>
+        <source>Removed </source>
+        <translation>Gelöscht</translation>
+    </message>
     </context>
 <context>
     <name>ObfuscationConfig</name>
@@ -1052,6 +1144,14 @@ Adresse: %4</translation>
     </context>
 <context>
     <name>OptionsDialog</name>
+    <message>
+        <source>default</source>
+        <translation>standard</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>keine</translation>
+    </message>
     </context>
 <context>
     <name>OverviewPage</name>
@@ -1191,10 +1291,6 @@ Adresse: %4</translation>
         <source>No inputs detected</source>
         <translation>Keine Inputs gefunden</translation>
     </message>
-    <message numerus="yes">
-        <source>%n Rounds</source>
-        <translation><numerusform>%n Runde</numerusform><numerusform>%n Runden</numerusform></translation>
-    </message>
     <message>
         <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
         <translation>Nicht genug kompatible Inputs zum Anonymisieren von &lt;span style='color:red;'&gt;%1&lt;/span&gt; gefunden,&lt;br/&gt;&lt;span style='color:red;'&gt;%2&lt;/span&gt; wird stattdessen anonymisiert</translation>
@@ -1210,10 +1306,6 @@ Adresse: %4</translation>
     <message>
         <source>Anonymized</source>
         <translation>Anonymisiert</translation>
-    </message>
-    <message numerus="yes">
-        <source>Denominated inputs have %5 of %n rounds on average</source>
-        <translation><numerusform>Gestückelte Inputs haben im Durchschnitt %5 von %n Runde</numerusform><numerusform>Gestückelte Inputs haben im Durchschnitt %5 von %n Runden</numerusform></translation>
     </message>
     <message>
         <source>Wallet is locked and user declined to unlock. Disabling Obfuscation.</source>
@@ -1724,6 +1816,10 @@ Adresse: %4</translation>
         <translation>Nachricht &amp;signieren</translation>
     </message>
     <message>
+        <source>The AmsterdamCoin address to sign the message with</source>
+        <translation>AmsterdamCoin Adresse mit welcher die Nachricht signiert werden soll</translation>
+    </message>
+    <message>
         <source>Choose previously used address</source>
         <translation>Bereits verwendete Adresse auswählen</translation>
     </message>
@@ -1744,8 +1840,36 @@ Adresse: %4</translation>
         <translation>Gehen Sie hier die Nachricht ein, die Sie digital unterschreiben möchten</translation>
     </message>
     <message>
+        <source>Copy the current signature to the system clipboard</source>
+        <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
+    </message>
+    <message>
+        <source>Sign the message to prove you own this AmsterdamCoin address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese AmsterdamCoin Adresse besitzt</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Setze alle signierten Nachrichten Felder zurück</translation>
+    </message>
+    <message>
         <source>Clear &amp;All</source>
         <translation>&amp;Alles zurücksetzen</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>Die eingegebene Adresse ist falsch</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Bitte die Adresse prüfen und erneut eingeben</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>Die eingegebene Adresse passt nicht zu einem Schlüssel</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>Privater Schlüssel für die eingegebene Adresse ist nicht verfügbar</translation>
     </message>
     </context>
 <context>
@@ -1784,10 +1908,6 @@ Adresse: %4</translation>
 </context>
 <context>
     <name>TransactionDesc</name>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Geöffnet für %n weiteren Block</numerusform><numerusform>Geöffnet für %n weitere Blöcke</numerusform></translation>
-    </message>
     <message>
         <source>Open until %1</source>
         <translation>Offen bis %1</translation>
@@ -1848,10 +1968,6 @@ Adresse: %4</translation>
         <source>, has not been successfully broadcast yet</source>
         <translation>, wurde noch nicht erfolgreich übertragen</translation>
     </message>
-    <message numerus="yes">
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, über %n Knoten übertragen</numerusform><numerusform>, über %n Knoten übertragen</numerusform></translation>
-    </message>
     <message>
         <source>Date</source>
         <translation>Datum</translation>
@@ -1891,10 +2007,6 @@ Adresse: %4</translation>
     <message>
         <source>Credit</source>
         <translation>Gutschrift</translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>reift noch %n Block</numerusform><numerusform>reift noch %n weitere Blöcke</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -1984,15 +2096,11 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation>Art</translation>
     </message>
     <message>
         <source>Address</source>
         <translation>Adresse</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Geöffnet für %n weiteren Block</numerusform><numerusform>Geöffnet für %n weitere Blöcke</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>

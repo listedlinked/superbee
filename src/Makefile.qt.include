@@ -3,6 +3,7 @@ EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
 # amsterdamcoin qt core #
 QT_TS = \
+<<<<<<< HEAD
   qt/locale/amsterdamcoin_ca.ts \
   qt/locale/amsterdamcoin_da.ts \
   qt/locale/amsterdamcoin_de.ts \
@@ -16,6 +17,32 @@ QT_TS = \
   qt/locale/amsterdamcoin_ro_RO.ts \
   qt/locale/amsterdamcoin_ru.ts \
   qt/locale/amsterdamcoin_zh_TW.ts
+=======
+  qt/locale/amsterdamcoin_bg.ts \
+  qt/locale/amsterdamcoin_ca.ts \
+  qt/locale/amsterdamcoin_cs.ts \
+  qt/locale/amsterdamcoin_da.ts \
+  qt/locale/amsterdamcoin_de.ts \
+  qt/locale/amsterdamcoin_en.ts \
+  qt/locale/amsterdamcoin_en_US.ts \
+  qt/locale/amsterdamcoin_es.ts \
+  qt/locale/amsterdamcoin_fi.ts \
+  qt/locale/amsterdamcoin_fr_FR.ts \
+  qt/locale/amsterdamcoin_it.ts \
+  qt/locale/amsterdamcoin_ja.ts \
+  qt/locale/amsterdamcoin_ko_KR.ts \
+  qt/locale/amsterdamcoin_nl.ts \
+  qt/locale/amsterdamcoin_pl.ts \
+  qt/locale/amsterdamcoin_pt.ts \
+  qt/locale/amsterdamcoin_pt_BR.ts \
+  qt/locale/amsterdamcoin_ro_RO.ts \
+  qt/locale/amsterdamcoin_ru.ts \
+  qt/locale/amsterdamcoin_sk.ts \
+  qt/locale/amsterdamcoin_sv.ts \
+  qt/locale/amsterdamcoin_uk.ts \
+  qt/locale/amsterdamcoin_zh_CN.ts \
+  qt/locale/amsterdamcoin_zh_TW.ts
+>>>>>>> 4d8a000e... [Qt] Periodic translations update
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \

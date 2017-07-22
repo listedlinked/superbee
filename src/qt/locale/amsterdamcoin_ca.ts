@@ -80,6 +80,10 @@
         <translation>Desencriptar la cartera</translation>
     </message>
     <message>
+        <source>Change passphrase</source>
+        <translation>Canviar contrasenya</translation>
+    </message>
+    <message>
         <source>Confirm wallet encryption</source>
         <translation>Confirmar encriptació de la cartera</translation>
     </message>
@@ -130,6 +134,10 @@
         <source>Wallet unlock was cancelled.</source>
         <translation>El desbloqueig de la cartera ha estat cancel·lat</translation>
     </message>
+    <message>
+        <source>Data Not Valid.</source>
+        <translation>Dades No Vàlides.</translation>
+    </message>
     </context>
 <context>
     <name>BitcoinGUI</name>
@@ -142,6 +150,10 @@
         <translation>Node</translation>
     </message>
     <message>
+        <source>&amp;Send</source>
+        <translation>&amp;Enviar</translation>
+    </message>
+    <message>
         <source>&amp;Receive</source>
         <translation>&amp;Rebre</translation>
     </message>
@@ -152,6 +164,10 @@
     <message>
         <source>Browse transaction history</source>
         <translation>Veure històric de transaccions</translation>
+    </message>
+    <message>
+        <source>E&amp;xit</source>
+        <translation>&amp;Sortir</translation>
     </message>
     <message>
         <source>Quit application</source>
@@ -178,8 +194,20 @@
         <translation>&amp;Encriptar Cartera...</translation>
     </message>
     <message>
+        <source>&amp;Backup Wallet...</source>
+        <translation>&amp;Còpia de seguretat de la Cartera...</translation>
+    </message>
+    <message>
+        <source>&amp;Unlock Wallet...</source>
+        <translation>&amp;Desbloquejar Cartera...</translation>
+    </message>
+    <message>
         <source>Unlock wallet</source>
-        <translation>Desbloquejar cartera</translation>
+        <translation>Desbloquejar la cartera</translation>
+    </message>
+    <message>
+        <source>&amp;Lock Wallet</source>
+        <translation>B&amp;loquejar Cartera</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
@@ -194,24 +222,52 @@
         <translation>&amp;Informació</translation>
     </message>
     <message>
+        <source>&amp;Debug console</source>
+        <translation>Consola de &amp;Depuració</translation>
+    </message>
+    <message>
+        <source>&amp;Network Monitor</source>
+        <translation>Monitor de &amp;Xarxa</translation>
+    </message>
+    <message>
         <source>Show network monitor</source>
         <translation>Mostrar monitor de xarxa</translation>
+    </message>
+    <message>
+        <source>Wallet &amp;Repair</source>
+        <translation>&amp;Reparar Cartera</translation>
     </message>
     <message>
         <source>Open configuration file</source>
         <translation>Obrir fitxer de configuració</translation>
     </message>
-    <message numerus="yes">
-        <source>Processed %n blocks of transaction history.</source>
-        <translation><numerusform>Processat bloc %n de l'històric de transaccions.</numerusform><numerusform>Processats %n blocs de l'històric de transaccions.</numerusform></translation>
+    <message>
+        <source>&amp;Sending addresses...</source>
+        <translation>Adreces d'&amp;enviament...</translation>
+    </message>
+    <message>
+        <source>&amp;Receiving addresses...</source>
+        <translation>Adreces de &amp;recepció...</translation>
+    </message>
+    <message>
+        <source>Open &amp;URI...</source>
+        <translation>Obrir &amp;URI...</translation>
     </message>
     <message>
         <source>&amp;File</source>
         <translation>&amp;Fitxer</translation>
     </message>
     <message>
+        <source>&amp;Settings</source>
+        <translation>&amp;Ajustaments</translation>
+    </message>
+    <message>
         <source>&amp;Tools</source>
         <translation>&amp;Eines</translation>
+    </message>
+    <message>
+        <source>&amp;Help</source>
+        <translation>A&amp;juda</translation>
     </message>
     <message>
         <source>AmsterdamCoin Core</source>
@@ -221,9 +277,21 @@
         <source>&amp;About AmsterdamCoin Core</source>
         <translation>&amp;Sobre AmsterdamCoin Core</translation>
     </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to AmsterdamCoin network</source>
-        <translation><numerusform>%n connexió activa a la xarxa AmsterdamCoin</numerusform><numerusform>%n connexions actives a la xarxa AmsterdamCoin</numerusform></translation>
+    <message>
+        <source>&amp;BIP38 tool</source>
+        <translation>Eina &amp;BIP38</translation>
+    </message>
+    <message>
+        <source>Open Wallet &amp;Configuration File</source>
+        <translation>Obrir el Fitxer de &amp;Configuració de la Cartera</translation>
+    </message>
+    <message>
+        <source>Open &amp;Masternode Configuration File</source>
+        <translation>Obrir el Fitxer de &amp;Configuració del Node Mestre</translation>
+    </message>
+    <message>
+        <source>Open Masternode configuration file</source>
+        <translation>Obrir el fitxer de configuració del Node Mestre</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -233,25 +301,9 @@
         <source>Up to date</source>
         <translation>Actualitzat</translation>
     </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n hora</numerusform><numerusform>%n hores</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n dia</numerusform><numerusform>%n dies</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n setmana</numerusform><numerusform>%n setmanes</numerusform></translation>
-    </message>
     <message>
         <source>%1 and %2</source>
         <translation>%1 i %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n any</numerusform><numerusform>%n anys</numerusform></translation>
     </message>
     <message>
         <source>Error</source>
@@ -297,6 +349,10 @@
     <message>
         <source>Priority:</source>
         <translation>Prioritat:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Canvi:</translation>
     </message>
     <message>
         <source>Tree mode</source>
@@ -366,7 +422,11 @@
         <source>(no label)</source>
         <translation>(sense etiqueta)</translation>
     </message>
-    </context>
+    <message>
+        <source>(change)</source>
+        <translation>(canvi)</translation>
+    </message>
+</context>
 <context>
     <name>EditAddressDialog</name>
     <message>
@@ -376,6 +436,22 @@
     <message>
         <source>&amp;Address</source>
         <translation>&amp;Adreça</translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>Nova adreça de recepció</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Nova adreça d'enviament</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Editar adreça de recepció</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Editar adreça d'enviament</translation>
     </message>
     </context>
 <context>
@@ -429,6 +505,10 @@
     </context>
 <context>
     <name>MasternodeList</name>
+    <message>
+        <source>My Masternodes</source>
+        <translation>Els meus Nodes Mestre</translation>
+    </message>
     <message>
         <source>Alias</source>
         <translation>Àlies</translation>
@@ -495,9 +575,21 @@
         <source>Configure Obfuscation</source>
         <translation>Configurar Ofuscació</translation>
     </message>
+    <message>
+        <source>Obfuscation Configuration</source>
+        <translation>Configuració d'Ofuscació</translation>
+    </message>
     </context>
 <context>
     <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>Obrir URI</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
     </context>
 <context>
     <name>OptionsDialog</name>
@@ -512,6 +604,26 @@
     <message>
         <source>Allow incoming connections</source>
         <translation>Permetre connexions entrants</translation>
+    </message>
+    <message>
+        <source>Expert</source>
+        <translation>Expert</translation>
+    </message>
+    <message>
+        <source>&amp;Port:</source>
+        <translation>&amp;Port:</translation>
+    </message>
+    <message>
+        <source>User Interface Theme:</source>
+        <translation>Tema de la interfície d'usuari:</translation>
+    </message>
+    <message>
+        <source>&amp;Reset Options</source>
+        <translation>&amp;Restablir Opcions</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;Cancel·lar</translation>
     </message>
     </context>
 <context>
@@ -545,6 +657,10 @@
         <translation>Transaccions recents</translation>
     </message>
     <message>
+        <source>Reset</source>
+        <translation>Restablir</translation>
+    </message>
+    <message>
         <source>Disabled</source>
         <translation>Desactivat</translation>
     </message>
@@ -570,7 +686,11 @@
         <source>Version</source>
         <translation>Versió</translation>
     </message>
-    </context>
+    <message>
+        <source>Ping Time</source>
+        <translation>Temps de Ping</translation>
+    </message>
+</context>
 <context>
     <name>QObject</name>
     <message>
@@ -612,6 +732,10 @@
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>Tools window</source>
+        <translation>Finestra d'eines</translation>
+    </message>
+    <message>
         <source>&amp;Information</source>
         <translation>&amp;Informació</translation>
     </message>
@@ -628,12 +752,24 @@
         <translation>Nombre de connexions</translation>
     </message>
     <message>
+        <source>&amp;Open</source>
+        <translation>&amp;Obrir</translation>
+    </message>
+    <message>
         <source>Network</source>
         <translation>Xarxa</translation>
     </message>
     <message>
+        <source>Build date</source>
+        <translation>Data de compilació</translation>
+    </message>
+    <message>
         <source>&amp;Console</source>
         <translation>&amp;Consola</translation>
+    </message>
+    <message>
+        <source>Totals</source>
+        <translation>Totals</translation>
     </message>
     <message>
         <source>Received</source>
@@ -652,12 +788,20 @@
         <translation>Versió</translation>
     </message>
     <message>
+        <source>Services</source>
+        <translation>Serveis</translation>
+    </message>
+    <message>
         <source>Bytes Sent</source>
         <translation>Bytes Enviats</translation>
     </message>
     <message>
         <source>Bytes Received</source>
         <translation>Bytes Rebuts</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Temps de Ping</translation>
     </message>
     <message>
         <source>Rebuild index</source>
@@ -716,6 +860,10 @@
     <message>
         <source>Copy &amp;Address</source>
         <translation>Copiar &amp;Adreça</translation>
+    </message>
+    <message>
+        <source>URI</source>
+        <translation>URI</translation>
     </message>
     <message>
         <source>Address</source>
@@ -780,6 +928,14 @@
         <translation>no</translation>
     </message>
     <message>
+        <source>Change:</source>
+        <translation>Canvi:</translation>
+    </message>
+    <message>
+        <source>Minimize</source>
+        <translation>Minimitzar</translation>
+    </message>
+    <message>
         <source>Obfuscation</source>
         <translation>Ofuscació</translation>
     </message>
@@ -841,6 +997,10 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
+        <source>Signatures - Sign / Verify a Message</source>
+        <translation>Signatures - Signar / Verificar un Missatge</translation>
+    </message>
+    <message>
         <source>&amp;Sign Message</source>
         <translation>&amp;Signar Missatge</translation>
     </message>
@@ -866,7 +1026,7 @@
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>Verify &amp;Missatge</translation>
+        <translation>Verificar &amp;Missatge</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
