@@ -165,6 +165,7 @@ void PrepareShutdown()
     RenameThread("amsterdamcoin-shutoff");
     mempool.AddTransactionsUpdated(1);
     StopRPCThreads();
+	ShutdownRPCMining();
 #ifdef ENABLE_WALLET
     if (pwalletMain)
         bitdb.Flush(false);
@@ -876,7 +877,9 @@ bool AppInit2(boost::thread_group& threadGroup)
         if (!sporkManager.SetPrivKey(GetArg("-sporkkey", "")))
             return InitError(_("Unable to sign spork message, wrong key?"));
     }
-
+	
+	InitRPCMining();
+	
     /* Start the RPC server already.  It will be started in "warmup" mode
      * and not really process calls already (but it will signify connections
      * that the server is there and will be ready later).  Warmup mode will
