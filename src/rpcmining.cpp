@@ -36,6 +36,7 @@ static CReserveKey* pMiningKey = NULL;
 
 void InitRPCMining()
 {
+	assert(pwalletMain != NULL);
     if (!pwalletMain)
         return;
 
@@ -434,8 +435,6 @@ Value getwork(const Array& params, bool fHelp)
         static CBlockIndex* pindexPrev;
         static int64_t nStart;
         static CBlockTemplate* pblocktemplate;
-		
-
         if (pindexPrev != chainActive.Tip() ||
             (mempool.GetTransactionsUpdated() != nTransactionsUpdatedLast && GetTime() - nStart > 60))
         {
@@ -447,6 +446,7 @@ Value getwork(const Array& params, bool fHelp)
                     delete pblocktemplate;
                 vNewBlockTemplate.clear();
             }
+
             // Clear pindexPrev so future getworks make a new block, despite any failures from here on
             pindexPrev = NULL;
 
@@ -454,20 +454,15 @@ Value getwork(const Array& params, bool fHelp)
             nTransactionsUpdatedLast = mempool.GetTransactionsUpdated();
             CBlockIndex* pindexPrevNew = chainActive.Tip();
             nStart = GetTime();
-			
-            // Create new block
-			assert(pMiningKey != NULL);
-            pblocktemplate = CreateNewBlockWithKey(*pMiningKey, pwalletMain, false);
 
+            // Create new block
+            pblocktemplate = CreateNewBlockWithKey(*pMiningKey, pwalletMain, false);
             if (!pblocktemplate)
                 throw JSONRPCError(RPC_OUT_OF_MEMORY, "Out of memory");
-			
             vNewBlockTemplate.push_back(pblocktemplate);
 
             // Need to update only after we know CreateNewBlock succeeded
             pindexPrev = pindexPrevNew;
-			
-			
         }
         CBlock* pblock = &pblocktemplate->block; // pointer for convenience
 
@@ -488,7 +483,7 @@ Value getwork(const Array& params, bool fHelp)
         char phash1[64];
         FormatHashBuffers(pblock, pmidstate, pdata, phash1);
 
-		uint256 hashTarget = uint256().SetCompact(pblock->nBits);
+        uint256 hashTarget = uint256().SetCompact(pblock->nBits);
 
         Object result;
         result.push_back(Pair("midstate", HexStr(BEGIN(pmidstate), END(pmidstate)))); // deprecated
@@ -504,41 +499,6 @@ Value getwork(const Array& params, bool fHelp)
         if (vchData.size() != 128)
             throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid parameter");
         CBlock* pdata = (CBlock*)&vchData[0];
-		
-        static unsigned int nTransactionsUpdatedLast;
-        static CBlockIndex* pindexPrev;
-        static int64_t nStart;
-        static CBlockTemplate* pblocktemplate;
-        if (pindexPrev != chainActive.Tip() ||
-            (mempool.GetTransactionsUpdated() != nTransactionsUpdatedLast && GetTime() - nStart > 60))
-        {
-            if (pindexPrev != chainActive.Tip())
-            {
-                // Deallocate old blocks since they're obsolete now
-                mapNewBlock.clear();
-                BOOST_FOREACH(CBlockTemplate* pblocktemplate, vNewBlockTemplate)
-                    delete pblocktemplate;
-                vNewBlockTemplate.clear();
-            }
-
-            // Clear pindexPrev so future getworks make a new block, despite any failures from here on
-            pindexPrev = NULL;
-
-            // Store the chainActive.Tip() used before CreateNewBlock, to avoid races
-            nTransactionsUpdatedLast = mempool.GetTransactionsUpdated();
-            CBlockIndex* pindexPrevNew = chainActive.Tip();
-            nStart = GetTime();
-
-			assert(pMiningKey != NULL);
-            // Create new block
-            pblocktemplate = CreateNewBlockWithKey(*pMiningKey, pwalletMain, false);
-            if (!pblocktemplate)
-                throw JSONRPCError(RPC_OUT_OF_MEMORY, "Out of memory");
-            vNewBlockTemplate.push_back(pblocktemplate);
-
-            // Need to update only after we know CreateNewBlock succeeded
-            pindexPrev = pindexPrevNew;
-        }		
 
         // Byte reverse
         for (int i = 0; i < 128/4; i++)
@@ -554,8 +514,9 @@ Value getwork(const Array& params, bool fHelp)
         pblock->vtx[0].vin[0].scriptSig = mapNewBlock[pdata->hashMerkleRoot].second;
         pblock->hashMerkleRoot = pblock->BuildMerkleTree();
 
-        assert(pwalletMain != NULL);
-        return CheckWork(*pblock, pindexPrev);
+        CBlockIndex* pindexPrevNew = chainActive.Tip();
+		
+        return CheckWork(*pblock, pindexPrevNew);
     }
 }
 #endif
@@ -868,6 +829,7 @@ protected:
 
 Value submitblock(const Array& params, bool fHelp)
 {
+	LogPrintf("submitblock called\n");
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
             "submitblock \"hexdata\" ( \"jsonparametersobject\" )\n"
