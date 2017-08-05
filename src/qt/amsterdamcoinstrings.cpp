@@ -51,8 +51,6 @@ QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
 "Distributed under the MIT software license, see the accompanying file "
 "COPYING or <http://www.opensource.org/licenses/mit-license.php>."),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
-"Enable spork administration functionality with the appropriate private key."),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
 "Enable swifttx, show confirmations for locked transactions (bool, default: "
 "%s)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
@@ -99,8 +97,6 @@ QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
 "Invalid amount for -maxtxfee=<amount>: '%s' (must be at least the minrelay "
 "fee of %s to prevent stuck transactions)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
-"Keep the specified amount available for spending at all times (default: 0)"),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
 "Log transaction priority and fee per kB when mining blocks (default: %u)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
 "Maintain a full transaction index, used by the getrawtransaction rpc call "
@@ -141,13 +137,11 @@ QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
 "Show N confirmations for a successfully locked transaction (0-9999, default: "
 "%u)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
-"Support filtering of blocks and transaction with bloom filters (default: %u)"),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
 "SwiftTX requires inputs with at least 6 confirmations, you might need to "
 "wait a few minutes and try again."),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
 "This is a pre-release test build - use at your own risk - do not use for "
-"staking or merchant applications!"),
+"mining or merchant applications"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
 "This product includes software developed by the OpenSSL Project for use in "
 "the OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software "
@@ -209,11 +203,11 @@ QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
 QT_TRANSLATE_NOOP("amsterdamcoin-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", "(51472 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("amsterdamcoin-core", "(50020 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", "(must be 51472 for mainnet)"),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", "<category> can be:"),
+QT_TRANSLATE_NOOP("amsterdamcoin-core", "(must be 50020 for mainnet)"),
+QT_TRANSLATE_NOOP("amsterdamcoin-core", "<category> can be:\n"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Accept public REST requests (default: %u)"),
@@ -222,7 +216,6 @@ QT_TRANSLATE_NOOP("amsterdamcoin-core", "Add a node to connect to and attempt to
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Allow DNS lookups for -addnode, -seednode and -connect"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Already have that input."),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Always query for peer addresses via DNS lookup (default: %u)"),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", "Attempt to force blockchain corruption recovery"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Attempt to recover private keys from a corrupt wallet.dat"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Block creation options:"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Can't denominate: no compatible inputs left."),
@@ -247,18 +240,9 @@ QT_TRANSLATE_NOOP("amsterdamcoin-core", "Could not parse masternode.conf"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Debugging/Testing options:"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Disable safemode, override a real safe mode event (default: %u)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Discover own IP address (default: 1 when listening and no -externalip)"),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", "Display the stake modifier calculations in the debug.log file."),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", "Display verbose coin stake messages in the debug.log file."),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Do not load the wallet and disable wallet RPC calls"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Do you want to rebuild the block database now?"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Done loading"),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", "Enable publish hash block in <address>"),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", "Enable publish hash transaction (locked via SwiftTX) in <address>"),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", "Enable publish hash transaction in <address>"),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", "Enable publish raw block in <address>"),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", "Enable publish raw transaction (locked via SwiftTX) in <address>"),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", "Enable publish raw transaction in <address>"),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", "Enable staking functionality (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Enable the client to act as a masternode (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Entries are full."),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Error connecting to Masternode."),
@@ -356,7 +340,6 @@ QT_TRANSLATE_NOOP("amsterdamcoin-core", "Only connect to nodes in network <net> 
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Options:"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Password for JSON-RPC connections"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Prepend debug output with timestamp (default: %u)"),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", "Print version and exit"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "RPC server options:"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "RPC support for HTTP persistent connections (default: %d)"),
@@ -396,7 +379,6 @@ QT_TRANSLATE_NOOP("amsterdamcoin-core", "Specify pid file (default: %s)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Specify wallet file (within data directory)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Specify your own public address"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Spend unconfirmed change when sending transactions (default: %u)"),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", "Staking options:"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Stop running after importing blocks from disk (default: %u)"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Submitted following entries to masternode: %u / %d"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Submitted to masternode, waiting for more entries ( %u / %d ) %s"),
@@ -450,7 +432,6 @@ QT_TRANSLATE_NOOP("amsterdamcoin-core", "You need to rebuild the database using 
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Your entries added successfully."),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Your transaction was accepted into the pool!"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "Zapping all transactions from wallet..."),
-QT_TRANSLATE_NOOP("amsterdamcoin-core", "ZeroMQ notification options:"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "on startup"),
 QT_TRANSLATE_NOOP("amsterdamcoin-core", "wallet.dat corrupt, salvage failed"),
 };

@@ -221,11 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>AmsterdamCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AMSs from being stolen by malware infecting your computer.</source>
-=======
-        <source>AmsterdamCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AMSs from being stolen by malware infecting your computer.</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -775,20 +771,12 @@
     <message>
         <location line="-396"/>
         <location line="+831"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>AmsterdamCoin Core</source>
-=======
-        <source>AmsterdamCoin Core</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-652"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>Send coins to a AmsterdamCoin address</source>
-=======
-        <source>Send coins to a AmsterdamCoin address</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -868,11 +856,7 @@
     </message>
     <message>
         <location line="+10"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>Open a AmsterdamCoin: URI or payment request</source>
-=======
-        <source>Open a AmsterdamCoin: URI or payment request</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -892,20 +876,12 @@
     </message>
     <message>
         <location line="+201"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>AmsterdamCoin Core client</source>
-=======
-        <source>AmsterdamCoin Core client</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+190"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>%n active connection(s) to AmsterdamCoin network</source>
-=======
-        <source>%n active connection(s) to AmsterdamCoin network</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -1101,11 +1077,7 @@ Address: %4
     </message>
     <message>
         <location filename="../blockexplorer.cpp" line="+473"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (amsterdamcoin.conf).</source>
-=======
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (amsterdamcoin.conf).</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1484,11 +1456,7 @@ Address: %4
     </message>
     <message>
         <location line="+67"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>The entered address &quot;%1&quot; is not a valid AmsterdamCoin address.</source>
-=======
-        <source>The entered address &quot;%1&quot; is not a valid AmsterdamCoin address.</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1538,11 +1506,7 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location filename="../utilitydialog.cpp" line="+32"/>
-=======
-        <location filename="../utilitydialog.cpp" line="+37"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <source>version</source>
         <translation>version</translation>
     </message>
@@ -1559,15 +1523,11 @@ Address: %4
     </message>
     <message>
         <location line="+4"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>About AmsterdamCoin Core</source>
-=======
-        <source>About AmsterdamCoin Core</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+20"/>
+        <location line="+19"/>
         <source>Command-line options</source>
         <translation>Command-line options</translation>
     </message>
@@ -1582,22 +1542,17 @@ Address: %4
         <translation>command-line options</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>UI Options:</source>
-        <translation type="unfinished"></translation>
+        <location line="+4"/>
+        <source>UI options</source>
+        <translation>UI options</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Choose data directory on startup (default: %u)</source>
-        <translation type="unfinished"></translation>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Choose data directory on startup (default: 0)</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Show splash screen on startup (default: %u)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-3"/>
+        <location line="+1"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
         <translation>Set language, for example &quot;de_DE&quot; (default: system locale)</translation>
     </message>
@@ -1610,6 +1565,11 @@ Address: %4
         <location line="+1"/>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>Set SSL root certificates for payment request (default: -system-)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Show splash screen on startup (default: 1)</translation>
     </message>
 </context>
 <context>
@@ -1646,11 +1606,7 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+77"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>AmsterdamCoin Core</source>
-=======
-        <source>AmsterdamCoin Core</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1682,7 +1638,7 @@ Address: %4
         <translation type="unfinished">Form</translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+40"/>
         <source>My Masternodes</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1698,69 +1654,42 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="+160"/>
-=======
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <source>Address</source>
         <translation type="unfinished">Address</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="-155"/>
         <location line="+160"/>
-=======
-        <location line="+5"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <source>Protocol</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="-155"/>
         <location line="+160"/>
-=======
-        <location line="+5"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <source>Status</source>
         <translation type="unfinished">Status</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="-155"/>
         <location line="+160"/>
-=======
-        <location line="+5"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <source>Active</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="-155"/>
         <location line="+160"/>
-=======
-        <location line="+5"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <source>Last Seen (UTC)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="-155"/>
         <location line="+160"/>
-=======
-        <location line="+5"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <source>Pubkey</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="-147"/>
-=======
-        <location line="+13"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <source>S&amp;tart alias</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1786,15 +1715,11 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="+159"/>
-=======
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <source>0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="-134"/>
         <source>All Masternodes</source>
         <translation type="unfinished"></translation>
@@ -1816,18 +1741,11 @@ Address: %4
     </message>
     <message>
         <location filename="../masternodelist.cpp" line="+51"/>
-=======
-        <location filename="../masternodelist.cpp" line="+45"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <source>Start alias</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="+261"/>
-=======
-        <location line="+190"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <source>Confirm masternode start</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2099,29 +2017,17 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="-27"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening AmsterdamCoin&apos;s configuration screen.</source>
-=======
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening AmsterdamCoin&apos;s configuration screen.</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening AmsterdamCoin&apos;s configuration screen.</source>
-=======
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening AmsterdamCoin&apos;s configuration screen.</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening AmsterdamCoin&apos;s configuration screen.</source>
-=======
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening AmsterdamCoin&apos;s configuration screen.</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2570,11 +2476,7 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
     </message>
     <message>
         <location line="+28"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location filename="../overviewpage.cpp" line="+478"/>
-=======
-        <location filename="../overviewpage.cpp" line="+479"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <location line="+11"/>
         <location line="+10"/>
         <location line="+12"/>
@@ -2632,11 +2534,7 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
         <translation>Reset</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location filename="../overviewpage.cpp" line="-381"/>
-=======
-        <location filename="../overviewpage.cpp" line="-382"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <location line="+1"/>
         <location line="+1"/>
         <source>out of sync</source>
@@ -2646,20 +2544,12 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
         <location line="+6"/>
         <location line="+1"/>
         <location line="+1"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="+293"/>
-=======
-        <location line="+294"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <source>Disabled</source>
         <translation>Disabled</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="-117"/>
-=======
-        <location line="-118"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <location line="+6"/>
         <source>No inputs detected</source>
         <translation>No inputs detected</translation>
@@ -2703,11 +2593,7 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
         </translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="+44"/>
-=======
-        <location line="+45"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <source>Last Obfuscation message:
 </source>
         <translation type="unfinished"></translation>
@@ -2733,47 +2619,30 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="-160"/>
-=======
-        <location line="-161"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <source>Found enough compatible inputs to anonymize %1</source>
         <translation>Found enough compatible inputs to anonymize %1</translation>
     </message>
     <message>
         <location line="-208"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="+291"/>
-=======
-        <location line="+292"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <location line="+89"/>
         <source>Start Obfuscation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="-378"/>
         <location line="+381"/>
-=======
-        <location line="-379"/>
-        <location line="+382"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <source>Stop Obfuscation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-122"/>
+        <location line="-121"/>
         <source>Mixed</source>
         <translation>Mixed</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="+41"/>
-=======
-        <location line="+42"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <source>Enabled</source>
         <translation>Enabled</translation>
     </message>
@@ -2819,20 +2688,12 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
     </message>
     <message>
         <location line="-108"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>Cannot start amsterdamcoin: click-to-pay handler</source>
-=======
-        <source>Cannot start amsterdamcoin: click-to-pay handler</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+114"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>URI cannot be parsed! This can be caused by an invalid AmsterdamCoin address or malformed URI parameters.</source>
-=======
-        <source>URI cannot be parsed! This can be caused by an invalid AmsterdamCoin address or malformed URI parameters.</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3025,33 +2886,33 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
         <translation>&amp;Information</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+51"/>
         <source>General</source>
         <translation>General</translation>
     </message>
     <message>
-        <location line="+164"/>
+        <location line="+204"/>
         <source>Name</source>
         <translation>Name</translation>
     </message>
     <message>
-        <location line="-157"/>
+        <location line="-197"/>
         <source>Client name</source>
         <translation>Client name</translation>
     </message>
     <message>
+        <location line="-36"/>
         <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+23"/>
         <location line="+36"/>
-        <location line="+23"/>
-        <location line="+20"/>
         <location line="+30"/>
         <location line="+23"/>
-        <location line="+454"/>
+        <location line="+23"/>
+        <location line="+62"/>
+        <location line="+23"/>
+        <location line="+36"/>
+        <location line="+26"/>
+        <location line="+23"/>
+        <location line="+425"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -3064,87 +2925,81 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
-        <location line="+78"/>
         <source>N/A</source>
         <translation>N/A</translation>
     </message>
     <message>
-        <location line="-891"/>
+        <location line="-927"/>
         <source>Number of connections</source>
         <translation>Number of connections</translation>
     </message>
     <message>
-        <location line="+125"/>
+        <location line="+79"/>
         <source>&amp;Open</source>
         <translation>&amp;Open</translation>
     </message>
     <message>
-        <location line="-184"/>
+        <location line="-56"/>
         <source>Startup time</source>
         <translation>Startup time</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+137"/>
         <source>Network</source>
         <translation>Network</translation>
     </message>
     <message>
-        <location line="+103"/>
+        <location line="-91"/>
         <source>Last block time</source>
         <translation>Last block time</translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+26"/>
         <source>Debug log file</source>
         <translation>Debug log file</translation>
     </message>
     <message>
-        <location line="-249"/>
+        <location line="+95"/>
         <source>Using OpenSSL version</source>
         <translation>Using OpenSSL version</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="-197"/>
         <source>Build date</source>
         <translation>Build date</translation>
     </message>
     <message>
-        <location line="+132"/>
+        <location line="+53"/>
         <source>Current number of blocks</source>
         <translation>Current number of blocks</translation>
     </message>
     <message>
-        <location line="-207"/>
+        <location line="+85"/>
         <source>Client version</source>
         <translation>Client version</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+108"/>
         <source>Using BerkeleyDB version</source>
         <translation>Using BerkeleyDB version</translation>
     </message>
     <message>
-        <location line="+151"/>
+        <location line="-312"/>
         <source>Block chain</source>
         <translation>Block chain</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="+149"/>
         <source>Open the AmsterdamCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-=======
-        <location line="+79"/>
-        <source>Open the AmsterdamCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-99"/>
+        <location line="+140"/>
         <source>Number of Masternodes</source>
         <translation>Number of Masternodes</translation>
     </message>
     <message>
-        <location line="+113"/>
+        <location line="+34"/>
         <source>&amp;Console</source>
         <translation>&amp;Console</translation>
     </message>
@@ -3185,11 +3040,7 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
     </message>
     <message>
         <location line="+41"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location filename="../rpcconsole.cpp" line="+262"/>
-=======
-        <location filename="../rpcconsole.cpp" line="+260"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <location line="+439"/>
         <source>Select a peer to view detailed information.</source>
         <translation>Select a peer to view detailed information.</translation>
@@ -3265,74 +3116,64 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
         <translation>&amp;Wallet Repair</translation>
     </message>
     <message>
-        <location line="+38"/>
-        <source>Wallet In Use:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+42"/>
+        <location line="+18"/>
         <source>Salvage wallet</source>
         <translation>Salvage wallet</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+16"/>
+        <location line="+19"/>
         <source>Rescan blockchain files</source>
         <translation>Rescan blockchain files</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Rescan the block chain for missing wallet transactions.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+16"/>
+        <location line="+19"/>
         <source>Recover transactions 1</source>
         <translation>Recover transactions 1</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Recover transactions from blockchain (keep meta-data, e.g. account owner).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+16"/>
+        <location line="+19"/>
         <source>Recover transactions 2</source>
         <translation>Recover transactions 2</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Recover transactions from blockchain (drop meta-data).</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+16"/>
+        <location line="+19"/>
         <source>Upgrade wallet format</source>
         <translation>Upgrade wallet format</translation>
     </message>
     <message>
-        <location line="+44"/>
-        <source>Rebuild block chain index from current blk000??.dat files.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-216"/>
+        <location line="+19"/>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
         <translation>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</translation>
     </message>
     <message>
-        <location line="-13"/>
-        <source>Wallet repair options.</source>
-        <translation>Wallet repair options.</translation>
+        <location line="+16"/>
+        <source>-salvagewallet: Attempt to recover private keys from a corrupt wallet.dat.</source>
+        <translation>-salvagewallet: Attempt to recover private keys from a corrupt wallet.dat.</translation>
     </message>
     <message>
-        <location line="+199"/>
-        <source>Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</source>
-        <translation type="unfinished"></translation>
+        <location line="+16"/>
+        <source>-rescan: Rescan the block chain for missing wallet transactions.</source>
+        <translation>-rescan: Rescan the block chain for missing wallet transactions.</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>-zapwallettxes=1: Recover transactions from blockchain (keep meta-data, e.g. account owner).</source>
+        <translation>-zapwallettxes=1: Recover transactions from blockchain (keep meta-data, e.g. account owner).</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>-zapwallettxes=2: Recover transactions from blockchain (drop meta-data).</source>
+        <translation>-zapwallettxes=2: Recover transactions from blockchain (drop meta-data).</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>-upgradewallet: Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</source>
+        <translation>-upgradewallet: Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Wallet repair options.</source>
+        <translation>Wallet repair options.</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -3340,7 +3181,6 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
         <translation>Rebuild index</translation>
     </message>
     <message>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="+13"/>
         <source>-reindex: Rebuild block chain index from current blk000??.dat files.</source>
         <translation>-reindex: Rebuild block chain index from current blk000??.dat files.</translation>
@@ -3351,8 +3191,6 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
         <translation type="unfinished"></translation>
     </message>
     <message>
-=======
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <location filename="../rpcconsole.cpp" line="-206"/>
         <source>In:</source>
         <translation>In:</translation>
@@ -3364,16 +3202,12 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
     </message>
     <message>
         <location line="-36"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>Welcome to the AmsterdamCoin RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-209"/>
         <source>Wallet in use: </source>
-=======
-        <source>Welcome to the AmsterdamCoin RPC console.</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3787,12 +3621,12 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
         <translation>Minimize</translation>
     </message>
     <message>
-        <location line="+582"/>
+        <location line="+579"/>
         <source>Obfuscation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-501"/>
+        <location line="-498"/>
         <source>per kilobyte</source>
         <translation>per kilobyte</translation>
     </message>
@@ -3812,12 +3646,12 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
         <translation>Custom:</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+20"/>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
         <translation>(Smart fee not initialized yet. This usually takes a few blocks...)</translation>
     </message>
     <message>
-        <location line="-155"/>
+        <location line="-148"/>
         <source>Confirmation time:</source>
         <translation>Confirmation time:</translation>
     </message>
@@ -3853,7 +3687,7 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+73"/>
+        <location line="+70"/>
         <source>Send as zero-fee transaction if possible</source>
         <translation>Send as zero-fee transaction if possible</translation>
     </message>
@@ -3967,11 +3801,7 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
     </message>
     <message>
         <location line="+614"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>Warning: Invalid AmsterdamCoin address</source>
-=======
-        <source>Warning: Invalid AmsterdamCoin address</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3986,13 +3816,8 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
     </message>
     <message>
         <location line="+23"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location line="+4"/>
         <location line="+4"/>
-=======
-        <location line="+4"/>
-        <location line="+4"/>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <location line="+3"/>
         <source>%1 to %2</source>
         <translation>%1 to %2</translation>
@@ -4203,13 +4028,8 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
 <context>
     <name>ShutdownWindow</name>
     <message>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <location filename="../utilitydialog.cpp" line="+42"/>
         <source>AmsterdamCoin Core is shutting down...</source>
-=======
-        <location filename="../utilitydialog.cpp" line="+75"/>
-        <source>AmsterdamCoin Core is shutting down...</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4404,11 +4224,7 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>AmsterdamCoin Core</source>
-=======
-        <source>AmsterdamCoin Core</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5262,11 +5078,6 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
     </message>
     <message>
         <location line="+3"/>
-        <source>Enable spork administration functionality with the appropriate private key.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Enable swifttx, show confirmations for locked transactions (bool, default: %s)</source>
         <translation type="unfinished">Enable swifttx, show confirmations for locked transactions (bool, default: %s)</translation>
     </message>
@@ -5347,11 +5158,6 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
     </message>
     <message>
         <location line="+3"/>
-        <source>Keep the specified amount available for spending at all times (default: 0)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
         <translation type="unfinished">Log transaction priority and fee per kB when mining blocks (default: %u)</translation>
     </message>
@@ -5427,16 +5233,16 @@ https://www.transifex.com/amsterdamcoin-project/amsterdamcoin-project-translatio
     </message>
     <message>
         <location line="+3"/>
-        <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
         <translation type="unfinished">SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+3"/>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation type="unfinished">This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation type="unfinished">This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</translation>
     </message>
@@ -5551,7 +5357,14 @@ for example: alertnotify=echo %%s | mail -s &quot;AmsterdamCoin Alert&quot; admi
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
+        <source>&lt;category&gt; can be:
+</source>
+        <translation type="unfinished">&lt;category&gt; can be:
+</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Accept command line and JSON-RPC commands</source>
         <translation type="unfinished">Accept command line and JSON-RPC commands</translation>
     </message>
@@ -5591,7 +5404,7 @@ for example: alertnotify=echo %%s | mail -s &quot;AmsterdamCoin Alert&quot; admi
         <translation type="unfinished">Always query for peer addresses via DNS lookup (default: %u)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
         <translation type="unfinished">Attempt to recover private keys from a corrupt wallet.dat</translation>
     </message>
@@ -5711,7 +5524,7 @@ for example: alertnotify=echo %%s | mail -s &quot;AmsterdamCoin Alert&quot; admi
         <translation type="unfinished">Discover own IP address (default: 1 when listening and no -externalip)</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+1"/>
         <source>Do not load the wallet and disable wallet RPC calls</source>
         <translation type="unfinished">Do not load the wallet and disable wallet RPC calls</translation>
     </message>
@@ -5726,7 +5539,7 @@ for example: alertnotify=echo %%s | mail -s &quot;AmsterdamCoin Alert&quot; admi
         <translation type="unfinished">Done loading</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+1"/>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
         <translation type="unfinished">Enable the client to act as a masternode (0-1, default: %u)</translation>
     </message>
@@ -5986,72 +5799,8 @@ for example: alertnotify=echo %%s | mail -s &quot;AmsterdamCoin Alert&quot; admi
         <translation type="unfinished">Invalid script detected.</translation>
     </message>
     <message>
-        <location line="-165"/>
-        <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+68"/>
-        <source>&lt;category&gt; can be:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Attempt to force blockchain corruption recovery</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Display the stake modifier calculations in the debug.log file.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location line="+1"/>
-        <source>Display verbose coin stake messages in the debug.log file.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Enable publish hash block in &lt;address&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable publish hash transaction (locked via SwiftTX) in &lt;address&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-<<<<<<< HEAD:src/qt/locale/amsterdamcoin_en.ts
         <source>Keep N AMS anonymized (default: %u)</source>
-=======
-        <source>Enable publish hash transaction in &lt;address&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable publish raw block in &lt;address&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable publish raw transaction (locked via SwiftTX) in &lt;address&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable publish raw transaction in &lt;address&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable staking functionality (0-1, default: %u)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+53"/>
-        <source>Keep N AMS anonymized (default: %u)</source>
->>>>>>> 4d8a000e... [Qt] Periodic translations update:src/qt/locale/amsterdamcoin_en.ts
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6276,11 +6025,6 @@ for example: alertnotify=echo %%s | mail -s &quot;AmsterdamCoin Alert&quot; admi
     </message>
     <message>
         <location line="+1"/>
-        <source>Print version and exit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
         <translation type="unfinished">RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</translation>
     </message>
@@ -6473,11 +6217,6 @@ for example: alertnotify=echo %%s | mail -s &quot;AmsterdamCoin Alert&quot; admi
         <location line="+1"/>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
         <translation type="unfinished">Spend unconfirmed change when sending transactions (default: %u)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Staking options:</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6743,11 +6482,6 @@ for example: alertnotify=echo %%s | mail -s &quot;AmsterdamCoin Alert&quot; admi
         <location line="+1"/>
         <source>Zapping all transactions from wallet...</source>
         <translation type="unfinished">Zapping all transactions from wallet...</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>ZeroMQ notification options:</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
