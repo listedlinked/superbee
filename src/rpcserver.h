@@ -143,6 +143,8 @@ extern std::string HelpExampleCli(std::string methodname, std::string args);
 extern std::string HelpExampleRpc(std::string methodname, std::string args);
 
 extern void EnsureWalletIsUnlocked();
+extern void InitRPCMining();
+extern void ShutdownRPCMining();
 
 extern json_spirit::Value getconnectioncount(const json_spirit::Array& params, bool fHelp); // in rpcnet.cpp
 extern json_spirit::Value getpeerinfo(const json_spirit::Array& params, bool fHelp);

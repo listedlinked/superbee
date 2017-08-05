@@ -165,6 +165,7 @@ void PrepareShutdown()
     RenameThread("amsterdamcoin-shutoff");
     mempool.AddTransactionsUpdated(1);
     StopRPCThreads();
+	ShutdownRPCMining();
 
 #ifdef ENABLE_WALLET
     if (pwalletMain)
@@ -1578,7 +1579,7 @@ bool AppInit2(boost::thread_group& threadGroup)
 #endif
 
     // ********************************************************* Step 12: finished
-
+	InitRPCMining();
     SetRPCWarmupFinished();
     uiInterface.InitMessage(_("Done loading"));
 

@@ -31,6 +31,36 @@
 using namespace json_spirit;
 using namespace std;
 
+#ifdef ENABLE_WALLET
+// Key used by getwork miners.
+// Allocated in InitRPCMining, free'd in ShutdownRPCMining
+static CReserveKey* pMiningKey = NULL;
+
+void InitRPCMining()
+{
+    if (!pwalletMain)
+        return;
+
+    // getwork/getblocktemplate mining rewards paid here:
+    pMiningKey = new CReserveKey(pwalletMain);
+}
+
+void ShutdownRPCMining()
+{
+    if (!pMiningKey)
+        return;
+
+    delete pMiningKey; pMiningKey = NULL;
+}
+#else
+void InitRPCMining()
+{
+}
+void ShutdownRPCMining()
+{
+}
+#endif
+
 /**
  * Return average network hashes per second based on the last 'lookup' blocks,
  * or from the last difficulty change if 'lookup' is nonpositive.
@@ -492,9 +522,9 @@ Value getblocktemplate(const Array& params, bool fHelp)
         }
 		
 		/* TODO-- too poor as per performance, but only way */
-		CReserveKey reservekey(pwalletMain);
+		
 		CPubKey pubkey;
-		if (!reservekey.GetReservedKey(pubkey))
+		if (!pMiningKey.GetReservedKey(pubkey))
 			return NULL;
 		
         CScript scriptDummy = CScript() << ToByteVector(pubkey) << OP_CHECKSIG;
