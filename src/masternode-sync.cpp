@@ -233,10 +233,7 @@ void CMasternodeSync::ClearFulfilledRequest()
 void CMasternodeSync::Process()
 {
     static int tick = 0;
-<<<<<<< HEAD
-=======
     static int syncCount = 0;
->>>>>>> d184b6b9... fixed intence
 
     if (tick++ % MASTERNODE_SYNC_TIMEOUT != 0) return;
 
@@ -244,16 +241,13 @@ void CMasternodeSync::Process()
         /* 
             Resync if we lose all masternodes from sleep/wake or failure to sync originally
         */
-<<<<<<< HEAD
-        if (mnodeman.CountEnabled() == 0) {
-            Reset();
-=======
+
         if (mnodeman.CountEnabled() == 0 ) {
 		if(syncCount < 2){
 		        Reset();
 			syncCount++;
 		}
->>>>>>> d184b6b9... fixed intence
+
         } else
             return;
     }
