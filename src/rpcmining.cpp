@@ -301,70 +301,6 @@ static Value BIP22ValidationResult(const CValidationState& state)
     return "valid?";
 }
 
-inline uint32_t ByteReverse(uint32_t value)
-{
-    value = ((value & 0xFF00FF00) >> 8) | ((value & 0x00FF00FF) << 8);
-    return (value<<16) | (value>>16);
-}
-int static FormatHashBlocks(void* pbuffer, unsigned int len)
-{
-    unsigned char* pdata = (unsigned char*)pbuffer;
-    unsigned int blocks = 1 + ((len + 8) / 64);
-    unsigned char* pend = pdata + 64 * blocks;
-    memset(pdata + len, 0, 64 * blocks - len);
-    pdata[len] = 0x80;
-    unsigned int bits = len * 8;
-    pend[-1] = (bits >> 0) & 0xff;
-    pend[-2] = (bits >> 8) & 0xff;
-    pend[-3] = (bits >> 16) & 0xff;
-    pend[-4] = (bits >> 24) & 0xff;
-    return blocks;
-}
-void FormatHashBuffers(CBlock* pblock, char* pmidstate, char* pdata, char* phash1)
-{
-    //
-    // Pre-build hash buffers
-    //
-    struct
-    {
-        struct unnamed2
-        {
-            int nVersion;
-            uint256 hashPrevBlock;
-            uint256 hashMerkleRoot;
-            unsigned int nTime;
-            unsigned int nBits;
-            unsigned int nNonce;
-        }
-        block;
-        unsigned char pchPadding0[64];
-        uint256 hash1;
-        unsigned char pchPadding1[64];
-    }
-    tmp;
-    memset(&tmp, 0, sizeof(tmp));
-
-    tmp.block.nVersion       = pblock->nVersion;
-    tmp.block.hashPrevBlock  = pblock->hashPrevBlock;
-    tmp.block.hashMerkleRoot = pblock->hashMerkleRoot;
-    tmp.block.nTime          = pblock->nTime;
-    tmp.block.nBits          = pblock->nBits;
-    tmp.block.nNonce         = pblock->nNonce;
-
-    FormatHashBlocks(&tmp.block, sizeof(tmp.block));
-    FormatHashBlocks(&tmp.hash1, sizeof(tmp.hash1));
-
-    // Byte swap all the input buffer
-    for (unsigned int i = 0; i < sizeof(tmp)/4; i++)
-        ((unsigned int*)&tmp)[i] = ByteReverse(((unsigned int*)&tmp)[i]);
-
-    // Precalc the first half of the first hash, which stays constant
-    //SHA256Transform(pmidstate, &tmp.block, pSHA256InitState);
-
-    memcpy(pdata, &tmp.block, 128);
-    memcpy(phash1, &tmp.hash1, 64);
-}
-
 Value getblocktemplate(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() > 1)
@@ -482,8 +418,8 @@ Value getblocktemplate(const Array& params, bool fHelp)
     if (vNodes.empty())
         throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "AmsterdamCoin is not connected!");
 
-  //  if (IsInitialBlockDownload())
-//        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "AmsterdamCoin is downloading blocks...");
+    if (IsInitialBlockDownload())
+        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "AmsterdamCoin is downloading blocks...");
 
     static unsigned int nTransactionsUpdatedLast;
 
@@ -554,8 +490,14 @@ Value getblocktemplate(const Array& params, bool fHelp)
             delete pblocktemplate;
             pblocktemplate = NULL;
         }
-		assert(pwalletMain != NULL);
-        CScript scriptDummy = CScript() << OP_TRUE;
+		
+		/* TODO-- too poor as per performance, but only way */
+		CReserveKey reservekey(pwalletMain);
+		CPubKey pubkey;
+		if (!reservekey.GetReservedKey(pubkey))
+			return NULL;
+		
+        CScript scriptDummy = CScript() << ToByteVector(pubkey) << OP_CHECKSIG;
         pblocktemplate = CreateNewBlock(scriptDummy, pwalletMain, false);
         if (!pblocktemplate)
             throw JSONRPCError(RPC_OUT_OF_MEMORY, "Out of memory");
@@ -563,6 +505,8 @@ Value getblocktemplate(const Array& params, bool fHelp)
         // Need to update only after we know CreateNewBlock succeeded
         pindexPrev = pindexPrevNew;
     }
+	
+	
     CBlock* pblock = &pblocktemplate->block; // pointer for convenience
 
     // Update nTime
@@ -600,6 +544,38 @@ Value getblocktemplate(const Array& params, bool fHelp)
 
         transactions.push_back(entry);
     }
+	
+	Array coinbasetxn;
+    map<uint256, int64_t> setTxIndex1;
+    int j = 0;
+    BOOST_FOREACH (CTransaction& tx, pblock->vtx) {//Incase if multi coinbase
+		if(tx.IsCoinBase()){
+			uint256 txHash = tx.GetHash();
+			setTxIndex1[txHash] = j++;
+
+			/* if (tx.IsCoinBase())
+            continue; */
+
+			Object entry;
+
+			entry.push_back(Pair("data", EncodeHexTx(tx)));
+
+			entry.push_back(Pair("hash", txHash.GetHex()));
+
+			Array deps;
+			BOOST_FOREACH (const CTxIn& in, tx.vin) {
+				if (setTxIndex.count(in.prevout.hash))
+                deps.push_back(setTxIndex[in.prevout.hash]);
+			}
+			entry.push_back(Pair("depends", deps));
+
+			int index_in_template = j - 1;
+			entry.push_back(Pair("fee", pblocktemplate->vTxFees[index_in_template]));
+			entry.push_back(Pair("sigops", pblocktemplate->vTxSigOps[index_in_template]));
+
+			coinbasetxn.push_back(entry);
+		}
+    }
 
     Object aux;
     aux.push_back(Pair("flags", HexStr(COINBASE_FLAGS.begin(), COINBASE_FLAGS.end())));
@@ -622,6 +598,7 @@ Value getblocktemplate(const Array& params, bool fHelp)
     result.push_back(Pair("transactions", transactions));
     result.push_back(Pair("coinbaseaux", aux));
     result.push_back(Pair("coinbasevalue", (int64_t)pblock->vtx[0].GetValueOut()));
+	result.push_back(Pair("coinbasetxn", coinbasetxn[0]));
     result.push_back(Pair("longpollid", chainActive.Tip()->GetBlockHash().GetHex() + i64tostr(nTransactionsUpdatedLast)));
     result.push_back(Pair("target", hashTarget.GetHex()));
     result.push_back(Pair("mintime", (int64_t)pindexPrev->GetMedianTimePast() + 1));
@@ -673,7 +650,6 @@ protected:
 
 Value submitblock(const Array& params, bool fHelp)
 {
-	LogPrintf("submitblock called\n");
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
             "submitblock \"hexdata\" ( \"jsonparametersobject\" )\n"
