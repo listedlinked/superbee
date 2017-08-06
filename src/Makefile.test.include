@@ -85,14 +85,14 @@ if ENABLE_WALLET
 test_test_amsterdamcoin_LDADD += $(LIBBITCOIN_WALLET)
 endif
 
-test_test_pivx_LDADD += $(LIBBITCOIN_CONSENSUS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-test_test_pivx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) -static
+test_test_amsterdamcoin_LDADD += $(LIBBITCOIN_CONSENSUS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+test_test_amsterdamcoin_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) -static
 
 if ENABLE_ZMQ
-test_test_pivx_LDADD += $(ZMQ_LIBS)
+test_test_amsterdamcoin_LDADD += $(ZMQ_LIBS)
 endif
 
-nodist_test_test_pivx_SOURCES = $(GENERATED_TEST_FILES)
+nodist_test_test_amsterdamcoin_SOURCES = $(GENERATED_TEST_FILES)
 
 $(BITCOIN_TESTS): $(GENERATED_TEST_FILES)
 

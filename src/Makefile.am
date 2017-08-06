@@ -223,7 +223,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between pivxd and pivx-qt, but only linked
+# wallet: shared between amsterdamcoind and amsterdamcoin-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -395,13 +395,13 @@ amsterdamcoind_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-pivxd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+amsterdamcoind_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
 amsterdamcoind_LDADD += libbitcoin_wallet.a
 endif
-pivxd_SOURCES = amsterdamcoind.cpp
+amsterdamcoind_SOURCES = amsterdamcoind.cpp
 #
 
 if TARGET_WINDOWS
