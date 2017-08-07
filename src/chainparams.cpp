@@ -112,6 +112,12 @@ public:
         assert(hashGenesisBlock == uint256("0x0000016c5074e3a3d7df0c9b9cdc38ef6a72be36c4a3a0233a564533120957f5"));
         assert(genesis.hashMerkleRoot == uint256("0xcdf9a0f882351aa571e3f647ef82858c08b5eb4f1847df68787f15cc42c36529"));
 		
+        vSeeds.push_back(CDNSSeedData("nl-1.amsterdamcoin.com", "nl-1.amsterdamcoin.com"));
+        vSeeds.push_back(CDNSSeedData("us-1.amsterdamcoin.com", "us-1.amsterdamcoin.com"));
+		vSeeds.push_back(CDNSSeedData("us-2.amsterdamcoin.com", "us-2.amsterdamcoin.com"));
+		vSeeds.push_back(CDNSSeedData("eu-1.amsterdamcoin.com", "eu-1.amsterdamcoin.com"));
+		vSeeds.push_back(CDNSSeedData("eu-2.amsterdamcoin.com", "eu-2.amsterdamcoin.com"));
+		vSeeds.push_back(CDNSSeedData("asia-1.amsterdamcoin.com", "asia-1.amsterdamcoin.com"));
 		
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
