@@ -42,14 +42,16 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 //    timestamp before)
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
-    boost::assign::map_list_of(0, uint256("0x0000016c5074e3a3d7df0c9b9cdc38ef6a72be36c4a3a0233a564533120957f5"));
+    boost::assign::map_list_of
+	(0, uint256("0x0000016c5074e3a3d7df0c9b9cdc38ef6a72be36c4a3a0233a564533120957f5"))
+	(2, uint256("0x00000bfa9f5517a83532d103038e78941ed28eda11b8fa920cc6c1659e569f75"));
     //(1, uint256(""));
     //(616764, uint256("29dd0bd1c59484f290896687b4ffb6a49afa5c498caf61967c69a541f8191557")) //first block to use modifierV2
     //(623933, uint256("c7aafa648a0f1450157dc93bd4d7448913a85b7448f803b4ab970d91fc2a7da7"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1500535877, // * UNIX timestamp of last checkpoint block
-    1157185,    // * total number of transactions between genesis and last checkpoint
+    1502133379, // * UNIX timestamp of last checkpoint block
+    2,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
@@ -92,7 +94,7 @@ public:
         nTargetTimespan = 1 * 60; // AmsterdamCoin: 1 minute
         nTargetSpacing = 1 * 60;  // AmsterdamCoin: 1 minute
         nLastPOWBlock = 259200;
-        nMaturity = 24;
+        nMaturity = 101;
         nModifierUpdateBlock = 1;
         const char* pszTimestamp = "AmsterdamCoin 22-07-2017";
         CMutableTransaction txNew;
