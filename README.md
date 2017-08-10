@@ -7,7 +7,7 @@
 </ul>
 <p><strong><span style="color: #800080;"><em>PoW Block Reward:</em></span></strong></p>
 <ul>
-<li>[block# 2-151200] 7.5 AMS [block# 151201-259200] 5 AMS</li>
+<li>[block# 2-43200] 20% MN (1.5 AMS) / 80% MINER (6 AMS) [block# 43201-151200] 20% MN (1.5 AMS) / 70% MINER (5.25 AMS) / 10% Available to the budget system (0.75 AMS) [block# 151201-259200] 45% MN (2.25 AMS) / 45% MINER (2.25 AMS) / 10% Available to the budget system (0.5 AMS)</li>
 </ul>
 <p><strong><span style="color: #800080;"><em>PoS Block Reward:</em></span></strong></p>
 <ul>
@@ -35,7 +35,7 @@
 </ul>
 <p><strong><span style="color: #800080;"><em>PoW Rewards Breakdown:</em></span></strong></p>
 <ul>
-<li>[block&rsquo;s &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2-432000] 20% MN (1.5 AMS) &nbsp; &nbsp;/ 80% MINER (6 AMS)</li>
+<li>[block&rsquo;s &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2-43200] 20% MN (1.5 AMS) &nbsp; &nbsp;/ 80% MINER (6 AMS)</li>
 <li>[block&rsquo;s &nbsp; 43201-151200] 20% MN (1.5 AMS) &nbsp; &nbsp;/ 70% MINER (5.25 AMS) &nbsp;/ 10% Available to the budget system (0.75 AMS)</li>
 <li>[block&rsquo;s 151201-259200] 45% MN (2.25 AMS) / 45% MINER (2.25 AMS) / 10% Available to the budget system ( &nbsp;0.5 AMS)</li>
 </ul>
@@ -52,6 +52,15 @@
 <li>PoS Phase 9: [blocks 604800-647999] 2.25 AMS (90% distributed to staker and masternode - 10% available to budget system)</li>
 <li>PoS Phase X: [blocks 648000-Infinite] &nbsp; 2 AMS (90% distributed to staker and masternode - 10% available to budget system)</li>
 </ul>
+<br/>
+    <img src="https://stats.amsterdamcoin.com/Stats/ConnectionCount" alt="Connection count" /><br />
+    <img src="https://stats.amsterdamcoin.com/Stats/MasternodeCount" alt="Masternode count"/><br/>
+    <img src="https://stats.amsterdamcoin.com/Stats/BlockCount" alt="Block count"/><br/>
+    <img src="https://stats.amsterdamcoin.com/Stats/LastBlock" alt="Last block"/><br/>
+    <img src="https://stats.amsterdamcoin.com/Stats/TotalSupply" alt="Total supply"/><br/>
+    <img src="https://stats.amsterdamcoin.com/Stats/PowDifficulty" alt="PoW difficulty"/><br/>
+    <img src="https://stats.amsterdamcoin.com/Stats/NetworkHashRate" alt="Network hashrate" /><br />
+
 <p>&nbsp;</p>
 <p>+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</p>
 <p>&nbsp;</p>
