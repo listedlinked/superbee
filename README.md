@@ -53,14 +53,6 @@
 <li>PoS Phase X: [blocks 648000-Infinite] &nbsp; 2 AMS (90% distributed to staker and masternode - 10% available to budget system)</li>
 </ul>
 <br/>
-    <img src="https://stats.amsterdamcoin.com/Stats/ConnectionCount" alt="Connection count" /><br />
-    <img src="https://stats.amsterdamcoin.com/Stats/MasternodeCount" alt="Masternode count"/><br/>
-    <img src="https://stats.amsterdamcoin.com/Stats/BlockCount" alt="Block count"/><br/>
-    <img src="https://stats.amsterdamcoin.com/Stats/LastBlock" alt="Last block"/><br/>
-    <img src="https://stats.amsterdamcoin.com/Stats/TotalSupply" alt="Total supply"/><br/>
-    <img src="https://stats.amsterdamcoin.com/Stats/PowDifficulty" alt="PoW difficulty"/><br/>
-    <img src="https://stats.amsterdamcoin.com/Stats/NetworkHashRate" alt="Network hashrate" /><br />
-
 <p>&nbsp;</p>
 <p>+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</p>
 <p>&nbsp;</p>
@@ -68,3 +60,12 @@
 <p>Anonymized transactions using coin mixing technology, we call it <em>Obfuscation</em>.</p>
 <p>Fast transactions featuring guaranteed zero confirmation transactions, we call it <em>SwiftTX</em>.</p>
 <p>Decentralized blockchain voting providing for consensus based advancement of the current Masternode technology used to secure the network and provide the above features, each Masternode is secured with collateral of 100K AMS</p>
+
+<h2>Live blockchain statistics</h2>
+    <img src="https://stats.amsterdamcoin.com/Stats/ConnectionCount" alt="Connection count" /><br />
+    <img src="https://stats.amsterdamcoin.com/Stats/MasternodeCount" alt="Masternode count"/><br/>
+    <img src="https://stats.amsterdamcoin.com/Stats/BlockCount" alt="Block count"/><br/>
+    <img src="https://stats.amsterdamcoin.com/Stats/LastBlock" alt="Last block"/><br/>
+    <img src="https://stats.amsterdamcoin.com/Stats/TotalSupply" alt="Total supply"/><br/>
+    <img src="https://stats.amsterdamcoin.com/Stats/PowDifficulty" alt="PoW difficulty"/><br/>
+    <img src="https://stats.amsterdamcoin.com/Stats/NetworkHashRate" alt="Network hashrate" /><br />
