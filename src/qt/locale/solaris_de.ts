@@ -1456,7 +1456,7 @@ Adresse: %4</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>AMSs überweisen</translation>
+        <translation>XLRs überweisen</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2304,7 +2304,7 @@ Adresse: %4</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>AMSs überweisen</translation>
+        <translation>XLRs überweisen</translation>
     </message>
     <message>
         <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 XLR.</source>

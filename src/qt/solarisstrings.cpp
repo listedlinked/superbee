@@ -168,7 +168,7 @@ QT_TRANSLATE_NOOP("solaris-core", ""
 "transaction that are not equal 10000 XLR."),
 QT_TRANSLATE_NOOP("solaris-core", ""
 "Unable to locate enough funds for this transaction that are not equal 10000 "
-"AMS."),
+"XLR."),
 QT_TRANSLATE_NOOP("solaris-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),

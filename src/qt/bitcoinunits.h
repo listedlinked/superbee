@@ -58,8 +58,8 @@ public:
      */
     enum Unit {
         XLR,
-        mAMS,
-        uAMS
+        mXLR,
+        uXLR
     };
 
     enum SeparatorStyle {

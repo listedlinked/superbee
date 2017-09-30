@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="AMSSupply">
+    <widget class="QLabel" name="XLRSupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -197,7 +197,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="AMSDemand">
+    <widget class="QLabel" name="XLRDemand">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -512,7 +512,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>AMS</string>
+      <string>XLR</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1704,7 +1704,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>AMS</string>
+      <string>XLR</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="UnitsInputXLR">
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellAMSBTN">
+    <widget class="QPushButton" name="SellXLRBTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1782,7 +1782,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="AMSAvailableLabel">
+       <widget class="QLabel" name="XLRAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2221,7 +2221,7 @@
          </font>
         </property>
         <property name="text">
-         <string>AMS</string>
+         <string>XLR</string>
         </property>
        </widget>
       </item>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="AMSBalanceLabel">
+    <widget class="QLabel" name="XLRBalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="AMSAvailableLabel_2">
+    <widget class="QLabel" name="XLRAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2835,7 +2835,7 @@
       <string>XLR Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="AMSPendingLabel">
+    <widget class="QLabel" name="XLRPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>

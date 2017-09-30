@@ -19,9 +19,9 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(AMS);
-    unitlist.append(mAMS);
-    unitlist.append(uAMS);
+    unitlist.append(XLR);
+    unitlist.append(mXLR);
+    unitlist.append(uXLR);
     return unitlist;
 }
 
@@ -94,7 +94,7 @@ QString BitcoinUnits::description(int unit)
     } else {
         switch (unit) {
         case XLR:
-            return QString("TestAMSs");
+            return QString("TestXLRs");
         case mXLR:
             return QString("Milli-TestXLR (1 / 1" THIN_SP_UTF8 "000)");
         case uXLR:
