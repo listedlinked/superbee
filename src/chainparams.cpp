@@ -87,7 +87,7 @@ public:
         pchMessageStart[2] = 0x00;
         pchMessageStart[3] = 0xaa;
         vAlertPubKey = ParseHex("04d6d976efad463fa258e3699e9c3fea60d5168a065abb5829a77448d25e0acbee58bb8f5be56491624b9a48611a8c456a592d45f48ea9c9f0bdc30904534be285");
-        nDefaultPort = 50020;
+        nDefaultPort = 60020;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // Solaris starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
