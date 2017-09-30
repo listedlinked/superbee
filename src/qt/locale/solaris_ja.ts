@@ -252,6 +252,6 @@
     </message>
     </context>
 <context>
-    <name>amsterdamcoin-core</name>
+    <name>solaris-core</name>
     </context>
 </TS>

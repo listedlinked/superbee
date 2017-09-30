@@ -8,7 +8,7 @@
 #include "spork.h"
 
 //
-// Bootup the Masternode, look for a 100000 AmsterdamCoin input and register on the network
+// Bootup the Masternode, look for a 100000 Solaris input and register on the network
 //
 void CActiveMasternode::ManageStatus()
 {

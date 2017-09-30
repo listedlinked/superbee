@@ -214,16 +214,16 @@
         <translation>&amp;Eines</translation>
     </message>
     <message>
-        <source>AmsterdamCoin Core</source>
-        <translation>AmsterdamCoin Core</translation>
+        <source>Solaris Core</source>
+        <translation>Solaris Core</translation>
     </message>
     <message>
-        <source>&amp;About AmsterdamCoin Core</source>
-        <translation>&amp;Sobre AmsterdamCoin Core</translation>
+        <source>&amp;About Solaris Core</source>
+        <translation>&amp;Sobre Solaris Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to AmsterdamCoin network</source>
-        <translation><numerusform>%n connexió activa a la xarxa AmsterdamCoin</numerusform><numerusform>%n connexions actives a la xarxa AmsterdamCoin</numerusform></translation>
+        <source>%n active connection(s) to Solaris network</source>
+        <translation><numerusform>%n connexió activa a la xarxa Solaris</numerusform><numerusform>%n connexions actives a la xarxa Solaris</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -392,12 +392,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>AmsterdamCoin Core</source>
-        <translation>AmsterdamCoin Core</translation>
+        <source>Solaris Core</source>
+        <translation>Solaris Core</translation>
     </message>
     <message>
-        <source>About AmsterdamCoin Core</source>
-        <translation>Sobre AmsterdamCoin Core</translation>
+        <source>About Solaris Core</source>
+        <translation>Sobre Solaris Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -415,12 +415,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to AmsterdamCoin Core.</source>
-        <translation>Benvingut a AmsterdamCoin Core.</translation>
+        <source>Welcome to Solaris Core.</source>
+        <translation>Benvingut a Solaris Core.</translation>
     </message>
     <message>
-        <source>AmsterdamCoin Core</source>
-        <translation>AmsterdamCoin Core</translation>
+        <source>Solaris Core</source>
+        <translation>Solaris Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -888,8 +888,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>AmsterdamCoin Core</source>
-        <translation>AmsterdamCoin Core</translation>
+        <source>Solaris Core</source>
+        <translation>Solaris Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1040,7 +1040,7 @@
     </message>
     </context>
 <context>
-    <name>amsterdamcoin-core</name>
+    <name>solaris-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

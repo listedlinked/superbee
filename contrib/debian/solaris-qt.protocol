@@ -1,6 +1,6 @@
 [Protocol]
-exec=amsterdamcoin-qt '%u'
-protocol=amsterdamcoin
+exec=solaris-qt '%u'
+protocol=solaris
 input=none
 output=none
 helper=true

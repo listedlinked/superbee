@@ -1,11 +1,11 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The AmsterdamCoin developers
+// Copyright (c) 2015-2017 The Solaris developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/amsterdamcoin-config.h"
+#include "config/solaris-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -75,11 +75,11 @@ void OptionsModel::Init()
     if (!settings.contains("nObfuscationRounds"))
         settings.setValue("nObfuscationRounds", 2);
 
-    if (!settings.contains("nAnonymizeAmsterdamCoinAmount"))
-        settings.setValue("nAnonymizeAmsterdamCoinAmount", 1000);
+    if (!settings.contains("nAnonymizeSolarisAmount"))
+        settings.setValue("nAnonymizeSolarisAmount", 1000);
 
     nObfuscationRounds = settings.value("nObfuscationRounds").toLongLong();
-    nAnonymizeAmsterdamCoinAmount = settings.value("nAnonymizeAmsterdamCoinAmount").toLongLong();
+    nAnonymizeSolarisAmount = settings.value("nAnonymizeSolarisAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -146,8 +146,8 @@ void OptionsModel::Init()
 
     if (settings.contains("nObfuscationRounds"))
         SoftSetArg("-obfuscationrounds", settings.value("nObfuscationRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeAmsterdamCoinAmount"))
-        SoftSetArg("-anonymizeamsterdamcoinamount", settings.value("nAnonymizeAmsterdamCoinAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeSolarisAmount"))
+        SoftSetArg("-anonymizesolarisamount", settings.value("nAnonymizeSolarisAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -158,7 +158,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in amsterdamcoin.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in solaris.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())
@@ -227,8 +227,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nThreadsScriptVerif");
         case ObfuscationRounds:
             return QVariant(nObfuscationRounds);
-        case AnonymizeAmsterdamCoinAmount:
-            return QVariant(nAnonymizeAmsterdamCoinAmount);
+        case AnonymizeSolarisAmount:
+            return QVariant(nAnonymizeSolarisAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -337,10 +337,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("nObfuscationRounds", nObfuscationRounds);
             emit obfuscationRoundsChanged(nObfuscationRounds);
             break;
-        case AnonymizeAmsterdamCoinAmount:
-            nAnonymizeAmsterdamCoinAmount = value.toInt();
-            settings.setValue("nAnonymizeAmsterdamCoinAmount", nAnonymizeAmsterdamCoinAmount);
-            emit anonymizeAmsterdamCoinAmountChanged(nAnonymizeAmsterdamCoinAmount);
+        case AnonymizeSolarisAmount:
+            nAnonymizeSolarisAmount = value.toInt();
+            settings.setValue("nAnonymizeSolarisAmount", nAnonymizeSolarisAmount);
+            emit anonymizeSolarisAmountChanged(nAnonymizeSolarisAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

@@ -58,12 +58,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your AmsterdamCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços AmsterdamCoin para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
+        <source>These are your Solaris addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços Solaris para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your AmsterdamCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços AmsterdamCoin para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your Solaris addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços Solaris para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>AmsterdamCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AMSs from being stolen by malware infecting your computer.</source>
-        <translation>AmsterdamCoin encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas AMSs contra roubo por malware infectando seu computador.</translation>
+        <source>Solaris will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AMSs from being stolen by malware infecting your computer.</source>
+        <translation>Solaris encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas AMSs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -404,7 +404,7 @@
     </message>
     </context>
 <context>
-    <name>amsterdamcoin-core</name>
+    <name>solaris-core</name>
     <message>
         <source>Connect through SOCKS5 proxy</source>
         <translation>Conectar usando proxy SOCKS5</translation>

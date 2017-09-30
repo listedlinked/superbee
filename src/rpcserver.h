@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * AmsterdamCoin RPC command dispatcher.
+ * Solaris RPC command dispatcher.
  */
 class CRPCTable
 {

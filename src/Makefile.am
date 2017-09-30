@@ -64,15 +64,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += amsterdamcoind
+  bin_PROGRAMS += solarisd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += amsterdamcoin-cli amsterdamcoin-tx
+  bin_PROGRAMS += solaris-cli solaris-tx
 endif
 
 .PHONY: FORCE
-# amsterdamcoin core #
+# solaris core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -179,7 +179,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between amsterdamcoind and amsterdamcoin-qt
+# server: shared between solarisd and solaris-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -223,7 +223,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between amsterdamcoind and amsterdamcoin-qt, but only linked
+# wallet: shared between solarisd and solaris-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -318,7 +318,7 @@ univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue_escapes.h \
   univalue/univalue.h
 
-# common: shared between amsterdamcoind, and amsterdamcoin-qt and non-server tools
+# common: shared between solarisd, and solaris-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -374,7 +374,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between amsterdamcoin-cli and amsterdamcoin-qt
+# cli: shared between solaris-cli and solaris-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -384,7 +384,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-amsterdamcoind_LDADD = \
+solarisd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -395,40 +395,40 @@ amsterdamcoind_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-amsterdamcoind_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+solarisd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-amsterdamcoind_LDADD += libbitcoin_wallet.a
+solarisd_LDADD += libbitcoin_wallet.a
 endif
-amsterdamcoind_SOURCES = amsterdamcoind.cpp
+solarisd_SOURCES = solarisd.cpp
 #
 
 if TARGET_WINDOWS
-amsterdamcoind_SOURCES += amsterdamcoind-res.rc
+solarisd_SOURCES += solarisd-res.rc
 endif
 
-amsterdamcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-amsterdamcoind_CPPFLAGS = $(BITCOIN_INCLUDES)
-amsterdamcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+solarisd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+solarisd_CPPFLAGS = $(BITCOIN_INCLUDES)
+solarisd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# amsterdamcoin-cli binary #
-amsterdamcoin_cli_LDADD = \
+# solaris-cli binary #
+solaris_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-amsterdamcoin_cli_SOURCES = \
-  amsterdamcoin-cli.cpp
+solaris_cli_SOURCES = \
+  solaris-cli.cpp
 
-amsterdamcoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+solaris_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
-# amsterdamcoin-tx binary #
-amsterdamcoin_tx_LDADD = \
+# solaris-tx binary #
+solaris_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -437,15 +437,15 @@ amsterdamcoin_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-amsterdamcoin_tx_SOURCES = amsterdamcoin-tx.cpp
-amsterdamcoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+solaris_tx_SOURCES = solaris-tx.cpp
+solaris_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-amsterdamcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+solaris_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-amsterdamcoin_cli_SOURCES += amsterdamcoin-cli-res.rc
+solaris_cli_SOURCES += solaris-cli-res.rc
 endif
-amsterdamcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+solaris_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

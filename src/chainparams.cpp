@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The AmsterdamCoin developers
+// Copyright (c) 2015-2017 The Solaris developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #include "chainparams.h"
@@ -88,16 +88,16 @@ public:
         pchMessageStart[3] = 0xaa;
         vAlertPubKey = ParseHex("04d6d976efad463fa258e3699e9c3fea60d5168a065abb5829a77448d25e0acbee58bb8f5be56491624b9a48611a8c456a592d45f48ea9c9f0bdc30904534be285");
         nDefaultPort = 50020;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // AmsterdamCoin starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // Solaris starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // AmsterdamCoin: 1 minute
-        nTargetSpacing = 1 * 60;  // AmsterdamCoin: 1 minute
+        nTargetTimespan = 1 * 60; // Solaris: 1 minute
+        nTargetSpacing = 1 * 60;  // Solaris: 1 minute
         nLastPOWBlock = 259200;
         nMaturity = 101;
         nModifierUpdateBlock = 1;
-        const char* pszTimestamp = "AmsterdamCoin 22-07-2017";
+        const char* pszTimestamp = "Solaris 22-07-2017";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -115,12 +115,12 @@ public:
         assert(hashGenesisBlock == uint256("0x0000016c5074e3a3d7df0c9b9cdc38ef6a72be36c4a3a0233a564533120957f5"));
         assert(genesis.hashMerkleRoot == uint256("0xcdf9a0f882351aa571e3f647ef82858c08b5eb4f1847df68787f15cc42c36529"));
 		
-        vSeeds.push_back(CDNSSeedData("nl-1.amsterdamcoin.com", "nl-1.amsterdamcoin.com"));
-        vSeeds.push_back(CDNSSeedData("us-1.amsterdamcoin.com", "us-1.amsterdamcoin.com"));
-		vSeeds.push_back(CDNSSeedData("us-2.amsterdamcoin.com", "us-2.amsterdamcoin.com"));
-		vSeeds.push_back(CDNSSeedData("eu-1.amsterdamcoin.com", "eu-1.amsterdamcoin.com"));
-		vSeeds.push_back(CDNSSeedData("eu-2.amsterdamcoin.com", "eu-2.amsterdamcoin.com"));
-		vSeeds.push_back(CDNSSeedData("asia-1.amsterdamcoin.com", "asia-1.amsterdamcoin.com"));
+        vSeeds.push_back(CDNSSeedData("nl-1.solaris.com", "nl-1.solaris.com"));
+        vSeeds.push_back(CDNSSeedData("us-1.solaris.com", "us-1.solaris.com"));
+		vSeeds.push_back(CDNSSeedData("us-2.solaris.com", "us-2.solaris.com"));
+		vSeeds.push_back(CDNSSeedData("eu-1.solaris.com", "eu-1.solaris.com"));
+		vSeeds.push_back(CDNSSeedData("eu-2.solaris.com", "eu-2.solaris.com"));
+		vSeeds.push_back(CDNSSeedData("asia-1.solaris.com", "asia-1.solaris.com"));
 		
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -168,8 +168,8 @@ public:
         vAlertPubKey = ParseHex("000010e83b2703ccf322f7dbd62dd5855ac7c10bd055814ce121ba32607d573b8810c02c0582aed05b4deb9c4b77b26d92428c61256cd42774babea0a073b2ed0c9");
         nDefaultPort = 51474;
         nMinerThreads = 0;
-        nTargetTimespan = 1 * 60; // AmsterdamCoin: 1 day
-        nTargetSpacing = 1 * 60;  // AmsterdamCoin: 1 minute
+        nTargetTimespan = 1 * 60; // Solaris: 1 day
+        nTargetSpacing = 1 * 60;  // Solaris: 1 minute
         nLastPOWBlock = 200;
         nMaturity = 15;
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
@@ -179,18 +179,18 @@ public:
         //assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "amsterdamcoin-testnet.seed.fuzzbawls.pw"));
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "amsterdamcoin-testnet.seed2.fuzzbawls.pw"));
+        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "solaris-testnet.seed.fuzzbawls.pw"));
+        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "solaris-testnet.seed2.fuzzbawls.pw"));
         vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net"));
         vSeeds.push_back(CDNSSeedData("88.198.192.110", "88.198.192.110"));
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet amsterdamcoin addresses start with 'x' or 'y'
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet amsterdamcoin script addresses start with '8' or '9'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet solaris addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet solaris script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
-        // Testnet amsterdamcoin BIP32 pubkeys start with 'DRKV'
+        // Testnet solaris BIP32 pubkeys start with 'DRKV'
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
-        // Testnet amsterdamcoin BIP32 prvkeys start with 'DRKP'
+        // Testnet solaris BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
-        // Testnet amsterdamcoin BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet solaris BIP44 coin type is '1' (All coin's testnet default)
         base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x01)(0x00)(0x00)(0x80).convert_to_container<std::vector<unsigned char> >();
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
         fRequireRPCPassword = true;
@@ -228,8 +228,8 @@ public:
         pchMessageStart[3] = 0xac;
         nSubsidyHalvingInterval = 150;
         nMinerThreads = 1;
-        nTargetTimespan = 24 * 60 * 60; // AmsterdamCoin: 1 day
-        nTargetSpacing = 1 * 60;        // AmsterdamCoin: 1 minutes
+        nTargetTimespan = 24 * 60 * 60; // Solaris: 1 day
+        nTargetSpacing = 1 * 60;        // Solaris: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1454124731;
         genesis.nBits = 0x207fffff;

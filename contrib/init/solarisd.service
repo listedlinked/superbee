@@ -1,19 +1,19 @@
 [Unit]
-Description=AmsterdamCoin's distributed currency daemon
+Description=Solaris's distributed currency daemon
 After=network.target
 
 [Service]
-User=amsterdamcoin
-Group=amsterdamcoin
+User=solaris
+Group=solaris
 
 Type=forking
-PIDFile=/var/lib/amsterdamcoind/amsterdamcoind.pid
+PIDFile=/var/lib/solarisd/solarisd.pid
 
-ExecStart=/usr/bin/amsterdamcoind -daemon -pid=/var/lib/amsterdamcoind/amsterdamcoind.pid \
-          -conf=/etc/amsterdamcoin/amsterdamcoin.conf -datadir=/var/lib/amsterdamcoind
+ExecStart=/usr/bin/solarisd -daemon -pid=/var/lib/solarisd/solarisd.pid \
+          -conf=/etc/solaris/solaris.conf -datadir=/var/lib/solarisd
 
-ExecStop=-/usr/bin/amsterdamcoin-cli -conf=/etc/amsterdamcoin/amsterdamcoin.conf \
-         -datadir=/var/lib/amsterdamcoind stop
+ExecStop=-/usr/bin/solaris-cli -conf=/etc/solaris/solaris.conf \
+         -datadir=/var/lib/solarisd stop
 
 Restart=always
 PrivateTmp=true
