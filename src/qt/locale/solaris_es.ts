@@ -176,16 +176,16 @@
         <translation>Confirmar la encriptación de la wallet</translation>
     </message>
     <message>
-        <source>Solaris will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AMSs from being stolen by malware infecting your computer.</source>
-        <translation>Solaris se cerrará ahora para finalizar el proceso de encriptación. Recordad que encriptar vuestra wallet no puede proteger completamente que tus AMSs sean robados mediante malware infectando tu ordenador.</translation>
+        <source>Solaris will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
+        <translation>Solaris se cerrará ahora para finalizar el proceso de encriptación. Recordad que encriptar vuestra wallet no puede proteger completamente que tus XLRs sean robados mediante malware infectando tu ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Estás seguro de que quieres encriptar tu wallet?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AMS&lt;/b&gt;!</source>
-        <translation>Atención: Si encriptas tu wallet y pierdes tu contraseña, perderás &lt;b&gt; TODOS TUS AMS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLR&lt;/b&gt;!</source>
+        <translation>Atención: Si encriptas tu wallet y pierdes tu contraseña, perderás &lt;b&gt; TODOS TUS XLR&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -1560,32 +1560,32 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Por favor selecciones un nivel de privacidad.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 AMS</source>
-        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 AMS</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 XLR</source>
+        <translation>Use 2 nodos maestros diferentes para mezclar los fondos hasta los 10000 XLR</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 AMS</source>
-        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 AMS</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 XLR</source>
+        <translation>Use 8 nodos maestros diferentes para mezclar fondos hasta los 10000 XLR</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 nodos maestros diferentes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 AMS to anonymize 10000 AMS</source>
-        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 AMS para anonimizar 10000 AMS</translation>
+        <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</source>
+        <translation>Esta opción es la más rápida y costará alrededor de ~0.025 XLR para anonimizar 10000 XLR</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 AMS to anonymize 10000 AMS</source>
-        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 AMS para anonimizar 10000 AMS.</translation>
+        <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 10000 XLR</source>
+        <translation>Esta opción es moderadamente rápida y costará cerca de 0.05 XLR para anonimizar 10000 XLR.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta es la opción más lenta pero más segura. Usar el máximo anonimato costará</translation>
     </message>
     <message>
-        <source>0.1 AMS per 10000 AMS you anonymize.</source>
-        <translation>0.1 AMS por 10000 AMS que anonimizas.</translation>
+        <source>0.1 XLR per 10000 XLR you anonymize.</source>
+        <translation>0.1 XLR por 10000 XLR que anonimizas.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1943,8 +1943,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Balance de Ofuscación:</translation>
     </message>
     <message>
-        <source>0 AMS / 0 Rounds</source>
-        <translation>0 AMS / 0 Rondas</translation>
+        <source>0 XLR / 0 Rounds</source>
+        <translation>0 XLR / 0 Rondas</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -2809,8 +2809,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Tamaño de UTXO:</translation>
     </message>
     <message>
-        <source>0 AMS</source>
-        <translation>0 AMS</translation>
+        <source>0 XLR</source>
+        <translation>0 XLR</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>

@@ -74,10 +74,10 @@ QT_TRANSLATE_NOOP("solaris-core", ""
 "Execute command when the best block changes (%s in cmd is replaced by block "
 "hash)"),
 QT_TRANSLATE_NOOP("solaris-core", ""
-"Fees (in AMS/Kb) smaller than this are considered zero fee for relaying "
+"Fees (in XLR/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
 QT_TRANSLATE_NOOP("solaris-core", ""
-"Fees (in AMS/Kb) smaller than this are considered zero fee for transaction "
+"Fees (in XLR/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
 QT_TRANSLATE_NOOP("solaris-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -165,7 +165,7 @@ QT_TRANSLATE_NOOP("solaris-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("solaris-core", ""
 "Unable to locate enough Obfuscation non-denominated funds for this "
-"transaction that are not equal 10000 AMS."),
+"transaction that are not equal 10000 XLR."),
 QT_TRANSLATE_NOOP("solaris-core", ""
 "Unable to locate enough funds for this transaction that are not equal 10000 "
 "AMS."),
@@ -264,7 +264,7 @@ QT_TRANSLATE_NOOP("solaris-core", "Error: Wallet locked, unable to create transa
 QT_TRANSLATE_NOOP("solaris-core", "Error: You already have pending entries in the Obfuscation pool"),
 QT_TRANSLATE_NOOP("solaris-core", "Failed to listen on any port. Use -listen=0 if you want this."),
 QT_TRANSLATE_NOOP("solaris-core", "Failed to read block"),
-QT_TRANSLATE_NOOP("solaris-core", "Fee (in AMS/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("solaris-core", "Fee (in XLR/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("solaris-core", "Finalizing transaction."),
 QT_TRANSLATE_NOOP("solaris-core", "Force safe mode (default: %u)"),
 QT_TRANSLATE_NOOP("solaris-core", "Found enough users, signing ( waiting %s )"),
@@ -295,7 +295,7 @@ QT_TRANSLATE_NOOP("solaris-core", "Invalid netmask specified in -whitelist: '%s'
 QT_TRANSLATE_NOOP("solaris-core", "Invalid port detected in masternode.conf"),
 QT_TRANSLATE_NOOP("solaris-core", "Invalid private key."),
 QT_TRANSLATE_NOOP("solaris-core", "Invalid script detected."),
-QT_TRANSLATE_NOOP("solaris-core", "Keep N AMS anonymized (default: %u)"),
+QT_TRANSLATE_NOOP("solaris-core", "Keep N XLR anonymized (default: %u)"),
 QT_TRANSLATE_NOOP("solaris-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
 QT_TRANSLATE_NOOP("solaris-core", "Last Obfuscation was too recent."),
 QT_TRANSLATE_NOOP("solaris-core", "Last successful Obfuscation action was too recent."),

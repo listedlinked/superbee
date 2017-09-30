@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="BuyAMS">
+    <widget class="QPushButton" name="BuyXLR">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -442,7 +442,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Buy AMS</string>
+      <string>Buy XLR</string>
      </property>
      <property name="icon">
       <iconset resource="../solaris.qrc">
@@ -1707,7 +1707,7 @@
       <string>AMS</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputAMS">
+    <widget class="QLineEdit" name="UnitsInputXLR">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1751,7 +1751,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Sell AMS</string>
+      <string>Sell XLR</string>
      </property>
      <property name="icon">
       <iconset resource="../solaris">
@@ -1777,7 +1777,7 @@
          </font>
         </property>
         <property name="text">
-         <string>AMS Available:</string>
+         <string>XLR Available:</string>
         </property>
        </widget>
       </item>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelAMS">
+       <widget class="QLabel" name="labelXLR">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>AMS Balance:</string>
+      <string>XLR Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2813,7 +2813,7 @@
       </font>
      </property>
      <property name="text">
-      <string>AMS Available:</string>
+      <string>XLR Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2832,7 +2832,7 @@
       </font>
      </property>
      <property name="text">
-      <string>AMS Pending:</string>
+      <string>XLR Pending:</string>
      </property>
     </widget>
     <widget class="QLabel" name="AMSPendingLabel">
@@ -2928,7 +2928,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bittrex AMS Deposit Address:</string>
+      <string>Bittrex XLR Deposit Address:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="GenDepositBTN">
