@@ -43,16 +43,12 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-	(0, uint256("0x0000016c5074e3a3d7df0c9b9cdc38ef6a72be36c4a3a0233a564533120957f5"))
-	(2, uint256("0x00000bfa9f5517a83532d103038e78941ed28eda11b8fa920cc6c1659e569f75"))
-	(67260, uint256("0x0000000009e85f5c57095d56743bc79f347d36ebf1e142b17ba47f4f2c587b6e"));
-    //(1, uint256(""));
-    //(616764, uint256("29dd0bd1c59484f290896687b4ffb6a49afa5c498caf61967c69a541f8191557")) //first block to use modifierV2
-    //(623933, uint256("c7aafa648a0f1450157dc93bd4d7448913a85b7448f803b4ab970d91fc2a7da7"));
+	(0, uint256("0x00000c393bf1eaf9757be560092cc08a7b1ff0345e874b12521522e27862d7d7"))
+	(2, uint256("0x00000310d966793ec3dd080a97b10afa0c848432c01b4053d2c6f206e1449e28"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1506431510, // * UNIX timestamp of last checkpoint block
-    100000,    // * total number of transactions between genesis and last checkpoint
+    1506797056, // * UNIX timestamp of last checkpoint block
+    2,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
@@ -82,11 +78,11 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x00;
-        pchMessageStart[1] = 0x22;
-        pchMessageStart[2] = 0x00;
-        pchMessageStart[3] = 0xaa;
-        vAlertPubKey = ParseHex("04d6d976efad463fa258e3699e9c3fea60d5168a065abb5829a77448d25e0acbee58bb8f5be56491624b9a48611a8c456a592d45f48ea9c9f0bdc30904534be285");
+        pchMessageStart[0] = 0x02;
+        pchMessageStart[1] = 0x21;
+        pchMessageStart[2] = 0x01;
+        pchMessageStart[3] = 0xa1;
+        vAlertPubKey = ParseHex("045da9271f5d9df405d9e83c7c7e62e9c831cc85c51ffaa6b515c4f9c845dec4bf256460003f26ba9d394a17cb57e6759fe231eca75b801c20bccd19cbe4b7942d");
         nDefaultPort = 60020;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // Solaris starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
@@ -97,32 +93,35 @@ public:
         nLastPOWBlock = 259200;
         nMaturity = 101;
         nModifierUpdateBlock = 1;
-        const char* pszTimestamp = "Solaris 22-07-2017";
+        const char* pszTimestamp = "Solaris 30-09-2017";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 0 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("0421fb0665876637d9d79d03a24f383393838fb9e3340858a6d5a70b079f4af57cfff3ca00310be5300d532adf6261ba98ac70d24d943a6be333bec6d7a6d93013") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("045da9271f5d9df405d9e83c7c7e62e9c831cc85c51ffaa6b515c4f9c845dec4bf256460003f26ba9d394a17cb57e6759fe231eca75b801c20bccd19cbe4b7942d") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1500685200;
+        genesis.nTime = 1506779239;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 1402465;
+        genesis.nNonce = 500317;
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000016c5074e3a3d7df0c9b9cdc38ef6a72be36c4a3a0233a564533120957f5"));
-        assert(genesis.hashMerkleRoot == uint256("0xcdf9a0f882351aa571e3f647ef82858c08b5eb4f1847df68787f15cc42c36529"));
 		
-        vSeeds.push_back(CDNSSeedData("nl-1.solaris.com", "nl-1.solaris.com"));
-        vSeeds.push_back(CDNSSeedData("us-1.solaris.com", "us-1.solaris.com"));
-		vSeeds.push_back(CDNSSeedData("us-2.solaris.com", "us-2.solaris.com"));
-		vSeeds.push_back(CDNSSeedData("eu-1.solaris.com", "eu-1.solaris.com"));
-		vSeeds.push_back(CDNSSeedData("eu-2.solaris.com", "eu-2.solaris.com"));
-		vSeeds.push_back(CDNSSeedData("asia-1.solaris.com", "asia-1.solaris.com"));
+        assert(hashGenesisBlock == uint256("0x00000c393bf1eaf9757be560092cc08a7b1ff0345e874b12521522e27862d7d7"));
+        assert(genesis.hashMerkleRoot == uint256("0xa84934befc603b6dc91cd53895bf45cd056b4e7a9562067d7608b94e8704815d"));
 		
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23);
+        vSeeds.push_back(CDNSSeedData("solarisnode.dyndns.org", "solarisnode.dyndns.org"));
+		vSeeds.push_back(CDNSSeedData("node1.solariscoin.com", "node1.solariscoin.com"));
+		vSeeds.push_back(CDNSSeedData("node2.solariscoin.com", "node2.solariscoin.com"));
+		vSeeds.push_back(CDNSSeedData("node3.solariscoin.com", "node3.solariscoin.com"));
+		vSeeds.push_back(CDNSSeedData("node4.solariscoin.com", "node4.solariscoin.com"));
+		vSeeds.push_back(CDNSSeedData("node5.solariscoin.com", "node5.solariscoin.com"));
+		vSeeds.push_back(CDNSSeedData("node6.solariscoin.com", "node6.solariscoin.com"));
+
+		
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
@@ -140,9 +139,9 @@ public:
         fTestnetToBeDeprecatedFieldRPC = false;
         fHeadersFirstSyncingActive = false;
         nPoolMaxTransactions = 3;
-        strSporkKey = "04d6d976efad463fa258e3699e9c3fea60d5168a065abb5829a77448d25e0acbee58bb8f5be56491624b9a48611a8c456a592d45f48ea9c9f0bdc30904534be285";
+        strSporkKey = "045da9271f5d9df405d9e83c7c7e62e9c831cc85c51ffaa6b515c4f9c845dec4bf256460003f26ba9d394a17cb57e6759fe231eca75b801c20bccd19cbe4b7942d";
         
-        strObfuscationPoolDummyAddress = "AWSbBnzmNkjDVaYHX7vkL1MqD96pRYWtZo";
+        strObfuscationPoolDummyAddress = "Sg3aLcSeLqbpEsVgoXtDFrpDYDfAsf1qxv";
         nStartMasternodePayments = 1403728576; //Wed, 25 Jun 2014 20:36:16 GMT
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
