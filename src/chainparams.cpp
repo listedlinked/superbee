@@ -44,11 +44,12 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
 	(0, uint256("0x00000c393bf1eaf9757be560092cc08a7b1ff0345e874b12521522e27862d7d7"))
-	(2, uint256("0x00000310d966793ec3dd080a97b10afa0c848432c01b4053d2c6f206e1449e28"));
+	(2, uint256("0x00000310d966793ec3dd080a97b10afa0c848432c01b4053d2c6f206e1449e28"))
+	(1479, uint256("0x00000000071b53f74e2f55ffa657cf1fc39807fb584e797ed0c6b22a4527d51c"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1506797056, // * UNIX timestamp of last checkpoint block
-    2,    // * total number of transactions between genesis and last checkpoint
+    1507469799, // * UNIX timestamp of last checkpoint block
+    1000,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
@@ -113,6 +114,13 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0xa84934befc603b6dc91cd53895bf45cd056b4e7a9562067d7608b94e8704815d"));
 		
         vSeeds.push_back(CDNSSeedData("solarisnode.dyndns.org", "solarisnode.dyndns.org"));
+		vSeeds.push_back(CDNSSeedData("solarisnode1.dyndns.org", "solarisnode1.dyndns.org"));
+		vSeeds.push_back(CDNSSeedData("solarisnode2.dyndns.org", "solarisnode2.dyndns.org"));
+		vSeeds.push_back(CDNSSeedData("solarisnode3.dyndns.org", "solarisnode3.dyndns.org"));
+		vSeeds.push_back(CDNSSeedData("solarisnode4.dyndns.org", "solarisnode4.dyndns.org"));
+		vSeeds.push_back(CDNSSeedData("solarisnode5.dyndns.org", "solarisnode5.dyndns.org"));
+		vSeeds.push_back(CDNSSeedData("solarisnode6.dyndns.org", "solarisnode6.dyndns.org"));
+		
 		vSeeds.push_back(CDNSSeedData("node1.solariscoin.com", "node1.solariscoin.com"));
 		vSeeds.push_back(CDNSSeedData("node2.solariscoin.com", "node2.solariscoin.com"));
 		vSeeds.push_back(CDNSSeedData("node3.solariscoin.com", "node3.solariscoin.com"));
