@@ -1,5 +1,5 @@
 ---
-name: "solaris-osx-2.2"
+name: "solaris-osx-3.0"
 enable_cache: true
 suites:
 - "trusty"

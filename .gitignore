@@ -34,12 +34,16 @@ build-aux/test-driver
 config.log
 config.status
 configure
+confdefs.h
+conftest.cpp
+conftest.err
 libtool
 src/config/solaris-config.h
 src/config/solaris-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
+contrib/devtools/split-debug.sh
 
 src/univalue/gen
 
@@ -120,3 +124,7 @@ qa/pull-tester/test.*/*
 .project
 /doc/doxygen/
 /nbproject/
+
+.idea
+CMakeLists.txt
+cmake-build-debug
