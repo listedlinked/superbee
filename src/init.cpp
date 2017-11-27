@@ -1751,7 +1751,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     }
 
 // XX42 Remove/refactor code below. Until then provide safe defaults
-    nAnonymizePivxAmount = 2;
+    nAnonymizeSolarisAmount = 2;
 
 //    nLiquidityProvider = GetArg("-liquidityprovider", 0); //0-100
 //    if (nLiquidityProvider != 0) {
@@ -1760,9 +1760,9 @@ bool AppInit2(boost::thread_group& threadGroup)
 //        nZeromintPercentage = 99999;
 //    }
 //
-//    nAnonymizePivxAmount = GetArg("-anonymizesolarisamount", 0);
-//    if (nAnonymizePivxAmount > 999999) nAnonymizePivxAmount = 999999;
-//    if (nAnonymizePivxAmount < 2) nAnonymizePivxAmount = 2;
+//    nAnonymizeSolarisAmount = GetArg("-anonymizesolarisamount", 0);
+//    if (nAnonymizeSolarisAmount > 999999) nAnonymizeSolarisAmount = 999999;
+//    if (nAnonymizeSolarisAmount < 2) nAnonymizeSolarisAmount = 2;
 
     fEnableSwiftTX = GetBoolArg("-enableswifttx", fEnableSwiftTX);
     nSwiftTXDepth = GetArg("-swifttxdepth", nSwiftTXDepth);
@@ -1776,7 +1776,7 @@ bool AppInit2(boost::thread_group& threadGroup)
 
     LogPrintf("fLiteMode %d\n", fLiteMode);
     LogPrintf("nSwiftTXDepth %d\n", nSwiftTXDepth);
-    LogPrintf("Anonymize Solaris Amount %d\n", nAnonymizePivxAmount);
+    LogPrintf("Anonymize Solaris Amount %d\n", nAnonymizeSolarisAmount);
     LogPrintf("Budget Mode %s\n", strBudgetMode.c_str());
 
     /* Denominations
