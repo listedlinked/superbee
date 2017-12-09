@@ -2215,30 +2215,25 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
         if (nHeight < 200)
             return 0;
     }
-
+	
+	if (nHeight == 0)
+		return 0;
+	
     if (nHeight <= 43200) {
         ret = blockValue / 5;
     } else if (nHeight < 86400 && nHeight > 43200) {
         ret = blockValue / (100 / 30);
-    } else if (nHeight < (Params().NetworkID() == CBaseChainParams::TESTNET ? 145000 : 151200) && nHeight >= 86400) {
-        ret = 50 * COIN;
+    } else if (nHeight < 151200 && nHeight >= 86400) {
+        ret = blockValue / (100 / 30);
     } else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 151200) {
         ret = blockValue / 2;
     } else if (nHeight > Params().LAST_POW_BLOCK()) {
         int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
+        int64_t mNodeCoins = mnodeman.size() * 10000 * COIN;
 
         //if a mn count is inserted into the function we are looking for a specific result for a masternode count
-        if (nMasternodeCount < 1){
-            if (IsSporkActive(SPORK_8_MASTERNODE_PAYMENT_ENFORCEMENT))
-                nMasternodeCount = mnodeman.stable_size();
-            else
-                nMasternodeCount = mnodeman.size();
-        }
-
-        int64_t mNodeCoins = nMasternodeCount * 10000 * COIN;
-
-        // Use this log to compare the masternode count for different clients
-        LogPrintf("Adjusting seesaw at height %d with %d masternodes (without drift: %d) at %ld\n", nHeight, nMasternodeCount, nMasternodeCount - Params().MasternodeCountDrift(), GetTime());
+        if(nMasternodeCount)
+            mNodeCoins = nMasternodeCount * 10000 * COIN;
 
         if (fDebug)
             LogPrintf("GetMasternodePayment(): moneysupply=%s, nodecoins=%s \n", FormatMoney(nMoneySupply).c_str(),
@@ -2459,6 +2454,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
 
     return ret;
 }
+
 
 bool IsInitialBlockDownload()
 {
