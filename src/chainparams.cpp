@@ -106,13 +106,13 @@ public:
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 259200;
-        nModifierUpdateBlock = 615800;
-        nZerocoinStartHeight = 863787;
-        nBlockEnforceSerialRange = 895400; //Enforce serial range starting this block
-        nBlockRecalculateAccumulators = 908000; //Trigger a recalculation of accumulators
-        nBlockFirstFraudulent = 891737; //First block that bad serials emerged
-        nBlockLastGoodCheckpoint = 891730; //Last valid accumulator checkpoint
-        nZerocoinStartTime = 1508214600; // October 17, 2017 4:30:00 AM
+        nModifierUpdateBlock = 0;
+        nZerocoinStartHeight = 259201;
+        nBlockEnforceSerialRange = 259204; //Enforce serial range starting this block
+        nBlockRecalculateAccumulators = 259206; //Trigger a recalculation of accumulators
+        nBlockFirstFraudulent = 259203; //First block that bad serials emerged
+        nBlockLastGoodCheckpoint = 259206; //Last valid accumulator checkpoint
+        nZerocoinStartTime = 1517493600; // February 1, 2018 2:00:00 PM UTC
 		
 		
         CMutableTransaction txNew;
