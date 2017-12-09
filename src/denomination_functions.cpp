@@ -6,7 +6,8 @@
  * @copyright  Copyright 2017 Solaris Developers
  * @license    This project is released under the MIT license.
  **/
-// Copyright (c) 2015-2017 The Solaris developers
+// Copyright (c) 2015-2017 The PIVX developers
+// Copyright (c) 2017-2018 The Solaris developers
 
 #include "denomination_functions.h"
 
