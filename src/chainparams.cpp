@@ -103,7 +103,7 @@ public:
         nTargetTimespan = 1 * 60; // Solaris: 1 minute
         nTargetSpacing = 1 * 60;  // Solaris: 1 minute
         nMaturity = 101;
-
+		nMaxMoneyOut = 10000000000 * COIN;
         /** Height or Time Based Activations **/
         nLastPOWBlock = 259200;
         nModifierUpdateBlock = 1;
