@@ -16,7 +16,7 @@
 
 uint256 CBlockHeader::GetHash() const
 {
-    return XEVAN(BEGIN(nVersion), END(nAccumulatorCheckpoint));
+    return XEVAN(BEGIN(nVersion), END(nNonce));
 }
 
 uint256 CBlock::BuildMerkleTree(bool* fMutated) const
