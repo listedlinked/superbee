@@ -58,7 +58,7 @@
           <bool>true</bool>
          </property>
          <property name="text">
-          <string>Zerocoin XLR (zXLR)</string>
+          <string>ZeroSolaris (zXLR)</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -145,7 +145,7 @@
                   </size>
                  </property>
                  <property name="toolTip">
-                  <string>Enter an amount of Piv to convert to zPiv</string>
+                  <string>Enter an amount of Piv to convert to zXLR</string>
                  </property>
                  <property name="text">
                   <string>Mint Zerocoin</string>
@@ -191,7 +191,7 @@
                <item>
                 <widget class="QLabel" name="labelzXLRAmountValue">
                  <property name="toolTip">
-                  <string>Enter an amount of Piv to convert to zPiv</string>
+                  <string>Enter an amount of Piv to convert to zXLR</string>
                  </property>
                  <property name="text">
                   <string>0.000 000 00 XLR</string>
@@ -476,19 +476,19 @@
                <item>
                 <widget class="QPushButton" name="pushButtonZPivControl">
                  <property name="text">
-                  <string>zPiv Control</string>
+                  <string>zXLR Control</string>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="labelzPivSelected">
+                <widget class="QLabel" name="labelzXLRSelected">
                  <property name="text">
-                  <string>zPiv Selected:</string>
+                  <string>zXLR Selected:</string>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="labelzPivSelected_int">
+                <widget class="QLabel" name="labelzXLRSelected_int">
                  <property name="text">
                   <string>0</string>
                  </property>

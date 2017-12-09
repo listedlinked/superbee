@@ -2721,7 +2721,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+6"/>
-        <source>Zerocoin XLR (zXLR)</source>
+        <source>ZeroSolaris (zXLR)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2737,7 +2737,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="+52"/>
         <location line="+46"/>
-        <source>Enter an amount of Piv to convert to zPiv</source>
+        <source>Enter an amount of Piv to convert to zXLR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2816,12 +2816,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+45"/>
-        <source>zPiv Control</source>
+        <source>zXLR Control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>zPiv Selected:</source>
+        <source>zXLR Selected:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3304,7 +3304,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+15"/>
-        <source>zPiv Spend #: </source>
+        <source>zXLR Spend #: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3334,7 +3334,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+3"/>
-        <source>zPiv Mint</source>
+        <source>zXLR Mint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5270,27 +5270,27 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted Piv to zPiv</source>
+        <source>Converted Piv to zXLR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Spent zPiv</source>
+        <source>Spent zXLR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Received Piv from zPiv</source>
+        <source>Received Piv from zXLR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Minted Change as zPiv from zPiv Spend</source>
+        <source>Minted Change as zXLR from zXLR Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted zPiv to Piv</source>
+        <source>Converted zXLR to Piv</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5300,7 +5300,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+22"/>
-        <source>zPiv Accumulator</source>
+        <source>zXLR Accumulator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5439,7 +5439,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Received Piv from zPiv</source>
+        <source>Received Piv from zXLR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5454,7 +5454,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Zerocoin Spend, Change in zPiv</source>
+        <source>Zerocoin Spend, Change in zXLR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5667,7 +5667,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>ZPivControlDialog</name>
     <message>
         <location filename="../forms/zpivcontroldialog.ui" line="+20"/>
-        <source>Select zPiv to Spend</source>
+        <source>Select zXLR to Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5683,7 +5683,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="-7"/>
-        <source>zPiv</source>
+        <source>zXLR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6538,7 +6538,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Solaris Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+44"/>
-        <source>Enable automatic wallet backups triggered after each zPiv minting (0-1, default: %u)</source>
+        <source>Enable automatic wallet backups triggered after each zXLR minting (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

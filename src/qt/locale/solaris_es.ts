@@ -2068,8 +2068,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>XLR que fueron anonimizados mediante Protocolo Zerocoin</translation>
     </message>
     <message>
-        <source>Zerocoin XLR (zXLR)</source>
-        <translation>Zerocoin XLR (zXLR)</translation>
+        <source>ZeroSolaris (zXLR)</source>
+        <translation>ZeroSolaris (zXLR)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2080,8 +2080,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Solaris después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zPiv</source>
-        <translation>Introduzca la cantidad de Piv que desea convertir a zPiv</translation>
+        <source>Enter an amount of Piv to convert to zXLR</source>
+        <translation>Introduzca la cantidad de Piv que desea convertir a zXLR</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2136,12 +2136,12 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Estado y/o Mensajes de la última Acción de Creación de moneda.</translation>
     </message>
     <message>
-        <source>zPiv Control</source>
-        <translation>Control zPiv</translation>
+        <source>zXLR Control</source>
+        <translation>Control zXLR</translation>
     </message>
     <message>
-        <source>zPiv Selected:</source>
-        <translation>zPiv Seleccionados:</translation>
+        <source>zXLR Selected:</source>
+        <translation>zXLR Seleccionados:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2478,8 +2478,8 @@ Por favor tenga paciencia...</translation>
         <translation>Gastar Zerocoin falló con estado =</translation>
     </message>
     <message>
-        <source>zPiv Spend #: </source>
-        <translation>Gastar zPiv #:</translation>
+        <source>zXLR Spend #: </source>
+        <translation>Gastar zXLR #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2502,8 +2502,8 @@ Por favor tenga paciencia...</translation>
         <translation>dirección:</translation>
     </message>
     <message>
-        <source>zPiv Mint</source>
-        <translation>Creación de zPiv</translation>
+        <source>zXLR Mint</source>
+        <translation>Creación de zXLR</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -3959,32 +3959,32 @@ Por favor tenga paciencia...</translation>
         <translation>Ofuscado</translation>
     </message>
     <message>
-        <source>Converted Piv to zPiv</source>
-        <translation>Piv convertidos a zPiv</translation>
+        <source>Converted Piv to zXLR</source>
+        <translation>Piv convertidos a zXLR</translation>
     </message>
     <message>
-        <source>Spent zPiv</source>
-        <translation>zPiv Gastados</translation>
+        <source>Spent zXLR</source>
+        <translation>zXLR Gastados</translation>
     </message>
     <message>
-        <source>Received Piv from zPiv</source>
-        <translation>Piv recibidos desde zPiv</translation>
+        <source>Received Piv from zXLR</source>
+        <translation>Piv recibidos desde zXLR</translation>
     </message>
     <message>
-        <source>Minted Change as zPiv from zPiv Spend</source>
-        <translation>Cambio Creado en zPiv por un Gasto zPiv</translation>
+        <source>Minted Change as zXLR from zXLR Spend</source>
+        <translation>Cambio Creado en zXLR por un Gasto zXLR</translation>
     </message>
     <message>
-        <source>Converted zPiv to Piv</source>
-        <translation>zPiv convertidos en Piv</translation>
+        <source>Converted zXLR to Piv</source>
+        <translation>zXLR convertidos en Piv</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>sólo-lectura</translation>
     </message>
     <message>
-        <source>zPiv Accumulator</source>
-        <translation>Acumulador zPiv</translation>
+        <source>zXLR Accumulator</source>
+        <translation>Acumulador zXLR</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4094,8 +4094,8 @@ Por favor tenga paciencia...</translation>
         <translation>Recompensa de Nodo Maestro</translation>
     </message>
     <message>
-        <source>Received Piv from zPiv</source>
-        <translation>Piv recibidos desde zPiv</translation>
+        <source>Received Piv from zXLR</source>
+        <translation>Piv recibidos desde zXLR</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4106,8 +4106,8 @@ Por favor tenga paciencia...</translation>
         <translation>Gasto de Zerocoin</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPiv</source>
-        <translation>Gasto de Zerocoin, Cambio en zPiv</translation>
+        <source>Zerocoin Spend, Change in zXLR</source>
+        <translation>Gasto de Zerocoin, Cambio en zXLR</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4277,8 +4277,8 @@ Por favor tenga paciencia...</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zPiv to Spend</source>
-        <translation>Seleccione zPiv a Gastar</translation>
+        <source>Select zXLR to Spend</source>
+        <translation>Seleccione zXLR a Gastar</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4289,8 +4289,8 @@ Por favor tenga paciencia...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPiv</source>
-        <translation>zPiv</translation>
+        <source>zXLR</source>
+        <translation>zXLR</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>

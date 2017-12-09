@@ -2401,7 +2401,7 @@ Value mintzerocoin(const Array& params, bool fHelp)
     if (fHelp || params.size() != 1)
         throw runtime_error(
             "mintzerocoin <amount>\n"
-            "Usage: Enter an amount of Piv to convert to zPiv"
+            "Usage: Enter an amount of Piv to convert to zXLR"
             + HelpRequiringPassphrase());
 
     int64_t nTime = GetTimeMillis();
@@ -2655,7 +2655,7 @@ Value exportzerocoins(const Array& params, bool fHelp)
 
                 "\nArguments:\n"
                 "1. \"include_spent\"        (bool, required) Include mints that have already been spent\n"
-                "2. \"denomination\"         (integer, optional) Export a specific denomination of zPiv\n"
+                "2. \"denomination\"         (integer, optional) Export a specific denomination of zXLR\n"
 
                 "\nResult\n"
                 "[                   (array of json object)\n"
@@ -2719,7 +2719,7 @@ Value importzerocoins(const Array& params, bool fHelp)
 
                 "\nResult:\n"
                 "\"added\"            (int) the quantity of zerocoin mints that were added\n"
-                "\"value\"            (string) the total zPiv value of zerocoin mints that were added\n"
+                "\"value\"            (string) the total zXLR value of zerocoin mints that were added\n"
 
                 "\nExamples\n" +
             HelpExampleCli("importzerocoins", "\'[{\"d\":100,\"p\":\"mypubcoin\",\"s\":\"myserial\",\"r\":\"randomness_hex\",\"t\":\"mytxid\",\"h\":104923, \"u\":false},{\"d\":5,...}]\'") +
@@ -2771,7 +2771,7 @@ Value reconsiderzerocoins(const Array& params, bool fHelp)
     if(fHelp || !params.empty())
         throw runtime_error(
             "reconsiderzerocoins\n"
-                "\nCheck archived zPiv list to see if any mints were added to the blockchain.\n"
+                "\nCheck archived zXLR list to see if any mints were added to the blockchain.\n"
 
                 "\nResult\n"
                 "[                                 (array of json objects)\n"

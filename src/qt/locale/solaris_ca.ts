@@ -1304,8 +1304,8 @@
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>Zerocoin XLR (zXLR)</source>
-        <translation>Zerocoin XLR (zXLR)</translation>
+        <source>ZeroSolaris (zXLR)</source>
+        <translation>ZeroSolaris (zXLR)</translation>
     </message>
     <message>
         <source>0</source>
@@ -1979,8 +1979,8 @@
         <translation>0</translation>
     </message>
     <message>
-        <source>zPiv</source>
-        <translation>zPiv</translation>
+        <source>zXLR</source>
+        <translation>zXLR</translation>
     </message>
     </context>
 <context>

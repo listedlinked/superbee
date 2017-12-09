@@ -2068,7 +2068,7 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>제로코인 프로토콜을 통해 익명화된 XLR</translation>
     </message>
     <message>
-        <source>Zerocoin XLR (zXLR)</source>
+        <source>ZeroSolaris (zXLR)</source>
         <translation>제로코인 XLR (zXLR)</translation>
     </message>
     <message>
@@ -2080,7 +2080,7 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 Solaris 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zPiv</source>
+        <source>Enter an amount of Piv to convert to zXLR</source>
         <translation>zXLR로 변환할 XLR 수량을 입력하세요.</translation>
     </message>
     <message>
@@ -2136,11 +2136,11 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>마지막 발행 이후 상태나 메세지</translation>
     </message>
     <message>
-        <source>zPiv Control</source>
+        <source>zXLR Control</source>
         <translation>zXLR 설정</translation>
     </message>
     <message>
-        <source>zPiv Selected:</source>
+        <source>zXLR Selected:</source>
         <translation>선택한 zXLR : </translation>
     </message>
     <message>
@@ -2478,8 +2478,8 @@ Please be patient...</source>
         <translation>제로코인 송금 실패 상태 =</translation>
     </message>
     <message>
-        <source>zPiv Spend #: </source>
-        <translation>zPiv 송금 #: </translation>
+        <source>zXLR Spend #: </source>
+        <translation>zXLR 송금 #: </translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2502,7 +2502,7 @@ Please be patient...</source>
         <translation>주소:</translation>
     </message>
     <message>
-        <source>zPiv Mint</source>
+        <source>zXLR Mint</source>
         <translation>zXLR 생성</translation>
     </message>
     <message>
@@ -3961,32 +3961,32 @@ Please be patient...</source>
         <translation>난독화</translation>
     </message>
     <message>
-        <source>Converted Piv to zPiv</source>
+        <source>Converted Piv to zXLR</source>
         <translation>zXLR로 변환된 XLR</translation>
     </message>
     <message>
-        <source>Spent zPiv</source>
+        <source>Spent zXLR</source>
         <translation>전송된 zXLR</translation>
     </message>
     <message>
-        <source>Received Piv from zPiv</source>
+        <source>Received Piv from zXLR</source>
         <translation>zXLR로 전송받은 XLR</translation>
     </message>
     <message>
-        <source>Minted Change as zPiv from zPiv Spend</source>
+        <source>Minted Change as zXLR from zXLR Spend</source>
         <translation>zXLR 전송후 남은 잔돈 zXLR 생성됨</translation>
     </message>
     <message>
-        <source>Converted zPiv to Piv</source>
-        <translation>zPiv에서 Piv로 변환됨</translation>
+        <source>Converted zXLR to Piv</source>
+        <translation>zXLR에서 Piv로 변환됨</translation>
     </message>
     <message>
         <source>watch-only</source>
         <translation>읽기 전용</translation>
     </message>
     <message>
-        <source>zPiv Accumulator</source>
-        <translation>zPiv 누산기</translation>
+        <source>zXLR Accumulator</source>
+        <translation>zXLR 누산기</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4096,7 +4096,7 @@ Please be patient...</source>
         <translation>마스터노드 보상 </translation>
     </message>
     <message>
-        <source>Received Piv from zPiv</source>
+        <source>Received Piv from zXLR</source>
         <translation>zXLR로 전송받은 XLR</translation>
     </message>
     <message>
@@ -4108,7 +4108,7 @@ Please be patient...</source>
         <translation>제로코인 전송</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPiv</source>
+        <source>Zerocoin Spend, Change in zXLR</source>
         <translation>제로코인 전송, 잔돈은 zXLR</translation>
     </message>
     <message>
@@ -4279,7 +4279,7 @@ Please be patient...</source>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zPiv to Spend</source>
+        <source>Select zXLR to Spend</source>
         <translation>전송할 zXLR 선택</translation>
     </message>
     <message>
@@ -4291,8 +4291,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPiv</source>
-        <translation>zPiv</translation>
+        <source>zXLR</source>
+        <translation>zXLR</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>

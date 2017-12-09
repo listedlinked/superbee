@@ -2064,8 +2064,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>XLR скрити посредством Зерокойн протокола</translation>
     </message>
     <message>
-        <source>Zerocoin XLR (zXLR)</source>
-        <translation>Zerocoin XLR (zXLR)</translation>
+        <source>ZeroSolaris (zXLR)</source>
+        <translation>ZeroSolaris (zXLR)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2076,7 +2076,7 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с Solaris мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zPiv</source>
+        <source>Enter an amount of Piv to convert to zXLR</source>
         <translation>Въведете колко XLR  да се конвертират в zXLR</translation>
     </message>
     <message>
@@ -2132,11 +2132,11 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Състояния и/или Съобщения от последните действия по сечене на монети.</translation>
     </message>
     <message>
-        <source>zPiv Control</source>
+        <source>zXLR Control</source>
         <translation>zXLR Контрол</translation>
     </message>
     <message>
-        <source>zPiv Selected:</source>
+        <source>zXLR Selected:</source>
         <translation>Избрани zXLR:</translation>
     </message>
     <message>
@@ -2474,7 +2474,7 @@ Please be patient...</source>
         <translation>Харченето на Zerocoin се провали със статус =</translation>
     </message>
     <message>
-        <source>zPiv Spend #: </source>
+        <source>zXLR Spend #: </source>
         <translation>zXLR Похарчени #:</translation>
     </message>
     <message>
@@ -2498,7 +2498,7 @@ Please be patient...</source>
         <translation>адрес:</translation>
     </message>
     <message>
-        <source>zPiv Mint</source>
+        <source>zXLR Mint</source>
         <translation>Сечене на zXLR</translation>
     </message>
     <message>
@@ -3955,23 +3955,23 @@ Please be patient...</source>
         <translation>Обфускирани</translation>
     </message>
     <message>
-        <source>Converted Piv to zPiv</source>
+        <source>Converted Piv to zXLR</source>
         <translation>Конвертиран XLR във zXLR</translation>
     </message>
     <message>
-        <source>Spent zPiv</source>
+        <source>Spent zXLR</source>
         <translation>Похарчени zXLR</translation>
     </message>
     <message>
-        <source>Received Piv from zPiv</source>
+        <source>Received Piv from zXLR</source>
         <translation>Получен XLR от zXLR</translation>
     </message>
     <message>
-        <source>Minted Change as zPiv from zPiv Spend</source>
+        <source>Minted Change as zXLR from zXLR Spend</source>
         <translation>Исечено ресто като zXLR от похарчените zXLR</translation>
     </message>
     <message>
-        <source>Converted zPiv to Piv</source>
+        <source>Converted zXLR to Piv</source>
         <translation>Конвертирани zXLR в XLR</translation>
     </message>
     <message>
@@ -3979,7 +3979,7 @@ Please be patient...</source>
         <translation>наблюдение само</translation>
     </message>
     <message>
-        <source>zPiv Accumulator</source>
+        <source>zXLR Accumulator</source>
         <translation>zXLR Акумулатор</translation>
     </message>
     <message>
@@ -4086,7 +4086,7 @@ Please be patient...</source>
         <translation>Мастърноуд възнаграждение</translation>
     </message>
     <message>
-        <source>Received Piv from zPiv</source>
+        <source>Received Piv from zXLR</source>
         <translation>Получен XLR от zXLR</translation>
     </message>
     <message>
@@ -4098,7 +4098,7 @@ Please be patient...</source>
         <translation>Харчене на Zerocoin</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPiv</source>
+        <source>Zerocoin Spend, Change in zXLR</source>
         <translation>Харчене на Zerocoin, Ресто в zXLR</translation>
     </message>
     <message>
@@ -4261,7 +4261,7 @@ Please be patient...</source>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zPiv to Spend</source>
+        <source>Select zXLR to Spend</source>
         <translation>Изберете zXLR за Изпращане</translation>
     </message>
     <message>
@@ -4273,7 +4273,7 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPiv</source>
+        <source>zXLR</source>
         <translation>zXLR</translation>
     </message>
     <message>

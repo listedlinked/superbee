@@ -2059,8 +2059,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>XLR, die über das Zerocoin-Protokoll anonymisiert wurden</translation>
     </message>
     <message>
-        <source>Zerocoin XLR (zXLR)</source>
-        <translation>Zerocoin XLR (zXLR)</translation>
+        <source>ZeroSolaris (zXLR)</source>
+        <translation>ZeroSolaris (zXLR)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
@@ -2071,8 +2071,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Die angezeigte Information ist möglicherweise nicht mehr aktuell. Ihre Wallet synchronisiert sich automatisch mit dem Solaris-Netzwerk, nachdem eine Verbindung hergestellt wurde. Aber dieser Vorgang ist noch nicht abgeschlossen.</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zPiv</source>
-        <translation>Eingabe des Piv-Betrags, um in zPiv umzuwandeln</translation>
+        <source>Enter an amount of Piv to convert to zXLR</source>
+        <translation>Eingabe des Piv-Betrags, um in zXLR umzuwandeln</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2127,12 +2127,12 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Status und/oder Mitteilungen aus der letzten Prägung</translation>
     </message>
     <message>
-        <source>zPiv Control</source>
-        <translation>zPiv Kontrolle</translation>
+        <source>zXLR Control</source>
+        <translation>zXLR Kontrolle</translation>
     </message>
     <message>
-        <source>zPiv Selected:</source>
-        <translation>zPiv Ausgewählt:</translation>
+        <source>zXLR Selected:</source>
+        <translation>zXLR Ausgewählt:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2469,7 +2469,7 @@ Bitte haben Sie Geduld...</translation>
         <translation>Ausgeben Zerocoin fehlgeschlagen mit Status =</translation>
     </message>
     <message>
-        <source>zPiv Spend #: </source>
+        <source>zXLR Spend #: </source>
         <translation>zXLR Ausgeben #:</translation>
     </message>
     <message>
@@ -2493,8 +2493,8 @@ Bitte haben Sie Geduld...</translation>
         <translation>Adresse:</translation>
     </message>
     <message>
-        <source>zPiv Mint</source>
-        <translation>zPiv Prägen</translation>
+        <source>zXLR Mint</source>
+        <translation>zXLR Prägen</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -3950,23 +3950,23 @@ Bitte haben Sie Geduld...</translation>
         <translation>Verschleiert</translation>
     </message>
     <message>
-        <source>Converted Piv to zPiv</source>
+        <source>Converted Piv to zXLR</source>
         <translation>Umgewandeltes XLR zu zXLR</translation>
     </message>
     <message>
-        <source>Spent zPiv</source>
+        <source>Spent zXLR</source>
         <translation>Ausgeben zXLR</translation>
     </message>
     <message>
-        <source>Received Piv from zPiv</source>
+        <source>Received Piv from zXLR</source>
         <translation>Empfangene XLR von zXLR</translation>
     </message>
     <message>
-        <source>Minted Change as zPiv from zPiv Spend</source>
+        <source>Minted Change as zXLR from zXLR Spend</source>
         <translation>Geprägtes Wechselgeld als zXLR von zXLR Ausgabe</translation>
     </message>
     <message>
-        <source>Converted zPiv to Piv</source>
+        <source>Converted zXLR to Piv</source>
         <translation>Umgewandeltes zXLR zu XLR</translation>
     </message>
     <message>
@@ -3974,7 +3974,7 @@ Bitte haben Sie Geduld...</translation>
         <translation>nur beobachtet</translation>
     </message>
     <message>
-        <source>zPiv Accumulator</source>
+        <source>zXLR Accumulator</source>
         <translation>zXLR Speicher</translation>
     </message>
     <message>
@@ -4085,7 +4085,7 @@ Bitte haben Sie Geduld...</translation>
         <translation>Masternode Vergütung</translation>
     </message>
     <message>
-        <source>Received Piv from zPiv</source>
+        <source>Received Piv from zXLR</source>
         <translation>Empfangene XLR von zXLR</translation>
     </message>
     <message>
@@ -4097,7 +4097,7 @@ Bitte haben Sie Geduld...</translation>
         <translation>Zerocoin Ausgabe</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPiv</source>
+        <source>Zerocoin Spend, Change in zXLR</source>
         <translation>Zerocoin Ausgabe, Wechselgeld in zXLR</translation>
     </message>
     <message>
@@ -4268,7 +4268,7 @@ Bitte haben Sie Geduld...</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zPiv to Spend</source>
+        <source>Select zXLR to Spend</source>
         <translation>Auswahl zXLR als Ausgabe</translation>
     </message>
     <message>
@@ -4280,7 +4280,7 @@ Bitte haben Sie Geduld...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPiv</source>
+        <source>zXLR</source>
         <translation>zXLR</translation>
     </message>
     <message>

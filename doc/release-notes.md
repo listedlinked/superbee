@@ -46,19 +46,19 @@ frequently tested on them.
 Notable Changes
 ===============
 
-Refactoring of zPiv Spend Validation Code
+Refactoring of zXLR Spend Validation Code
 ---------------------
-zPiv spend validation was too rigid and did not give enough slack for reorganizations. Many staking wallets were unable to reorganize back to the correct blockchain when they had an orphan stake which contained a zPiv spend. zPiv double spending validation has been refactored to properly account for reorganization.
+zXLR spend validation was too rigid and did not give enough slack for reorganizations. Many staking wallets were unable to reorganize back to the correct blockchain when they had an orphan stake which contained a zXLR spend. zXLR double spending validation has been refactored to properly account for reorganization.
 
 Money Supply Calculation Fix
 ---------------------
-Coin supply incorrectly was counting spent zPiv as newly minted coins that are added to the coin supply, thus resulting in innacurate coin supply data.
+Coin supply incorrectly was counting spent zXLR as newly minted coins that are added to the coin supply, thus resulting in innacurate coin supply data.
 
 The coin supply is now correctly calculated and if a new wallet client is synced from scratch or if `-reindex=1` is used then the correct money supply will be calculated. If neither of these two options are used, the wallet client will automatically reindex the money supply calculations upon the first time opening the software after updating to v3.0.4. The reindex takes approximately 10-60 minutes depending on the hardware used. If the reindex is exited mid-process, it will continue where it left off upon restart.
 
 Better Filtering of Transactions in Stake Miner
 ---------------------
-The stake miner code now filters out zPiv double spends that were rarely being slipped into blocks (and being rejected by peers when sent broadcast).
+The stake miner code now filters out zXLR double spends that were rarely being slipped into blocks (and being rejected by peers when sent broadcast).
 
 More Responsive Shutdown Requests
 ---------------------
@@ -75,17 +75,17 @@ git merge commit are mentioned.
 
 ### P2P Protocol and Network Code
 - #294 `27c0943` Add additional checks for txid for zpiv spend. (presstab)
-- #301 `b8392cd` Refactor zPiv tx counting code. Add a final check in ConnectBlock() (presstab)
+- #301 `b8392cd` Refactor zXLR tx counting code. Add a final check in ConnectBlock() (presstab)
 - #306 `77dd55c` [Core] Don't send not-validated blocks (Mrs-X)
 - #312 `5d79bea` [Main] Update last checkpoint data (Fuzzbawls)
-- #325 `7d98ebe` Reindex zPiv blocks and correct stats. (presstab)
+- #325 `7d98ebe` Reindex zXLR blocks and correct stats. (presstab)
 - #327 `aa1235a` [Main] Don't limit zXLR spends from getting into the mempool (Fuzzbawls)
 - #329 `19b38b2` Update checkpoints. (presstab)
 - #331 `b1fb710` [Consensus] Bump protocol. Activate via Spork 15. (rejectedpromise)
 
 ### Wallet
 - #308 `bd8a982` [Minting] Clear mempool after invalid block from miner (presstab)
-- #316 `ed192cf` [Minting] Better filtering of zPiv serials in miner. (presstab)
+- #316 `ed192cf` [Minting] Better filtering of zXLR serials in miner. (presstab)
 
 ### GUI
 - #309 `f560ffc` [UI] Better error message when too much inputs are used for spending zXLR (Mrs-X)
