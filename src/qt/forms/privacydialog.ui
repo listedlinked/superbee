@@ -145,7 +145,7 @@
                   </size>
                  </property>
                  <property name="toolTip">
-                  <string>Enter an amount of Piv to convert to zXLR</string>
+                  <string>Enter an amount of XLR to convert to zXLR</string>
                  </property>
                  <property name="text">
                   <string>Mint Zerocoin</string>
@@ -191,7 +191,7 @@
                <item>
                 <widget class="QLabel" name="labelzXLRAmountValue">
                  <property name="toolTip">
-                  <string>Enter an amount of Piv to convert to zXLR</string>
+                  <string>Enter an amount of XLR to convert to zXLR</string>
                  </property>
                  <property name="text">
                   <string>0.000 000 00 XLR</string>
@@ -474,7 +474,7 @@
                 <number>0</number>
                </property>
                <item>
-                <widget class="QPushButton" name="pushButtonZPivControl">
+                <widget class="QPushButton" name="pushButtonZXLRControl">
                  <property name="text">
                   <string>zXLR Control</string>
                  </property>

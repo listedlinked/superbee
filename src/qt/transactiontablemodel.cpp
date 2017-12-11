@@ -356,15 +356,15 @@ QString TransactionTableModel::formatTxType(const TransactionRecord* wtx) const
     case TransactionRecord::Obfuscated:
         return tr("Obfuscated");
     case TransactionRecord::ZerocoinMint:
-        return tr("Converted Piv to zXLR");
+        return tr("Converted XLR to zXLR");
     case TransactionRecord::ZerocoinSpend:
         return tr("Spent zXLR");
     case TransactionRecord::RecvFromZerocoinSpend:
-        return tr("Received Piv from zXLR");
+        return tr("Received XLR from zXLR");
     case TransactionRecord::ZerocoinSpend_Change_zXLR:
         return tr("Minted Change as zXLR from zXLR Spend");
     case TransactionRecord::ZerocoinSpend_FromMe:
-        return tr("Converted zXLR to Piv");
+        return tr("Converted zXLR to XLR");
 
     default:
         return QString();

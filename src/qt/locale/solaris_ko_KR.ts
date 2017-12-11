@@ -2080,7 +2080,7 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 Solaris 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zXLR</source>
+        <source>Enter an amount of XLR to convert to zXLR</source>
         <translation>zXLR로 변환할 XLR 수량을 입력하세요.</translation>
     </message>
     <message>
@@ -3961,7 +3961,7 @@ Please be patient...</source>
         <translation>난독화</translation>
     </message>
     <message>
-        <source>Converted Piv to zXLR</source>
+        <source>Converted XLR to zXLR</source>
         <translation>zXLR로 변환된 XLR</translation>
     </message>
     <message>
@@ -3969,7 +3969,7 @@ Please be patient...</source>
         <translation>전송된 zXLR</translation>
     </message>
     <message>
-        <source>Received Piv from zXLR</source>
+        <source>Received XLR from zXLR</source>
         <translation>zXLR로 전송받은 XLR</translation>
     </message>
     <message>
@@ -3977,8 +3977,8 @@ Please be patient...</source>
         <translation>zXLR 전송후 남은 잔돈 zXLR 생성됨</translation>
     </message>
     <message>
-        <source>Converted zXLR to Piv</source>
-        <translation>zXLR에서 Piv로 변환됨</translation>
+        <source>Converted zXLR to XLR</source>
+        <translation>zXLR에서 XLR로 변환됨</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -4096,7 +4096,7 @@ Please be patient...</source>
         <translation>마스터노드 보상 </translation>
     </message>
     <message>
-        <source>Received Piv from zXLR</source>
+        <source>Received XLR from zXLR</source>
         <translation>zXLR로 전송받은 XLR</translation>
     </message>
     <message>
@@ -4277,7 +4277,7 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZXLRControlDialog</name>
     <message>
         <source>Select zXLR to Spend</source>
         <translation>전송할 zXLR 선택</translation>

@@ -14,7 +14,7 @@
 #include "sendcoinsentry.h"
 #include "walletmodel.h"
 #include "coincontrol.h"
-#include "zpivcontroldialog.h"
+#include "zxlrcontroldialog.h"
 #include "spork.h"
 
 #include <QClipboard>
@@ -281,14 +281,14 @@ void PrivacyDialog::on_pushButtonSpendzXLR_clicked()
     sendzXLR();
 }
 
-void PrivacyDialog::on_pushButtonZPivControl_clicked()
+void PrivacyDialog::on_pushButtonZXLRControl_clicked()
 {
-    ZPivControlDialog* zXLRControl = new ZPivControlDialog(this);
+    ZXLRControlDialog* zXLRControl = new ZXLRControlDialog(this);
     zXLRControl->setModel(walletModel);
     zXLRControl->exec();
 }
 
-void PrivacyDialog::setZPivControlLabels(int64_t nAmount, int nQuantity)
+void PrivacyDialog::setZXLRControlLabels(int64_t nAmount, int nQuantity)
 {
     ui->labelzXLRSelected_int->setText(QString::number(nAmount));
     ui->labelQuantitySelected_int->setText(QString::number(nQuantity));
@@ -398,8 +398,8 @@ void PrivacyDialog::sendzXLR()
 
     // use mints from zXLR selector if applicable
     vector<CZerocoinMint> vMintsSelected;
-    if (!ZPivControlDialog::listSelectedMints.empty()) {
-        vMintsSelected = ZPivControlDialog::GetSelectedMints();
+    if (!ZXLRControlDialog::listSelectedMints.empty()) {
+        vMintsSelected = ZXLRControlDialog::GetSelectedMints();
     }
 
     // Spend zXLR
@@ -434,8 +434,8 @@ void PrivacyDialog::sendzXLR()
         return;
     }
 
-    // Clear zpiv selector in case it was used
-    ZPivControlDialog::listSelectedMints.clear();
+    // Clear zxlr selector in case it was used
+    ZXLRControlDialog::listSelectedMints.clear();
 
     // Some statistics for entertainment
     QString strStats = "";
@@ -451,7 +451,7 @@ void PrivacyDialog::sendzXLR()
 
     CAmount nValueOut = 0;
     for (const CTxOut& txout: wtxNew.vout) {
-        strStats += tr("value out: ") + FormatMoney(txout.nValue).c_str() + " Piv, ";
+        strStats += tr("value out: ") + FormatMoney(txout.nValue).c_str() + " XLR, ";
         nValueOut += txout.nValue;
 
         strStats += tr("address: ");

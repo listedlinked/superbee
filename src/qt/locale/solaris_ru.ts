@@ -2032,8 +2032,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью Solaris после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zXLR</source>
-        <translation>Введите сумму в Piv для  конвертации в zXLR</translation>
+        <source>Enter an amount of XLR to convert to zXLR</source>
+        <translation>Введите сумму в XLR для  конвертации в zXLR</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -3198,7 +3198,7 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZXLRControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

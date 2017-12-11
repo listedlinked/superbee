@@ -2076,7 +2076,7 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с Solaris мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zXLR</source>
+        <source>Enter an amount of XLR to convert to zXLR</source>
         <translation>Въведете колко XLR  да се конвертират в zXLR</translation>
     </message>
     <message>
@@ -3955,7 +3955,7 @@ Please be patient...</source>
         <translation>Обфускирани</translation>
     </message>
     <message>
-        <source>Converted Piv to zXLR</source>
+        <source>Converted XLR to zXLR</source>
         <translation>Конвертиран XLR във zXLR</translation>
     </message>
     <message>
@@ -3963,7 +3963,7 @@ Please be patient...</source>
         <translation>Похарчени zXLR</translation>
     </message>
     <message>
-        <source>Received Piv from zXLR</source>
+        <source>Received XLR from zXLR</source>
         <translation>Получен XLR от zXLR</translation>
     </message>
     <message>
@@ -3971,7 +3971,7 @@ Please be patient...</source>
         <translation>Исечено ресто като zXLR от похарчените zXLR</translation>
     </message>
     <message>
-        <source>Converted zXLR to Piv</source>
+        <source>Converted zXLR to XLR</source>
         <translation>Конвертирани zXLR в XLR</translation>
     </message>
     <message>
@@ -4086,7 +4086,7 @@ Please be patient...</source>
         <translation>Мастърноуд възнаграждение</translation>
     </message>
     <message>
-        <source>Received Piv from zXLR</source>
+        <source>Received XLR from zXLR</source>
         <translation>Получен XLR от zXLR</translation>
     </message>
     <message>
@@ -4259,7 +4259,7 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZXLRControlDialog</name>
     <message>
         <source>Select zXLR to Spend</source>
         <translation>Изберете zXLR за Изпращане</translation>

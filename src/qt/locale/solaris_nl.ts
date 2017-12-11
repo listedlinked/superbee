@@ -2063,8 +2063,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het Solaris netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zXLR</source>
-        <translation>Vul de hoeveleheid in om Piv te converteren naar zXLR</translation>
+        <source>Enter an amount of XLR to convert to zXLR</source>
+        <translation>Vul de hoeveleheid in om XLR te converteren naar zXLR</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -3939,24 +3939,24 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Verduisterd</translation>
     </message>
     <message>
-        <source>Converted Piv to zXLR</source>
-        <translation>Geconverteerde Piv naar zXLR</translation>
+        <source>Converted XLR to zXLR</source>
+        <translation>Geconverteerde XLR naar zXLR</translation>
     </message>
     <message>
         <source>Spent zXLR</source>
         <translation>Uitgegeven zXLR</translation>
     </message>
     <message>
-        <source>Received Piv from zXLR</source>
-        <translation>Verkregen Piv van zXLR</translation>
+        <source>Received XLR from zXLR</source>
+        <translation>Verkregen XLR van zXLR</translation>
     </message>
     <message>
         <source>Minted Change as zXLR from zXLR Spend</source>
         <translation>Minted wisselgeld als zXLR van uitgegeven zXLR</translation>
     </message>
     <message>
-        <source>Converted zXLR to Piv</source>
-        <translation>Geconverteerde zXLR naar Piv</translation>
+        <source>Converted zXLR to XLR</source>
+        <translation>Geconverteerde zXLR naar XLR</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -4074,8 +4074,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Masternode beloning</translation>
     </message>
     <message>
-        <source>Received Piv from zXLR</source>
-        <translation>Verkregen Piv van zXLR</translation>
+        <source>Received XLR from zXLR</source>
+        <translation>Verkregen XLR van zXLR</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4255,7 +4255,7 @@ Wees alsjeblieft geduldig...</translation>
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZXLRControlDialog</name>
     <message>
         <source>Select zXLR to Spend</source>
         <translation>Selecteer zXLR om te spenderen</translation>

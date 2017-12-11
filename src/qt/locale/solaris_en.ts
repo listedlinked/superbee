@@ -2737,7 +2737,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     <message>
         <location line="+52"/>
         <location line="+46"/>
-        <source>Enter an amount of Piv to convert to zXLR</source>
+        <source>Enter an amount of XLR to convert to zXLR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5270,7 +5270,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted Piv to zXLR</source>
+        <source>Converted XLR to zXLR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5280,7 +5280,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Received Piv from zXLR</source>
+        <source>Received XLR from zXLR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5290,7 +5290,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted zXLR to Piv</source>
+        <source>Converted zXLR to XLR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5439,7 +5439,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Received Piv from zXLR</source>
+        <source>Received XLR from zXLR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5664,9 +5664,9 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZXLRControlDialog</name>
     <message>
-        <location filename="../forms/zpivcontroldialog.ui" line="+20"/>
+        <location filename="../forms/zxlrcontroldialog.ui" line="+20"/>
         <source>Select zXLR to Spend</source>
         <translation type="unfinished"></translation>
     </message>

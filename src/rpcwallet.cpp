@@ -2401,7 +2401,7 @@ Value mintzerocoin(const Array& params, bool fHelp)
     if (fHelp || params.size() != 1)
         throw runtime_error(
             "mintzerocoin <amount>\n"
-            "Usage: Enter an amount of Piv to convert to zXLR"
+            "Usage: Enter an amount of XLR to convert to zXLR"
             + HelpRequiringPassphrase());
 
     int64_t nTime = GetTimeMillis();

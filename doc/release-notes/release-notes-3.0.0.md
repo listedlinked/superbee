@@ -58,7 +58,7 @@ Other implementations of the zerocoin protocol only allow for spending of one de
 The Solaris zerocoin implementation is structured in such a way that denominations aren't needed to be known by the average user.
 
 ### Fees
-zXLR transactions require more computation and disk space than typical Solaris transactions, and as such require a higher transaction fee in order to prevent network spam. Fees are only charged when minting zXLR, each minted denomination is charged a flat rate of 0.01 Piv. zXLR spends are not charged a transaction fee unless the change is minted into zXLR, see the *Minting Change* section for details on fees for zXLR spends with minted change.
+zXLR transactions require more computation and disk space than typical Solaris transactions, and as such require a higher transaction fee in order to prevent network spam. Fees are only charged when minting zXLR, each minted denomination is charged a flat rate of 0.01 XLR. zXLR spends are not charged a transaction fee unless the change is minted into zXLR, see the *Minting Change* section for details on fees for zXLR spends with minted change.
 
 ### Converting XLR to zXLR (*zXLR Mint*)
 **GUI** - Conversion from XLR to zXLR can be done using the `Privacy Dialog` in the QT wallet. Enter the amount of XLR you would like to convert and click `Mint Zerocoin`.

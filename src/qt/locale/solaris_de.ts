@@ -2071,8 +2071,8 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
         <translation>Die angezeigte Information ist möglicherweise nicht mehr aktuell. Ihre Wallet synchronisiert sich automatisch mit dem Solaris-Netzwerk, nachdem eine Verbindung hergestellt wurde. Aber dieser Vorgang ist noch nicht abgeschlossen.</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zXLR</source>
-        <translation>Eingabe des Piv-Betrags, um in zXLR umzuwandeln</translation>
+        <source>Enter an amount of XLR to convert to zXLR</source>
+        <translation>Eingabe des XLR-Betrags, um in zXLR umzuwandeln</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -3950,7 +3950,7 @@ Bitte haben Sie Geduld...</translation>
         <translation>Verschleiert</translation>
     </message>
     <message>
-        <source>Converted Piv to zXLR</source>
+        <source>Converted XLR to zXLR</source>
         <translation>Umgewandeltes XLR zu zXLR</translation>
     </message>
     <message>
@@ -3958,7 +3958,7 @@ Bitte haben Sie Geduld...</translation>
         <translation>Ausgeben zXLR</translation>
     </message>
     <message>
-        <source>Received Piv from zXLR</source>
+        <source>Received XLR from zXLR</source>
         <translation>Empfangene XLR von zXLR</translation>
     </message>
     <message>
@@ -3966,7 +3966,7 @@ Bitte haben Sie Geduld...</translation>
         <translation>Geprägtes Wechselgeld als zXLR von zXLR Ausgabe</translation>
     </message>
     <message>
-        <source>Converted zXLR to Piv</source>
+        <source>Converted zXLR to XLR</source>
         <translation>Umgewandeltes zXLR zu XLR</translation>
     </message>
     <message>
@@ -4085,7 +4085,7 @@ Bitte haben Sie Geduld...</translation>
         <translation>Masternode Vergütung</translation>
     </message>
     <message>
-        <source>Received Piv from zXLR</source>
+        <source>Received XLR from zXLR</source>
         <translation>Empfangene XLR von zXLR</translation>
     </message>
     <message>
@@ -4266,7 +4266,7 @@ Bitte haben Sie Geduld...</translation>
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZXLRControlDialog</name>
     <message>
         <source>Select zXLR to Spend</source>
         <translation>Auswahl zXLR als Ausgabe</translation>

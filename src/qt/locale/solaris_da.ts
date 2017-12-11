@@ -3761,7 +3761,7 @@ https://www.transifex.com/solaris-project/solaris-project-translations</translat
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZXLRControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
