@@ -1635,8 +1635,9 @@ bool AppInit2(boost::thread_group& threadGroup)
     }
 
     // ********************************************************* Step 10: setup ObfuScation
-
-    uiInterface.InitMessage(_("Loading masternode cache..."));
+	InitRPCMining();
+    
+	uiInterface.InitMessage(_("Loading masternode cache..."));
 
     CMasternodeDB mndb;
     CMasternodeDB::ReadResult readResult = mndb.Read(mnodeman);
