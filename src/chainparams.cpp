@@ -119,12 +119,18 @@ public:
         /** Height or Time Based Activations **/
         nLastPOWBlock = 259200;
         nModifierUpdateBlock = 1;
-        nZerocoinStartHeight = 259201;
-        nBlockEnforceSerialRange = 259204; //Enforce serial range starting this block
-        nBlockRecalculateAccumulators = 259206; //Trigger a recalculation of accumulators
-        nBlockFirstFraudulent = 259203; //First block that bad serials emerged
-        nBlockLastGoodCheckpoint = 259206; //Last valid accumulator checkpoint
-        nZerocoinStartTime = 1517493600; // February 1, 2018 2:00:00 PM UTC
+		
+		
+		
+		
+		
+		
+        nZerocoinStartHeight = 146370;
+        nBlockEnforceSerialRange = 146373; //Enforce serial range starting this block
+        nBlockRecalculateAccumulators = 146375; //Trigger a recalculation of accumulators
+        nBlockFirstFraudulent = 146372; //First block that bad serials emerged
+        nBlockLastGoodCheckpoint = 146375; //Last valid accumulator checkpoint
+        nZerocoinStartTime = 1515592800; // January 10, 2018 2:00:00 PM UTC
 		
 		const char* pszTimestamp = "Solaris 30-09-2017";
 		
