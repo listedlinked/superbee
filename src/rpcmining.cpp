@@ -526,7 +526,7 @@ Value getblocktemplate(const Array& params, bool fHelp)
 		
 		CPubKey pubkey;
 		if (!pMiningKey->GetReservedKey(pubkey))
-			return NULL;
+			return Value::null;
 		
         CScript scriptDummy = CScript() << ToByteVector(pubkey) << OP_CHECKSIG;
         pblocktemplate = CreateNewBlock(scriptDummy, pwalletMain, false);
