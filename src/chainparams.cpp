@@ -60,14 +60,15 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 	(89319, uint256("0x00000000031005c122f47eef1495a44221632fc7cc94b6b5ff68bc7da826c012"))	
 	(95771, uint256("0x00000000021cef5896d94a2d87d928d8fdf943a8d260386471e06b03c635acc6"))
 	(104581, uint256("0x0000000001040e54fab7cb94317cade9461c6500c77a492ba1afd4d04949861b"))
-	(127770, uint256("0x000000000053c7733ed070490012321680e21557bb309ebc0e52265326ffbd0d"));
+	(127770, uint256("0x000000000053c7733ed070490012321680e21557bb309ebc0e52265326ffbd0d"))
+	(130116, uint256("0x000000000059038c0121e8c503ba86ca6233b25f0ab1c4836be94d5e1bc79db9"));	
 	
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1513984312, // * UNIX timestamp of last checkpoint block
-    120912,    // * total number of transactions between genesis and last checkpoint
+    1515592790, // * UNIX timestamp of last checkpoint block
+    157287,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    2000        // * estimated number of transactions per day after checkpoint
+    14400        // * estimated number of transactions per day after checkpoint
 };
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x001"));
@@ -122,17 +123,9 @@ public:
         nLastPOWBlock = 259200;
         nModifierUpdateBlock = 1;
 		
-		
-		
-		
-		
-		
-        nZerocoinStartHeight = 146370;
-        nBlockEnforceSerialRange = 146373; //Enforce serial range starting this block
-        nBlockRecalculateAccumulators = 146375; //Trigger a recalculation of accumulators
-        nBlockFirstFraudulent = 146372; //First block that bad serials emerged
-        nBlockLastGoodCheckpoint = 146375; //Last valid accumulator checkpoint
-        nZerocoinStartTime = 1515592800; // January 10, 2018 2:00:00 PM UTC
+        nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
+        nZerocoinStartTime = 1515592800; // January 10, 2018 2:00:00 PM UTC				
+		nZerocoinStartHeight = 146370;
 		
 		const char* pszTimestamp = "Solaris 30-09-2017";
 		

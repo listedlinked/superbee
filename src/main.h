@@ -370,7 +370,6 @@ bool RemoveSerialFromDB(const CBigNum& bnSerial);
 int GetZerocoinStartHeight();
 bool IsTransactionInChain(uint256 txId, int& nHeightTx);
 bool IsBlockHashInChain(const uint256& hashBlock);
-void PopulateInvalidOutPointMap();
 bool ValidOutPoint(const COutPoint out, int nHeight);
 void RecalculateZXLRSpent();
 void RecalculateZXLRMinted();
