@@ -124,8 +124,8 @@ public:
         nModifierUpdateBlock = 1;
 		
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
-        nZerocoinStartTime = 1515592800; // January 10, 2018 2:00:00 PM UTC				
-		nZerocoinStartHeight = 146370;
+        nZerocoinStartTime = 1523653200; // April 13, 2018 21:00:00 UTC
+		nZerocoinStartHeight = 262596;
 		
 		const char* pszTimestamp = "Solaris 30-09-2017";
 		
