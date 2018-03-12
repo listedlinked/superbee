@@ -45,31 +45,13 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-	(0, uint256("0x00000c393bf1eaf9757be560092cc08a7b1ff0345e874b12521522e27862d7d7"))
-	(2, uint256("0x00000310d966793ec3dd080a97b10afa0c848432c01b4053d2c6f206e1449e28"))
-	(1479, uint256("0x00000000071b53f74e2f55ffa657cf1fc39807fb584e797ed0c6b22a4527d51c"))
-	(5000, uint256("0x0000000002afc607345f345261bf9713c7a9cf8d50191cb338250bd4be0090b5"))
-	(10000, uint256("0x000000000a43a6d2b09f1dbf4ea454b639838fb43686158e131d8b7a36777ca6"))
-	(20000, uint256("0x0000000000e1a4f0659738de768c662164a20f11ca16c77dde422ee2d7369a80"))
-	(30000, uint256("0x00000000040ac4aa7fda2d6fdd2745c788469b482eec8da79842e88bbbfc70c3"))
-	(40000, uint256("0x0000000003265c4aded591f0b648b626abf0e4316295b6baeeadbb6c744f768e"))
-	(50000, uint256("0x00000000052c4943642d41377f0968650871a5351c896a4cfe74e41edd2adf28"))
-	(60000, uint256("0x00000000016a565d7d8b0c96138a9d6873510fece3beffd5295ea517ce4e6b8d"))
-	(70000, uint256("0x00000000039673e6ee9944479068800c78f479dfb6b5d23d748d542af073440d"))
-	(80000, uint256("0x0000000008dacfe17e44c93490c36c4d365fb6309f614c05bfa9952e9c08765f"))
-	(89319, uint256("0x00000000031005c122f47eef1495a44221632fc7cc94b6b5ff68bc7da826c012"))	
-	(95771, uint256("0x00000000021cef5896d94a2d87d928d8fdf943a8d260386471e06b03c635acc6"))
-	(104581, uint256("0x0000000001040e54fab7cb94317cade9461c6500c77a492ba1afd4d04949861b"))
-	(127770, uint256("0x000000000053c7733ed070490012321680e21557bb309ebc0e52265326ffbd0d"))
-	(130116, uint256("0x000000000059038c0121e8c503ba86ca6233b25f0ab1c4836be94d5e1bc79db9"))
-	(152989, uint256("0x0000000000a34969026f2d3e05aa2e8464581107530d8c40ea353dc4244d3161"))
-	(212169, uint256("0x00000000005f7efd88cc09dd9de600150868a75e27a4cb363801e79e5dda4d6d"));
+	(0, uint256("0x00000c393bf1eaf9757be560092cc08a7b1ff0345e874b12521522e27862d7d7"));
 	
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1520885528, // * UNIX timestamp of last checkpoint block
-    259234,    // * total number of transactions between genesis and last checkpoint
+    1506779239, // * UNIX timestamp of last checkpoint block
+    0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     14400        // * estimated number of transactions per day after checkpoint
 };
@@ -113,8 +95,8 @@ public:
         pchMessageStart[2] = 0x01;
         pchMessageStart[3] = 0xa1;
         vAlertPubKey = ParseHex("045da9271f5d9df405d9e83c7c7e62e9c831cc85c51ffaa6b515c4f9c845dec4bf256460003f26ba9d394a17cb57e6759fe231eca75b801c20bccd19cbe4b7942d");
-        nDefaultPort = 60020;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // Solaris starting difficulty is 1 / 2^12
+        nDefaultPort = 60021;
+        bnProofOfWorkLimit = ~uint256(0) >> 0; // Solaris starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nMinerThreads = 0;
