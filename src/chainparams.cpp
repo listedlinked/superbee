@@ -64,15 +64,16 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 	(130116, uint256("0x000000000059038c0121e8c503ba86ca6233b25f0ab1c4836be94d5e1bc79db9"))
 	(152989, uint256("0x0000000000a34969026f2d3e05aa2e8464581107530d8c40ea353dc4244d3161"))
 	(212169, uint256("0x00000000005f7efd88cc09dd9de600150868a75e27a4cb363801e79e5dda4d6d"))
-	(233743, uint256("0x00000000005c3dd73f74c2dc59573c040851a47d4d0a51fa627b120ddf65fab7"));
+	(233743, uint256("0x00000000005c3dd73f74c2dc59573c040851a47d4d0a51fa627b120ddf65fab7"))
+	(259681, uint256("0x39d56c95f55f6252d5f8b476cfda56a7fff68b6db4bef208ec1700da5fca1e2a"));
 	
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1522247712, // * UNIX timestamp of last checkpoint block
-    286541,    // * total number of transactions between genesis and last checkpoint
+    1523960368, // * UNIX timestamp of last checkpoint block
+    320504,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    1800        // * estimated number of transactions per day after checkpoint
+    2880        // * estimated number of transactions per day after checkpoint
 };
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x001"));
@@ -128,7 +129,7 @@ public:
         nModifierUpdateBlock = 1;
 		
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
-        nZerocoinStartTime = 1524060000; // Wednesday 18 April 2018 14:00:00 UTC
+        nZerocoinStartTime = 1523891665; // Monday, April 16, 2018 5:14:25 PM GMT+02:00 DST
 		nZerocoinStartHeight = 259300;
 		
 		const char* pszTimestamp = "Solaris 30-09-2017";
