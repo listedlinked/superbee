@@ -11,7 +11,7 @@
 </ul>
 <p><strong><span style="color: #800080;"><em>PoS Block Reward:</em></span></strong></p>
 <ul>
-<li>[block# 259201-Infinite] Variable based on SeeSaw Reward Mechanism</li>
+<li>[block# 259201-Infinite] 80% for masternodes and 20% for stakers</li>
 </ul>
 <p><strong><span style="color: #800080;"><em>Block Time:</em></span></strong></p>
 <ul>
@@ -39,18 +39,18 @@
 <li>[block&rsquo;s &nbsp; 43201-151200] 20% MN (0.4 XLR) &nbsp; &nbsp;/ 70% MINER (1.4 XLR) &nbsp;/ 10% Available to the budget system (0.20 XLR)</li>
 <li>[block&rsquo;s 151201-259200] 45% MN (0.9 XLR) / 45% MINER (0.9 XLR) / 10% Available to the budget system ( &nbsp;0.2 XLR)</li>
 </ul>
-<p><strong><span style="color: #800080;"><em>PoS Rewards Breakdown:</em></span></strong></p>
+<p><strong><span style="color: #800080;"><em>PoS Rewards <small><i>(80% for masternodes and 20% for stakers)</i></small> Breakdown:</em></span></strong></p>
 <ul>
-<li>PoS Phase 1: [blocks 259201-302399] 1 XLR (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 2: [blocks 302400-345599] 0.95 XLR (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 3: [blocks 345600-388799] 0.9 XLR (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 4: [blocks 388800-431999] 0.85 XLR (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 5: [blocks 432000-475199] 0.80 XLR (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 6: [blocks 475200-518399] 0.75 XLR (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 7: [blocks 518400-561599] 0.70 XLR (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 8: [blocks 561600-604799] 0.75 XLR (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase 9: [blocks 604800-647999] 0.70 XLR (90% distributed to staker and masternode - 10% available to budget system)</li>
-<li>PoS Phase X: [blocks 648000-Infinite] &nbsp; 0.25 XLR (90% distributed to staker and masternode - 10% available to budget system)</li>
+<li>PoS Phase 1: [blocks 259201-302399] 1 XLR</li>
+<li>PoS Phase 2: [blocks 302400-345599] 0.95 XLR</li>
+<li>PoS Phase 3: [blocks 345600-388799] 0.9 XLR</li>
+<li>PoS Phase 4: [blocks 388800-431999] 0.85 XLR</li>
+<li>PoS Phase 5: [blocks 432000-475199] 0.80 XLR</li>
+<li>PoS Phase 6: [blocks 475200-518399] 0.75 XLR</li>
+<li>PoS Phase 7: [blocks 518400-561599] 0.70 XLR</li>
+<li>PoS Phase 8: [blocks 561600-604799] 0.75 XLR</li>
+<li>PoS Phase 9: [blocks 604800-647999] 0.70 XLR</li>
+<li>PoS Phase X: [blocks 648000-Infinite] &nbsp; 0.25 XLR</li>
 </ul>
 <br/>
 <p>&nbsp;</p>
