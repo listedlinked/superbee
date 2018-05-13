@@ -1,258 +1,258 @@
-<TS language="nl" version="2.1">
+<TS language="ko_KR" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Klik met de rechtermuisknop om het adres of label te wijzigen</translation>
+        <translation>주소 및 라벨을 수정하려면 마우스 오른쪽 버튼을 클릭해주세요.</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Maak een nieuw adres aan</translation>
+        <translation>새로운 주소 만들기</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Nieuw</translation>
+        <translation>&amp;생성</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopieer het geselecteerde adres naar het klembord</translation>
+        <translation>현재 선택된 주소를 복사합니다.</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopiëren</translation>
+        <translation>&amp;복사</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Verwijder het geselecteerde adres uit de lijst</translation>
+        <translation>현재 선택된 주소를 목록에서 삭제합니다.</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Verwijderen</translation>
+        <translation>&amp;삭제</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exporteer de data in de huidige tab naar een bestand</translation>
+        <translation>현재 선택된 탭의 데이터를 파일로 내보내기</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Exporteren</translation>
+        <translation>&amp;내보내기</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;Sluiten</translation>
+        <translation>닫&amp;기</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Kies het adres om naar te versturen</translation>
+        <translation>전송할 주소를 선택해주세요.</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Kies het adres om op te ontvangen</translation>
+        <translation>전송 받을 주소를 선택해주세요.</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>K&amp;iezen</translation>
+        <translation>선&amp;택</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Verzendadressen</translation>
+        <translation>보낼 주소</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Ontvangstadressen</translation>
+        <translation>받는 주소</translation>
     </message>
     <message>
         <source>These are your Superbee addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Superbeeadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
+        <translation>이 주소들은 전송할 Superbee 주소입니다. 송금하기 전 항상 금액과 전송할 주소를 확인해주세요.</translation>
     </message>
     <message>
         <source>These are your Superbee addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw Superbeeadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <translation>이 주소들은 전송 받을 Superbee 주소입니다. 각 트랜잭션별로 새로운 입금 주소를 사용하는 것이 좋습니다.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Kopiëer Adres</translation>
+        <translation>&amp;주소 복사</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Kopiëer &amp;Label</translation>
+        <translation>라벨 &amp;복사</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Bewerken</translation>
+        <translation>&amp;수정</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Exporteer Adreslijst</translation>
+        <translation>주소록 내보내기</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Kommagescheiden bestand (*.csv)</translation>
+        <translation>콤마로 구분 된 파일 (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Export Mislukt</translation>
+        <translation>내보내기 실패</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Een fout is opgetreden tijdens het opslaan van deze adreslijst naar %1. Probeer het nogmaals.</translation>
+        <translation>%1 에 주소 목록을 저장하는 동안 오류가 발생하였습니다. 다시 시도해주세요.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>라벨</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>주소</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(geen label)</translation>
+        <translation>(라벨 없음)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Wachtwoorddialoog</translation>
+        <translation>암호 대화상자</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Voer wachtwoord in</translation>
+        <translation>암호 입력</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nieuw wachtwoord</translation>
+        <translation>새로운 암호</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Herhaal nieuw wachtwoord</translation>
+        <translation>새로운 암호 확인</translation>
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>Dient om de triviale sendmoney uit te schakelen wanneer het OS account in gevaar is gebracht. Geeft geen echte veiligheid.</translation>
+        <translation>운영체제 계정이 손상되었을 때 일반적인 송금을 비활성화 합니다. 실질적인 보안을 제공하지 않습니다.</translation>
     </message>
     <message>
         <source>For anonymization and staking only</source>
-        <translation>Alleen voor anonimisering en staking</translation>
+        <translation>익명화 및 스테이킹 전용</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Voer een nieuw wachtwoord in voor uw portemonnee.&lt;br/&gt;Gebruik een wachtwoord van &lt;b&gt;tien of meer willekeurige karakters&lt;/b&gt;, of &lt;b&gt;acht of meer woorden&lt;/b&gt;.</translation>
+        <translation>지갑에 새로운 암호를 입력해주세요. &lt;br/&gt;&lt;b&gt;10자리 이상의 임의의 문자&lt;/b&gt; 또는, &lt;b&gt;8개 이상의 단어&lt;/b&gt;로 구성된 암호를 입력해주세요.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Versleutel portemonnee</translation>
+        <translation>지갑 암호화</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Deze operatie vereist uw portemonneewachtwoord om de portemonnee te openen.</translation>
+        <translation>이 작업은 지갑의 암호를 풀어 지갑을 잠금해제를 진행해야 합니다.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Open portemonnee</translation>
+        <translation>지갑 잠금해제</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Deze operatie vereist uw portemonneewachtwoord om de portemonnee te ontsleutelen</translation>
+        <translation>이 작업은 지갑 암호화 해제를 하셔야 가능합니다.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Ontsleutel portemonnee</translation>
+        <translation>지갑 암호화 해제</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Wijzig wachtwoord</translation>
+        <translation>암호 변경</translation>
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Voer het oude en nieuwe wachtwoord voor uw portemonnee in.</translation>
+        <translation>지갑에 사용할 이전 암호와 새로운 암호를 입력해주세요.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Bevestig versleuteling van de portemonnee</translation>
+        <translation>지갑 암호화 확인</translation>
     </message>
     <message>
         <source>Superbee will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
-        <translation>Superbee zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw XLRs stelen.</translation>
+        <translation>Superbee는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 XLRs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
+        <translation>지갑을 암호화 하시겠습니까?</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XLR&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW XLR VERLIEZEN&lt;/b&gt;!</translation>
+        <translation>경고: 지갑 암호화 후 암호를 분실하게 되면 &lt;b&gt;모든 XLR를 잃게 됩니다&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Portemonnee versleuteld</translation>
+        <translation>지갑 암호화 완료</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>BELANGRIJK: Elke eerder gemaakte backup van uw portemonneebestand dient te worden vervangen door het nieuw gegenereerde, versleutelde portemonneebestand. Om veiligheidsredenen zullen eerdere backups van het niet-versleutelde portemonneebestand onbruikbaar worden zodra u uw nieuwe, versleutelde, portemonnee begint te gebruiken.</translation>
+        <translation>중요: 이전에 지갑 파일로 백업 한 경우 지갑 파일을 암호화 된 지갑 파일로 대체해야 합니다. 보안상 문제로, 암호화되지 않은 지갑 파일의 이전 백업은 새롭게 암호화 된 지갑을 사용하게 되면 쓸모없게 될 것입니다.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Portemonneeversleuteling mislukt</translation>
+        <translation>지갑 암호화 실패</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Portemonneeversleuteling mislukt door een interne fout. Uw portemonnee is niet versleuteld.</translation>
+        <translation>내부 오류로 인해 지갑 암호화에 실패했습니다. 지갑이 암호화되지 않았습니다.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>De opgegeven wachtwoorden komen niet overeen.</translation>
+        <translation>암호가 일치하지 않습니다.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Portemonnee openen mislukt</translation>
+        <translation>지갑 잠금해제 실패</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Het opgegeven wachtwoord voor de portemonnee-ontsleuteling is niet correct.</translation>
+        <translation>입력한 지갑 암호가 올바르지 않습니다.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Portemonnee-ontsleuteling mislukt</translation>
+        <translation>지갑 암호화 해제 실패</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Portemonneewachtwoord is met succes gewijzigd.</translation>
+        <translation>지갑 암호가 변경되었습니다.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Waarschuwing: De Caps-Lock-toets staat aan!</translation>
+        <translation>경고: Caps Lock 키가 켜져있습니다!</translation>
     </message>
 </context>
 <context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
-        <translation>BIP 38 Tool</translation>
+        <translation>BIP 38 도구</translation>
     </message>
     <message>
         <source>&amp;BIP 38 Encrypt</source>
-        <translation>&amp;BIP 38 Versleuteling</translation>
+        <translation>&amp;BIP 38 암호화</translation>
     </message>
     <message>
         <source>Enter a Superbee Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een Superbee adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
+        <translation>BIP 38을 사용하여 암호화 할 Superbee 주소를 입력하십시오. 중간 입력창에 암호를 입력하십시오. 암호화를 누르면 암호화된 개인 키가 계산됩니다.</translation>
     </message>
     <message>
         <source>Address:</source>
-        <translation>Adres:</translation>
+        <translation>주소:</translation>
     </message>
     <message>
         <source>The Superbee address to sign the message with</source>
-        <translation>Het Superbee adres om het bericht met te ondertekenen</translation>
+        <translation>메세지를 서명하기 위한 Superbee 주소</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Kies een eerder gebruikt adres</translation>
+        <translation>이전에 사용한 주소 선택</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -260,7 +260,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Plak adres vanaf klembord</translation>
+        <translation>클립보드에서 주소 붙여 넣기</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -268,514 +268,518 @@
     </message>
     <message>
         <source>Passphrase: </source>
-        <translation>Wachtwoord:</translation>
+        <translation>암호:</translation>
     </message>
     <message>
         <source>Encrypted Key:</source>
-        <translation>Versleutelde sleutel:</translation>
+        <translation>암호화된 키:</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
+        <translation>현재 서명을 시스템 클립 보드에 복사</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Superbee address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het Superbee adres bezit</translation>
+        <translation>이 Superbee 주소를 소유하고 있다는 것을 증명하기 위해 메세지에 서명하십시오</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
-        <translation>Versleutel &amp;Sleutel</translation>
+        <translation>암호화 &amp; 키</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Maak alle ondertekenvelden leeg</translation>
+        <translation>모든 서명 메세지 입력 지우기</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Verwijder &amp;Alles</translation>
+        <translation>전체 &amp;지우기</translation>
     </message>
     <message>
         <source>&amp;BIP 38 Decrypt</source>
-        <translation>&amp;BIP 38 ontsleuteling</translation>
+        <translation>&amp;BIP 38 암호화 해제</translation>
     </message>
     <message>
         <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
-        <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer het wachtwoord in, in het middelste veld. Druk op Ontsleutelen Sleutel om de geheime sleutel te berekenen.  Nadat de geheime sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de geheime sleutel toevoegen aan de portemonnee.</translation>
+        <translation>BIP 38 암호화 된 개인 키를 입력하십시오. 중간 입력창에 암호를 입력하십시오. 키를 암호해제 후 '주소 가져오기'를 클릭하면 개인 키가 지갑에 추가됩니다.</translation>
     </message>
     <message>
         <source>The Superbee address the message was signed with</source>
-        <translation>Het Superbee adres waarmee het bericht was ondertekend</translation>
+        <translation>메세지에 서명된 Superbee 주소</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Superbee address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde Superbee adres</translation>
+        <translation>메세지가 지정된 Superbee 주소로 서명되었는지 확인해주세요</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
-        <translation>Ontsleutelen Sleutel</translation>
+        <translation>암호해제 &amp;키</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Maak alle verifiëren van het bericht velden leeg</translation>
+        <translation>모든 확인 메세지 영역 지우기</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
-        <translation>Ontsleutelde sleutel:</translation>
+        <translation>암호해제된 키</translation>
     </message>
     <message>
         <source>Import Address</source>
-        <translation>Adres Importeren</translation>
+        <translation>주소 가져오기</translation>
     </message>
     <message>
         <source>Click "Decrypt Key" to compute key</source>
-        <translation>Klik "Ontsleutelen Sleutel" om de sleutel te berekenen</translation>
+        <translation>"키 암호해제"를 클릭하여 키를 입력해주세요.</translation>
     </message>
     <message>
         <source>The entered passphrase is invalid. </source>
-        <translation>Het ingevoerde wachtwoord is ongeldig.</translation>
+        <translation>입력한 암호 문구가 잘못되었습니다.</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
-        <translation>Toegestaan: 0-9,a-z,A-Z</translation>
+        <translation>사용가능: 0-9,a-z,A-Z,</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Het ingevoerde adres is ongeldig.</translation>
+        <translation>입력한 주소가 올바르지 않습니다.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Controleer het adres en probeer het opnieuw.</translation>
+        <translation>주소를 다시 확인해주세요.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Het opgegeven adres verwijst niet naar een sleutel.</translation>
+        <translation>입력한 주소가 키를 참조하지 않습니다.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Portemonnee-ontsleuteling is geannuleerd.</translation>
+        <translation>지갑 잠금 해제가 취소되었습니다.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Geheime sleutel voor het ingevoerde adres is niet beschikbaar.</translation>
+        <translation>입력한 주소의 개인 키를 사용할 수 없습니다.</translation>
     </message>
     <message>
         <source>Failed to decrypt.</source>
-        <translation>Ontsleutelen mislukt.</translation>
+        <translation>암호해제에 실패하였습니다.</translation>
     </message>
     <message>
         <source>Please check the key and passphrase and try again.</source>
-        <translation>Controleer de sleutel en het wachtwoord en probeer het opnieuw.</translation>
+        <translation>키와 암호를 확인하고 다시 시도해주세요.</translation>
     </message>
     <message>
         <source>Data Not Valid.</source>
-        <translation>Gegevens ongeldig.</translation>
+        <translation>데이터가 올바르지 않습니다.</translation>
     </message>
     <message>
         <source>Please try again.</source>
-        <translation>Probeer het opnieuw.</translation>
+        <translation>다시 시도해주세요.</translation>
     </message>
     <message>
         <source>Please wait while key is imported</source>
-        <translation>Wacht tot de sleutel is geïmporteerd</translation>
+        <translation>키를 가져오는 동안 기다려주세요.</translation>
     </message>
     <message>
         <source>Key Already Held By Wallet</source>
-        <translation>Sleutel al aanwezig in portemonnee</translation>
+        <translation>이미 지갑에서 사용된 키</translation>
     </message>
     <message>
         <source>Error Adding Key To Wallet</source>
-        <translation>Fout bij het toevoegen van de sleutel</translation>
+        <translation>지갑에 키를 추가하는 도중 에러가 발생했습니다</translation>
     </message>
     <message>
         <source>Successfully Added Private Key To Wallet</source>
-        <translation>De geheime sleutel is toegevoegd aan de portemonnee</translation>
+        <translation>지갑에 개인 키를 추가하였습니다.</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>Wallet</source>
-        <translation>Portemonnee</translation>
+        <translation>지갑</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Node</translation>
+        <translation>노드</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Overzicht</translation>
+        <translation>&amp;개요</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Toon algemeen overzicht van de portemonnee</translation>
+        <translation>지갑의 일반적인 개요 표시</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;Verzenden</translation>
+        <translation>&amp;전송</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;Ontvangen</translation>
+        <translation>&amp;받기</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transacties</translation>
+        <translation>&amp;트랜잭션</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Blader door transactiegescheidenis</translation>
+        <translation>트랜잭션 내역 보기</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>&amp;Sluiten</translation>
+        <translation>종&amp;료</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Programma afsluiten</translation>
+        <translation>어플리케이션 종료</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>Over &amp;Qt</translation>
+        <translation>&amp;Qt 정보</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Toon informatie over Qt</translation>
+        <translation>Qt에 대한 정보 표시</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Opties...</translation>
+        <translation>&amp;옵션...</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Tonen / Verbergen</translation>
+        <translation>&amp;보이기 / 숨기기</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Toon of verberg het hoofdvenster</translation>
+        <translation>기본 창 보이기 또는 숨기기</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>Versleutel portemonnee</translation>
+        <translation>&amp;지갑 암호화...</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Versleutel de geheime sleutels die bij uw portemonnee horen</translation>
+        <translation>지갑 개인 키 암호화</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>Backup Portemonnee...</translation>
+        <translation>&amp;지갑 백업</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Backup portemonnee naar een andere locatie</translation>
+        <translation>다른 위치에 지갑 백업</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Wijzig Wachtwoord...</translation>
+        <translation>&amp;암호 변경...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Wijzig het wachtwoord voor uw portemonneversleuteling</translation>
+        <translation>지갑 암호화에 사용되는 암호 변경</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Open portemonnee...</translation>
+        <translation>&amp;지갑 잠금해제...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Open portemonnee</translation>
+        <translation>지갑 잠금해제</translation>
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
-        <translation>&amp;Sluit portemonnee</translation>
+        <translation>&amp;지갑 잠금</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Bericht &amp;Ondertekenen...</translation>
+        <translation>메세지 &amp;서명...</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>Bericht &amp;Verifiëren... </translation>
+        <translation>&amp;메시지 확인...</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Informatie</translation>
+        <translation>&amp;정보</translation>
     </message>
     <message>
         <source>Show diagnostic information</source>
-        <translation>Toon diagnostische informatie</translation>
+        <translation>진단 정보 표시</translation>
     </message>
     <message>
         <source>&amp;Debug console</source>
-        <translation>&amp;Debug console</translation>
+        <translation>&amp;디버그 콘솔</translation>
     </message>
     <message>
         <source>Open debugging console</source>
-        <translation>Open debugging console</translation>
+        <translation>디버깅 콘솔 열기</translation>
     </message>
     <message>
         <source>&amp;Network Monitor</source>
-        <translation>&amp;Netwerk Monitor</translation>
+        <translation>&amp;네트워크 모니터</translation>
     </message>
     <message>
         <source>Show network monitor</source>
-        <translation>Toon netwerk monitor</translation>
+        <translation>네트워크 모니터 표시</translation>
     </message>
     <message>
         <source>&amp;Peers list</source>
-        <translation>&amp;Peers lijst</translation>
+        <translation>&amp;피어 목록</translation>
     </message>
     <message>
         <source>Show peers info</source>
-        <translation>Toon informatie van peers</translation>
+        <translation>피어 정보 표시</translation>
     </message>
     <message>
         <source>Wallet &amp;Repair</source>
-        <translation>Portemonnee &amp;Repareren </translation>
+        <translation>지갑 &amp;복구</translation>
     </message>
     <message>
         <source>Show wallet repair options</source>
-        <translation>Toon portemonnee reparatie opties</translation>
+        <translation>지갑 복구 옵션 표시</translation>
     </message>
     <message>
         <source>Open configuration file</source>
-        <translation>Open configuratie bestand</translation>
+        <translation>구성 파일 열기</translation>
     </message>
     <message>
         <source>Show Automatic &amp;Backups</source>
-        <translation>Toon Automatische &amp;Backups</translation>
+        <translation>자동 &amp;백업 폴더 열기</translation>
     </message>
     <message>
         <source>Show automatically created wallet backups</source>
-        <translation>Toon automatisch aangemaakte portemonnee backups</translation>
+        <translation>자동 생성된 지갑 백업 표시</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;Verzendadressen...</translation>
+        <translation>&amp;주소 보내는중...</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Toon de lijst van verzendadressen en labels</translation>
+        <translation>전송 된 주소 및 라벨 목록 표시</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Ontvangstadressen...</translation>
+        <translation>&amp;받는 주소...</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Toon de lijst van ontvangstadressen en labels</translation>
+        <translation>입금 된 주소 및 라벨 목록 표시</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Open &amp;URI...</translation>
+        <translation>&amp;URI 열기...</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;Opdrachtregelopties</translation>
+        <translation>&amp;명령행 옵션</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
-        <translation><numerusform>%n blok van transactiegeschiedenis verwerkt.</numerusform><numerusform>%n blokken van transactiegeschiedenis verwerkt.</numerusform></translation>
+        <translation><numerusform>트랜잭션 기록의 %n 블록을 처리함</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
-        <translation>Synchroniseren aanvullende gegevens: %p%</translation>
+        <translation>추가 데이터 동기화: %p%</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Bestand</translation>
+        <translation>&amp;파일</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Instellingen</translation>
+        <translation>&amp;설정</translation>
     </message>
     <message>
         <source>&amp;Tools</source>
-        <translation>&amp;Gereedschap</translation>
+        <translation>&amp;도구</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Help</translation>
+        <translation>&amp;도움말</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Tabblad werkbalk</translation>
+        <translation>탭 도구 모음</translation>
     </message>
     <message>
         <source>Superbee Core</source>
-        <translation>Superbee Kern</translation>
+        <translation>Superbee Core</translation>
     </message>
     <message>
         <source>Send coins to a Superbee address</source>
-        <translation>Verstuur munten naar een Superbee adres</translation>
+        <translation>Superbee 주소로 전송하기</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and superbee: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en Superbee: URI's)</translation>
+        <translation>결제 요청 (QR 코드 및 superbee: URI 생성)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
-        <translation>&amp;Privacy</translation>
+        <translation>&amp;프라이버시</translation>
     </message>
     <message>
         <source>Privacy Action for zXLR and Obfuscation</source>
-        <translation>Privacy Actie voor zXLR en verduistering</translation>
+        <translation>zXLR와 난독화를 위한 프라이버스 작업</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
-        <translation>&amp;Masternodes</translation>
+        <translation>&amp;마스터노드</translation>
     </message>
     <message>
         <source>Browse masternodes</source>
-        <translation>Bekijk masternodes</translation>
+        <translation>마스터노드 검색</translation>
     </message>
     <message>
         <source>&amp;About Superbee Core</source>
-        <translation>&amp;Over Superbee Kern</translation>
+        <translation>Superbee Core &amp;정보</translation>
     </message>
     <message>
         <source>Show information about Superbee Core</source>
-        <translation>Toon informatie over Superbee Kern</translation>
+        <translation>Superbee Core에 대한 정보 표시</translation>
     </message>
     <message>
         <source>Modify configuration options for Superbee</source>
-        <translation>Wijzig Superbee configuratie opties</translation>
+        <translation>Superbee에 대한 구성 옵션 수정</translation>
     </message>
     <message>
         <source>Sign messages with your Superbee addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Superbee adressen om te bewijzen dat u deze adressen bezit</translation>
+        <translation>Superbee 주소로 메시지에 서명하여 소유하고 있음을 증명하십시오.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Superbee addresses</source>
-        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde Superbee adressen</translation>
+        <translation>메시지가 지정된 Superbee 주소로 서명되었는지 확인합니다.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
-        <translation>&amp;BIP38 tool</translation>
+        <translation>&amp;BIP38 도구</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
-        <translation>Versleutelen en ontsleutelen door middel van een wachtwoord/wachtzin</translation>
+        <translation>암호를 사용하여 개인 키 암호화 및 암호해제</translation>
     </message>
     <message>
         <source>&amp;MultiSend</source>
-        <translation>&amp;MultiSend</translation>
+        <translation>&amp;다중전송</translation>
     </message>
     <message>
         <source>MultiSend Settings</source>
-        <translation>MultiSend intellingen</translation>
+        <translation>다중전송 설정</translation>
     </message>
     <message>
         <source>Open Wallet &amp;Configuration File</source>
-        <translation>Open Portemonnee &amp;Configuratiebestand</translation>
+        <translation>지갑 &amp;구성 파일 열기</translation>
     </message>
     <message>
         <source>Open &amp;Masternode Configuration File</source>
-        <translation>Open &amp;Masternode Configuratiebestand</translation>
+        <translation>&amp;마스터노드 구성 파일 열기</translation>
     </message>
     <message>
         <source>Open Masternode configuration file</source>
-        <translation>Open Masternode configuratiebestand</translation>
+        <translation>마스터노드 구성 파일 열기</translation>
     </message>
     <message>
         <source>Open a Superbee: URI or payment request</source>
-        <translation>Open een Superbee: URI of betaalverzoek</translation>
+        <translation>Superbee: URI 또는 ​​결제 요청 열기</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
-        <translation>&amp;Blockchain verkenner</translation>
+        <translation>&amp;블록체인 탐색기</translation>
     </message>
     <message>
         <source>Block explorer window</source>
-        <translation>Block verkenner venster</translation>
+        <translation>블록 탐색 창</translation>
     </message>
     <message>
         <source>Show the Superbee Core help message to get a list with possible Superbee command-line options</source>
-        <translation>Toon het Superbee Core help bericht om een ​​lijst te krijgen met mogelijke Superbee command line opties</translation>
+        <translation>Superbee Core 도움말 메세지를 표시하여 사용 가능한 Superbee 명령행 옵션 목록 표시</translation>
     </message>
     <message>
         <source>Superbee Core client</source>
-        <translation>Superbee Core client</translation>
+        <translation>Superbee Core 클라이언트</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Superbee network</source>
-        <translation><numerusform>%n actieve verbinding(en) naar het Superbee netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het Superbee netwerk</numerusform></translation>
+        <translation><numerusform>%n 개 Superbee 네트웍에 연결</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Synchroniseren met het netwerk...</translation>
+        <translation>네트워크 동기화중...</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
-        <translation>Blocks aan het importeren vanaf schijf...</translation>
+        <translation>디스크에서 블록 가져오기...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Blocks opnieuw aan het indexeren op de schijf...</translation>
+        <translation>디스크 블록 재색인...</translation>
     </message>
     <message>
         <source>No block source available...</source>
-        <translation>Geen block bron beschikbaar</translation>
+        <translation>사용 가능한 블록 소스 없음...</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Bijgewerkt</translation>
+        <translation>최신</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n 시간</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n dag</numerusform><numerusform>%n dagen</numerusform></translation>
+        <translation><numerusform>%n 일</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n week</numerusform><numerusform>%n weken</numerusform></translation>
+        <translation><numerusform>%n 주</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 en%2</translation>
+        <translation>%1 그리고 %2</translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n jaar</numerusform><numerusform>%n jaren</numerusform></translation>
+        <translation><numerusform>%n 년</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 achter</translation>
+        <translation>%1 남음</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Aan het bijwerken...</translation>
+        <translation>동기화 중...</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Het laatst ontvangen block was %1 geleden gegenereerd.</translation>
+        <translation>마지막으로 받은 블록이 %1 전에 생성되었습니다.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transacties hierna zijn nog niet zichtbaar.</translation>
+        <translation>이후의 트랜잭션은 아직 표시되지 않습니다.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Error</translation>
+        <translation>에러</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Waarschuwing</translation>
+        <translation>경고</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informatie</translation>
+        <translation>정보</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Verzend transactie</translation>
+        <translation>보낸 트랜잭션</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Inkomende transactie</translation>
+        <translation>받은 트랜잭션</translation>
     </message>
     <message>
         <source>Sent MultiSend transaction</source>
-        <translation>Verzend MultiSend transactie</translation>
+        <translation>다중 트랜잭션 전송</translation>
     </message>
     <message>
         <source>Date: %1
@@ -783,92 +787,92 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>Datum: %1
-Hoeveelheid: %2
-Type: %3
-Adres: %4
+        <translation>날짜: %1
+금액: %2
+유형: %3
+주소: %4
 </translation>
     </message>
     <message>
         <source>Staking is active
  MultiSend: %1</source>
-        <translation>Staking is actief
-Multisend: %1</translation>
+        <translation>스테이킹 활성화
+다중전송: %1</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation>Actief</translation>
+        <translation>활성</translation>
     </message>
     <message>
         <source>Not Active</source>
-        <translation>Niet actief</translation>
+        <translation>비활성</translation>
     </message>
     <message>
         <source>Staking is not active
  MultiSend: %1</source>
-        <translation>Staking is niet actief
-MultiSend: %1</translation>
+        <translation>스테이킹이 활성화 되지 않음
+다중전송: %1</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;geopend&lt;/b&gt;</translation>
+        <translation>현재 지갑은 &lt;b&gt;암호화되어 &lt;b&gt;잠금해제되었습니다.</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</source>
-        <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;geopend&lt;/b&gt;alleen voor anonimiteit en staking </translation>
+        <translation>지갑은 &lt;b&gt;암호화&lt;/b&gt;되어 있으며 현재 익명화 및 스테이킹만을 위해 &lt;b&gt;잠금해제&lt;/b&gt; 되었습니다.</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Portemonnee is &lt;b&gt;geëncrypteerd &lt;/b&gt;en momentel &lt;b&gt; vergrendeld&lt;/b&gt;</translation>
+        <translation>지갑은 &lt;b&gt;암호화&lt;/ b&gt;되어 있으며 현재 &lt;b&gt;잠겨 있습니다&lt;/ b&gt;.</translation>
     </message>
 </context>
 <context>
     <name>BlockExplorer</name>
     <message>
         <source>Blockchain Explorer</source>
-        <translation>Blockchain Verkenner</translation>
+        <translation>블록체인 탐색기</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Terug</translation>
+        <translation>뒤로</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>Volgende</translation>
+        <translation>앞으로</translation>
     </message>
     <message>
         <source>Address / Block / Transaction</source>
-        <translation>Adres / Block / Transactie</translation>
+        <translation>주소 / 블록 / 트랜잭션</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Zoeken</translation>
+        <translation>검색</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TextLabel</translation>
+        <translation>텍스트라벨</translation>
     </message>
     <message>
         <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (superbee.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (superbee.conf).</translation>
+        <translation>모든 트랜잭션이 표시되지는 않습니다. 모든 트랜잭션을 보려면 구성 파일 (superbee.conf)에 txindex = 1을 설정해야합니다.</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
         <source>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</source>
-        <translation>Totaal: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Onbekend: %5)</translation>
+        <translation>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</translation>
     </message>
     <message>
         <source>Network Alert</source>
-        <translation>Netwerk waarschuwing</translation>
+        <translation>네트워크 알림</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>Kwantiteit:</translation>
+        <translation>수량:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -876,312 +880,316 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Hoeveelheid:</translation>
+        <translation>금액:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Prioriteit:</translation>
+        <translation>우선 순위:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Kost:</translation>
+        <translation>수수료:</translation>
     </message>
     <message>
         <source>Coin Selection</source>
-        <translation>Munt Selectie</translation>
+        <translation>코인 선택</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Stof:</translation>
+        <translation>현금:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Na de kost:</translation>
+        <translation>이후 수수료:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Wijzig:</translation>
+        <translation>잔돈:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>(on)selecteer alles</translation>
+        <translation>모두 선택(해제)</translation>
     </message>
     <message>
         <source>toggle lock state</source>
-        <translation>Schakel lock state</translation>
+        <translation>토글 잠금상태</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Tree modus</translation>
+        <translation>트리 모드</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Lijstmodus</translation>
+        <translation>목록 모드</translation>
     </message>
     <message>
         <source>(1 locked)</source>
-        <translation>(1 opgesloten)</translation>
+        <translation>(1 잠김)</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Hoeveelheid</translation>
+        <translation>금액</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>Ontvangen met label</translation>
+        <translation>수신 된 라벨</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Ontvangen met adres</translation>
+        <translation>수신 된 주소</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>날짜</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Bevestigingen</translation>
+        <translation>확인</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Bevestigd</translation>
+        <translation>확정</translation>
     </message>
     <message>
         <source>Priority</source>
-        <translation>Prioriteit</translation>
+        <translation>우선 사항</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopieer adres</translation>
+        <translation>주소 복사</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiëer label</translation>
+        <translation>라벨 복사</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopieer hoeveelheid</translation>
+        <translation>금액 복사</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Kopier transactie ID</translation>
+        <translation>트랜잭션 ID 복사</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>Lock niet besteed</translation>
+        <translation>잠금되지 않음</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>Unlock niet besteed</translation>
+        <translation>잠금해제되지 않음</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Kopieer kwanititeit</translation>
+        <translation>수량 복사</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Kopiëer kost</translation>
+        <translation>수수료 복사</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Kopiëer na kost</translation>
+        <translation>이용 수수료 복사</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Kopieer bytes</translation>
+        <translation>Bytes 복사</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Kopieer prioriteit</translation>
+        <translation>우선 사항 복사</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Kopieer dust</translation>
+        <translation>현금 복사</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Kopieer wisselgeld</translation>
+        <translation>변경 복사</translation>
     </message>
     <message>
         <source>Please switch to "List mode" to use this function.</source>
-        <translation>Ga alsjeblieft over naar "Lijst modus" om deze functie te gebruiken.</translation>
+        <translation>이 기능을 사용하려면 "목록 모드"로 전환하십시오.</translation>
     </message>
     <message>
         <source>highest</source>
-        <translation>hoogste</translation>
+        <translation>최고</translation>
     </message>
     <message>
         <source>higher</source>
-        <translation>hoger</translation>
+        <translation>매우 높음</translation>
     </message>
     <message>
         <source>high</source>
-        <translation>hoog</translation>
+        <translation>높음</translation>
     </message>
     <message>
         <source>medium-high</source>
-        <translation>medium-hoog</translation>
+        <translation>중간 높음</translation>
     </message>
     <message>
         <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Kan variëren van +/-%1 duff(s) per invoer.</translation>
+        <translation>입력당 +/- %1 금액(s)을 변경할 수 있습니다.</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>medium</translation>
+        <translation>중간</translation>
     </message>
     <message>
         <source>low-medium</source>
-        <translation>laag-medium</translation>
+        <translation>중간 낮음</translation>
     </message>
     <message>
         <source>low</source>
-        <translation>laag</translation>
+        <translation>낮음</translation>
     </message>
     <message>
         <source>lower</source>
-        <translation>lager</translation>
+        <translation>매우 낮음</translation>
     </message>
     <message>
         <source>lowest</source>
-        <translation>laagst</translation>
+        <translation>최저</translation>
+    </message>
+    <message>
+        <source>(%1 locked)</source>
+        <translation>(%1 잠김)</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>geen</translation>
+        <translation>없음</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>ja</translation>
+        <translation>예</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>nee</translation>
+        <translation>아니오</translation>
     </message>
     <message>
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
-        <translation>Dit label wordt rood, als de transactiegrootte groter is dan 1000 bytes.</translation>
+        <translation>트랜잭션 크기가 1000 byte 보다 클 경우 라벨이 빨간색으로 변경됩니다.</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>Dit betekent dat een honorarium van minstens %1 per kB vereist is.</translation>
+        <translation>즉, KB 당 최소 %1 의 수수료가 필요합니다.</translation>
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
-        <translation>Kan variëren van +/- 1 byte per invoer.</translation>
+        <translation>입력당 +/- 1 byte 조절 가능.</translation>
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Transacties met hogere prioriteit zullen waarschijnlijk in een blok opgenomen worden.</translation>
+        <translation>우선 순위가 높은 트랜잭션이 블록에 포함 될 확률이 높아집니다.</translation>
     </message>
     <message>
         <source>This label turns red, if the priority is smaller than "medium".</source>
-        <translation>Dit label wordt rood, als de prioriteit lager is dan "medium".</translation>
+        <translation>우선 순위가 "중간" 보다 낮으면 라벨이 빨간색으로 변경됩니다.</translation>
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
-        <translation>Dit label wordt rood, als een ontvanger een hoeveelheid kleiner dan %1 ontvangt.</translation>
+        <translation>받는 사람이 %1 보다 작은 금액을 받으면 라벨이 빨간색으로 변경됩니다.</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(geen label)</translation>
+        <translation>(라벨 없음)</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation>wijzig van %1 (%2)</translation>
+        <translation>%1 (%2) 에서 변경</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(wijzig)</translation>
+        <translation>(잔돈)</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Wijzig Adres</translation>
+        <translation>주소 수정</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;Label</translation>
+        <translation>&amp;라벨</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Het label dat geassocieerd wordt met deze adreslijstinvoer</translation>
+        <translation>이 주소 목록과 관련된 라벨</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;Adres</translation>
+        <translation>&amp;주소</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Het adres geassocieerd met deze adreslijst vermelding. Dit kan alleen worden gewijzigd voor het verzenden van adressen.</translation>
+        <translation>이 주소 목록과 관련된 주소입니다. 주소를 보낼 때만 수정할 수 있습니다.</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Nieuw ontvangst adres</translation>
+        <translation>새로운 받는 주소</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Nieuw verzendadres</translation>
+        <translation>새로운 발신 주소</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Wijzig ontvangst adres</translation>
+        <translation>받는 주소 수정</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Wijzig verzendadres</translation>
+        <translation>보내는 주소 수정</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Superbee address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig Superbee adres.</translation>
+        <translation>입력된 주소 "%1"는 올바른 Superbee 주소가 아닙니다.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>Het ingevoerde adres: "%1" staat al in uw adresboek.</translation>
+        <translation>입력한 주소 "%1"는 이미 주소록에 등록 되있습니다.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Kan portemonnee niet ontgrendelen.</translation>
+        <translation>지갑의 잠금을 해제할 수 없습니다.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Aanmaken nieuwe key mislukt.</translation>
+        <translation>새로운 키 생성에 실패하였습니다.</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Er wordt een nieuwe data map gemaakt.</translation>
+        <translation>새로운 데이터 디렉토리가 생성됩니다.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>naam</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Map bestaat alreeds. Voeg %1 toe als je van plan bent om hier een nieuwe map te creëren.</translation>
+        <translation>디렉토리가 이미 존재합니다. 여기에 새로운 디렉토리를 만들려면 %1을 추가해주세요.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Pad bestaat al en is geen directory.</translation>
+        <translation>경로가 이미 존재하며 디렉토리가 아닙니다.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Kan de data directory hier niet aanmaken.</translation>
+        <translation>여기에 디렉토리를 만들 수 없습니다.</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>versie</translation>
+        <translation>버전</translation>
     </message>
     <message>
         <source>Superbee Core</source>
-        <translation>Superbee Kern</translation>
+        <translation>Superbee Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -1189,145 +1197,153 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>About Superbee Core</source>
-        <translation>Over Superbee Core</translation>
+        <translation>Superbee Core 정보</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Command-line opties</translation>
+        <translation>명령행 옵션</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Gebruik:</translation>
+        <translation>사용:</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>command-line opties</translation>
+        <translation>명령행 옵션</translation>
     </message>
     <message>
         <source>UI Options:</source>
-        <translation>UI Opties:</translation>
+        <translation>UI 옵션:</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: %u)</source>
+        <translation>데이터 디렉토리 선택 (기본: %u)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: %u)</source>
+        <translation>실행시 초기화면 표시 (기본: %u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Stel taal in, bijvoorbeeld "de_DE" (standaard: systeem locale)</translation>
+        <translation>언어 설정 예시 "de_DE" (기본값: 시스템 언어)</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>Geminimaliseerd starten</translation>
+        <translation>시작시 최소화</translation>
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Stel SSL root certificaten in voor betalingsverzoek (standaard: -systeem-)</translation>
+        <translation>결제 요청에 대한 SSL 루트 인증서 설정 (기본값: -system-)</translation>
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Welkom</translation>
+        <translation>환영합니다</translation>
     </message>
     <message>
         <source>Welcome to Superbee Core.</source>
-        <translation>Welkom bij Superbee Core</translation>
+        <translation>Superbee Core에 오신 것을 환영합니다.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where Superbee Core will store its data.</source>
-        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar Superbee Core zijn gegevens opslaat.</translation>
+        <translation>이 프로그램이 처음 실행되었으므로 Superbee Core가 데이터를 저장할 위치를 선택할 수 있습니다.</translation>
     </message>
     <message>
         <source>Superbee Core will download and store a copy of the Superbee block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Superbee Core zal een kopie van de Superbee blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee wordt ook in deze map opgeslagen.</translation>
+        <translation>Superbee Core는 Superbee 블록체인을 다운로드하여 저장합니다. 최소 %1GB의 데이터가 디렉토리에 저장되며 시간이 지날수록 증가합니다. 또한 지갑도 해당 디렉토리에 저장됩니다.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Gebruik de standaard datafolder </translation>
+        <translation>기본 데이터 디렉토리 사용</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Gebruik een aangepaste data directory:</translation>
+        <translation>사용자 지정 데이터 디렉토리 사용:</translation>
     </message>
     <message>
         <source>Superbee Core</source>
-        <translation>Superbee Kern</translation>
+        <translation>Superbee Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Fout: opgegeven data directory "%1" kan niet worden gemaakt.</translation>
+        <translation>오류: 지정된 데이터 디렉토리 "%1"을 생성할 수 없습니다.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Error</translation>
+        <translation>에러</translation>
     </message>
     <message>
         <source>%1 GB of free space available</source>
-        <translation>%1 GB beschikbare schijfruimte</translation>
+        <translation>%1 GB의 사용 가능한 여유 공간</translation>
     </message>
     <message>
         <source>(of %1 GB needed)</source>
-        <translation>(van de %1 GB benodigd)</translation>
+        <translation>(%1 GB 필요)</translation>
     </message>
 </context>
 <context>
     <name>MasternodeList</name>
     <message>
         <source>Form</source>
-        <translation>Formulier</translation>
+        <translation>Form</translation>
     </message>
     <message>
         <source>My Masternodes</source>
-        <translation>Mijn Masternodes</translation>
+        <translation>나의 마스터노드</translation>
     </message>
     <message>
         <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see "MISSING" in "Status" field.</source>
-        <translation>Opmerking: De status van uw masternodes in de lokale portemonnee kan mogelijk iets afwijken. &lt;br /&gt;Wacht altijd op de portemonnee om additionele data te synchroniseren en verifieer dit vanuit een andere node &lt;br /&gt;mocht de node nu aan het draaien zijn maar je ziet nog steeds 'MISSING' in het veld 'Status'.</translation>
+        <translation>참고: </translation>
     </message>
     <message>
         <source>Alias</source>
-        <translation>Alias</translation>
+        <translation>별명</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>주소</translation>
     </message>
     <message>
         <source>Protocol</source>
-        <translation>Protocol</translation>
+        <translation>프로토콜</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation>상태</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation>Actief</translation>
+        <translation>활성</translation>
     </message>
     <message>
         <source>Last Seen (UTC)</source>
-        <translation>Laatst gezien (UTC)</translation>
+        <translation>최근 본 (UTC)</translation>
     </message>
     <message>
         <source>Pubkey</source>
-        <translation>Pubkey</translation>
+        <translation>공개키</translation>
     </message>
     <message>
         <source>S&amp;tart alias</source>
-        <translation>S&amp;tart alias</translation>
+        <translation>별명 시&amp;작</translation>
     </message>
     <message>
         <source>Start &amp;all</source>
-        <translation>&amp;all starten</translation>
+        <translation>&amp;전체 시작</translation>
     </message>
     <message>
         <source>Start &amp;MISSING</source>
-        <translation>Start &amp;ontbrekende</translation>
+        <translation>시작 &amp;종료</translation>
     </message>
     <message>
         <source>&amp;Update status</source>
-        <translation>&amp;Status bijwerken</translation>
+        <translation>&amp;업데이트 상태</translation>
     </message>
     <message>
         <source>Status will be updated automatically in (sec):</source>
-        <translation>Status wordt automatisch bijgewerkt in (sec):</translation>
+        <translation>상태가 (초) 단위로 자동 업데이트됩니다:</translation>
     </message>
     <message>
         <source>0</source>
@@ -1335,88 +1351,88 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Start alias</source>
-        <translation>Start alias</translation>
+        <translation>별명 시작</translation>
     </message>
     <message>
         <source>Confirm masternode start</source>
-        <translation>Bevestig start masternode</translation>
+        <translation>마스터노드 시작 확인</translation>
     </message>
     <message>
         <source>Are you sure you want to start masternode %1?</source>
-        <translation>Weet je zeker dat je masternode %1 wilt starten?</translation>
+        <translation>마스터노드 %1을 시작하시겠습니까?</translation>
     </message>
     <message>
         <source>Confirm all masternodes start</source>
-        <translation>Bevestig start alle masternodes</translation>
+        <translation>모든 마스터노드 시작 확인</translation>
     </message>
     <message>
         <source>Are you sure you want to start ALL masternodes?</source>
-        <translation>Weet je zeker dat je ALLE masternodes wilt starten?</translation>
+        <translation>모든 마스터노드를 시작하시겠습니까?</translation>
     </message>
     <message>
         <source>Command is not available right now</source>
-        <translation>Commando is nu niet beschikbaar</translation>
+        <translation>현재 명령을 사용할 수 없습니다.</translation>
     </message>
     <message>
         <source>You can't use this command until masternode list is synced</source>
-        <translation>Je kunt dit commando niet gebruiken tot de masternode lijst is gesynchroniseerd</translation>
+        <translation>마스터노드 목록이 동기화 될 때까지이 명령을 사용할 수 없습니다.</translation>
     </message>
     <message>
         <source>Confirm missing masternodes start</source>
-        <translation>Bevestig start ontbrekende masternodes</translation>
+        <translation>누락된 마스터노드 확인 시작</translation>
     </message>
     <message>
         <source>Are you sure you want to start MISSING masternodes?</source>
-        <translation>Weet je zeker dat je alle ONTBREKENDE masternodes wilt starten?</translation>
+        <translation>누락된 마스터노드를 시작하시겠습니까?</translation>
     </message>
 </context>
 <context>
     <name>MultiSendDialog</name>
     <message>
         <source>MultiSend</source>
-        <translation>MultiSend</translation>
+        <translation>다중전송</translation>
     </message>
     <message>
         <source>Enter whole numbers 1 - 100</source>
-        <translation>Geef volledige cijfers in 1-100</translation>
+        <translation>1 - 100의 정수 입력</translation>
     </message>
     <message>
         <source>Enter % to Give (1-100)</source>
-        <translation>Voer % in om te geven (1-100)</translation>
+        <translation>부여할 % 입력 (1-100)</translation>
     </message>
     <message>
         <source>Enter Address to Send to</source>
-        <translation>Vul het verzendadres in</translation>
+        <translation>보낼 주소 입력</translation>
     </message>
     <message>
         <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Superbee addresses after it matures.
 To Add: enter percentage to give and Superbee address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend stelt je in staat om automatisch 100% van uw inzet of masternode-beloning automatisch te verzenden naar een lijst van andere Superbee adressen nadat het volwassen is. 
-Toevoegen: voer percentage in om te geven en Superbee adres om toe te voegen aan de MultiSend vector.
-Verwijderen: Voer adres in om te verwijderen en druk op delete.
-MultiSend wordt niet geactiveerd, tenzij je op Activeer hebt geklikt</translation>
+        <translation>다중전송을 사용하면 성취 한 뒤 다른 Superbee 주소 목록에 최대 100% 스테이크 또는 마스터노드 보상을 자동으로 보낼 수 있습니다.
+추가하려면 : 부여 할 백분율과 다중전송 벡터에 추가 할 Superbee 주소를 입력하십시오.
+삭제하려면 삭제할 주소를 입력하고 삭제를 누릅니다.
+활성화를 클릭하지 않으면 다중전송이 활성화되지 않습니다.</translation>
     </message>
     <message>
         <source>Add to MultiSend Vector</source>
-        <translation>Aan MultiSend Vector toevoegen</translation>
+        <translation>다중전송 벡터 추가</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>Toevoegen</translation>
+        <translation>추가</translation>
     </message>
     <message>
         <source>Deactivate MultiSend</source>
-        <translation>Deactiveer MultiSend</translation>
+        <translation>다중전송 비활성화</translation>
     </message>
     <message>
         <source>Deactivate</source>
-        <translation>Deactiveren</translation>
+        <translation>비활성화</translation>
     </message>
     <message>
         <source>Choose an address from the address book</source>
-        <translation>Kies een adres uit het adresgids</translation>
+        <translation>주소록에서 주소 선택</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1424,87 +1440,88 @@ MultiSend wordt niet geactiveerd, tenzij je op Activeer hebt geklikt</translatio
     </message>
     <message>
         <source>Percentage of stake to send</source>
-        <translation>Stakingspercentage om te verzenden</translation>
+        <translation>전송할 스테이크 비율</translation>
     </message>
     <message>
         <source>Percentage:</source>
-        <translation>Percentage:</translation>
+        <translation>백분율:</translation>
     </message>
     <message>
         <source>Address to send portion of stake to</source>
-        <translation>Adres om een ​​deel van inzet te verzenden naar</translation>
+        <translation>스테이크 일부를 보낼 주소</translation>
     </message>
     <message>
         <source>Address:</source>
-        <translation>Adres:</translation>
+        <translation>주소:</translation>
     </message>
     <message>
         <source>Delete Address From MultiSend Vector</source>
-        <translation>Verwijder adres van MultiSend Vector</translation>
+        <translation>다중전송 벡터에서 주소 삭제</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Wissen</translation>
+        <translation>삭제</translation>
     </message>
     <message>
         <source>Activate MultiSend</source>
-        <translation>Activeer MultiSend</translation>
+        <translation>다중전송 활성화</translation>
     </message>
     <message>
         <source>Activate</source>
-        <translation>Activeren</translation>
+        <translation>활성화</translation>
     </message>
     <message>
         <source>View MultiSend Vector</source>
-        <translation>Bekijk MultiSend Vector</translation>
+        <translation>다중전송 벡터 보기</translation>
     </message>
     <message>
         <source>View MultiSend</source>
-        <translation>Bekijk MultiSend</translation>
+        <translation>다중전송 보기</translation>
     </message>
     <message>
         <source>Send For Stakes</source>
-        <translation>Verstuur voor inzetten</translation>
+        <translation>스테이크를 위한 전송</translation>
     </message>
     <message>
         <source>Send For Masternode Rewards</source>
-        <translation>Verstuur voor Masternode beloningen</translation>
+        <translation>마스터노드 보상 전송</translation>
     </message>
     <message>
         <source>The entered address:
 </source>
-        <translation>Het ingevoerde adres:
+        <translation>입력된 주소:
 </translation>
     </message>
     <message>
         <source> is invalid.
 Please check the address and try again.</source>
-        <translation>is ongeldig.
-Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
+        <translation>올바르지 않습니다.
+주소를 확인하고 다시 시도해주세요.</translation>
     </message>
     <message>
         <source>The total amount of your MultiSend vector is over 100% of your stake reward
 </source>
-        <translation>De totale hoeveelheid van je MultiSend vector is meer dan 100% van je inzet beloning</translation>
+        <translation>다중전송 벡터의 총 금액이 스테이크 보상 금액의 100 % 이상입니다
+</translation>
     </message>
     <message>
         <source>Please Enter 1 - 100 for percent.</source>
-        <translation>Vul alsjeblieft 1 - 100 voor procent in.</translation>
+        <translation>퍼센트로 1 - 100을 입력하십시오.</translation>
     </message>
     <message>
         <source>MultiSend Vector
 </source>
-        <translation>MultiSend Vector
+        <translation>다중전송 벡터
 </translation>
     </message>
     <message>
         <source>Removed </source>
-        <translation>Verwijderd</translation>
+        <translation>제거됨</translation>
     </message>
     <message>
         <source>Could not locate address
 </source>
-        <translation>Kan het adres niet lokaliseren
+        <translation>주소를 찾을 수 없습니다
 </translation>
     </message>
 </context>
@@ -1512,78 +1529,78 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
     <name>ObfuscationConfig</name>
     <message>
         <source>Configure Obfuscation</source>
-        <translation>Configureer verduistering</translation>
+        <translation>난독화 구성</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
-        <translation>Basis Privacy</translation>
+        <translation>기본 익명</translation>
     </message>
     <message>
         <source>High Privacy</source>
-        <translation>Hoge Privacy</translation>
+        <translation>높은 익명</translation>
     </message>
     <message>
         <source>Maximum Privacy</source>
-        <translation>Maximum Privacy</translation>
+        <translation>최고 익명</translation>
     </message>
     <message>
         <source>Please select a privacy level.</source>
-        <translation>Selecteer de privacy level.</translation>
+        <translation>익명화 레벨을 선택해주세요.</translation>
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>Gebruik 2 aparte masternodes om fondsen te mixen tot 10000 XLR</translation>
+        <translation>2개의 개별 마스터노드를 이용하여 최대 10000 XLR 를 섞을 수 있습니다.</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 10000 XLR</source>
-        <translation>Gebruik 8 aparte masternodes om fondsen te mixen tot 10000 XLR</translation>
+        <translation>8개의 개별 마스터노드를 이용하여 최대 10000 XLR 를 섞을 수 있습니다.</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
-        <translation>Gebruik 16 aparte masternodes</translation>
+        <translation>16개의 개별 마스터노드를 사용</translation>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 XLR to anonymize 10000 XLR</source>
-        <translation>Deze optie is het snelst en kost ongeveer ~0,025 XLR om 10000 XLR te anonimiseren</translation>
+        <translation>이 옵션은 가장 빠르게 전송되며 10000 XLR 익명화에 약 ~0.025 XLR의 비용이 들어갑니다.</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 XLR to anonymize 10000 XLR</source>
-        <translation>Deze optie is gematigd snel en kost ongeveer 0,05 XLR om 10000 XLR te anonimiseren</translation>
+        <translation>이 옵션은 중간 정도의 속도로 전송되며 10000 XLR 익명화에 약 0.05 XLR의 비용이 들어갑니다.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Dit is de langzaamste en veiligste optie. Het gebruik van maximale anonimiteit kost</translation>
+        <translation>이것은 가장 느리고 안전한 옵션입니다. 최고 익명성을 사용하면 비용이 발생합니다.</translation>
     </message>
     <message>
         <source>0.1 XLR per 10000 XLR you anonymize.</source>
-        <translation>je anonimiseert 0,1 XLR per 10000 XLR.</translation>
+        <translation>10000 XLR 익명화에 0.1 XLR 가 듭니다.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
-        <translation>Verduistering configuratie</translation>
+        <translation>난독화 구성</translation>
     </message>
     <message>
         <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Superbee's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op basic (%1 en 2 rondes). Je kunt dit op elk gewenst moment wijzigen door het configuratiescherm van Superbee te openen.</translation>
+        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 2 rounds) Superbee의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
     </message>
     <message>
         <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Superbee's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 8 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van Superbee te openen.</translation>
+        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 8 rounds) Superbee의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
     </message>
     <message>
         <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Superbee's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 16 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van Superbee te openen.</translation>
+        <translation>난독화가 성공적으로 높게 설정되었습니다.(%1 및 16 rounds) Superbee의 설정 화면을 열어 언제든지 다시 변경할 수 있습니다.</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>URI openen</translation>
+        <translation>URI 열기</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Open betalingsverzoek van URL of bestand</translation>
+        <translation>URI 또는 파일에서 결제 요청 열기</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -1591,26 +1608,26 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Selecteer betalingsverzoek bestand</translation>
+        <translation>결제 요청 파일 선택</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>Selecteer betalingsverzoek bestand dat geopend moet worden</translation>
+        <translation>열려고하는 결제 요청 파일을 선택해주세요</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Opties</translation>
+        <translation>옵션</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;Algemeen</translation>
+        <translation>&amp;메인</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Grootte van cache &amp;gegevens</translation>
+        <translation>&amp;데이터베이스 캐시 크기</translation>
     </message>
     <message>
         <source>MB</source>
@@ -1618,300 +1635,300 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Aantal script en verificatie threads</translation>
+        <translation>스크립트 &amp;검증 스레드 개수</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = auto, &lt;0 = laat dat aantal cores vrij)</translation>
+        <translation>(0 = 자동, &lt;0 = 많은 코어들을 여유롭게 두기)</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>P&amp;ortemonnee</translation>
+        <translation>지&amp;갑</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
-        <translation>Als je de uitgaven van onbevestigde wijzigingen uitschakelt, de wijziging van een transactie&lt;br/&gt;kan niet worden gebruikt tot die transactie tenminste één bevestiging heeft.&lt;br/&gt;Dit beïnvloedt ook hoe uw saldo is berekend.</translation>
+        <translation>확인되지 않은 변경사항을 사용하지 않도록 설정하면 해당 트랜잭션에 하나 이상의 컨펌이 진행되야&lt;br/&gt;트랜잭션에 변경사항을 적용할 수 있습니다.&lt;br/&gt;또한 이것은 잔액 계산 방식에도 영향을 줍니다.</translation>
     </message>
     <message>
         <source>Automatically open the Superbee client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Superbee client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
+        <translation>라우터에서 Superbee 클라이언트 포트를 자동으로 엽니다. 이 기능은 라우터가 UPnP를 지원하고 활성화 된 경우에만 사용할 수 있습니다.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Accepteer externe connecties</translation>
+        <translation>외부에서의 연결 허용</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Sta inkomende connecties toe</translation>
+        <translation>들어오는 연결 허용</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp; Verbind via SOCKS5 proxy (standaard proxy):</translation>
+        <translation>&amp;SOCKS5 프록시를 통해 연결 (기본 프록시):</translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>Expert</translation>
+        <translation>전문적</translation>
     </message>
     <message>
         <source>Automatically start Superbee after logging in to the system.</source>
-        <translation>Superbee automatisch opstarten na inloggen op het systeem.</translation>
+        <translation>시스템 로그인 후 Superbee을 자동으로 시작합니다.</translation>
     </message>
     <message>
         <source>&amp;Start Superbee on system login</source>
-        <translation>&amp;Superbee starten bij systeemlogin</translation>
+        <translation>&amp;시스템 로그인시 Superbee 시작</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Of je de munteenheidsfuncties wilt tonen of niet.</translation>
+        <translation>동전 제어 기능을 표시할지 여부를 나타냅니다.</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Munt- en controlefuncties inschakelen</translation>
+        <translation>코인 &amp;제어 기능 사용</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
-        <translation>Toon extra tabblad waarin al je masternodes worden vermeld in het eerste sub-tabblad&lt;br/&gt;en alle masternodes op het netwerk in het tweede sub-tabblad.</translation>
+        <translation>첫 번째 하위 탭에서 모든 마스터 노드를 나열하는 추가 탭과&lt;br/&gt;두 번째 하위 탭에서 네트워크의 모든 마스터 노드를 표시하십시오.</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
-        <translation>Toon Masternodes Tab</translation>
+        <translation>마스터노드 탭 표시</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp; Besteed onbevestigd wisselgeld</translation>
+        <translation>&amp;확인되지 않은 변경사항 전송</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Netwerk</translation>
+        <translation>&amp;네트워크</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting Superbee.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van Superbee.</translation>
+        <translation>사용자 인터페이스 언어를 설정할 수 있습니다. 이 설정은 Superbee을 다시 시작한 후에 적용됩니다.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
 https://www.transifex.com/listedlinked/superbee-project-translations</source>
-        <translation>Taal ontbreekt of vertaling onvolledig? Help om bij te dragen aan vertalingen:
+        <translation>지원 언어가 없거나 번역이 불완전한가요? 번역을 도와주세요 :
 https://www.transifex.com/listedlinked/superbee-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Map poort gebruikt &amp;UPnP</translation>
+        <translation>&amp;UPnp를 사용하여 포트 매핑</translation>
     </message>
     <message>
         <source>Percentage of incoming XLR which get automatically converted to zXLR via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentage inkomende XLR die automatisch wordt omgezet naar zXLR via Zerocoin Protocol (min: 10%)</translation>
+        <translation>XLR수신시 자동변환 zXLR 퍼센트 (최소값:10%)</translation>
     </message>
     <message>
         <source>Percentage of autominted zXLR</source>
-        <translation>Percentage autominted zXLR</translation>
+        <translation>자동 변환되는 zXLR 퍼센트</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough XLR for this denomination is available</source>
-        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg XLR voor deze denominatie beschikbaar is</translation>
+        <translation>이 디노미네이션의 XLR가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
     </message>
     <message>
         <source>Preferred Automint zXLR Denomination</source>
-        <translation>Gewenste Automint zXLR denominatie</translation>
+        <translation>선호하는 자동생성 zXLR 디노미네이션 </translation>
     </message>
     <message>
         <source>Connect to the Superbee network through a SOCKS5 proxy.</source>
-        <translation>Maak verbinding met het Superbee netwerk via een SOCKS5 proxy.</translation>
+        <translation>SOCKS5 프록시를 통해 Superbee 네트워크에 연결해주세요.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>Proxy &amp;IP:</translation>
+        <translation>프록시 &amp;IP:</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>IP adres van de proxy (bijvoorbeeld IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>프록시 IP 주소 (예: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;Poort:</translation>
+        <translation>&amp;포트:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Proxy-poort (v.b. 9050)</translation>
+        <translation>프록시 포트 (예: 9050)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Venster</translation>
+        <translation>&amp;윈도우</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Toon alleen een tray icoon na minimalisering van het venster.</translation>
+        <translation>창 최소화 후 트레이 아이콘으로만 표시.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp; Minimaliseer naar de tray in plaats van de taakbalk</translation>
+        <translation>&amp;최소화시 작업표시줄이 아닌 트레이로 최소화</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimaliseer in plaats van de applicatie te verlaten wanneer het venster wordt gesloten. Wanneer deze optie is ingeschakeld, wordt de applicatie alleen gesloten nadat in het menu Quit wordt gekozen.</translation>
+        <translation>창 닫기시 프로그램 종료하지 않고 최소화하기. 이 옵션을 사용하면 메뉴에서 종료를 선택해야 프로그램이 종료됩니다.</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>Minimaliseer bij sluiten</translation>
+        <translation>닫&amp;기시 최소화</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;Weergave</translation>
+        <translation>&amp;디스플레이</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>Gebruiksinterface &amp;language:</translation>
+        <translation>사용자 인터페이스 &amp;언어:</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
-        <translation>Gebruiksinterface thema:</translation>
+        <translation>사용자 인터페이스 테마:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Toon &amp;Unit in volgende hoeveelheden:</translation>
+        <translation>&amp;금액을 표시 할 단위:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Kies de standaard onderverdelingseenheid die in de interface wordt weergegeven en bij het verzenden van munten.</translation>
+        <translation>코인 전송시 인터페이스에 표시할 기본 세분화 단위를 선택해주세요.</translation>
     </message>
     <message>
         <source>Decimal digits</source>
-        <translation>Decimale cijfers</translation>
+        <translation>10진수</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>URL's van derden (bijvoorbeeld een blok verkenner) die in het tabblad transacties verschijnen als contextmenu items. %s in de URL wordt vervangen door transactie hash. Meerdere URL's worden gescheiden door verticale balk |.</translation>
+        <translation>트랜잭션 탭에 컨텍스트 메뉴 항목으로 표시되는 서드파티 URL (예: 블록 탐색) URL의 %s 는 트랜잭션 해시로 대체됩니다. 여러 개의 URL은 세로 막대로 구분됩니다 |.</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>Transactie URL's van derden</translation>
+        <translation>서드파티 트랜잭션 URL</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Actieve command line opties die bovenstaande opties overschrijven:</translation>
+        <translation>위의 옵션을 무시하는 활성 명령행 옵션:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Reset alle client opties naar standaardinstellingen.</translation>
+        <translation>모든 클라이언트 옵션을 기본값으로 재설정.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>&amp;Herstellings Opties</translation>
+        <translation>&amp;옵션 재설정</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
+        <translation>&amp;예</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Annuleren</translation>
+        <translation>&amp;취소</translation>
     </message>
     <message>
         <source>I don't care</source>
-        <translation>Het maakt me niet uit</translation>
+        <translation>없음</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>standaard</translation>
+        <translation>기본값</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>geen</translation>
+        <translation>없음</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Bevestig reset instellingen</translation>
+        <translation>옵션 재설정 확인</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Client herstart vereist om wijzigingen te activeren.</translation>
+        <translation>변경 사항을 적용하려면 클라이언트를 다시 시작해야합니다.</translation>
     </message>
     <message>
         <source>Client will be shutdown, do you want to proceed?</source>
-        <translation>Client wordt uitgeschakeld, wil je doorgaan?</translation>
+        <translation>클라이언트가 종료됩니다. 계속 진행하시겠습니까?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Deze wijziging vereist een herstart van de client.</translation>
+        <translation>이 변경은 클라이언트가 재시작 되야 적용됩니다.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Het opgegeven proxyadres is ongeldig.</translation>
+        <translation>프록시 주소가 잘못되었습니다.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Formulier</translation>
+        <translation>Form</translation>
     </message>
     <message>
         <source>XLR Balances</source>
-        <translation>XLR Saldi</translation>
+        <translation>XLR 잔액</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>Beschikbaar:</translation>
+        <translation>사용가능:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Uw huidige bestedingsruimte</translation>
+        <translation>현재 출금 가능한 잔액</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>In afwachting:</translation>
+        <translation>대기중:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Totaal aantal transacties die nog niet zijn bevestigd en nog niet meetellen in het uitgeefbare saldo</translation>
+        <translation>아직 승인되지 않아 사용할 수 없으며, 잔고에 포함되지 않은 총 트랜잭션</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Immatuur:</translation>
+        <translation>미완료:</translation>
     </message>
     <message>
         <source>Staked or masternode rewards that has not yet matured</source>
-        <translation>Staked of masternode beloningen die nog niet volwassen zijn</translation>
+        <translation>아직 완료되지 않은 스테이크 및 마스터노드 보상</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Superbee network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het Superbee netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
+        <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 Superbee 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Onbevestigde transacties naar watch-only adressen</translation>
+        <translation>읽기 전용 주소의 미승인 트랜잭션</translation>
     </message>
     <message>
         <source>Staked or masternode rewards in watch-only addresses that has not yet matured</source>
-        <translation>Staked of masternode beloningen in watch-only adressen die nog niet volwassen zijn</translation>
+        <translation>완료되지 않은 읽기 전용 주소의 스테이크 및 마스터노드 보상</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>Totaal:</translation>
+        <translation>총:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Jouw huidige balanstotaal</translation>
+        <translation>현재 소지하고 있는 총 잔액</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>Huidig ​​totaal saldo in watch-only adressen</translation>
+        <translation>현재 읽기 전용 주소의 총 잔액</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>Watch-only:</translation>
+        <translation>읽기 전용:</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Je huidige saldo in watch-only adressen</translation>
+        <translation>읽기 전용 주소의 현재 잔액</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Uitgeefbaar:</translation>
+        <translation>출금 가능 액수:</translation>
     </message>
     <message>
         <source>Combined Balances (including immature coins)</source>
-        <translation>Gecombineerde Saldi (inclusief onvolwassen munten)</translation>
+        <translation>전체 잔액 (대기중 코인 포함)</translation>
     </message>
     <message>
         <source>XLR:</source>
@@ -1927,148 +1944,148 @@ https://www.transifex.com/listedlinked/superbee-project-translations</translatio
     </message>
     <message>
         <source>Zerocoin Balance</source>
-        <translation>Zerocoin saldo</translation>
+        <translation>제로코인 잔액</translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>Recente transacties</translation>
+        <translation>최근 트랜잭션</translation>
     </message>
     <message>
         <source>out of sync</source>
-        <translation>niet gesynchroniseerd</translation>
+        <translation>동기화되지 않음</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>Fout bij betalingsverzoek</translation>
+        <translation>결제 요청 오류</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>URL behandeling</translation>
+        <translation>URI 처리</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>Betalingsverzoek ophalen URL is ongeldig: %1</translation>
+        <translation>결제 요청을 불러오기 위한 URL이 잘못 되었습니다: %1</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
-        <translation>Betalingsaanvraag bestandsverwerking</translation>
+        <translation>결제 요청 파일 처리 중</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>Ongeldig betalingsadres %1</translation>
+        <translation>잘못된 결제 주소 %1</translation>
     </message>
     <message>
         <source>Cannot start superbee: click-to-pay handler</source>
-        <translation>Kan superbee niet starten: click-to-pay handler</translation>
+        <translation>Superbee을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Superbee address or malformed URI parameters.</source>
-        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig Superbee adres of misvormde URL parameters.</translation>
+        <translation>URI를 분석할 수 없습니다! 이는 잘못된 Superbee 주소 또는 URI 매개변수 손상으로 인해 발생할 수 있습니다.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Uw betalingsverzoek kan niet worden gelezen! Dit kan worden veroorzaakt door een ongeldig betalingsverzoek bestand.</translation>
+        <translation>결제 요청 파일을 읽어 올 수 없습니다! 이는 결제 요청 파일이 잘못되었을 때 발생할 수 있습니다.</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>Betalingsverzoek afgewezen</translation>
+        <translation>결제 요청 거부</translation>
     </message>
     <message>
         <source>Payment request network doesn't match client network.</source>
-        <translation>Het betalingsverzoek netwerk komt niet overeen met het client netwerk.</translation>
+        <translation>결제가 요청된 네트워크와 클라이언트의 네트워크가 일치하지 않습니다.</translation>
     </message>
     <message>
         <source>Payment request has expired.</source>
-        <translation>Betalingsverzoek is verlopen.</translation>
+        <translation>결제 요청 기간이 만료되었습니다.</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>Betalingsverzoek is niet geïnitialiseerd. </translation>
+        <translation>결제 요청 값이 초기화 되지 않았습니다.</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Niet geverifieerde betalingsverzoeken naar aangepaste betaal scripts worden niet ondersteund.</translation>
+        <translation>커스텀 결제 스크립트에 대한 확인되지 않은 결제 요청은 지원되지 않습니다.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Gevraagd betalingsbedrag van %1 is te klein (beschouwd als dust).</translation>
+        <translation>%1 이하의 결제 요청 금액은 너무 적습니다(현금으로 간주됨).</translation>
     </message>
     <message>
         <source>Refund from %1</source>
-        <translation>Terugbetaling van %1</translation>
+        <translation>%1로 부터 환불 되었습니다.</translation>
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Betalingsverzoek %1 is te groot (%2 bytes, toegestaan %3 bytes).</translation>
+        <translation>결제 요청 금액 %1은 너무 큽니다 (%2 바이트, %3 바이트 허용).</translation>
     </message>
     <message>
         <source>Payment request DoS protection</source>
-        <translation>Betalingsverzoek DoS bescherming</translation>
+        <translation>결제 요청 DoS 보호</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>Fout communiceren met %1: %2</translation>
+        <translation>%1: %2 통신하는 중 오류 발생: </translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>Betalingsaanvraag kan niet worden geanalyseerd!</translation>
+        <translation>결제 요청을 확인할 수 없습니다!</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>Bad response van server %1</translation>
+        <translation>%1 서버로 부터 응답 없음</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>Netwerkverzoek fout</translation>
+        <translation>네트워크 요청 오류</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>Betaling erkend</translation>
+        <translation>결제 확인 됨</translation>
     </message>
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>Address/Hostname</source>
-        <translation>Adres/Hostnaam</translation>
+        <translation>주소/사용자 이름</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Versie</translation>
+        <translation>버전</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Pingtijd</translation>
+        <translation>응답 시간</translation>
     </message>
 </context>
 <context>
     <name>PrivacyDialog</name>
     <message>
         <source>XLR which were anonymized via Zerocin Protocol</source>
-        <translation>XLR die via het Zerocin Protocol geanonimiseerd werden</translation>
+        <translation>제로코인 프로토콜을 통해 익명화된 XLR</translation>
     </message>
     <message>
         <source>ZeroSuperbee (zXLR)</source>
-        <translation>ZeroSuperbee (zXLR)</translation>
+        <translation>제로코인 XLR (zXLR)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
-        <translation>Zerocoin Acties:</translation>
+        <translation>제로코인 관리:</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Superbee network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het Superbee netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
+        <translation>표시된 정보가 오래되었을 수 있습니다. 연결이 완료되면 지갑이 Superbee 네트워크와 자동으로 동기화될 예정이지만, 아직 해당 프로세스가 완료되지 않았습니다.</translation>
     </message>
     <message>
         <source>Enter an amount of XLR to convert to zXLR</source>
-        <translation>Vul de hoeveleheid in om XLR te converteren naar zXLR</translation>
+        <translation>zXLR로 변환할 XLR 수량을 입력하세요.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
-        <translation>Mint Zerocoin</translation>
+        <translation>제로코인 생성</translation>
     </message>
     <message>
         <source>0</source>
@@ -2080,7 +2097,7 @@ https://www.transifex.com/listedlinked/superbee-project-translations</translatio
     </message>
     <message>
         <source>Available for Minting:</source>
-        <translation>Beschikbaar voor minting:</translation>
+        <translation>생성 가능한 수량 :</translation>
     </message>
     <message>
         <source>0.000 000 00 XLR</source>
@@ -2088,59 +2105,59 @@ https://www.transifex.com/listedlinked/superbee-project-translations</translatio
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
-        <translation>Zerocoin Wallet DB opnieuw instellen. Verwijdert transacties die het niet in de blockchain hebben gered.</translation>
+        <translation>제로코인 지갑 DB 재설정. 블록 체인에 포함시키지 않은 트랜잭션을 삭제합니다.</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Resetten</translation>
+        <translation>초기화</translation>
     </message>
     <message>
         <source>Coin Control...</source>
-        <translation>Munt controle...</translation>
+        <translation>코인 컨트롤...</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Kwantiteit:</translation>
+        <translation>수량:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Hoeveelheid:</translation>
+        <translation>금액:</translation>
     </message>
     <message>
         <source>Rescan the complete blockchain for  Zerocoin mints and their meta-data.</source>
-        <translation>Rescan de complete blockchain voor Zerocoin mints en hun meta-data.</translation>
+        <translation>제로코인 생성과 메타데이타를 위해 블록체인을 다시 스캔합니다.</translation>
     </message>
     <message>
         <source>ReScan</source>
-        <translation>ReScan</translation>
+        <translation>다시 스캔</translation>
     </message>
     <message>
         <source>Status and/or Mesages from the last Mint Action.</source>
-        <translation>Status en/of Berichten van de laatste mint actie.</translation>
+        <translation>마지막 발행 이후 상태나 메세지</translation>
     </message>
     <message>
         <source>zXLR Control</source>
-        <translation>zXLR controle</translation>
+        <translation>zXLR 설정</translation>
     </message>
     <message>
         <source>zXLR Selected:</source>
-        <translation>zXLR geselecteerd:</translation>
+        <translation>선택한 zXLR : </translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
-        <translation>Hoeveelheid geselecteerd:</translation>
+        <translation>선택된 수량 :</translation>
     </message>
     <message>
         <source>Spend Zerocoin. Without 'Pay To:' address creates payments to yourself.</source>
-        <translation>Zerocoin besteden. Zonder 'Betaal aan:' adres ontstaan betalingen aan jezelf.</translation>
+        <translation>제로코인 전송 'Pay To :' 주소가 없으면 자신에게 지불합니다.</translation>
     </message>
     <message>
         <source>Spend Zerocoin</source>
-        <translation>Besteed Zerocoin</translation>
+        <translation>제로코인 보내기</translation>
     </message>
     <message>
         <source>Available Balance:</source>
-        <translation>Beschikbaar saldo:</translation>
+        <translation>가능한 잔액:</translation>
     </message>
     <message>
         <source>0 zXLR</source>
@@ -2148,27 +2165,27 @@ https://www.transifex.com/listedlinked/superbee-project-translations</translatio
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
-        <translation>Beveiligingsniveau voor Zerocoin transacties. Meer is beter, maar heeft meer tijd en middelen nodig.</translation>
+        <translation>제로코인 전송 시큐리티 레벨.  높을수록 좋지만, 시간과 많은 자원이 필요합니다.</translation>
     </message>
     <message>
         <source>Security Level:</source>
-        <translation>Beveiligings niveau:</translation>
+        <translation>시큐리티 레벨:</translation>
     </message>
     <message>
         <source>Security Level 1 - 100 (default: 42)</source>
-        <translation>Beveiligingsniveau 1 - 100 (standaard: 42)</translation>
+        <translation>시큐리티 레벨 1 - 100 (기본값: 42)</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Betaal &amp;Naar:</translation>
+        <translation>지불 &amp;대상:</translation>
     </message>
     <message>
         <source>The Superbee address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Het Superbee adres om de betaling naar te verzenden. Maakt lokale betaling aan jezelf als je leeg bent.</translation>
+        <translation>XLR를 전송할 Superbee 주소입니다. 비어있을 때 자신에게 지불할 주소를 생성합니다.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Kies een eerder gebruikt adres</translation>
+        <translation>이전에 사용한 주소 선택</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2176,7 +2193,7 @@ https://www.transifex.com/listedlinked/superbee-project-translations</translatio
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Plak adres vanaf klembord</translation>
+        <translation>클립보드에서 주소 붙여 넣기</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2184,131 +2201,131 @@ https://www.transifex.com/listedlinked/superbee-project-translations</translatio
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
+        <translation>&amp;라벨:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Vul een label in voor dit adres om deze toe te voegen aan de lijst met gebruikte adressen</translation>
+        <translation>이 주소의 라벨을 입력하여 사용된 주소 목록에 추가하십시오</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>&amp;Hoeveelheid:</translation>
+        <translation>금&amp;액:</translation>
     </message>
     <message>
         <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Zet wisselgeld om naar Zerocoin (mogelijk extra kosten)</translation>
+        <translation>잔돈을 제로코인으로 변환 (추가 요금이 부과될 수 있음)</translation>
     </message>
     <message>
         <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
-        <translation>Indien aangevinkt, probeert de portemonnee het terugkerende wisselgeld te minimaliseren in plaats van het aantal uitgegeven denominaties te minimaliseren.</translation>
+        <translation>이 옵션을 선택하면, 사용한 디노미네이션의 수를 최소화하는 대신 남는 잔돈을 최소화합니다.</translation>
     </message>
     <message>
         <source>Minimize Change</source>
-        <translation>Minimaliseer wisselgeld</translation>
+        <translation>잔돈 최소화하기</translation>
     </message>
     <message>
         <source>Information about the available Zerocoin funds.</source>
-        <translation>Informatie over de beschikbare Zerocoin fondsen.</translation>
+        <translation>사용가능한 제로코인 정보</translation>
     </message>
     <message>
         <source>Zerocoin Stats:</source>
-        <translation>Zerocoin Statistieken:</translation>
+        <translation>제로코인 상태 :</translation>
     </message>
     <message>
         <source>Available Funds</source>
-        <translation>Beschikbare Fondsen</translation>
+        <translation>사용가는한 펀드</translation>
     </message>
     <message>
         <source>Available Zerocoin  Balance:</source>
-        <translation>Beschikbaar Zerocoin saldo:</translation>
+        <translation>사용가능한 제로코인 잔액:</translation>
     </message>
     <message>
         <source>Denominations with value 1:</source>
-        <translation>Denominaties met waarde 1:</translation>
+        <translation>디노미네이션 값 1:</translation>
     </message>
     <message>
         <source>Denom. with value 1:</source>
-        <translation>Denom. met waarde 1:</translation>
+        <translation>Denom. 값 1:</translation>
     </message>
     <message>
         <source>0 x</source>
-        <translation> 0 x</translation>
+        <translation>0 x</translation>
     </message>
     <message>
         <source>Denominations with value 5:</source>
-        <translation>Denominaties met waarde 5:</translation>
+        <translation>디노미네이션 값 5:</translation>
     </message>
     <message>
         <source>Denom. with value 5:</source>
-        <translation>Denom. met waarde 5:</translation>
+        <translation>Denom. 값 5:</translation>
     </message>
     <message>
         <source>Denominations with value 10:</source>
-        <translation>Denominaties met waarde 10:</translation>
+        <translation>디노미네이션  값 10:</translation>
     </message>
     <message>
         <source>Denom. with value 10:</source>
-        <translation>Denom. met waarde 10:</translation>
+        <translation>Denom. 값 10:</translation>
     </message>
     <message>
         <source>Denominations with value 50:</source>
-        <translation>Denominaties met waarde 50:</translation>
+        <translation>디노미네이션 값 50:</translation>
     </message>
     <message>
         <source>Denom. with value 50:</source>
-        <translation>Denom. met waarde 50:</translation>
+        <translation>Denom. 값 50:</translation>
     </message>
     <message>
         <source>Denominations with value 100:</source>
-        <translation>Denominaties met waarde 100:</translation>
+        <translation>디노미네이션 값 100:</translation>
     </message>
     <message>
         <source>Denom. with value 100:</source>
-        <translation>Denom. met waarde 100:</translation>
+        <translation>Denom. 값 100:</translation>
     </message>
     <message>
         <source>Denominations with value 500:</source>
-        <translation>Denominaties met waarde 500:</translation>
+        <translation>디노미네이션 값 500:</translation>
     </message>
     <message>
         <source>Denom. with value 500:</source>
-        <translation>Denom. met waarde 500:</translation>
+        <translation>Denom. 값 500:</translation>
     </message>
     <message>
         <source>Denominations with value 1000:</source>
-        <translation>Denominaties met waarde 1000:</translation>
+        <translation>디노미네이션 값 1000:</translation>
     </message>
     <message>
         <source>Denom. with value 1000:</source>
-        <translation>Denom. met waarde 1000:</translation>
+        <translation>Denom. 값 1000:</translation>
     </message>
     <message>
         <source>Denominations with value 5000:</source>
-        <translation>Denominaties met waarde 5000:</translation>
+        <translation>디노미네이션 값 5000:</translation>
     </message>
     <message>
         <source>Denom. with value 5000:</source>
-        <translation>Denom. met waarde 5000:</translation>
+        <translation>Denom. 값 5000:</translation>
     </message>
     <message>
         <source>Note: This hidden objects are used for communication between the 'Coin Control' dialog and its parent objects. We don't want to change/reimplement the existing Coin Control, so this objects must be here, even when we don't use them. No, we don't like this approach, either.</source>
-        <translation>Opmerking: Deze verborgen objecten worden gebruikt voor communicatie tussen de 'Munt Controle' dialoog en de  parent objecten. We willen de bestaande Munt Controle niet veranderen/opnieuw implementeren, dus deze objecten moeten hier zijn, zelfs als we ze niet gebruiken. Nee, we houden ook niet van deze aanpak.</translation>
+        <translation>Note: This hidden objects are used for communication between the 'Coin Control' dialog and its parent objects. We don't want to change/reimplement the existing Coin Control, so this objects must be here, even when we don't use them. No, we don't like this approach, either.</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Prioriteit:</translation>
+        <translation>우선 순위:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Kost:</translation>
+        <translation>수수료:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Stof:</translation>
+        <translation>현금:</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>nee</translation>
+        <translation>아니오</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -2316,71 +2333,71 @@ https://www.transifex.com/listedlinked/superbee-project-translations</translatio
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Onvoldoende saldo!</translation>
+        <translation>자금이 충분하지 않습니다!</translation>
     </message>
     <message>
         <source>Coins automatically selected</source>
-        <translation>Munten automatisch geselecteerd</translation>
+        <translation>코인 자동으로 선택됨</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>medium</translation>
+        <translation>중간</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Munt controle kenmerken</translation>
+        <translation>코인 제어 기능</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Als dit geactiveerd is, maar het wisselgeld adres is leeg of ongeldig, wordt het wisselgeld verzonden naar een nieuw gegenereerd adres.</translation>
+        <translation>이 옵션이 활성화되었지만, 변경 주소가 비어있거나 유효하지 않은 경우 변경사항은 새로 생성된 주소로 전송됩니다.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Aangepast wisselgeld adres</translation>
+        <translation>커스텀 주소 변경</translation>
     </message>
     <message>
         <source>Amount After Fee:</source>
-        <translation>Bedrag na kosten:</translation>
+        <translation>수수료 차감 금액:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Wijzig:</translation>
+        <translation>변경:</translation>
     </message>
     <message>
         <source>out of sync</source>
-        <translation>niet gesynchroniseerd</translation>
+        <translation>동기화되지 않음</translation>
     </message>
     <message>
         <source>Mint Status: Okay</source>
-        <translation>Mint status: Oké</translation>
+        <translation>생성 상태 : Okay</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Kopieer kwanititeit</translation>
+        <translation>수량 복사</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopieer hoeveelheid</translation>
+        <translation>금액 복사</translation>
     </message>
     <message>
         <source>Zerocoin functionality is not enabled on the Superbee network yet.</source>
-        <translation>Zerocoin functionaliteit is nog niet ingeschakeld op het Superbee netwerk.</translation>
+        <translation>제로 코인 기능 상태가 Superbee 네트워크 상에서 이루어지지 않습니다.</translation>
     </message>
     <message>
         <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
-        <translation>Fout: Je portemonnee is vergrendeld. Voer alsjeblieft de wachtwoord zin voor de portemonnee in.</translation>
+        <translation>Error : 지갑이 잠겨있습니다. 먼저 지갑을 열어주세요.</translation>
     </message>
     <message>
         <source>Message: Enter an amount &gt; 0.</source>
-        <translation>Bericht: voer een bedrag in &gt; 0.</translation>
+        <translation>Message: 0 이상의 수량을 입력하세요.</translation>
     </message>
     <message>
         <source>Minting </source>
-        <translation>Minting </translation>
+        <translation>생성중입니다.</translation>
     </message>
     <message>
         <source>Successfully minted </source>
-        <translation>Succesvol gemint</translation>
+        <translation>성공적으로 발행됨</translation>
     </message>
     <message>
         <source> zXLR in </source>
@@ -2389,148 +2406,147 @@ https://www.transifex.com/listedlinked/superbee-project-translations</translatio
     <message>
         <source> sec. Used denominations:
 </source>
-        <translation>sec. gebruikte denominaties:
+        <translation> 초. 사용된 디노미네이션:
 </translation>
     </message>
     <message>
         <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. 
 Please be patient...</source>
-        <translation>Start ResetMintZerocoin: rescanning complete blockchain, dit zal tot 30 minuten nodig hebben, afhankelijk van uw hardware.
-Wees alsjeblieft geduldig...</translation>
+        <translation>제로코인 생성 초기화 진행중... : 전체 블록체인을 다시 검색합니다. 하드웨어에 따라 최대 30분이 걸릴수 있습니다.
+기다려주세요...</translation>
     </message>
     <message>
         <source>Duration: </source>
-        <translation>Duur:</translation>
+        <translation>경과시간:</translation>
     </message>
     <message>
         <source> sec.
 </source>
-        <translation> sec.
+        <translation>초.
 </translation>
     </message>
     <message>
         <source>Starting ResetSpentZerocoin: </source>
-        <translation>Starten van ResetSpentZerocoin: </translation>
+        <translation>전송된 제로코인 리셋 시작중...</translation>
     </message>
     <message>
         <source>No 'Pay To' address provided, creating local payment</source>
-        <translation>Geen 'Betaal aan' adres verstrekt, lokale betaling wordt gemaakt</translation>
+        <translation>주소를 입력하지 않아, 신규 주소를 생성합니다.</translation>
     </message>
     <message>
         <source>Invalid Superbee Address</source>
-        <translation>Ongeldig Superbee addres</translation>
+        <translation>잘못된 Superbee 주소</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
-        <translation>Ongeldig verzend bedrag</translation>
+        <translation>잘못된 전송 수량</translation>
     </message>
     <message>
         <source>Confirm additional Fees</source>
-        <translation>Bevestig extra kosten</translation>
+        <translation>추가 수수료 확인</translation>
     </message>
     <message>
         <source>Are you sure you want to send?&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Weet je zeker dat je wilt verzenden?&lt;br /&gt;&lt;br /&gt;</translation>
+        <translation>정말로 보내시겠습니까?&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <source> to address </source>
-        <translation>naar adres</translation>
+        <translation>주소로</translation>
     </message>
     <message>
         <source> to a newly generated (unused and therefor anonymous) local address &lt;br /&gt;</source>
-        <translation>naar een nieuw gegenereerd (ongebruikt en dus anoniem) lokaal adres&lt;br /&gt;</translation>
+        <translation>새로 생성된 개인 지갑 주소(미사용된 익명의) &lt;br /&gt; 로</translation>
     </message>
     <message>
         <source>with Security Level </source>
-        <translation>met beveiligingsniveau</translation>
+        <translation>시큐리티 레벨</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Bevestig verzending coins</translation>
+        <translation>코인 전송 확인</translation>
     </message>
     <message>
         <source>Spending Zerocoin.
 Computationally expensive, might need several minutes depending on the selected Security Level and your hardware. 
 Please be patient...</source>
-        <translation>Zerocoin besteden.
-Computationeel duur, zou mogelijk enkele minuten nodig hebben, afhankelijk van het geselecteerde beveiligingsniveau en je 
-hardware.
-Wees alsjeblieft geduldig...</translation>
+        <translation>제로코인 전송중입니다.
+시큐리티 레벨과 여러분의 하드웨어에 따라 수 분이 걸립니다.
+조금만 기다려주세요...</translation>
     </message>
     <message>
         <source>Spend Zerocoin failed with status = </source>
-        <translation>Bestede Zerocoin mislukt met status =</translation>
+        <translation>제로코인 송금 실패 상태 =</translation>
     </message>
     <message>
         <source>zXLR Spend #: </source>
-        <translation>zXLR besteed #: </translation>
+        <translation>zXLR 송금 #: </translation>
     </message>
     <message>
         <source>denomination: </source>
-        <translation>denominatie:</translation>
+        <translation>디노미네이션: </translation>
     </message>
     <message>
         <source>serial: </source>
-        <translation>serial: </translation>
+        <translation>시리얼:</translation>
     </message>
     <message>
         <source>Spend is 1 of : </source>
-        <translation>Besteed is 1 of : </translation>
+        <translation>Spend is 1 of : </translation>
     </message>
     <message>
         <source>value out: </source>
-        <translation>Waarde uit:</translation>
+        <translation>출력 값:</translation>
     </message>
     <message>
         <source>address: </source>
-        <translation>adres:</translation>
+        <translation>주소:</translation>
     </message>
     <message>
         <source>zXLR Mint</source>
-        <translation>zXLR Mint</translation>
+        <translation>zXLR 생성</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
-        <translation>Verzenden succesvol, retourcode:</translation>
+        <translation>성공 완료, 리턴 코드 :</translation>
     </message>
     <message>
         <source>txid: </source>
-        <translation>txid: </translation>
+        <translation>txid:</translation>
     </message>
     <message>
         <source>fee: </source>
-        <translation>kosten:</translation>
+        <translation>수수료:</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>Hoeveelheid</translation>
+        <translation>금액</translation>
     </message>
     <message>
         <source>Enter a Superbee address (e.g. %1)</source>
-        <translation>Voer een Superbee adres in (b.v. %1)</translation>
+        <translation>Superbee 주소를 입력하세요 (예 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
-        <translation>%1 d</translation>
+        <translation>%1 일</translation>
     </message>
     <message>
         <source>%1 h</source>
-        <translation>%1 h</translation>
+        <translation>%1 시간</translation>
     </message>
     <message>
         <source>%1 m</source>
-        <translation>%1 m</translation>
+        <translation>%1 분</translation>
     </message>
     <message>
         <source>%1 s</source>
-        <translation>%1 s</translation>
+        <translation>%1 초</translation>
     </message>
     <message>
         <source>NETWORK</source>
-        <translation>NETWERK</translation>
+        <translation>네트워크</translation>
     </message>
     <message>
         <source>BLOOM</source>
@@ -2538,15 +2554,15 @@ Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
         <source>UNKNOWN</source>
-        <translation>ONBEKEND</translation>
+        <translation>UNKNOWN</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Geen</translation>
+        <translation>None</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>NB</translation>
+        <translation>N/A</translation>
     </message>
     <message>
         <source>%1 ms</source>
@@ -2557,274 +2573,275 @@ Wees alsjeblieft geduldig...</translation>
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Afbeelding opslaan...</translation>
+        <translation>이미지 &amp;저장...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>&amp;Kopieer afbeelding</translation>
+        <translation>&amp;이미지 복사</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>QR code opslaan</translation>
+        <translation>QR 코드 저장</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>PNG Afbeelding(*.png)</translation>
+        <translation>PNG 형식 이미지 (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>Tools window</source>
-        <translation>Tools venster</translation>
+        <translation>도구 창</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Informatie</translation>
+        <translation>&amp;정보</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Algemeen</translation>
+        <translation>일반</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Naam</translation>
+        <translation>이름</translation>
     </message>
     <message>
         <source>Client name</source>
-        <translation>Client naam</translation>
+        <translation>클라이언트 이름</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>NB</translation>
+        <translation>N/A</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Aantal connecties</translation>
+        <translation>연결된 수</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Open</translation>
+        <translation>&amp;열기</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>Opstarttijd</translation>
+        <translation>시작 시간</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Netwerk</translation>
+        <translation>네트워크</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Laatste blocktijd</translation>
+        <translation>최근 블록 시간</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Debug logbestand</translation>
+        <translation>로그 파일 디버그</translation>
     </message>
     <message>
         <source>Using OpenSSL version</source>
-        <translation>Gebruikt OpenSSL versie</translation>
+        <translation>OpenSSL 버전 사용</translation>
     </message>
     <message>
         <source>Build date</source>
-        <translation>Bouwdatum</translation>
+        <translation>빌드 날짜</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Huidige blockaantal</translation>
+        <translation>현재 블록 개수</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>Client versie</translation>
+        <translation>클라이언트 버전</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Gebruikt BerkeleyDB versie</translation>
+        <translation>사용중인 BerkeleyDB 버전</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Blockchain</translation>
+        <translation>블록체인</translation>
     </message>
     <message>
         <source>Open the Superbee debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het Superbee debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
+        <translation>현재 데이터 디렉토리에서 Superbee 디버그 로그 파일을 엽니다. 로그 파일이 클 경우, 약간의 시간이 걸릴 수 있습니다.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
-        <translation>Aantal Masternodes</translation>
+        <translation>마스터노드 개수</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Console</translation>
+        <translation>&amp;콘솔</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Console leegmaken</translation>
+        <translation>콘솔 초기화</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Netwerk verkeer</translation>
+        <translation>&amp;네트워크 트래픽</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Leegmaken</translation>
+        <translation>&amp;초기화</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>Totalen</translation>
+        <translation>총</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Ontvangen</translation>
+        <translation>받음</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>Verstuurd</translation>
+        <translation>보냄</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>&amp;Peers</translation>
+        <translation>&amp;피어</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Selecteer een peer om gedetailleerde informatie te bekijken.</translation>
+        <translation>자세한 정보를 보기 위해 피어를 선택 하세요.</translation>
     </message>
     <message>
         <source>Direction</source>
-        <translation>Richting</translation>
+        <translation>위치</translation>
     </message>
     <message>
         <source>Protocol</source>
-        <translation>Protocol</translation>
+        <translation>프로토콜</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Versie</translation>
+        <translation>버전</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Diensten</translation>
+        <translation>서비스</translation>
     </message>
     <message>
         <source>Starting Height</source>
-        <translation>Start hoogte</translation>
+        <translation>시작 위치</translation>
     </message>
     <message>
         <source>Sync Height</source>
-        <translation>Sync hoogte</translation>
+        <translation>동기화 위치</translation>
     </message>
     <message>
         <source>Ban Score</source>
-        <translation>Ban score</translation>
+        <translation>밴 스코어</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Connectietijd</translation>
+        <translation>연결 시간</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Laatst Verzonden</translation>
+        <translation>최근 보냄</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Laatst Ontvangen</translation>
+        <translation>최근 받음</translation>
     </message>
     <message>
         <source>Bytes Sent</source>
-        <translation>Verzonden Bytes</translation>
+        <translation>보낸 바이트</translation>
     </message>
     <message>
         <source>Bytes Received</source>
-        <translation>Ontvangen Bytes</translation>
+        <translation>받은 바이트</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Pingtijd</translation>
+        <translation>응답 시간</translation>
     </message>
     <message>
         <source>&amp;Wallet Repair</source>
-        <translation>&amp;Portemonnee herstel</translation>
+        <translation>&amp;지갑 복구</translation>
     </message>
     <message>
         <source>Wallet In Use:</source>
-        <translation>Portemonnee in gebruik:</translation>
+        <translation>사용중인 지갑:</translation>
     </message>
     <message>
         <source>Salvage wallet</source>
-        <translation>Red portemonnee</translation>
+        <translation>지갑 복구</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation>Poog om privé sleutels terug te halen uit een corrupte wallet.dat.</translation>
+        <translation>손상된 wallet.dat로 부터 개인키 복구 시도</translation>
     </message>
     <message>
         <source>Rescan blockchain files</source>
-        <translation>Herscan blockchain bestanden</translation>
+        <translation>블록체인 파일 재스캔</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions.</source>
-        <translation>Herscan de blockchain voor ontbrekende portemonnee transacties.</translation>
+        <translation>거래내역 복구를 위한 블록체인 재검색</translation>
     </message>
     <message>
         <source>Recover transactions 1</source>
-        <translation>Herstel transacties 1</translation>
+        <translation>트랜잭션 복구 1</translation>
     </message>
     <message>
         <source>Recover transactions from blockchain (keep meta-data, e.g. account owner).</source>
-        <translation>Herstel transacties van blockchain (houd meta-data, bijvoorbeeld account eigenaar).</translation>
+        <translation>블록체인에서 거래내역 복구 (메타 데이터 저장 예: 사용자 주소)
+</translation>
     </message>
     <message>
         <source>Recover transactions 2</source>
-        <translation>Herstel transacties 2</translation>
+        <translation>트랜잭션 복구 2</translation>
     </message>
     <message>
         <source>Recover transactions from blockchain (drop meta-data).</source>
-        <translation>Herstel transacties van blockchain (laat meta-data vallen).</translation>
+        <translation>블록체인에서 거래내역 복구 (메타 데이터 삭제)</translation>
     </message>
     <message>
         <source>Upgrade wallet format</source>
-        <translation>Upgrade portemonnee format</translation>
+        <translation>지갑 구성 업그레이드</translation>
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files.</source>
-        <translation>Herstel blockchain index van huidige blk000??.dat bestanden.</translation>
+        <translation>현재 blk000??.dat로 부터 블록체인 인덱스 재작성</translation>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
-        <translation>De onderstaande knoppen zullen de portemonnee opnieuw opstarten met command line opties om de portemonnee te repareren, problemen op te lossen met corrupte blockchain bestanden of ontbrekende/verouderde transacties.</translation>
+        <translation>아래 버튼들은 지갑을 고치기 위한 명령어 옵션들로 실행시 지갑을 재시작합니다, 손상된 블록체인 파일 또는 누락되었거나 오래된 트랜잭션들에 대한 문제를 해결합니다.</translation>
     </message>
     <message>
         <source>Wallet repair options.</source>
-        <translation>Portemonnee herstelopties.</translation>
+        <translation>지갑 복구 옵션.</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</source>
-        <translation>Upgrade portemonnee naar nieuwste format bij opstarten. (Opmerking: dit is NIET een update van de portemonnee zelf!)</translation>
+        <translation>시작시 지갑을 최신 포맷으로 업그레이드 (참고 : 지갑 자체의 업데이트 아님!)</translation>
     </message>
     <message>
         <source>Rebuild index</source>
-        <translation>Herbouw index</translation>
+        <translation>색인 재구축</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>In:</translation>
+        <translation>입력:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>Uit:</translation>
+        <translation>출력:</translation>
     </message>
     <message>
         <source>Welcome to the Superbee RPC console.</source>
-        <translation>Welkom bij de Superbee RPC console.</translation>
+        <translation>Superbee RPC 콘솔에 오신 것을 환영합니다.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Gebruik omhoog en omlaag pijlen om de geschiedenis te navigeren, en&lt;b&gt;Ctrl-L&lt;/b&gt;om scherm te wissen.</translation>
+        <translation>위 아래 화살표를 사용하여 기록을 탐색하고 &lt;b&gt;Ctrl-L&lt;/b&gt; 화면을 지웁니다.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Type &lt;b&gt;help &lt;/b&gt;voor een overzicht van beschikbare commando's.</translation>
+        <translation>사용가능한 명령을 보려면 &lt;b&gt;help&lt;/b&gt;를 입력하십시오.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -2848,137 +2865,137 @@ Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
         <source>never</source>
-        <translation>nooit</translation>
+        <translation>never</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <translation>Inkomende</translation>
+        <translation>인바운드</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>Uitgaande</translation>
+        <translation>아웃바운드</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Ongekend</translation>
+        <translation>Unknown</translation>
     </message>
     <message>
         <source>Fetching...</source>
-        <translation>Ophalen...</translation>
+        <translation>가져오는 중...</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</source>
-        <translation>Hergebruik een van de eerder gebruikte ontvangstadressen.&lt;br&gt;Hergebruik van adressen heeft beveiligings- en privacyproblemen. &lt;br&gt;Gebruik dit niet tenzij u eerder een betalingsverzoek heeft aangemaakt.</translation>
+        <translation>이전에 사용한 수신 주소 중 하나를 다시 사용하십시오.&lt;br&gt;주소 재사용은 보안 및 개인정보보호 문제가 있습니다.&lt;br&gt;이전에 만든 결제 요청을 다시 생성하지 않는 한 이것을 사용하지 마십시오.</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>Hergebruik een bestaand ontvangstadres (niet aanbevolen)</translation>
+        <translation>기&amp;존 수신 주소 재사용 (권장하지 않음)</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>&amp;Bericht:</translation>
+        <translation>&amp;메세지:</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>Een optioneel label om te associëren met het nieuwe ontvangstadres.</translation>
+        <translation>새로운 수신 주소와 연결할 선택적 라벨.</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Superbee network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend. Opmerking: het bericht wordt niet verzonden met de betaling via het Superbee netwerk.</translation>
+        <translation>요청이 열릴 때 표시되는 결제 요청에 첨부할 선택적 메세지 입니다. 참고: Superbee 네트워크를 통한 결제는 메세지가 전송되지 않습니다.</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Superbee network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend.&lt;br&gt;Opmerking: het bericht wordt niet verzonden met de betaling via het Superbee netwerk.</translation>
+        <translation>요청이 열릴 때 표시되는 결제 요청에 첨부할 선택적 메세지 입니다.&lt;br&gt;참고: Superbee 네트워크를 통한 결제는 메세지가 전송되지 않습니다.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Gebruik dit formulier om betalingen aan te vragen. Alle velden zijn&lt;b&gt;optioneel&lt;/b&gt;.</translation>
+        <translation>결제 요청을 진행하려면 해당 양식을 입력하세요. 모든 입력란은 &lt;b&gt;선택 사항&lt;/b&gt;입니다.</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
+        <translation>&amp;라벨:</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Een optioneel bedrag om te vragen. Laat dit leeg of vul een nul in om geen specifiek bedrag te vragen.</translation>
+        <translation>요청할 선택적 금액. 이 금액을 비워두거나 특정 금액을 요청하지 않으려면 0으로 두세요.</translation>
     </message>
     <message>
         <source>&amp;Amount:</source>
-        <translation>&amp;Hoeveelheid:</translation>
+        <translation>&amp;금액:</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>&amp;Verzoek betaling</translation>
+        <translation>&amp;결제 요청</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Leeg alle velden van het formulier.</translation>
+        <translation>모든 입력 양식 지우기.</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Leegmaken</translation>
+        <translation>지우기</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>Betalingsverzoeken geschiedenis</translation>
+        <translation>요청된 결제 내역</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Toon het geselecteerde verzoek (doet hetzelfde als dubbelklik op een item)</translation>
+        <translation>선택한 요청을 표시합니다 (항목을 두 번 클릭하는 것과 동일)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>Toon</translation>
+        <translation>표시</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Verwijder de geselecteerde vermeldingen uit de lijst</translation>
+        <translation>선택한 항목을 목록에서 제거하십시오</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Verwijder</translation>
+        <translation>제거</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiëer label</translation>
+        <translation>라벨 복사</translation>
     </message>
     <message>
         <source>Copy message</source>
-        <translation>Bericht kopiëren</translation>
+        <translation>메세지 복사</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopieer hoeveelheid</translation>
+        <translation>금액 복사</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>QR Code</translation>
+        <translation>QR 코드</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>Kopieer &amp;URI</translation>
+        <translation>&amp;URI 복사</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Kopieer &amp;Adres</translation>
+        <translation>&amp;주소 복사</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Afbeelding opslaan...</translation>
+        <translation>이미지 &amp;저장...</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
-        <translation>Verzoek betaling aan %1</translation>
+        <translation>%1 결제 요청</translation>
     </message>
     <message>
         <source>Payment information</source>
-        <translation>Betalingsinformatie</translation>
+        <translation>결제 정보</translation>
     </message>
     <message>
         <source>URI</source>
@@ -2986,77 +3003,77 @@ Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>주소</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Hoeveelheid</translation>
+        <translation>금액</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>라벨</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Bericht</translation>
+        <translation>메세지</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Resulterende URI te lang geleden, probeer de tekst voor label/bericht te verminderen.</translation>
+        <translation>URI 결과가 너무 길면, 라벨 / 메세지의 텍스트를 줄입니다.</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Fout bij het coderen van URI in QR-code.</translation>
+        <translation>URI를 QR 코드로 인코딩하는 도중 오류가 발생하였습니다.</translation>
     </message>
 </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>날짜</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>라벨</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Bericht</translation>
+        <translation>메세지</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Hoeveelheid</translation>
+        <translation>금액</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(geen label)</translation>
+        <translation>(라벨 없음)</translation>
     </message>
     <message>
         <source>(no message)</source>
-        <translation>(geen bericht)</translation>
+        <translation>(메세지 없음)</translation>
     </message>
     <message>
         <source>(no amount)</source>
-        <translation>(geen hoeveelheid)</translation>
+        <translation>(금액 없음)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Verzend Munten</translation>
+        <translation>코인 전송 </translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Munt controle kenmerken</translation>
+        <translation>코인 제어 기능</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Onvoldoende saldo!</translation>
+        <translation>자금이 충분하지 않습니다!</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Kwantiteit:</translation>
+        <translation>수량:</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -3064,55 +3081,55 @@ Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Hoeveelheid:</translation>
+        <translation>금액:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Prioriteit:</translation>
+        <translation>우선 순위:</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>medium</translation>
+        <translation>중간</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Kost:</translation>
+        <translation>수수료:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Stof:</translation>
+        <translation>현금:</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>nee</translation>
+        <translation>아니오</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Na de kost:</translation>
+        <translation>이후 수수료:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Wijzig:</translation>
+        <translation>변경:</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Als dit geactiveerd is, maar het wisselgeld adres is leeg of ongeldig, wordt het wisselgeld verzonden naar een nieuw gegenereerd adres.</translation>
+        <translation>이 옵션이 활성화되었지만, 변경 주소가 비어있거나 유효하지 않은 경우 변경사항은 새로 생성된 주소로 전송됩니다.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Aangepast wisselgeld adres</translation>
+        <translation>커스텀 주소 변경</translation>
     </message>
     <message>
         <source>Split UTXO</source>
-        <translation>Split UTXO</translation>
+        <translation>UTXO 분할</translation>
     </message>
     <message>
         <source># of outputs</source>
-        <translation># outputs</translation>
+        <translation># 출력 수</translation>
     </message>
     <message>
         <source>UTXO Size:</source>
-        <translation>UTXO grootte:</translation>
+        <translation>UTXO 크기:</translation>
     </message>
     <message>
         <source>0 XLR</source>
@@ -3120,111 +3137,111 @@ Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>Transactiekosten: </translation>
+        <translation>트랜잭션 수수료:</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>Kies...</translation>
+        <translation>선택...</translation>
     </message>
     <message>
         <source>collapse fee-settings</source>
-        <translation>Klap kosten instellingen in</translation>
+        <translation>간단한 수수료 설정</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Minimaliseer</translation>
+        <translation>최소화</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>per kilobyte</translation>
+        <translation>킬로바이트당</translation>
     </message>
     <message>
         <source>total at least</source>
-        <translation>totaal tenminste</translation>
+        <translation>전체에서 최소</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
-        <translation>(lees de tooltip)</translation>
+        <translation>(툴팁을 읽어주세요)</translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>Aangepast:</translation>
+        <translation>커스텀:</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Smart fee nog niet geïnitialiseerd. Dit duurt meestal een paar blokken ...)</translation>
+        <translation>(스마트 수수료가 아직 초기화 되지 않았습니다. 일반적으로 몇 블록이 지나야됩니다...)</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
-        <translation>Bevestigingstijd:</translation>
+        <translation>승인 시간:</translation>
     </message>
     <message>
         <source>Open Coin Control...</source>
-        <translation>Open munt controle...</translation>
+        <translation>코인 설정 열기...</translation>
     </message>
     <message>
         <source>Coins automatically selected</source>
-        <translation>Munten automatisch geselecteerd</translation>
+        <translation>코인 자동으로 선택됨</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 uXLRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXLRs in fee,&lt;br /&gt;while "at least" pays 1000 uXLRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uXLRs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uXLR's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uXLR's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uXLRs로 설정되고,&lt;br /&gt;1000 uXLRs 안에는 최소 "킬로바이트당" 250 uXLRs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 uXLRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXLRs in fee,&lt;br /&gt;while "total at least" pays 1000 uXLRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uXLRs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uXLR's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uXLR's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <translation>트랜잭션이 250바이트 인 경우 사용자 지정 수수료가 1000 uXLRs로 설정되고,&lt;br /&gt;1000 uXLRs 안에는 전체에서 최소 "킬로바이트당" 250 uXLRs 만 지불합니다. 1 킬로바이트보다 큰 트랜잭션의 경우 모두 킬로바이트 단위로 지불합니다.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Superbee transactions than the network can process.</source>
-        <translation>Alleen de minimale vergoeding betalen is prima, zolang er minder transactie volume is dan ruimte in de blokken. &lt;br /&gt;Maar wees ervan bewust dat dit kan leiden tot een nooit bevestigende transactie wanneer er meer vraag is naar Superbee transacties dan het netwerk kan verwerken.</translation>
+        <translation>블록의 공간보다 트랜잭션량이 적으면 최소 수수료만 지불하면 됩니다.&lt;br /&gt;하지만 Superbee 트랜잭션 수가 많으면 미확인된 트랜잭션로 네트워크가 처리할 수도 있습니다.</translation>
     </message>
     <message>
         <source>normal</source>
-        <translation>normaal</translation>
+        <translation>보통</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>snel</translation>
+        <translation>빠른</translation>
     </message>
     <message>
         <source>Recommended</source>
-        <translation>Aanbevolen</translation>
+        <translation>권장</translation>
     </message>
     <message>
         <source>Send as zero-fee transaction if possible</source>
-        <translation>Zend als zero-fee transactie indien mogelijk</translation>
+        <translation>가능하다면 제로 수수료 트랜잭션으로 전송하십시오</translation>
     </message>
     <message>
         <source>(confirmation may take longer)</source>
-        <translation>(bevestiging kan langer duren)</translation>
+        <translation>(승인이 오래걸릴 수 있습니다)</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Bevestig de verzendactie</translation>
+        <translation>전송 작업 확인</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>V&amp;erzonden</translation>
+        <translation>전&amp;송</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Leeg alle velden van het formulier.</translation>
+        <translation>모든 입력 양식 지우기.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Verwijder &amp;Alles</translation>
+        <translation>전체 &amp;지우기</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Verzend naar meerdere ontvangers tegelijk</translation>
+        <translation>한번에 여러 곳 전송</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>Voeg &amp;ontvanger toe</translation>
+        <translation>&amp;받는 사람 추가</translation>
     </message>
     <message>
         <source>Anonymized XLR</source>
-        <translation>Geanonimiseerde XLR</translation>
+        <translation>익명화 XLR</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3232,170 +3249,170 @@ Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Balans:</translation>
+        <translation>잔액:</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Kopieer kwanititeit</translation>
+        <translation>수량 복사</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopieer hoeveelheid</translation>
+        <translation>금액 복사</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Kopiëer kost</translation>
+        <translation>수수료 복사</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Kopiëer na kost</translation>
+        <translation>이용 수수료 복사</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Kopieer bytes</translation>
+        <translation>bytes 복사</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Kopieer prioriteit</translation>
+        <translation>우선 사항 복사</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Kopieer dust</translation>
+        <translation>현금 복사</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Kopieer wisselgeld</translation>
+        <translation>변경 복사</translation>
     </message>
     <message>
         <source>The split block tool does not work when sending to outside addresses. Try again.</source>
-        <translation>Het split block tool werkt niet bij het verzenden naar externe adressen. Probeer het nog eens.</translation>
+        <translation>분할 블록 도구는 외부 주소로 보낼 때 작동하지 않습니다. 다시 시도하십시오.</translation>
     </message>
     <message>
         <source>The split block tool does not work with multiple addresses. Try again.</source>
-        <translation>Het split block tool werkt niet met meerdere adressen. Probeer het nog eens.</translation>
+        <translation>분할 블록 도구는 여러 주소에서 작동하지 않습니다. 다시 시도하십시오.</translation>
     </message>
     <message>
         <source>using</source>
-        <translation>gebruikt</translation>
+        <translation>사용</translation>
     </message>
     <message>
         <source>anonymous funds</source>
-        <translation>anonieme financiën</translation>
+        <translation>익명 자금</translation>
     </message>
     <message>
         <source>Warning: Invalid Superbee address</source>
-        <translation>Waarschuwing: Ongeldig Superbee adres</translation>
+        <translation>경고: 잘못된 Superbee 주소</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
-        <translation>elke beschikbare fonds (niet aanbevolen)</translation>
+        <translation>사용 가능한 자금 (권장하지 않음)</translation>
     </message>
     <message>
         <source>and SwiftTX</source>
-        <translation>en SwiftTX</translation>
+        <translation>그리고 SwiftTX</translation>
     </message>
     <message>
         <source>%1 to %2</source>
-        <translation>%1 naar %2</translation>
+        <translation>%1 에서 %2</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>Ben je zeker dat je wilt verzenden?</translation>
+        <translation>정말 보내시겠습니까?</translation>
     </message>
     <message>
         <source>are added as transaction fee</source>
-        <translation>worden toegevoegd als transactiekosten</translation>
+        <translation>트랜잭션 수수료가 추가됩니다</translation>
     </message>
     <message>
         <source>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</source>
-        <translation>Totale hoeveelheid = &lt;b&gt;%1 &lt;/b&gt;&lt;br /&gt;= %2</translation>
+        <translation>총 금액 = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Bevestig verzending coins</translation>
+        <translation>코인 전송 확인</translation>
     </message>
     <message>
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
-        <translation>Een vergoeding %1 keer hoger dan %2 per kB wordt beschouwd als een zwaar hoge vergoeding.</translation>
+        <translation>KB당 %1보다 %2배 많은 수수료는 너무 높은 수수료입니다.</translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Schatting om te beginnen met bevestiging in %n blok.</numerusform><numerusform>Schatting om te beginnen met bevestiging in %n blokken.</numerusform></translation>
+        <translation><numerusform>%n 블록이내에서 컨펌이 시작될것 같습니다.</numerusform></translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>Het ontvangstadres is niet geldig, controleer deze.</translation>
+        <translation>수신자 주소가 유효하지 않습니다. 다시 확인해주세요.</translation>
     </message>
     <message>
         <source> split into %1 outputs using the UTXO splitter.</source>
-        <translation>gesplitst in %1 outputs met behulp van de UTXO splitter.</translation>
+        <translation>UTXO 스플리터를 사용하여 %1 출력으로 분할하십시오.</translation>
     </message>
     <message>
         <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
-        <translation>&lt;b&gt;(%1 van %2 vermeldingen weergegeven)</translation>
+        <translation>&lt;b&gt;(표시된 %2개 항목중 %1개)&lt;/b&gt;</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Het te betalen bedrag moet groter zijn dan 0.</translation>
+        <translation>지불 할 금액은 0보다 커야합니다.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>Het bedrag overschrijdt uw saldo.</translation>
+        <translation>입력한 금액이 잔액을 초과합니다.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Het totaal overschrijdt uw saldo wanneer de transactievergoeding %1 is inbegrepen.</translation>
+        <translation>%1 트랜잭션 수수료가 포함하면 현재 잔액을 초과합니다.</translation>
     </message>
     <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Dubbel adres gevonden, kan alleen per keer per verzendoperatie naar elk adres versturen.</translation>
+        <translation>중복된 주소를 발견했습니다. 각 주소는 전송 작업당 한 번씩만 보낼 수 있습니다.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
-        <translation>Transactie creatie mislukt!</translation>
+        <translation>트랜잭션 생성 실패!</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>De transactie is afgewezen! Dit kan gebeuren als sommige munten in je portemonnee al waren uitgegeven, zoals als je een kopie van de wallet.dat en munten in de kopie waren besteed maar niet gemarkeerd zoals hier besteed.</translation>
+        <translation>트랜잭션이 거부되었습니다! 지갑에 있는 코인 중 일부가 이미 사용된 경우일 수 있습니다. wallet.dat 사본을 사용하고 코인을 이미 사용하고 현재 여기에 표시되지 않은 경우에 이런 현상이 발생할 수 있습니다.</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Fout: De portemonnee was alleen geopend om munten te anonimiseren.</translation>
+        <translation>오류: 현재 지갑이 익명 처리를 위해 잠금해제 되어 있습니다. 익명화 및 스테이킹 전용을 해제하시고 다시 시도하세요.</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins. Unlock canceled.</source>
-        <translation>Fout: De portemonnee was alleen geopend om munten te anonimiseren. Ontgrendelen geannuleerd.</translation>
+        <translation>에러 : 현재 지갑은 코인 익명화를 위해서만 잠금해제되었습니다. 잠금해제가 취소됩니다.</translation>
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
-        <translation>Betaal alleen de minimumkost van %1</translation>
+        <translation>%1의 최소 수수료만 지불하십시오</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Waarschuwing: Ongekend wisselgeld adres</translation>
+        <translation>경고: 알 수 없는 변경 주소</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(geen label)</translation>
+        <translation>(라벨 없음)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>This is a normal payment.</source>
-        <translation>Dit is een normale betaling.</translation>
+        <translation>이것은 일반 결제입니다.</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Betaal &amp;Naar:</translation>
+        <translation>지불 &amp;대상:</translation>
     </message>
     <message>
         <source>The Superbee address to send the payment to</source>
-        <translation>Het Superbee adres om de betaling naar te verzenden</translation>
+        <translation>전송할 Superbee 주소</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Kies een eerder gebruikt adres</translation>
+        <translation>이전에 사용한 주소 선택</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -3403,7 +3420,7 @@ Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Plak adres vanaf klembord</translation>
+        <translation>클립보드에서 주소 붙여 넣기</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -3411,81 +3428,81 @@ Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Verwijder dit item</translation>
+        <translation>이 항목 삭제</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
+        <translation>&amp;라벨:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Vul een label in voor dit adres om deze toe te voegen aan de lijst met gebruikte adressen</translation>
+        <translation>이 주소의 라벨을 입력하여 사용된 주소 목록에 추가하십시오</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>&amp;Hoeveelheid:</translation>
+        <translation>금&amp;액:</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Bericht:</translation>
+        <translation>메세지:</translation>
     </message>
     <message>
         <source>A message that was attached to the Superbee: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Superbee network.</source>
-        <translation>Een bericht dat is gehecht aan de Superbee: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het Superbee netwerk.</translation>
+        <translation>참조용으로 트랜잭션과 함께 기록되는 Superbee : URI에 첨부된 메세지입니다. 참고: 이 메세지는 Superbee 네트워크를 통해 전송되지 않습니다.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
-        <translation>Dit is een ongeverifieerde betalingsverzoek.</translation>
+        <translation>확인되지 않은 결제 요청입니다.</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Betaal aan:</translation>
+        <translation>지불 대상:</translation>
     </message>
     <message>
         <source>Memo:</source>
-        <translation>Memo:</translation>
+        <translation>메모:</translation>
     </message>
     <message>
         <source>This is a verified payment request.</source>
-        <translation>Dit is een geverifieerd betalingsverzoek.</translation>
+        <translation>확인된 결제 요청입니다.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Voer een label in voor dit adres om het toe te voegen aan jouw adresboek</translation>
+        <translation>주소록에 추가하려면 이 주소의 라벨을 입력해주세요.</translation>
     </message>
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
         <source>Superbee Core is shutting down...</source>
-        <translation>Superbee Core is aan het afsluiten...</translation>
+        <translation>Superbee Core가 종료됩니다...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Sluit de computer niet af voordat dit venster verdwenen is.</translation>
+        <translation>이 창이 사라질 때까지 컴퓨터를 종료하지 마십시오.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Handtekeningen - Onderteken / Verifieer een Bericht</translation>
+        <translation>서명 - 서명 / 메세지 검증</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Onderteken Bericht</translation>
+        <translation>&amp;메세지 서명</translation>
     </message>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Je kunt berichten met je adressen ondertekenen om te bewijzen dat je ze bezit. Wees voorzichtig om niets vaags te ondertekenen, omdat phishing aanvallen je misschien kunnen proberen om je identiteit over te geven. Teken alleen volledig gedetailleerde verklaringen aan waar je mee akkoord gaat.</translation>
+        <translation>자신의 주소로 메세지에 서명할 수 있습니다. 피싱 공격으로 사용자를 속일 수 있으므로 서명에 주의해주세요. 동의하는 바에 한하여 서명하십시오.</translation>
     </message>
     <message>
         <source>The Superbee address to sign the message with</source>
-        <translation>Het Superbee adres om het bericht met te ondertekenen</translation>
+        <translation>메세지를 서명하기 위한 Superbee 주소</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Kies een eerder gebruikt adres</translation>
+        <translation>이전에 사용한 주소 선택</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -3493,7 +3510,7 @@ Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Plak adres vanaf klembord</translation>
+        <translation>클립보드에서 주소 붙여 넣기</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -3501,134 +3518,134 @@ Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Voer hier het bericht in dat u wilt ondertekenen</translation>
+        <translation>서명할 메세지를 입력해주세요</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>Handtekening</translation>
+        <translation>서명</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
+        <translation>현재 서명을 시스템 클립 보드에 복사</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Superbee address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het Superbee adres bezit</translation>
+        <translation>이 Superbee 주소를 소유하고 있다는 것을 증명하기 위해 메세지에 서명하십시오</translation>
     </message>
     <message>
         <source>The Superbee address the message was signed with</source>
-        <translation>Het Superbee adres waarmee het bericht was ondertekend</translation>
+        <translation>메세지에 서명된 Superbee 주소</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Superbee address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde Superbee adres</translation>
+        <translation>메세지가 지정된 Superbee 주소로 서명되었는지 확인해주세요</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>Onderteken &amp;Bericht</translation>
+        <translation>서명 &amp;메세지</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Maak alle ondertekenvelden leeg</translation>
+        <translation>모든 서명 메세지 입력 지우기</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Verwijder &amp;Alles</translation>
+        <translation>전체 &amp;지우기</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Verifieer Bericht</translation>
+        <translation>&amp;메세지 확인</translation>
     </message>
     <message>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Voer het ondertekening adres in, verifieer het bericht (zorg ervoor dat je line breaks, spaties, tabs, enz.) en onderteken hieronder om het bericht te verifiëren. Wees voorzichtig om niet meer in de handtekening te lezen dan in het ondertekende bericht zelf, om te voorkomen dat je door een man-in-de-middle aanval wordt getroffen.</translation>
+        <translation>메세지를 확인하기 위해 서명 주소, 메세지 (줄 바꿈, 공백, 탭 등을 정확하게 복사해주세요) 및 서명을 입력하십시오. 중간자 공격에 주의해서 서명을 입력해주세요.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>Verifeer &amp;Message</translation>
+        <translation>&amp;메세지 확인</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Maak alle verifiëren van het bericht velden leeg</translation>
+        <translation>모든 확인 메세지 영역 지우기</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation>Klik op "Onderteken Bericht" om een handtekening te genereren</translation>
+        <translation>"서명 메세지"를 클릭하여 서명 생성</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Het ingevoerde adres is ongeldig.</translation>
+        <translation>입력한 주소가 올바르지 않습니다.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Controleer het adres en probeer het opnieuw.</translation>
+        <translation>주소를 다시 확인해주세요.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Het opgegeven adres verwijst niet naar een sleutel.</translation>
+        <translation>입력한 주소가 키를 참조하지 않습니다.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Portemonnee-ontsleuteling is geannuleerd.</translation>
+        <translation>지갑 잠금 해제가 취소되었습니다.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Geheime sleutel voor het ingevoerde adres is niet beschikbaar.</translation>
+        <translation>입력한 주소의 개인 키를 사용할 수 없습니다.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>Bericht ondertekenen mislukt.</translation>
+        <translation>메세지 서명 실패.</translation>
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>Bericht ondertekend.</translation>
+        <translation>서명된 메세지.</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>De handtekening kon niet gedecodeerd worden.</translation>
+        <translation>서명을 디코딩 할 수 없습니다.</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation>Controleer de handtekening en probeer het opnieuw.</translation>
+        <translation>서명을 확인하고 다시 시도해주세요.</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>De handtekening kwam niet overeen met de berichtverdeling.</translation>
+        <translation>서명이 메세지 요약과 일치하지 않습니다.</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
-        <translation>Bericht verificatie mislukt.</translation>
+        <translation>메세지 확인에 실패하였습니다.</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>Bericht geverifieerd.</translation>
+        <translation>메세지 확인 됨.</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
         <source>Superbee Core</source>
-        <translation>Superbee Kern</translation>
+        <translation>Superbee Core</translation>
     </message>
     <message>
         <source>Version %1</source>
-        <translation>Versie %1</translation>
+        <translation>버전 %1</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>De Bitcoin Kernontwikkelaars</translation>
+        <translation>비트코인 Core 개발자</translation>
     </message>
     <message>
         <source>The Dash Core developers</source>
-        <translation>De Dash Kernontwikkelaars</translation>
+        <translation>Dash Core 개발자</translation>
     </message>
     <message>
         <source>The Superbee Core developers</source>
-        <translation>De Superbee Kernontwikkelaars</translation>
+        <translation>Superbee Core 개발자</translation>
     </message>
     <message>
         <source>[testnet]</source>
-        <translation>[testnet]</translation>
+        <translation>[테스트넷]</translation>
     </message>
 </context>
 <context>
@@ -3642,524 +3659,529 @@ Wees alsjeblieft geduldig...</translation>
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Klaar voor %n blok extra</numerusform><numerusform>Klaar voor %n meer blokken</numerusform></translation>
+        <translation><numerusform>%n 이상의 블록 열기</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Open tot %1</translation>
+        <translation>%1까지 열기</translation>
     </message>
     <message>
         <source>conflicted</source>
-        <translation>conflicteert</translation>
+        <translation>충돌됨</translation>
     </message>
     <message>
         <source>%1/offline (verified via swifttx)</source>
-        <translation>%1/offline (geverifieerd via swifttx)</translation>
+        <translation>%1/오프라인 (swifttx를 통해 확인 됨)</translation>
     </message>
     <message>
         <source>%1/confirmed (verified via swifttx)</source>
-        <translation>%1/bevestigd (geverifieerd via swifttx)</translation>
+        <translation>%1/확인 됨 (swifttx를 통해 확인 됨)</translation>
     </message>
     <message>
         <source>%1 confirmations (verified via swifttx)</source>
-        <translation>%1 confirmaties (geverifieerd via swifttx)</translation>
+        <translation>%1 확인 (swifttx를 통해 확인 됨)</translation>
     </message>
     <message>
         <source>%1/offline</source>
-        <translation>%1/offline</translation>
+        <translation>%1/오프라인</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
-        <translation>%1/onbevestigd</translation>
+        <translation>%1/미확인 됨</translation>
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation>%1 bevestigingen</translation>
+        <translation>%1 확인</translation>
+    </message>
+    <message>
+        <source>%1/offline (SwiftTX verification in progress - %2 of %3 signatures)</source>
+        <translation>%1/오프라인 (SwiftTX 확인 진행 중 - %2 중 %3 서명)</translation>
     </message>
     <message>
         <source>%1/confirmed (SwiftTX verification in progress - %2 of %3 signatures )</source>
-        <translation>%1/bevestigd (SwiftTX verificatie in uitvoering - %2 van %3 handtekeningen)</translation>
+        <translation>%1/확인 됨 (SwiftTX 확인 진행 중 - %2 중 %3 서명)</translation>
     </message>
     <message>
         <source>%1 confirmations (SwiftTX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1 bevestigingen (SwiftTX verificatie in uitvoering - %2 van %3 handtekeningen)</translation>
+        <translation>%1 확인 (SwiftTX 확인 진행 중 - %2 중 %3 서명)</translation>
     </message>
     <message>
         <source>%1/offline (SwiftTX verification failed)</source>
-        <translation>%1/offline (SwiftTX verificatie mislukt)</translation>
+        <translation>%1/오프라인 (SwiftTX 확인 실패)
+</translation>
     </message>
     <message>
         <source>%1/confirmed (SwiftTX verification failed)</source>
-        <translation>%1/bevestigd (SwiftTX verificatie mislukt)</translation>
+        <translation>%1/확인 됨 (SwiftTX 확인 실패)</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation>상태</translation>
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, is nog niet succesvol uitgezonden</translation>
+        <translation>, 아직 성공적으로 브로드캐스트되지 않았습니다</translation>
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, uitgezonden via %n node</numerusform><numerusform>, uitgezonden via %n nodes</numerusform></translation>
+        <translation><numerusform>, %n 개 노드를 통해 브로드캐스트됩니다.</numerusform></translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>날짜</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>Bron</translation>
+        <translation>원본</translation>
     </message>
     <message>
         <source>Generated</source>
-        <translation>Gegeneerd</translation>
+        <translation>생성 된</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>Van</translation>
+        <translation>From</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>ongekend</translation>
+        <translation>unknown</translation>
     </message>
     <message>
         <source>To</source>
-        <translation>Naar</translation>
+        <translation>대상</translation>
     </message>
     <message>
         <source>own address</source>
-        <translation>eigen adres</translation>
+        <translation>내 주소</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>watch-only</translation>
+        <translation>읽기 전용</translation>
     </message>
     <message>
         <source>label</source>
-        <translation>label</translation>
+        <translation>라벨</translation>
     </message>
     <message>
         <source>Credit</source>
-        <translation>Credit</translation>
+        <translation>크레딧</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>matureit in %n blok meer</numerusform><numerusform>maturiteit in %n meer blokken</numerusform></translation>
+        <translation><numerusform>%n 개 이상의 블록에서 생성됩니다.</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
-        <translation>niet geaccepteerd</translation>
+        <translation>허용되지 않음</translation>
     </message>
     <message>
         <source>Debit</source>
-        <translation>Debet</translation>
+        <translation>인출액</translation>
     </message>
     <message>
         <source>Total debit</source>
-        <translation>Totaal debet</translation>
+        <translation>총 인출액</translation>
     </message>
     <message>
         <source>Total credit</source>
-        <translation>Totaal credit</translation>
+        <translation>총 크레딧</translation>
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>Transactiekosten</translation>
+        <translation>트랜잭션 수수료</translation>
     </message>
     <message>
         <source>Net amount</source>
-        <translation>Netto bedrag</translation>
+        <translation>순수액</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Bericht</translation>
+        <translation>메세지</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>Reactie</translation>
+        <translation>코멘트</translation>
     </message>
     <message>
         <source>Transaction ID</source>
-        <translation>Transactie ID</translation>
+        <translation>트랜잭션 ID</translation>
     </message>
     <message>
         <source>Output index</source>
-        <translation>Output index</translation>
+        <translation>출력 인덱스</translation>
     </message>
     <message>
         <source>Merchant</source>
-        <translation>Winkelier</translation>
+        <translation>상인</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Gegenereerde munten moeten %1 blokken rijpen voordat ze kunnen worden uitgegeven. Wanneer je dit blok hebt gegenereerd, wordt het naar het netwerk uitgezonden om aan de blockchain toegevoegd te worden. Als het niet in de keten komt, verandert de staat in "niet geaccepteerd" en zal het niet uitgeefbaar worden. Dit kan af en toe gebeuren als een andere node binnen een paar seconden van u een blok genereert.</translation>
+        <translation>생성된 코인은 사용되기 전 %1 블록이 완료되야 합니다. 이 블록을 생성하면 네트워크에 브로드캐스팅되어 블록체인에 추가 됩니다. 체인이 실패한 경우 "승인되지 않음"으로 바뀌어 사용할 수 없습니다. 다른 노드가 당신과 겹쳐서 몇 초 이내 블록을 생성하면 때때로 이런 일이 발생할 수 있습니다.</translation>
     </message>
     <message>
         <source>Debug information</source>
-        <translation>Debug informatie</translation>
+        <translation>디버그 정보</translation>
     </message>
     <message>
         <source>Transaction</source>
-        <translation>Transactie</translation>
+        <translation>트랜잭션</translation>
     </message>
     <message>
         <source>Inputs</source>
-        <translation>Inputs</translation>
+        <translation>입력</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Hoeveelheid</translation>
+        <translation>금액</translation>
     </message>
     <message>
         <source>true</source>
-        <translation>waar</translation>
+        <translation>허용</translation>
     </message>
     <message>
         <source>false</source>
-        <translation>onwaar</translation>
+        <translation>거부</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
         <source>Transaction details</source>
-        <translation>Transactiedetails</translation>
+        <translation>트랜잭션 세부 정보</translation>
     </message>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Dit venster laat een gedetailleerde beschrijving van de transactie zien</translation>
+        <translation>이 창은 트랜잭션에 대한 자세한 설명을 보여줍니다.</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>날짜</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Type</translation>
+        <translation>분류</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>주소</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Klaar voor %n blok extra</numerusform><numerusform>Klaar voor %n meer blokken</numerusform></translation>
+        <translation><numerusform>%n 이상의 블록 열기</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Open tot %1</translation>
+        <translation>%1까지 열기</translation>
     </message>
     <message>
         <source>Offline</source>
-        <translation>Offline</translation>
+        <translation>오프라인</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>Onbevestigd</translation>
+        <translation>미확인 됨</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Bevestigen (%1 van %2 aanbevolen bevestigingen)</translation>
+        <translation>확인 중 (%2 중 %1 확인 중)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Bevestigd (%1 bevestigingen)</translation>
+        <translation>확인 됨 (%1 확인)</translation>
     </message>
     <message>
         <source>Conflicted</source>
-        <translation>Geconflicteerd</translation>
+        <translation>충돌 됨</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Onvolwassen (%1 bevestigingen, zullen beschikbaar zijn na %2)</translation>
+        <translation>완료되지 않음 (%1 확인이 %2 후에 가능합니다)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Dit blok is niet ontvangen door andere noden en wordt waarschijnlijk niet geaccepteerd!</translation>
+        <translation>이 블록은 다른 노드에 의해 수신되지 않았으며 아마도 승인되지 않을 것입니다!</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Ontvangen met</translation>
+        <translation>수신 됨</translation>
     </message>
     <message>
         <source>Masternode Reward</source>
-        <translation>Masternode beloning</translation>
+        <translation>마스터노드 보상 </translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>Ontvangen van</translation>
+        <translation>수신됨</translation>
     </message>
     <message>
         <source>Received via Obfuscation</source>
-        <translation>Verkregen via verduistering</translation>
+        <translation>난독화를 통해 수신 됨</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
-        <translation>Verduistering denominatie</translation>
+        <translation>난독화 표시</translation>
     </message>
     <message>
         <source>Obfuscation Collateral Payment</source>
-        <translation>Verduistering zijdelingse betaling</translation>
+        <translation>난독화 보증 결제 </translation>
     </message>
     <message>
         <source>Obfuscation Make Collateral Inputs</source>
-        <translation>Verduistering maakt zijdelingse inputs</translation>
+        <translation>난독화로 보증 입력</translation>
     </message>
     <message>
         <source>Obfuscation Create Denominations</source>
-        <translation>Verduistering creëert denominaties</translation>
+        <translation>난독화 표시 만들기</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Verzenden naar</translation>
+        <translation>대상 전송</translation>
     </message>
     <message>
         <source>Orphan Block - Generated but not accepted. This does not impact your holdings.</source>
-        <translation>Orphan Block - Gegenereerd maar niet geaccepteerd. Dit heeft geen invloed op uw bezit.</translation>
+        <translation>고아 블록 - 생성되었지만 승인되지 않았습니다. 이것은 당신의 소유액에 영향을 주지 않습니다.</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>Betaling naar jezelf</translation>
+        <translation>자신에게 지불</translation>
     </message>
     <message>
         <source>Minted</source>
-        <translation>Minted</translation>
+        <translation>발행</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Mined</translation>
+        <translation>채굴</translation>
     </message>
     <message>
         <source>Obfuscated</source>
-        <translation>Verduisterd</translation>
+        <translation>난독화</translation>
     </message>
     <message>
         <source>Converted XLR to zXLR</source>
-        <translation>Geconverteerde XLR naar zXLR</translation>
+        <translation>zXLR로 변환된 XLR</translation>
     </message>
     <message>
         <source>Spent zXLR</source>
-        <translation>Uitgegeven zXLR</translation>
+        <translation>전송된 zXLR</translation>
     </message>
     <message>
         <source>Received XLR from zXLR</source>
-        <translation>Verkregen XLR van zXLR</translation>
+        <translation>zXLR로 전송받은 XLR</translation>
     </message>
     <message>
         <source>Minted Change as zXLR from zXLR Spend</source>
-        <translation>Minted wisselgeld als zXLR van uitgegeven zXLR</translation>
+        <translation>zXLR 전송후 남은 잔돈 zXLR 생성됨</translation>
     </message>
     <message>
         <source>Converted zXLR to XLR</source>
-        <translation>Geconverteerde zXLR naar XLR</translation>
+        <translation>zXLR에서 XLR로 변환됨</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>watch-only</translation>
+        <translation>읽기 전용</translation>
     </message>
     <message>
         <source>zXLR Accumulator</source>
-        <translation>zXLR Accumulator</translation>
+        <translation>zXLR 누산기</translation>
     </message>
     <message>
         <source>(n/a)</source>
-        <translation>(n/b)</translation>
+        <translation>(n/a)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Transactie status. Beweeg over dit veld om het aantal bevestigingen te tonen.</translation>
+        <translation>트랜잭션 상태. 이 영역에 마우스를 올리면 승인 수가 표시됩니다.</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Datum en tijd waarop de transactie is ontvangen.</translation>
+        <translation>트랜잭션이 수신 된 날짜와 시간.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation>Type transactie.</translation>
+        <translation>트랜잭션 유형.</translation>
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Of een watch-only adres wel of niet betrokken is bij deze transactie.</translation>
+        <translation>읽기 전용 주소 트랜잭션 포함 여부.</translation>
     </message>
     <message>
         <source>Destination address of transaction.</source>
-        <translation>Bestemming adres van de transactie.</translation>
+        <translation>트랜잭션 목적지 주소.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Bedrag verwijderd uit of toegevoegd aan saldo.</translation>
+        <translation>잔액에서 제거되거나 추가된 금액.</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>Alle</translation>
+        <translation>전체</translation>
     </message>
     <message>
         <source>Today</source>
-        <translation>Vandaag</translation>
+        <translation>오늘</translation>
     </message>
     <message>
         <source>This week</source>
-        <translation>Deze week</translation>
+        <translation>이번 주</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation>Deze maand</translation>
+        <translation>이번 달</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>Afgelopen maand</translation>
+        <translation>지난 달</translation>
     </message>
     <message>
         <source>This year</source>
-        <translation>Dit jaar</translation>
+        <translation>올해</translation>
     </message>
     <message>
         <source>Range...</source>
-        <translation>Omvang...</translation>
+        <translation>범위...</translation>
     </message>
     <message>
         <source>Most Common</source>
-        <translation>Meest voorkomend</translation>
+        <translation>기본적인</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Ontvangen met</translation>
+        <translation>수신 됨</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Verzenden naar</translation>
+        <translation>대상 전송</translation>
     </message>
     <message>
         <source>Obfuscated</source>
-        <translation>Verduisterd</translation>
+        <translation>난독화</translation>
     </message>
     <message>
         <source>Obfuscation Make Collateral Inputs</source>
-        <translation>Verduistering maakt zijdelingse inputs</translation>
+        <translation>난독화로 보증 입력</translation>
     </message>
     <message>
         <source>Obfuscation Create Denominations</source>
-        <translation>Verduistering creëert denominaties</translation>
+        <translation>난독화 표시 만들기</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
-        <translation>Verduistering denominatie</translation>
+        <translation>난독화 표시</translation>
     </message>
     <message>
         <source>Obfuscation Collateral Payment</source>
-        <translation>Verduistering zijdelingse betaling</translation>
+        <translation>난독화 보증 결제 </translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>Naar jezelf</translation>
+        <translation>자신에게</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Mined</translation>
+        <translation>채굴</translation>
     </message>
     <message>
         <source>Minted</source>
-        <translation>Minted</translation>
+        <translation>발행</translation>
     </message>
     <message>
         <source>Masternode Reward</source>
-        <translation>Masternode beloning</translation>
+        <translation>마스터노드 보상 </translation>
     </message>
     <message>
         <source>Received XLR from zXLR</source>
-        <translation>Verkregen XLR van zXLR</translation>
+        <translation>zXLR로 전송받은 XLR</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
-        <translation>Zerocoin Mint</translation>
+        <translation>제로코인 생성</translation>
     </message>
     <message>
         <source>Zerocoin Spend</source>
-        <translation>Zerocoin uitgegeven</translation>
+        <translation>제로코인 전송</translation>
     </message>
     <message>
         <source>Zerocoin Spend, Change in zXLR</source>
-        <translation>Zerocoin uitgegeven, wisselgeld in zXLR</translation>
+        <translation>제로코인 전송, 잔돈은 zXLR</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
-        <translation>Zerocoin uitgegeven aan jezelf</translation>
+        <translation>자신에게 제로코인 전송</translation>
     </message>
     <message>
         <source>Other</source>
-        <translation>Andere</translation>
+        <translation>기타</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
-        <translation>Adres of label invullen om te zoeken</translation>
+        <translation>검색 할 주소 또는 라벨 입력</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation>Minimale hoeveelheid</translation>
+        <translation>최소 금액</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopieer adres</translation>
+        <translation>주소 복사</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiëer label</translation>
+        <translation>라벨 복사</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopieer hoeveelheid</translation>
+        <translation>금액 복사</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Kopier transactie ID</translation>
+        <translation>트랜잭션 ID 복사</translation>
     </message>
     <message>
         <source>Edit label</source>
-        <translation>Label wijzigen</translation>
+        <translation>라벨 수정</translation>
     </message>
     <message>
         <source>Show transaction details</source>
-        <translation>Bekijk transactiedetails</translation>
+        <translation>트랜잭션 세부 정보 표시</translation>
     </message>
     <message>
         <source>Export Transaction History</source>
-        <translation>Exporteer Transactiegeschiedenis</translation>
+        <translation>트랜잭션 내역 내보내기</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Kommagescheiden bestand (*.csv)</translation>
+        <translation>콤마로 구분 된 파일 (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Bevestigd</translation>
+        <translation>확정</translation>
     </message>
     <message>
         <source>Watch-only</source>
-        <translation>Watch-only</translation>
+        <translation>읽기 전용</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>날짜</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Type</translation>
+        <translation>분류</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>라벨</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>주소</translation>
     </message>
     <message>
         <source>ID</source>
@@ -4167,102 +4189,102 @@ Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Export Mislukt</translation>
+        <translation>내보내기 실패</translation>
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Er is een fout opgetreden om de transactiegeschiedenis te bewaren naar %1.</translation>
+        <translation>트랜잭션 기록을 %1로 저장하는 동안 오류가 발생하였습니다.</translation>
     </message>
     <message>
         <source>Exporting Successful</source>
-        <translation>Exporteren succesvol</translation>
+        <translation>내보내기 성공</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation>De transactiegeschiedenis is succesvol bewaard in %1.</translation>
+        <translation>트랜잭션 기록이 %1에 성공적으로 저장되었습니다.</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation>Bereik:</translation>
+        <translation>범위:</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>naar</translation>
+        <translation>대상</translation>
     </message>
 </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Eenheid om bedragen te laten zien. Klik om een andere eenheid te selecteren.</translation>
+        <translation>금액을 표시할 단위. 다른 단위를 선택하려면 클릭해주세요.</translation>
     </message>
 </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>Er is geen portemonnee ingeladen.</translation>
+        <translation>지갑이 로드되지 않았습니다.</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Verzend Munten</translation>
+        <translation>코인 전송 </translation>
     </message>
     <message>
         <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 XLR.</source>
-        <translation>SwiftTX ondersteunt geen verzendwaarden die zo hoog zijn. Transacties zijn momenteel beperkt tot %1 XLR.</translation>
+        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 XLR로 제한됩니다.</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Exporteren</translation>
+        <translation>&amp;내보내기</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exporteer de data in de huidige tab naar een bestand</translation>
+        <translation>현재 선택된 탭의 데이터를 파일로 내보내기</translation>
     </message>
     <message>
         <source>Selected amount:</source>
-        <translation>Geselecteerde hoeveelheid:</translation>
+        <translation>선택한 금액:</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>Backup portemonnee</translation>
+        <translation>지갑 백업</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>Portemonneegegevens (*.dat)</translation>
+        <translation>지갑 데이터 (*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation>Backup mislukt</translation>
+        <translation>백업 실패하였습니다</translation>
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Er is een fout opgetreden om de portemonnee data op te slaan naar %1.</translation>
+        <translation>%1에 지갑 데이터를 저장하는 동안 오류가 발생하였습니다.</translation>
     </message>
     <message>
         <source>Backup Successful</source>
-        <translation>Backup Succesvol</translation>
+        <translation>백업 성공하였습니다</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation>De portemonneegegevens zijn succesvol opgeslagen op %1.</translation>
+        <translation>지갑 데이터가 %1에 성공적으로 저장되었습니다.</translation>
     </message>
 </context>
 <context>
     <name>ZXLRControlDialog</name>
     <message>
         <source>Select zXLR to Spend</source>
-        <translation>Selecteer zXLR om te spenderen</translation>
+        <translation>전송할 zXLR 선택</translation>
     </message>
     <message>
         <source>Quantity</source>
-        <translation>Hoeveelheid</translation>
+        <translation>수량</translation>
     </message>
     <message>
         <source>0</source>
@@ -4274,206 +4296,202 @@ Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
-        <translation>Selecteer/Deselecteer Alles</translation>
+        <translation>전체 선택 / 해제</translation>
     </message>
     <message>
         <source>Is Spendable</source>
-        <translation>Is Uitgeefbaar</translation>
+        <translation>전송가능합니다.</translation>
     </message>
 </context>
 <context>
     <name>superbee-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = houd tx meta data, bijvoorbeeld account eigenaar en betalingsverzoek informatie, 2 = drop tx meta data)</translation>
+        <translation>(1 = tx 메타 데이터 유지 예 : 계정 소유자 및 지불 요청 정보, 2 = tx 메타 데이터 삭제)</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Sta JSON-RPC connecties toe van de opgegeven bron. Geldig voor&lt;ip&gt;zijn een enkel IP (bijvoorbeeld 1.2.3.4), een netwerk/netmask (bijvoorbeeld 1.2.3.4/255.255.255.0) of een netwerk/CIDR (bijvoorbeeld 1.2.3.4/24). Deze optie kan meerdere keren worden opgegeven</translation>
+        <translation>지정된 소스에서 JSON-RPC 연결을 허용하십시오. 단일 IP (예 : 1.2.3.4), 네트워크/넷마스크 (예 : 1.2.3.4/255.255.255.0) 또는 네트워크 / CIDR (예 : 1.2.3.4/24)에 대해 &lt;ip&gt; 가 유효합니다. 이 옵션은 여러번 지정할 수 있습니다.</translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
-        <translation>Er is een fout opgetreden tijdens het instellen van het RPC adres %s poort %u voor het luisteren: %s</translation>
+        <translation>수신을 위한 RPC 주소 %s 포트 %u설정 도중 오류가 발생했습니다: %s</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Bind naar het gegeven adres en luister er altijd naar. Gebruik [host]:poort notatie voor IPv6</translation>
+        <translation>주어진 주소를 지정하고 항상 수신하도록 하십시오. [host]:IPv6 포트 표기법 사용</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>Bind naar bepaald adres en whitelist peers die er verbinding mee maken. Gebruik [host]:poort notatie voor IPv6</translation>
+        <translation>주어진 주소에 바인딩하고 피어 연결을 허용하십시오. IPv6 [host]:port 표기법 사용</translation>
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Bind naar het opgegeven adres om te luisteren naar JSON-RPC verbindingen. Gebruik [host]:poort notatie voor IPv6. Deze optie kan meerdere keren worden opgegeven (standaard: bind aan alle interfaces)</translation>
+        <translation>JSON-RPC연결 수신을 위해 주어진 주소를 지정합니다. [host]: IPv6 포트 표기법 사용. 이 옵션은 여러번 지정할 수 있습니다. (기본값 : 모든 인터페이스에 지정)</translation>
     </message>
     <message>
         <source>Calculated accumulator checkpoint is not what is recorded by block index</source>
-        <translation>Het berekende accumulatie controlepunt is niet wat wordt geregistreerd door de blokindex</translation>
+        <translation>계산된 누산기 체크포인트는 블록 인덱스에 의해 기록되는 것이 아닙니다.</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. Superbee Core is probably already running.</source>
-        <translation>Kan geen vergrendeling op data directory %s verkrijgen. Superbee Core loopt waarschijnlijk al.</translation>
+        <translation>        &lt;translation&gt;잠겨진 데이터 디렉토리 %s 를 가져올 수 없습니다. Superbee Core는 이미 실행 중입니다.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Verander automatisch gefinaliseerd budget voting gedrag. modus=auto: Stem enkel voor exact gefinaliseerde budget overeenkomend met mijn gegenereerde budget. (tekenreeks, standaard: auto)</translation>
+        <translation>최종 budget 투표 자동 작동 값을 변경합니다. mode=auto: 오직 내가 생성한 budget과 최종 budget이 정확히 일치할때 투표합니다. (string, 기본값: 자동)</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
-        <translation>Doorlopend rate-limit gratis transacties naar&lt;n&gt;*1000 bytes per minuut (default:%u)</translation>
+        <translation>연속적인 무료 트랜잭션을 분당 &lt;n&gt;*1000 bytes로 제한합니다. (기본값:%u)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Maak nieuwe bestanden met systeem standaard permissies, in plaats van umask 077 (alleen effectief met gedeactiveerde wallet functionaliteit)</translation>
+        <translation>umask 077대신 시스템 기본 권한으로 새로운 파일들을 만듭니다. (지갑 기능이 비활성화일 때만 효과가 발휘됩니다)</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Verwijder alle portemonnee transacties en herstel alleen die delen van de blockchain via -rescan bij opstarten</translation>
+        <translation>지갑의 모든 트랜잭션들을 삭제하고 오직 블록체인을 통한 트랜잭션 부분들만 복구합니다 -시작 시 다시 스캔</translation>
     </message>
     <message>
         <source>Disable all Superbee specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Schakel alle Superbee specifieke functionaliteit uit (Masternodes, Verduistering, SwiftTX, Budgeting) (0-1, standaard: %u)</translation>
+        <translation>Superbee의 모든 특정 기능들을 비활성화합니다(마스터노드, 난독화, SwiftTX, Budgeting) (0-1, 기본값: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
-        <translation>Gedistribueerd onder de MIT software licentie, zie het bijgevoegde bestand COPYING of &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+        <translation>MIT 소프트웨어 라이센스에 따라 배포, 첨부 파일 COPYING 또는 &lt;http://www.opensource.org/licenses/mit-license.php&gt; 를 참조하십시오.</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
-        <translation>Activeer de spork administratie functionaliteit met de juiste private sleutel.</translation>
+        <translation>올바른 개인키로 spork 관리 기능을 사용 가능</translation>
     </message>
     <message>
         <source>Enable swifttx, show confirmations for locked transactions (bool, default: %s)</source>
-        <translation>Schakel swifttx in, laat bevestigingen zien voor gesloten transacties (bool, standaard: %s)</translation>
+        <translation>swiftTX 활성화, 잠긴 트랜잭션들에 대한 확인 표시 (bool, 기본값: %s)</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
-        <translation>Voer de regressietest modus uit, die een speciale chain gebruikt waarin blokken direct kunnen worden opgelost.</translation>
+        <translation>리그레션 테스트에 들어갑니다. 특수 체인을 사용하며 블록들을 바로 푸는 것이 가능합니다.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Fout: het luisteren naar inkomende verbindingen is mislukt (luister terug fout %s)</translation>
+        <translation>오류: 오는 연결들을 수신하는데 실패했습니다.(수신 중 오류 반환됨 %s)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Fout: Niet ondersteund argument -socks gevonden. Het instellen van SOCKS versie is niet meer mogelijk, alleen SOCKS5 proxy's worden ondersteund.</translation>
+        <translation>오류 : 지원하지 않는 인수 -socks가 발견되었습니다. SOCKS 버전 설정은 더 이상 가능하지 않으며 SOCKS5 프록시만 지원합니다.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Uitvoeren commando wanneer een relevante waarschuwing is ontvangen of we zien een echt lange fork (%s in cmd wordt vervangen door bericht)</translation>
+        <translation>관련된 경고 또는 포크가 길어질 경우 명령을 실행하십시오. (명령 내 %s 는 메시지로 대체 되었습니다)</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Uitvoeren commando wanneer een portemonnee transactie verandert (%s in cmd wordt vervangen door TxID)</translation>
+        <translation>지갑 트랜잭션이 변경될 경우 명령을 실행하십시오.(명령 내 %s 는 TxID로 대체 되었습니다)</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Uitvoeren commando wanneer het beste blok verandert (%s in cmd is vervangen door block hash)</translation>
+        <translation>최고 블록이 변경될 경우 명령을 실행하십시오 (명령 내 %s 는 블록 해시로 대체 되었습니다)</translation>
     </message>
     <message>
         <source>Fees (in XLR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Kosten (in XLR/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
+        <translation>이것보다 작은 수수료 (XLR/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
         <source>Fees (in XLR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Kosten (in XLR/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
+        <translation>이것보다 작은 수수료 (XLR/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
-        <translation>Leeg database activiteit uit geheugen pool naar schijf log elke keer&lt;n&gt;megabytes (default: %u)</translation>
+        <translation>메모리 풀에서 디스크로 매 &lt;n&gt; 메가바이트만큼 데이터베이스 활동 플러쉬를 기록합니다 (기본값: %u)</translation>
     </message>
     <message>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
-        <translation>Gevonden onbevestigde gedenomineerde outputs, wachten tot ze bevestigd zijn om verder te gaan.</translation>
+        <translation>미확인 표시된 출력들을 찾고 계속하기 위한 확인을 받기 전까지 기다립니다.</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>Als paytxfee niet is ingesteld, sluit voldoende kosten in, zodat transacties beginnen te confirmeren binnen gemiddeld n blokken (standaard: %u)</translation>
+        <translation>paytxfee가 설정되어 있지 않는 경우 충분한 수수료를 넣어야만 평균이내 n블록들을 확인하고 트랜잭션를 시작합니다 (기본값: %u)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
-        <translation>In deze modus controleert -genproclimit hoeveel blokken er onmiddellijk worden gegenereerd.</translation>
+        <translation>이 모드에서 -genproclimit는 즉시 생성되는 블록 수를 제어합니다.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Ongeldige hoeveelheid voor -maxtxfee=&lt;amount&gt;: '%s' (moet ten minste de minimale vergoeding van %s zijn om hangende transacties te voorkomen)</translation>
+        <translation>-maxtxfee=&lt;amount&gt;에 대한 잘못된 금액: '%s' (트랜잭션 정지를 막을려면 적어도 %s의 minrelay 수수료가 있어야 합니다)</translation>
     </message>
     <message>
         <source>Keep the specified amount available for spending at all times (default: 0)</source>
-        <translation>Houd het gespecificeerde bedrag altijd beschikbaar voor uitgaven te allen tijde (standaard: 0)</translation>
+        <translation>항상 송금할수 있도록 지정된 수량 유지 (기본값 : 0)</translation>
     </message>
     <message>
         <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
-        <translation>Log transactie prioriteit en vergoeding per kB wanneer blokken worden gemined (standaard: %u)</translation>
+        <translation>블록을 채굴 할 때 트랜잭션 우선 순위 및 kB 당 수수료를 기록합니다 (기본값: %u)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Onderhoud een volledige transactie index, gebruikt door de getrawtransaction rpc call (standaard: %u)</translation>
+        <translation>getrawtransaction rpc 호출에서 사용되는 전체 트랜잭션 색인를 유지보수합니다 (기본값: %u)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Maximale gegevensgrootte in data carrier transacties die we relayen en minen (standaard: %u)</translation>
+        <translation>데이터 캐리어 내에서 우리가 중계하고 채굴하는 트랜잭션 데이터의 최대 사이즈 (기본값: %u)</translation>
     </message>
     <message>
         <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
-        <translation>Maximale totale kosten die in een enkele portefeuille kunnen worden gebruikt, een te lage instelling kan grote transacties afbreken (standaard: %s)</translation>
+        <translation>단일 지갑 트랜잭션에서 사용하기 위한 최대 전체 수수료, 너무 낮은 값이 설정되어 있으면 큰 트랜잭션이 유실될 수 있습니다 (기본값: %s)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Aantal seconden om te voorkomen dat misdragende peers opnieuw connectoren (standaard: %u)</translation>
+        <translation>재연결로 인해 피어가 오작동을 유지하는 초 단위 시간 (기본값: %u)</translation>
     </message>
     <message>
         <source>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Verduistering maakt gebruik van exacte gedenomineerde bedragen om fondsen te verzenden, je zou misschien nog wat munten moeten anonimiseren.</translation>
+        <translation>난독화는 정확한 금액을 사용하여 자금을 송금하기 때문에 더 많은 코인을 익명화해야 할 수도 있습니다.</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Output debugging informatie (default: %u, verschaffen &lt;category&gt; is optioneel)</translation>
+        <translation>디버깅 정보 출력 (기본값: %u, &lt;category&gt; 공급은 선택입니다)</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation>Query voor peer adressen via DNS lookup, als er weinig adressen zijn (standaard: 1 tenzij -connect)</translation>
-    </message>
-    <message>
-        <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>Willekeurige credentials voor elke proxy verbinding. Dit stelt Tor stream isolatie in staat (standaard: %u)</translation>
+        <translation>DNS 검색을 통한 피어 주소 쿼리, 주소가 부족할 경우 (-connect 아닌 이상 기본값:1)</translation>
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
-        <translation>Vereist hoge prioriteit voor het relayen van gratis of low-fee transacties (standaard: %u)</translation>
+        <translation>무료 또는 낮은 수수료 트랜잭션를 중계하는데 높은 우선 순위가 필요합니다 (기본값: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file (default: %u)</source>
-        <translation>Stuur trace/debug info naar console in plaats van debug.log bestand (standaard: %u)</translation>
+        <translation>debug.log 파일 대신 추적/디버그 정보를 콘솔에 보냅니다 (기본값: %u)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Stel maximale grootte van transacties met hoge prioriteit/low-fee in bytes in (standaard: %d)</translation>
+        <translation>최우선/낮은 수수료 트랜잭션의 최대 크기를 바이트 단위로 설정합니다 (기본값: %d)</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Stel het aantal script verificatie threads (%u tot %d, 0 = auto, &lt;0 = laat dat aantal kernen vrij, standaard: %d)</translation>
+        <translation>스크립트 허용 스레드의 개수를 설정합니다. (%u 에서 %d, 0 = 자동, &lt;0 = 충분한 코어들을 남겨두세요, 기본값: %d)</translation>
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
-        <translation>Stel het aantal threads voor munt generatie in indien geactiveerd (-1 = alle kernen, standaard: %d)</translation>
+        <translation>활성화 시에 코인 생성을 위한 스레드 숫자를 설정합니다 (-1= 모든 코어, 기본값: %d)</translation>
     </message>
     <message>
         <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
-        <translation>Toon N bevestigingen voor een succesvol opgesloten transactie (0-9999, standaard: %u)</translation>
+        <translation>성공적으로 잠긴 트랜잭션에 대한 확인을 N으로 나타냅니다 (0-9999, 기본값: %u)</translation>
     </message>
     <message>
         <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
-        <translation>Ondersteun filteren van blokken en transactie met bloom filters (standaard: %u)</translation>
+        <translation>bloom필터를 사용한 블록 및 트랜잭션 필터링 지원 (기본값 : %u)</translation>
     </message>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>SwiftTX vereist inputs met tenminste 6 bevestigingen, je dient wellicht een paar minuten te wachten en probeer het opnieuw.</translation>
+        <translation>SwiftTX는 최소 6회 확인이 필요한 입력으로 몇 분 후에 다시 시도해야 할 수 있습니다.</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in de OpenSSL Toolkit &lt;https://www.openssl.org/&gt; en cryptografische software geschreven door Eric Young en UPnP software geschreven door Thomas Bernard.</translation>
+        <translation>이 제품은 OpenSSL이 개발한 Open SSL 툴킷 &lt;https://www.openssl.org/&gt; 에서 사용하기 위한 프로젝트 소프트웨어, Eric Young이 개발한 암호화 소프트웨어, Thomas Bernard가 개발한 UPnP 소프트웨어가 포함되어 있습니다.</translation>
     </message>
     <message>
         <source>To use superbeed, or the -server option to superbee-qt, you must set an rpcpassword in the configuration file:
@@ -4487,565 +4505,565 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Superbee Alert" admin@foo.com
 </source>
-        <translation>Om superbeed of de -server optie om superbee-qt te gebruiken, moet je een rpcpassword instellen in het configuratiebestand:
+        <translation>Superbeed 또는 Superbee-qt에 대한 -server 옵션 파일을 사용하려면 configuration 파일에서 rpcpassword를 설정해야 합니다:
 %s
-Het is aan te raden het volgende willekeurige wachtwoord te gebruiken:
-rpcuser=superbeerpc
+다음 무작위 암호를 사용하는 것을 추천합니다:
+rpcuser=Superbeepc
 rpcpassword=%s
-(je hoeft dit wachtwoord niet te onthouden)
-De gebruikersnaam en het wachtwoord MOETEN NIET hetzelfde zijn.
-Als het bestand niet bestaat, creëer het dan met owner-readable-only bestandsrechten.
-Het is ook aan te raden om alertnotify in te stellen, zodat je van problemen op de hoogte wordt gebracht;
-bijvoorbeeld: alertnotify = echo %%s | mail -s "Superbee Alert" admin@foo.com
+(이 비밀번호는 기억할 필요가 없습니다)
+유저 이름과 비밀번호는 반드시 달라야 합니다.
+파일이 존재하지 않는다면 작성자만 읽기 가능한 권한으로 파일을 생성하십시오.
+또한 문제 발생 알림을 받을려면 alertnotify를 설정하는 것을 추천합니다.
+예시: alertnotify=echo %%s | mail -s "Superbee Alert" admin@foo.com
 </translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Superbee Core is probably already running.</source>
-        <translation>Niet mogelijk te binden aan %s op deze computer. Superbee Core loopt waarschijnlijk al.</translation>
+        <translation>이 컴퓨터를 %s 로 지정하는것은 불가능합니다. Superbee Core는 이미 실행 중입니다.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
-        <translation>Kan niet genoeg verduistering gedenomineerde fondsen voor deze transactie vinden.</translation>
+        <translation>이 트랜잭션를 위해 난독화 표기된 충분한 금액을 찾을 수 없습니다.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 XLR.</source>
-        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 XLR.</translation>
+        <translation>이 트랜잭션를 위해 난독화 표기가 안된 충분한 금액을 찾을 수 없습니다. 10000 XLR과 일치하지 않음.</translation>
     </message>
     <message>
         <source>Unable to locate enough funds for this transaction that are not equal 10000 XLR.</source>
-        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 XLR.</translation>
+        <translation>트랜잭션에 대한 충분한 금액을 찾을 수 없습니다. 10000 XLR와 같지 않음</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Gebruik aparte SOCKS5 proxy om peers via Tor verborgen services te bereiken (standaard: %s)</translation>
+        <translation>Tor hidden services를 통하여 피어에게 도달하기 위해 독립된 SOCKS5 프록시를 사용합니다(기본값: %s)</translation>
     </message>
     <message>
         <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>Waarschuwing: -maxtxfee is zeer hoog ingesteld! Deze hoge kosten kunnen worden betaald op een enkele transactie.</translation>
+        <translation>경고: -maxrtxfee가 매우 높게 설정 되었습니다! 이렇게 큰 수수료는 단 한번의 단일 트랜잭션에 지불될 수도 있습니다.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld! Dit zijn de transactie kosten die je betaalt als je een transactie verstuurt.</translation>
+        <translation>경고 : -paytxfee가 매우 높게 설정되었습니다! 이것은 전송할 경우 지불 할 트랜잭션 수수료입니다.</translation>
     </message>
     <message>
         <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Superbee Core will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt Superbee Core niet goed.</translation>
+        <translation>경고: 컴퓨터의 날짜와 시간이 올바르게 설정되어 있는지 확인해 주세요! 만일 시계가 잘못되어 있다면 Superbee 코어는 정상적으로 작동하지 않을 수 있습니다.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Waarschuwing: het netwerk lijkt er niet helemaal mee eens te zijn! Sommige miners lijken problemen te ondervinden.</translation>
+        <translation>경고: 네트워크가 완전히 동의하지 않는 것 같습니다! 일부 마이너에 문제가 발생한 것으로 보입니다.</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Waarschuwing: Wij lijken het er niet helemaal eens te zijn met onze peers! Mogelijk moet je upgraden, of andere nodes moeten mogelijk upgraden.</translation>
+        <translation>경고: 우리의 피어들과 완벽하게 일치하지 않습니다! 업그레이드 또는 다른 노드들의 업그레이드가 필요할 수 있습니다.</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Waarschuwing: fout lezen wallet.dat! Alle sleutels lezen correct, maar transactie gegevens of adresboek invoeringen kunnen missen of niet correct zijn.</translation>
+        <translation>경고 : wallet.dat을 읽는 중 오류가 발생했습니다! 모든 키가 올바르게 읽혀 지지만 트랜잭션 데이터 또는 주소록 항목이 누락되었거나 올바르지 않을 수 있습니다.</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Waarschuwing: wallet.dat corrupt, data gered! Originele wallet.dat opgeslagen als wallet.{timestamp}.bak in %s; als je saldo of transacties onjuist zijn, moet je een back-up herstellen.</translation>
+        <translation>경고 : wallet.dat에 손상된 데이터가 복구되었습니다. 본래 wallet.dat은 wallet으로 저장되었습니다. {timestamp}.bak %s; 잔액 또는 트랜잭션가 올바르지 않은 경우 백업에서 복원해야합니다.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
-        <translation>Whitelist peers verbinden van het opgegeven netmask of IP adres. Kan meerdere keren worden opgegeven.</translation>
+        <translation>주어진 넷마스크 또는 IP 주소로부터 화이트리스트 피어가 연결되고 있습니다. 여러 번 지정될 수 있습니다.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Whitelisted peers kunnen niet DoS banned worden en hun transacties worden altijd doorgestuurd, zelfs als ze al in de mempool zijn, nuttig bijv. voor een gateway</translation>
+        <translation>화이트리스트 피어들은 DoS 밴 될 수 없으며 그들이 이미 메모리 풀에 있을지라도 그들의 트랜잭션는 항상 중계됩니다. 예를들면 게이트웨이 같은 것에 유용</translation>
     </message>
     <message>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
-        <translation>Je moet een masternodeprivkey opgeven in de configuratie. Raadpleeg de documentatie voor hulp.</translation>
+        <translation>환경설정에서 masternodeprivkey를 지정해야 합니다. 도움말을 참조하십시오.</translation>
     </message>
     <message>
-        <source>(60020 could be used only on mainnet)</source>
-        <translation>(60020 kan alleen op mainnet worden gebruikt)</translation>
+        <source>(59228 could be used only on mainnet)</source>
+        <translation>(59228 은 메인넷에서만 사용될 수 있습니다)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(standaard: %s)</translation>
+        <translation>(기본값: %s)</translation>
     </message>
     <message>
         <source>(default: 1)</source>
-        <translation>(standaard: 1)</translation>
+        <translation>(기본값: 1)</translation>
     </message>
     <message>
-        <source>(must be 60020 for mainnet)</source>
-        <translation>(moet 60020 voor mainnet zijn)</translation>
+        <source>(must be 59228 for mainnet)</source>
+        <translation>(메인넷 일경우 59228)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Accepteer command line en JSON-RPC commando's</translation>
+        <translation> command line 과 JSON-RPC 적용</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Accepteer verbindingen van buitenaf (standaard: 1 als geen -proxy of -connect)</translation>
+        <translation>외부에서의 접속을 허용 (1 -프록시 또는 -연결이 없을 경우 기본값)</translation>
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
-        <translation>Accepteer publieke REST verzoeken (standaard: %u)</translation>
+        <translation>공개 REST 요청 수락(기본값: %u)</translation>
     </message>
     <message>
         <source>Acceptable ciphers (default: %s)</source>
-        <translation>Acceptabele ciphers (standaard: %s)</translation>
+        <translation>허용되는 암호 (기본값: %s)</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Voeg een node toe om verbinding mee te maken en probeer de verbinding open te houden</translation>
+        <translation>연결할 노드를 추가하고 계속해서 연결을 유지하십시오.</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>DNS lookups toestaan voor -addnode, -seednode en -connect</translation>
+        <translation>-addnode, -seednode, -connect을 위해 DNS 조회를 허용하십시오.</translation>
     </message>
     <message>
         <source>Already have that input.</source>
-        <translation>Heeft die input al.</translation>
+        <translation>이미 연결 중입니다.</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Vraag altijd naar peer adressen via DNS lookup (standaard: %u)</translation>
+        <translation>피어 주소에게 DNS 조회를 통한 지속적인 정보 수신 요청을 합니다 (기본값: %u)</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Poog om privé sleutels te herstellen van een corrupte wallet.dat</translation>
+        <translation>손상된 wallet.dat으로 부터 개인 키 복구를 시도합니다.</translation>
     </message>
     <message>
         <source>Automatically create Tor hidden service (default: %d)</source>
-        <translation>Creëer automatisch de Tor verborgen service (standaard: %d)</translation>
+        <translation>자동 Tor 히든 서버스 생성 (기본값: %d)</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Block creatie opties:</translation>
+        <translation>블록 생성 옵션:</translation>
     </message>
     <message>
         <source>Calculating missing accumulators...</source>
-        <translation>Calculeren van ontbrekende accumulators...</translation>
+        <translation>누락된 누산기 계산중...</translation>
     </message>
     <message>
         <source>Can't denominate: no compatible inputs left.</source>
-        <translation>Kan niet denomineren: er zijn geen compatibele inputs over.</translation>
+        <translation>표시할 수 없음: 남아있는 호환된 연결이 없습니다.</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>
-        <translation>Kan geen willekeurige Masternode vinden.</translation>
+        <translation>임의의 마스터노드를 찾을 수 없습니다.</translation>
     </message>
     <message>
         <source>Can't mix while sync in progress.</source>
-        <translation>Kan niet mixen terwijl synchronisatie wordt uitgevoerd.</translation>
+        <translation>동기화가 진행 중일 때에는 믹싱을 할 수 없습니다.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Kan de portemonnee niet downgraden</translation>
+        <translation>지갑을 다운그레이드 할 수 없습니다.</translation>
     </message>
     <message>
         <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Kan -bind adres niet oplossen: '%s'</translation>
+        <translation>주소를 변환할 수 없습니다 주소 -bind: '%s'</translation>
     </message>
     <message>
         <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Kan -externalip adres niet oplossen: '%s'</translation>
+        <translation>주소를 변환할 수 없습니다 -externalip 주소: '%s'</translation>
     </message>
     <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
-        <translation>Kan -whitebind adres niet oplossen: '%s'</translation>
+        <translation>해결할 수 없습니다 -whitebind 주소: '%s'</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>Kan standaard adres niet schrijven</translation>
+        <translation>기본 주소를 사용할 수 없습니다.</translation>
     </message>
     <message>
         <source>Collateral not valid.</source>
-        <translation>Terugbetaling niet geldig.</translation>
+        <translation>Collateral이 유효하지 않습니다.</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
-        <translation>Verbind alleen met de opgegeven node(s)</translation>
+        <translation>지정된 노드(s)로만 연결이 가능합니다.</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
-        <translation>Verbind via SOCKS5 proxy</translation>
+        <translation>SOCKS5 프록시를 통해 연결합니다</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Verbind met een node om peer adressen te verkrijgen en verbreek verbinding</translation>
+        <translation>노드에 연결하여 피어 주소를 검색하고 연결을 끊습니다</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Connectie opties:</translation>
+        <translation>연결 옵션:</translation>
     </message>
     <message>
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i The Bitcoin Kernontwikkelaars</translation>
+        <translation>Copyright (C) 2009-%i 비트코인 Core 개발자들</translation>
     </message>
     <message>
         <source>Copyright (C) 2014-%i The Dash Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Dash Kernontwikkelaars</translation>
+        <translation>Copyright (C) 2014-%i The Dash Core 개발자들</translation>
     </message>
     <message>
         <source>Copyright (C) 2015-%i The Superbee Core Developers</source>
-        <translation>Copyright (C) 2015-%i The Superbee Kernontwikkelaars</translation>
+        <translation>Copyright (C) 2015-%i The Superbee Core 개발자</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Corrupte block database gedetecteerd</translation>
+        <translation>손상된 블록 데이터베이스가 발견되었습니다</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
-        <translation>Kan -rpcbind value %s niet parsen als een netwerk adres</translation>
+        <translation>-rpcbind 값 %s 를 네트워크 주소로 분석할 수 없습니다</translation>
     </message>
     <message>
         <source>Could not parse masternode.conf</source>
-        <translation>Kan masternode.conf niet parsen</translation>
+        <translation>masternode.conf 를 분석할 수 없습니다.</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>Debugging/Test opties:</translation>
+        <translation>디버깅/테스팅 옵션:</translation>
     </message>
     <message>
         <source>Disable OS notifications for incoming transactions (default: %u)</source>
-        <translation>Schakel OS notificaties uit voor inkomende transacties (standaard: %u)</translation>
+        <translation>거래시 수신 알림창 해제  (기본값: %u)</translation>
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
-        <translation>Schakel safe mode uit, override een echte safe mode gebeurtenis (standaard: %u)</translation>
+        <translation>안전모드 비활성화, 실시간 안전모드 이벤트 중단 (기본값: %u)</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Ontdek eigen IP adres (standaard: 1 bij luisteren en niet -externalip)</translation>
+        <translation>자신의 IP 주소를 찾습니다 (기본값: 1 수신중이거나 -외부아이피가 없을 경우)</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Laad de portemonnee niet in en schakel portemonnee RPC oproepen uit</translation>
+        <translation>지갑 RPC 호출을 비활성화하고 지갑을 불러오지 마시오</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Wil je de blok database nu herbouwen?</translation>
+        <translation>블록 데이터베이스를 다시 작성하시기를 원하십니까?</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Klaar met laden</translation>
+        <translation>로딩 완료</translation>
     </message>
     <message>
         <source>Enable automatic Zerocoin minting (0-1, default: %u)</source>
-        <translation>Zet automatische Zerocoin minting aan (0-1, standaard: %u)</translation>
+        <translation>자동 제로코인 생성 (0-1, 기본값: %u)</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
-        <translation>Schakel de client in als masternode (0-1, standaard: %u)</translation>
+        <translation>클라이언트가 마스터노드로 작동하는 것을 활성화 (0-1, 기본값: %u)</translation>
     </message>
     <message>
         <source>Entries are full.</source>
-        <translation>De entries zijn vol.</translation>
+        <translation>항목이 가득 찼습니다.</translation>
     </message>
     <message>
         <source>Error connecting to Masternode.</source>
-        <translation>Fout bij verbinden met Masternode.</translation>
+        <translation>Masternode에 연결하는 중 오류가 발생했습니다.</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>Fout bij het initialiseren van blok database</translation>
+        <translation>블록 데이터베이스를 초기화하는 중 오류가 발생했습니다.</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Fout bij het initialiseren van de wallet database omgeving %s!</translation>
+        <translation>지갑 데이터베이스 환경  %s 을 초기화하는 중 오류가 발생했습니다!</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Error tijdens het laden van de block database</translation>
+        <translation>블록 데이터베이스를 불러오는 중 오류가 발생했습니다.</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
-        <translation>Error tijdens het laden van wallet.dat</translation>
+        <translation>wallet.dat을 불러오는 중 오류가 발생했습니다.</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Error tijdens het laden van wallet.dat: Portemonnee corrupt</translation>
+        <translation>wallet.dat을 불러오는 중 오류가 발생했습니다: 지갑 손상됨</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Superbee Core</source>
-        <translation>Fout bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van Superbee Core</translation>
+        <translation>wallet.dat를 로드하는 중 오류가 발생했습니다. 지갑에 최신 버전의 Superbee 코어가 필요합니다.</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Error tijdens het openen van de block database</translation>
+        <translation>블록 데이터베이스를 여는 중 오류가 발생했습니다.</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>Error tijdens het lezen van de database, aan het afsluiten.</translation>
+        <translation>데이터베이스에서서 읽어오는 중 오류가 발생했습니다. 종료합니다.</translation>
     </message>
     <message>
         <source>Error recovering public key.</source>
-        <translation>Fout bij het herstellen van de publieke sleutel.</translation>
+        <translation>공개 키를 복구하는 중 오류가 발생했습니다.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Error</translation>
+        <translation>에러</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
-        <translation>Fout: Er is een fatale interne fout opgetreden, zie debug.log voor details</translation>
+        <translation>오류 : 내부에서 치명적인 오류가 발생했습니다. 자세한 내용은 debug.log를 참조하십시오</translation>
     </message>
     <message>
         <source>Error: Can't select current denominated inputs</source>
-        <translation>Fout: Kan de huidige gedenomineerde inputs niet selecteren</translation>
+        <translation>오류 : 현재 표시된 입력을 선택할 수 없습니다</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Error: Schijfruimte is laag!</translation>
+        <translation>오류 : 디스크 공간이 부족합니다!</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
-        <translation>Fout: Niet ondersteunde argument -tor gevonden, gebruik -onion.</translation>
+        <translation>오류 : 지원하지 않는 인수 -tor가 발견되었습니다. -onion을 사용하십시오.</translation>
     </message>
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Fout: Portemonnee vergrendeld, niet in staat om transactie te creëren!</translation>
+        <translation>오류 : 지갑이 잠겼습니다, 트랜잭션을 생성할 수 없습니다!</translation>
     </message>
     <message>
         <source>Error: You already have pending entries in the Obfuscation pool</source>
-        <translation>Fout: U heeft al entries in afwachting in de verduistering pool</translation>
+        <translation>오류 : 이미 난독화 그룹에 보류중인 항목들이 있습니다.</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Niet gelukt om te luisteren op een poort. Gebruik -listen=0 als je dit wilt.</translation>
+        <translation>어떠한 포트에서도 수신하는 것에 실패했습니다. 원하신다면 -listen=0 을 사용하십시오.</translation>
     </message>
     <message>
         <source>Failed to read block</source>
-        <translation>Mislukt om block te lezen</translation>
+        <translation>블록을 받아오는데 실패했습니다.</translation>
     </message>
     <message>
         <source>Fee (in XLR/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in XLR/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
+        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (XLR/kB) (기본값: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
-        <translation>Transactie aan het voltooien.</translation>
+        <translation>트랜잭션 완료.</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
-        <translation>Forceer safe mode (standaard: %u)</translation>
+        <translation>강제 안전 모드 (기본값: %u)</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
-        <translation>Genoeg gebruikers gevonden, aan het ondertekenen (%s aan het wachten)</translation>
+        <translation>충분한 사용자를 찾았습니다, 서명 중 ( %s 기다리는 중 )</translation>
     </message>
     <message>
         <source>Found enough users, signing ...</source>
-        <translation>Genoeg gebruikers gevonden, aan het ondertekenen ...</translation>
+        <translation>충분한 사용자를 찾았습니다, 서명 중 ...</translation>
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
-        <translation>Genereer munten (standaard: %u)</translation>
+        <translation>코인 생성 (기본값: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
-        <translation>Hoeveel blokken bij het opstarten controleren (standaard: %u, 0 = alles)</translation>
+        <translation>시작할 때 검사할 블록의 수 (기본값: %u, 0=모두)</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
-        <translation>Als &lt;category&gt; niet is opgegeven, output alle debugging informatie.</translation>
+        <translation>&lt;category&gt;가 제공되지 않으면, 모든 디버깅 정보를 출력합니다.</translation>
     </message>
     <message>
         <source>Importing...</source>
-        <translation>Importeren...</translation>
+        <translation>가져오는 중...</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation>Importeert blokken uit extern blk000??.dat bestand</translation>
+        <translation>내부에 blk000??.dat 파일로부터 블록들을 가져옴</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>Inclusief IP adressen in debug output (standaard: %u)</translation>
+        <translation>디버그 출력에 IP 주소를 포함합니다 (기본값: %u)</translation>
     </message>
     <message>
         <source>Incompatible mode.</source>
-        <translation>Modus is niet compatibel.</translation>
+        <translation>호환되지 않는 모드.</translation>
     </message>
     <message>
         <source>Incompatible version.</source>
-        <translation>Versie is niet compatibel.</translation>
+        <translation>호환되지 않는 버전.</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Het genesis block kan niet worden gevonden of is incorrect. Klopt datadir voor het netwerk?</translation>
+        <translation>잘못되었거나 블록을 찾지 못하였습니다. 네트워크에 대한 잘못된 데이터 디렉토리 문제?</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informatie</translation>
+        <translation>정보</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. Superbee Core is shutting down.</source>
-        <translation>Initialisatie saniteitscontrole mislukt. Superbee Core wordt afgesloten.</translation>
+        <translation>초기화 정확성 검사에 실패 했습니다. Superbee Core가 종료됩니다.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
-        <translation>Ongeldige invoer.</translation>
+        <translation>입력이 올바르지 않습니다.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Onvoldoende saldo.</translation>
+        <translation>잔액이 충분하지 않음</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
-        <translation>Onvoldoende saldo.</translation>
+        <translation>충분하지 않은 금액.</translation>
     </message>
     <message>
         <source>Invalid -onion address or hostname: '%s'</source>
-        <translation>Ongeldig -onion adres of hostnaam: '%s'</translation>
+        <translation>잘못된 -onion 주소거나 호스트네임 : '%s'</translation>
     </message>
     <message>
         <source>Invalid -proxy address or hostname: '%s'</source>
-        <translation>Ongeldig -proxy adres of hostnaam: '%s'</translation>
+        <translation>잘못된 -proxy 주소거나 호스트네입 : '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ongeldige hoeveelheid voor -maxtxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>-maxtxfee=&lt;amount&gt; 에 대한 유효하지 않은 값: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ongeldige hoeveelheid voor -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>-minrelaytxfee=&lt;amount&gt;; 에 대한 유효하지 않은 값: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ongeldige hoeveelheid voor -mintxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>-mintxfee=&lt;amount&gt;; 에 대한 유효하지 않은 값: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Ongeldige hoeveelheid voor -paytxfee=&lt;amount&gt;: '%s' (moet tenminste %s zijn)</translation>
+        <translation>-paytxfee=&lt;amount&gt; 에 대한 유효하지 않은 값: '%s' (적어도 %s 가 필요합니다)</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ongeldige hoeveelheid voor -paytxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>-paytxfee=&lt;amount&gt; 에 대한 유효하지 않은 값: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
-        <translation>Ongeldige hoeveelheid voor -reservebalance=&lt;amount&gt;</translation>
+        <translation>-reservebalance=&lt;amount&gt;에 대한 금액이 유효하지 않은 값</translation>
     </message>
     <message>
         <source>Invalid amount</source>
-        <translation>Ongeldige hoeveelheid</translation>
+        <translation>잘못된 수량</translation>
     </message>
     <message>
         <source>Invalid masternodeprivkey. Please see documenation.</source>
-        <translation>Ongeldige masternodeprivkey. Zie documentatie.</translation>
+        <translation>마스터노드 개인 키가 잘못되었습니다. 설명서를 참조하십시오.</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Ongeldige netmask opgegeven in -whitelist: '%s'</translation>
+        <translation>-whitelist: '%s' 에 지정된 넷마스크가 유효하지 않습니다.</translation>
     </message>
     <message>
         <source>Invalid port detected in masternode.conf</source>
-        <translation>Ongeldige poort gedetecteerd in masternode.conf</translation>
+        <translation>masternode.conf 에서 유효하지 않은 포트가 감지되었습니다</translation>
     </message>
     <message>
         <source>Invalid private key.</source>
-        <translation>Ongeldige privésleutel.</translation>
+        <translation>유효하지 않은 개인 키입니다.</translation>
     </message>
     <message>
         <source>Invalid script detected.</source>
-        <translation>Ongeldige script gedetecteerd.</translation>
+        <translation>유효하지 않은 스크립트가 발견되었습니다.</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
-        <translation>Dit is een pre-release test build - gebruik op eigen risico - niet gebruiken voor staking of handel applicaties!</translation>
+        <translation>이것은 사전 릴리스 테스트 빌드입니다 - 사용상 책임은 귀하에게 있습니다. - staking이나 상업적인 용도로는 절대 사용하지 마십시오!</translation>
     </message>
     <message>
         <source> mints deleted
 </source>
-        <translation>mints verwijderd
+        <translation>생성 삭제
 </translation>
     </message>
     <message>
         <source> mints updated, </source>
-        <translation>mints bijgewerkt,</translation>
+        <translation>생성 업데이드</translation>
     </message>
     <message>
         <source> unconfirmed transactions removed
 </source>
-        <translation>onbevestigde transacties verwijderd
+        <translation>미확인된 거래 삭제됨
 </translation>
     </message>
     <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fout: De transactie is afgewezen! Dit kan gebeuren als sommige munten in je portemonnee al waren uitgegeven, bijvoorbeeld als je een kopie van wallet.dat gebruikt en munten in de kopie waren besteed maar hier niet als zodanig gemarkeerd.</translation>
+        <translation>에러 : 거래가 거부되었습니다. 예를 들어 다른 사본 wallet.dat에서 코인을 사용했다면 2중 사용으로 인식될수 있습니다. 혹은, 일부가 이미 소비 된 경우에 이런 일이 발생할 수 있습니다.</translation>
     </message>
     <message>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Fout: Deze transactie vereist transactiekosten van ten minste %s vanwege de hoeveelheid, de complexiteit of het gebruik van recent ontvangen fondsen!</translation>
+        <translation>에러 :이 거래에는 전송량, 복잡성 또는 최근에 받은 자금의 사용등으로 인해 적어도 %s의 거래 수수료가 필요합니다!</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -checklevel found. Checklevel must be level 4.</source>
-        <translation>Fout: Niet ondersteund argument -checklevel gevonden. Checklevel moet niveau 4 zijn.</translation>
+        <translation>에러 : 지원하지않는 argument -checklevel 발견된.  Checklevel는 레벨 4이어야 합니다.</translation>
     </message>
     <message>
         <source>Preferred Denomination for automatically minted Zerocoin  (1/5/10/50/100/500/1000/5000), 0 for no preference. default: %u)</source>
-        <translation>Voorkeur denominatie voor automatisch minted Zerocoin (1/5/10/50/100/500/1000/5000), 0 voor geen voorkeur. standaard: %u)</translation>
+        <translation>자동생성 제로코인 선호 디노미네이션 (1/5/10/50/100/500/1000/5000) 0사용안됨, 기본값 : %u)</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt;kan zijn: </translation>
+        <translation>&lt;category&gt; 가능함 :</translation>
     </message>
     <message>
         <source>Attempt to force blockchain corruption recovery</source>
-        <translation>Poging om blockchain corruptie herstel te forceren</translation>
+        <translation>블록체인 손상 복구 시도</translation>
     </message>
     <message>
         <source>Display the stake modifier calculations in the debug.log file.</source>
-        <translation>Toon de berekeningen van de stake modificator in het debug.log bestand.</translation>
+        <translation>debug.log에 stake 수정 계산 기록</translation>
     </message>
     <message>
         <source>Display verbose coin stake messages in the debug.log file.</source>
-        <translation>Toon verbose munt stake berichten in het debug.log bestand.</translation>
+        <translation>debug.log 에 코인 stake 메시지를 자세히 기록</translation>
     </message>
     <message>
         <source>Enable publish hash block in &lt;address&gt;</source>
-        <translation>Activeer publicatie hash blok in &lt;address&gt;</translation>
+        <translation>&lt;address&gt; 에서 해시 블록 게시 가능</translation>
     </message>
     <message>
         <source>Enable publish hash transaction (locked via SwiftTX) in &lt;address&gt;</source>
-        <translation>Activeer publicatie hash transactie (vergrendeld via SwiftTX) in &lt;address&gt;</translation>
+        <translation>&lt;address&gt; 에서 해시 전송 게시 가능 (SwiftTX로 설정된)</translation>
     </message>
     <message>
         <source>Enable publish hash transaction in &lt;address&gt;</source>
-        <translation>Activeer publicatie has transactie in &lt;address&gt;</translation>
+        <translation>&lt;address&gt; 에서 해시 불록 게시 가능</translation>
     </message>
     <message>
         <source>Enable publish raw block in &lt;address&gt;</source>
-        <translation>Activeer publicatie raw block in &lt;address&gt;</translation>
+        <translation>&lt;address&gt;에서 Raw 블록 게시 가능</translation>
     </message>
     <message>
         <source>Enable publish raw transaction (locked via SwiftTX) in &lt;address&gt;</source>
-        <translation>Activeer publicatie raw transactie (vergrendeld via SwiftTX) in &lt;address&gt;</translation>
+        <translation>&lt;address&gt;에서 Raw 트랜잭션 게시 지원 (SwiftTX를 통해 잠겨진)</translation>
     </message>
     <message>
         <source>Enable publish raw transaction in &lt;address&gt;</source>
-        <translation>Activeer publicatie raw transactie in &lt;address&gt;</translation>
+        <translation>&lt;address&gt; 에서 Raw 트랜잭션 게시 지원</translation>
     </message>
     <message>
         <source>Enable staking functionality (0-1, default: %u)</source>
-        <translation>Activeer staking functionaliteit (0-1, standaard: %u)</translation>
+        <translation>스테이킹 기능 사용 (0-1, 기본값: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Houd maximaal &lt;n&gt;niet te verbinden transacties in het geheugen (standaard: %u)</translation>
+        <translation>메모리에서 연결 불가능한 트랜잭션을 &lt;n&gt;개까지 유지하십시오. (기본값: %u)</translation>
     </message>
     <message>
         <source>Last Obfuscation was too recent.</source>
-        <translation>Laatste verduistering was te recent.</translation>
+        <translation>최근에 마지막으로 난독화를 진행했습니다.</translation>
     </message>
     <message>
         <source>Last successful Obfuscation action was too recent.</source>
-        <translation>Laatste succesvolle verduistering actie was te recent.</translation>
+        <translation>최근에 마지막으로 성공한 난독화 작업이 있습니다.</translation>
     </message>
     <message>
         <source>Less than 3 mints added, unable to create spend</source>
-        <translation>Minder dan 3 mints toegevoegd, niet in staat om uitgave te creëren</translation>
+        <translation>3 미만 추가, 송금 불가능함</translation>
     </message>
     <message>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
-        <translation>Limiet grootte van signature cache naar &lt;n&gt; invoer (standaard: %u)</translation>
+        <translation>시그니처 캐시의 크기 제한을 &lt;n&gt; 항목으로 합니다 (기본값: %u)</translation>
     </message>
     <message>
         <source>Line: %d</source>
@@ -5053,571 +5071,571 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "Superbee Alert" admin@foo.com
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Luister naar JSON-RPC verbindingen op &lt;port&gt; (standaard: %u of testnet: %u)</translation>
+        <translation>&lt;port&gt;에서 JSON-RPC 연결 대기 (기본값: %u 또는 테스트넷: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Luister naar verbindingen op &lt;port&gt; (standaard: %u of testnet: %u)</translation>
+        <translation>&lt;port&gt;에서 연결 대기 (기본값: %u 또는 테스트넷: %u)</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Adressen laden...</translation>
+        <translation>주소를 불러오는 중...</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Block index laden...</translation>
+        <translation>블록 인덱스를 불러오는 중...</translation>
     </message>
     <message>
         <source>Loading budget cache...</source>
-        <translation>Budget cache laden...</translation>
+        <translation>budget 캐시를 불러오는 중...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
-        <translation>Masternode cache laden...</translation>
+        <translation>마스터노드 캐시를 불러오는 중...</translation>
     </message>
     <message>
         <source>Loading masternode payment cache...</source>
-        <translation>Masternode betalingscache laden...</translation>
+        <translation>마스터노드 결제 캐시를 불러오는 중...</translation>
     </message>
     <message>
         <source>Loading sporks...</source>
-        <translation>Sporks laden...</translation>
+        <translation>sporks 로딩중...</translation>
     </message>
     <message>
         <source>Loading wallet... (%3.2f %%)</source>
-        <translation>Portemonnee laden... (%3.2f %%)</translation>
+        <translation>지갑을 불러오는 중… (%3.2f %%)</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Portemonnee aan het laden...</translation>
+        <translation>지갑을 불러오는 중…</translation>
     </message>
     <message>
         <source>Lock is already in place.</source>
-        <translation>Vergrendeling is al uitgevoerd.</translation>
+        <translation>이미 올바르게 잠겨있습니다.</translation>
     </message>
     <message>
         <source>Lock masternodes from masternode configuration file (default: %u)</source>
-        <translation>Masternodes vergrendelen van masternode configuratiebestand (standaard: %u)</translation>
+        <translation>마스터노드 구성 파일에서 마스터노드를 잠급니다. (기본값: %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Bijhouden maximaal &lt;n&gt; connecties naar peers (standaard: %u)</translation>
+        <translation>최대 &lt;n&gt; 연결을 피어들과 유지합니다. (기본값: %u)</translation>
     </message>
     <message>
         <source>Masternode options:</source>
-        <translation>Masternode opties:</translation>
+        <translation>마스터노드 옵션:</translation>
     </message>
     <message>
         <source>Masternode queue is full.</source>
-        <translation>Masternode wachtrij zit vol.</translation>
+        <translation>마스터노드 대기열이 가득 찼습니다.</translation>
     </message>
     <message>
         <source>Masternode:</source>
-        <translation>Masternode:</translation>
+        <translation>마스터노드:</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maximaal per connectie ontvangst buffer, &lt;n&gt;*1000 bytes (standaard: %u)</translation>
+        <translation>연결 당 최대 수신 버퍼, &lt;n&gt;*1000 바이트 (기본값: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maximaal per connectie verstuur buffer, &lt;n&gt;*1000 bytes (standaard: %u)</translation>
+        <translation>연결 당 최대 전송 버퍼, &lt;n&gt;*1000 바이트 (기본값: %u)</translation>
     </message>
     <message>
         <source>Missing input transaction information.</source>
-        <translation>Ontbrekende invoer transactie informatie ontbreekt.</translation>
+        <translation>트랜잭션 정보 입력에 누락된 부분이 있습니다.</translation>
     </message>
     <message>
         <source>Mixing in progress...</source>
-        <translation>Bezig met mixen...</translation>
+        <translation>믹싱이 진행 중입니다...</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Moet een poort opgeven met -whitebind: '%s'</translation>
+        <translation>-whitebind: '%s' 의 포트를 지정해야 합니다</translation>
     </message>
     <message>
         <source>No Masternodes detected.</source>
-        <translation>Geen Masternodes gedetecteerd.</translation>
+        <translation>마스터노드가 발견되지 않았습니다.</translation>
     </message>
     <message>
         <source>No compatible Masternode found.</source>
-        <translation>Geen compatibele Masternode gevonden.</translation>
+        <translation>호환되는 마스터노드가 발견되지 않았습니다.</translation>
     </message>
     <message>
         <source>No funds detected in need of denominating.</source>
-        <translation>Geen fondsen gedetecteerd die denominatie nodig hebben.</translation>
+        <translation>분류가 필요한 자금이 발견되지 않았습니다.</translation>
     </message>
     <message>
         <source>No matching denominations found for mixing.</source>
-        <translation>Geen passende denominaties gevonden voor mixing.</translation>
+        <translation>믹싱에 대한 일치하는 표기를 찾을 수 없습니다.</translation>
     </message>
     <message>
         <source>Node relay options:</source>
-        <translation>Node relay opties:</translation>
+        <translation>노드 중계 옵션:</translation>
     </message>
     <message>
         <source>Non-standard public key detected.</source>
-        <translation>Niet standaard publieke sleutel gedetecteerd.</translation>
+        <translation>비 표준 공개 키가 감지되었습니다.</translation>
     </message>
     <message>
         <source>Not compatible with existing transactions.</source>
-        <translation>Niet compatibel met bestaande transacties.</translation>
+        <translation>기존 트랜잭션과 호환되지 않습니다.</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Niet genoeg bestandsbeschrijvingen beschikbaar.</translation>
+        <translation>사용 가능한 파일 디스크립터가 충분하지 않습니다.</translation>
     </message>
     <message>
         <source>Not in the Masternode list.</source>
-        <translation>Niet in de Masternode lijst.</translation>
+        <translation>마스터노드 목록에 없습니다.</translation>
     </message>
     <message>
         <source>Number of automatic wallet backups (default: 10)</source>
-        <translation>Aantal automatische portemonnee backups (standaard: 10)</translation>
+        <translation>자동 지갑 백업 횟수 (기본값: 10)</translation>
     </message>
     <message>
         <source>Obfuscation is idle.</source>
-        <translation>Verduistering is inactief.</translation>
+        <translation>난독화는 유휴상태입니다.</translation>
     </message>
     <message>
         <source>Obfuscation request complete:</source>
-        <translation>Verduistering verzoek compleet:</translation>
+        <translation>난독화 요청 완료:</translation>
     </message>
     <message>
         <source>Obfuscation request incomplete:</source>
-        <translation>Verduistering verzoek incompleet:</translation>
+        <translation>난독화 요청 미완료:</translation>
     </message>
     <message>
         <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
-        <translation>Accepteer alleen blockchain matching met ingebouwde controlepunten (standaard: %u)</translation>
+        <translation>내장된 체크 포인트와 일치하는 블록체인만 허용 (기본값: %u)</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Verbind alleen met nodes in het netwerk &lt;net&gt; (ipv4, ipv6 of onion)</translation>
+        <translation>네트워크에 연결된 노드에만 연결 &lt;net&gt; (ipv4, ipv6 또는 onion)</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>Opties:</translation>
+        <translation>옵션:</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Wachtwoord voor JSON-RPC connecties</translation>
+        <translation>JSON-RPC 연결 비밀번호</translation>
     </message>
     <message>
         <source>Percentage of automatically minted Zerocoin  (10-100, default: %u)</source>
-        <translation>Percentage automatisch geminte Zerocoin (10-100, standaard: %u)</translation>
+        <translation>자동 생성 제로코인 퍼센트 (10-100, 기본값: %u)</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Voeg debug output met timestamp toe (standaard: %u)</translation>
+        <translation>디버그 출력 앞에 타임스탬프를 추가합니다. (기본값: %u)</translation>
     </message>
     <message>
         <source>Print version and exit</source>
-        <translation>Print versie en verlaat</translation>
+        <translation>버전 출력후 종료</translation>
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>RPC SSL opties: (zie de Bitcoin Wiki voor SSL setup instructies)</translation>
+        <translation>RPC SSL 옵션: (SSL 설치 안내는 비트코인 위키를 참조하십시오)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation>RPC server opties:</translation>
+        <translation>RPC 서버 옵션:</translation>
     </message>
     <message>
         <source>RPC support for HTTP persistent connections (default: %d)</source>
-        <translation>RPC ondersteuning voor HTTP aanhoudende verbindingen (standaard: %d)</translation>
+        <translation>HTTP 지속 연결에 관한 RPC 지원 (기본값: %d)</translation>
     </message>
     <message>
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
-        <translation>Willekeurig laten vallen van 1 van elke &lt;n&gt;netwerk berichten</translation>
+        <translation>&lt;n&gt;개의 네트워크 메세지마다 무작위로 1개 삭제</translation>
     </message>
     <message>
         <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
-        <translation>Willekeurig vervagen van 1 van elke &lt;n&gt; netwerk berichten</translation>
+        <translation>&lt;n&gt;개의 네트워크 메세지마다 무작위로 1 퍼즈</translation>
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>Herstel blockchain index van huidige blk000??.dat bestanden</translation>
+        <translation>현재 blk000??.dat 파일의 블록체인 인덱스를 다시 구축합니다</translation>
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
-        <translation>Ontvang en laat P2P netwerkmeldingen zien (standaard: %u)</translation>
+        <translation>P2P 네크워크로 부터 경고를 받고 보여줍니다 (기본값: %u)</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Relay en mine data carrier transacties (standaard: %u)</translation>
+        <translation>릴레이 및 채굴 데이터 이동매체 트랜잭션 (기본값: %u)</translation>
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation>Relay non P2SH multisig (default: %u)</translation>
+        <translation>non-P2SH multisig 중계 (기본값: %u)</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Rescan de blockchain voor ontbrekende portemonnee transacties</translation>
+        <translation>누락된 지갑 트랜잭션에 대해 블록체인을 다시 스캔합니다</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Opnieuw scannen...</translation>
+        <translation>다시 스캔하는 중...</translation>
     </message>
     <message>
         <source>ResetMintZerocoin finished: </source>
-        <translation>ResetMintZerocoin voltooid: </translation>
+        <translation>생성된 제로코인 초기화 완료:</translation>
     </message>
     <message>
         <source>ResetSpentZerocoin finished: </source>
-        <translation>ResetSpentZerocoin voltooid: </translation>
+        <translation>사용된 제로코인 초기화 완료:</translation>
     </message>
     <message>
         <source>Run a thread to flush wallet periodically (default: %u)</source>
-        <translation>Voer regelmatig een thread om de portemonnee te spoelen uit (standaard: %u)</translation>
+        <translation>주기적으로 지갑을 플러쉬하는 스레드를 실행합니다 (기본값: %u)</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Voer op de achtergrond uit als een daemon en accepteer commando's</translation>
+        <translation>백그라운드에서 상주하며 실행하고 명령을 받습니다</translation>
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>Zend transacties als zero fee transacties indien mogelijk (standaard: %u)</translation>
+        <translation>무료 수수료 트랜잭션이 가능할 경우 무료 수수료로 트랜잭션을 전송합니다 (기본값: %u)</translation>
     </message>
     <message>
         <source>Server certificate file (default: %s)</source>
-        <translation>Server certificaat bestand (standaard: %s)</translation>
+        <translation>서버 인증서 파일 (기본값: %s)</translation>
     </message>
     <message>
         <source>Server private key (default: %s)</source>
-        <translation>Server privé sleutel (default: %s)</translation>
+        <translation>서버 개인 키 (기본값: %s)</translation>
     </message>
     <message>
         <source>Session not complete!</source>
-        <translation>Sessie niet voltooid!</translation>
+        <translation>세션이 완료되지 않았습니다!</translation>
     </message>
     <message>
         <source>Session timed out.</source>
-        <translation>Sessie verlopen.</translation>
+        <translation>세션이 만료되었습니다.</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Stel de cache grootte van de database in megabytes in (%d tot %d, standaard: %d)</translation>
+        <translation>데이터베이스 캐시 크기를 메가바이트 단위로 설정합니다 (%d 에서 %d, 기본값: %d)</translation>
     </message>
     <message>
         <source>Set external address:port to get to this masternode (example: %s)</source>
-        <translation>Extern adres instellen:poort om bij deze masternode te komen (voorbeeld: %s)</translation>
+        <translation>마스터노드에 접속하려면 외부 주소:포트를 설정하십시오 (예시: %s)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Stel key pool grootte in op &lt;n&gt; (standaard: %u)</translation>
+        <translation>키 풀 크기를 &lt;n&gt; 로 설정합니다 (기본값: %u)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Stel maximale block grootte in bytes in (default: %d)</translation>
+        <translation>최대 블록 크기를 바이트 단위로 설정합니다 (기본값: %d)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: %u)</source>
-        <translation>Stel minimale block grootte in bytes in (default: %u)</translation>
+        <translation>최소 블록 크기를 바이트 단위로 설정합니다 (기본값: %u)</translation>
     </message>
     <message>
         <source>Set the masternode private key</source>
-        <translation>Stel de masternode privé sleutel in</translation>
+        <translation>마스터노드 개인 키를 설정합니다</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>Stel het aantal threads in om RPC oproepen te bedienen (standaard: %d)</translation>
+        <translation>RPC 호출 서비스 스레드의 갯수를 설정합니다 (기본값: %d)</translation>
     </message>
     <message>
         <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
-        <translation>Stelt de DB_PRIVATE vlag in de portemonnee db omgeving in (standaard: %u)</translation>
+        <translation>지갑 db 환경에서 DB_PRIVATE 플래그를 설정합니다 (기본값 : %u)</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Toon alle debugging opties (gebruik: --help -help-debug)</translation>
+        <translation>모든 디버깅 옵션 표시 (사용 방법: --help -help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Krimp debug.log bestand bij client startup (standaard: 1 wanneer geen -debug)</translation>
+        <translation>클라이언트 시작시에 debug.log 파일을 축소시킵니다 (기본값:1 아닐경우 -debug)</translation>
     </message>
     <message>
         <source>Signing failed.</source>
-        <translation>Ondertekenen mislukt.</translation>
+        <translation>인증에 실패했습니다.</translation>
     </message>
     <message>
         <source>Signing timed out.</source>
-        <translation>Ondertekening time out.</translation>
+        <translation>인증 시간 초과.</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Ondertekening transactie mislukt.</translation>
+        <translation>트랜잭션 인증 실패</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>Specificeer configuratiebestand (standaard: %s)</translation>
+        <translation>구성 파일 지정 (기본값: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Specificeer verbinding time-out in milliseconden (minimum: 1, standaard: %d)</translation>
+        <translation>연결 시간 초과 단위를 100분의 1초 단위로 지정 (최소값: 1, 기본값: %d)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Specificeer data directory.</translation>
+        <translation>데이터 디렉토리 지정</translation>
     </message>
     <message>
         <source>Specify masternode configuration file (default: %s)</source>
-        <translation>Specificeer masternode configuratie bestand (default: %s)</translation>
+        <translation>마스터노드 구성파일 지정 (기본값: %s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>Specificeer pid bestand (default: %s)</translation>
+        <translation>pid 파일 지정 (기본값: %s)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Specificeer portemonnee bestand (in data directory)</translation>
+        <translation>지갑 파일 지정 (데이터 디렉토리 내에서만)</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Specificeer je eigen publieke addres</translation>
+        <translation>자신의 공용 주소를 지정</translation>
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>Onbevestigd wisselgeld besteden bij het verzenden van transacties (standaard: %u)</translation>
+        <translation>트랜잭션 전송시 승인되지 않은 변경사항을 전송합니다 (기본값: %u)</translation>
     </message>
     <message>
         <source>Staking options:</source>
-        <translation>Staking opties:</translation>
+        <translation>스테이킹 옵션:</translation>
     </message>
     <message>
         <source>Stop running after importing blocks from disk (default: %u)</source>
-        <translation>Stop na het importeren van blokken van schijf (standaard: %u)</translation>
+        <translation>디스크에서 블록을 가져오면 실행 중지 (기본값: %u)</translation>
     </message>
     <message>
         <source>Submitted following entries to masternode: %u / %d</source>
-        <translation>Ingediende volgende vermeldingen in masternode: %u / %d</translation>
+        <translation>마스터노드에 다음 항목들을 제출했습니다: %u / %d</translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
-        <translation>Ingediend naar masternode, wachten op meer inzendingen (%u / %d) %s</translation>
+        <translation>마스터노드에 제출했습니다, 남은 항목들 기다리는중 ( %u / %d ) %s</translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting in queue %s</source>
-        <translation>Ingediend naar masternode, wachten in de wachtrij %s</translation>
+        <translation>마스터노드에 제출했습니다, 대기열을 기다리는 중 %s</translation>
     </message>
     <message>
         <source>SwiftTX options:</source>
-        <translation>SwiftTX opties:</translation>
+        <translation>SwiftTX 옵션:</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
-        <translation>Synchronisatie mislukt</translation>
+        <translation>동기화 실패</translation>
     </message>
     <message>
         <source>Synchronization finished</source>
-        <translation>Synchronisatie voltooid</translation>
+        <translation>동기화 완료</translation>
     </message>
     <message>
         <source>Synchronization pending...</source>
-        <translation>Synchronisatie in afwachting...</translation>
+        <translation>동기화 대기중...</translation>
     </message>
     <message>
         <source>Synchronizing budgets...</source>
-        <translation>Budgeten synchroniseren...</translation>
+        <translation>budgets 동기화 중입니다...</translation>
     </message>
     <message>
         <source>Synchronizing masternode winners...</source>
-        <translation>Synchroniseren masternode winnaars...</translation>
+        <translation>마스터노드 승자를 동기화 중입니다...</translation>
     </message>
     <message>
         <source>Synchronizing masternodes...</source>
-        <translation>Synchroniseren masternodes...</translation>
+        <translation>마스터노드와 동기화중입니다...</translation>
     </message>
     <message>
         <source>Synchronizing sporks...</source>
-        <translation>Synchroniseren sporks...</translation>
+        <translation>sporks와 동기화 중입니다...</translation>
     </message>
     <message>
         <source>This help message</source>
-        <translation>Dit help bericht</translation>
+        <translation>도움말 메시지입니다</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>Dit is experimentele software.</translation>
+        <translation>이것은 실험용 소프트웨어입니다.</translation>
     </message>
     <message>
         <source>This is intended for regression testing tools and app development.</source>
-        <translation>Dit is bedoeld voor regressie test tools en app ontwikkeling.</translation>
+        <translation>이것은 리그레션 테스팅 및 앱 개발을 위해 만들어졌습니다.</translation>
     </message>
     <message>
         <source>This is not a Masternode.</source>
-        <translation>Dit is geen Masternode.</translation>
+        <translation>마스터노드가 아닙니다.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Drempel voor het verbreken van misdragende peers (standaard: %u)</translation>
+        <translation>제대로 동작하지 않는 피어와 연결을 끊을 임계값 (기본값: %u)</translation>
     </message>
     <message>
         <source>Tor control port password (default: empty)</source>
-        <translation>Tor controle poort wachtwoord (standaard: leeg)</translation>
+        <translation>Tor 컨트롤 포트 암호 (기본값: 공백)</translation>
     </message>
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
-        <translation>Tor controle poort om te gebruiken als onion listening geactiveerd is (standaard: %s)</translation>
+        <translation>onion 활성화되었을 경우 사용할 Tor 코트롤 포트 (기본값: %s)</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Transactie bedrag te klein</translation>
+        <translation>트랜잭션 금액이 너무 적습니다</translation>
     </message>
     <message>
         <source>Transaction amounts must be positive</source>
-        <translation>Transactie bedragen moeten positief zijn</translation>
+        <translation>트랜잭션 금액에 반드시 양수값이 들어가야 합니다</translation>
     </message>
     <message>
         <source>Transaction created successfully.</source>
-        <translation>Transactie is succesvol gemaakt.</translation>
+        <translation>트랜잭션이 성공적으로 생성되었습니다.</translation>
     </message>
     <message>
         <source>Transaction fees are too high.</source>
-        <translation>Transactiekosten zijn te hoog.</translation>
+        <translation>트랜잭션 수수료가 너무 높습니다.</translation>
     </message>
     <message>
         <source>Transaction not valid.</source>
-        <translation>Transactie is niet geldig.</translation>
+        <translation>올바르지 않은 트랜잭션입니다.</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>Transactie te groot voor kosten beleid</translation>
+        <translation>수수료 정책에 비해 트랜잭션이 너무 많습니다</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Transactie te groot</translation>
+        <translation>트랜잭션이 너무 큽니다</translation>
     </message>
     <message>
         <source>Transmitting final transaction.</source>
-        <translation>Verzending van de definitieve transactie.</translation>
+        <translation>최종 트랜잭션를 전송 중입니다.</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Niet mogelijk te binden aan %s op deze computer (bind stuurt fout %s terug)</translation>
+        <translation>이 컴퓨터에서 %s 로 바인드할 수 없습니다 (바인드 리턴 오류 %s)</translation>
     </message>
     <message>
         <source>Unable to sign spork message, wrong key?</source>
-        <translation>Kan sporkbericht niet tekenen, verkeerde sleutel?</translation>
+        <translation>스포크 메시지를 인증할 수 없습니다, 키를 확인해주세요</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Onbekend netwerk gespecificeerd in -onlynet: '%s'</translation>
+        <translation>-onlynet: '%s' 에 알 수 없는 네트워크가 지정되었습니다</translation>
     </message>
     <message>
         <source>Unknown state: id = %u</source>
-        <translation>Onbekende staat: id = %u</translation>
+        <translation>알 수없는 상태: id = %u</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
-        <translation>Upgrade portemonnee naar nieuwste formaat</translation>
+        <translation>지갑을 최신 포맷으로 업그레이드합니다</translation>
     </message>
     <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Gebruik OpenSSL (https) voor JSON-RPC verbindingen</translation>
+        <translation>JSON-RPC 연결에 OpenSSL (https)를 사용합니다</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Gebruik UPnP om de luisterpoort te mappen (standaard: %u)</translation>
+        <translation>수신 포트를 매핑하려면 UPnP를 사용하십시오 (기본값: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Gebruik UPnP om de luisterpoort te mappen (standaard: 1 bij het luisteren)</translation>
+        <translation>수신 포트를 매핑하려면 UPnP를 사용하십시오 (기본값: 1 수신 상태일 때)</translation>
     </message>
     <message>
         <source>Use the test network</source>
-        <translation>Gebruik het test netwerk</translation>
+        <translation>테스트 네트워크를 사용합니다</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Gebruikersnaam voor JSON-RPC verbindingen</translation>
+        <translation>JSON-RPC 연결 사용자 이름</translation>
     </message>
     <message>
         <source>Value more than Obfuscation pool maximum allows.</source>
-        <translation>Waarde meer dan verduistering pool maximaal toestaat.</translation>
+        <translation>난독화 풀의 최대 허용 값보다 높습니다.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>Blokken verifiëren...</translation>
+        <translation>블록 인증 중...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>Portemonnee verifiëren...</translation>
+        <translation>지갑 인증 중...</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>Portemonnee %s verblijft buiten de data directory %s</translation>
+        <translation>지갑 %s 가 데이터 디렉토리 외부에 존재합니다 %s</translation>
     </message>
     <message>
         <source>Wallet is locked.</source>
-        <translation>Portemonnee is vergrendeld.</translation>
+        <translation>지갑이 잠겼습니다.</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Superbee Core to complete</source>
-        <translation>Wallet moest worden herschreven: start Superbee Core opnieuw om te voltooien</translation>
+        <translation>지갑을 다시 작성해야 합니다: 완료하려면 Superbee 코어를 재시작해야 합니다</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>Portemonnee opties:</translation>
+        <translation>지갑 옵션:</translation>
     </message>
     <message>
         <source>Wallet window title</source>
-        <translation>Portemonnee venster titel</translation>
+        <translation>지갑 창 제목</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Waarschuwing</translation>
+        <translation>경고</translation>
     </message>
     <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Waarschuwing: Deze versie is verouderd, upgrade vereist!</translation>
+        <translation>경고 : 현재 사용중인 버전은 더이상 사용되지 않으므로 업그레이드가 필요합니다!</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Waarschuwing: Niet- ondersteund argument -benchmark genegeerd, gebruik -debug=bench.</translation>
+        <translation>경고 : 지원하지 않는 인수 -benchmark 무시됨 -debug = bench를 사용하십시오.</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Waarschuwing: Niet ondersteunde argument -debugnet genegeerd, gebruik -debug=net.</translation>
+        <translation>경고 : 지원하지 않는 인수 -debugnet 무시됨 -debug=net를 사용하십시오.</translation>
     </message>
     <message>
         <source>Will retry...</source>
-        <translation>Zal het opnieuw proberen...</translation>
+        <translation>다시 시도합니다...</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation>Je moet de database herbouwen met -reindex om -txindex te wijzigen</translation>
+        <translation>-treindex를 변경하려면 -reindex를 사용하여 데이터베이스를 다시 빌드해야합니다.</translation>
     </message>
     <message>
         <source>Your entries added successfully.</source>
-        <translation>Je gegevens zijn succesvol toegevoegd.</translation>
+        <translation>항목이 성공적으로 추가되었습니다.</translation>
     </message>
     <message>
         <source>Your transaction was accepted into the pool!</source>
-        <translation>Je transactie is geaccepteerd in de pool!</translation>
+        <translation>트랜잭션이 풀로 접수되었습니다!</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>Verwijderen van alle transacties uit portemonnee...</translation>
+        <translation>지갑 내 모든 트랜잭션들을 재핑하는 중...</translation>
     </message>
     <message>
         <source>ZeroMQ notification options:</source>
-        <translation>ZeroMQ notificatie opties:</translation>
+        <translation>ZeroMQ 알림 옵션:</translation>
     </message>
     <message>
         <source>Zerocoin options:</source>
-        <translation>Zerocoin opties:</translation>
+        <translation>제로코인 옵션:</translation>
     </message>
     <message>
         <source>failed to validate zerocoin</source>
-        <translation>mislukt om zerocoin te valideren</translation>
+        <translation>제로코인 검증을 못했습니다.</translation>
     </message>
     <message>
         <source>on startup</source>
-        <translation>tijdens het opstarten</translation>
+        <translation>시작 시</translation>
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat corrupt, redding mislukt</translation>
+        <translation>wallet.dat 파일이 손상되어 복구에 실패했습니다</translation>
     </message>
 </context>
 </TS>
