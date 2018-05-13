@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your Solaris addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina Solaris adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your Superbee addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina Superbee adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your Solaris addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina Solaris adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your Superbee addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina Superbee adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,8 +160,8 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>Solaris will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
-        <translation>Solaris kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina XLRs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>Superbee will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
+        <translation>Superbee kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina XLRs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a Solaris Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Ange en Solaris adress som du vill kryptera med BIP 38.
+        <source>Enter a Superbee Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Ange en Superbee adress som du vill kryptera med BIP 38.
 Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The Solaris address to sign the message with</source>
-        <translation>Solaris adressen för signera meddelandet med</translation>
+        <source>The Superbee address to sign the message with</source>
+        <translation>Superbee adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Solaris address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Solaris adress</translation>
+        <source>Sign the message to prove you own this Superbee address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Superbee adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Ange BIP 38 krypterade privata nyckeln. Ange lösenfrasen i med mittersta boxen. Tryck på krypetra nyckel för att beräkna den privata nyckeln. Efter att nyckeln är avkrypterad, Tryck på 'Importera Adress' kommer att lägga till denna privata nyckel till plånboken.</translation>
     </message>
     <message>
-        <source>The Solaris address the message was signed with</source>
-        <translation>Solaris adressen meddelandet blev signerat med</translation>
+        <source>The Superbee address the message was signed with</source>
+        <translation>Superbee adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Solaris address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Solaris adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Superbee address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Superbee adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,16 +583,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>Solaris Core</source>
-        <translation>Solaris Kärna</translation>
+        <source>Superbee Core</source>
+        <translation>Superbee Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a Solaris address</source>
-        <translation>Skicka mynt till en Solaris adress</translation>
+        <source>Send coins to a Superbee address</source>
+        <translation>Skicka mynt till en Superbee adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and solaris: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och solaris: URls)</translation>
+        <source>Request payments (generates QR codes and superbee: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och superbee: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,24 +603,24 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Solaris Core</source>
-        <translation>Om Solaris Kärnan</translation>
+        <source>&amp;About Superbee Core</source>
+        <translation>Om Superbee Kärnan</translation>
     </message>
     <message>
-        <source>Show information about Solaris Core</source>
-        <translation>Visa information om Solaris Kärnan</translation>
+        <source>Show information about Superbee Core</source>
+        <translation>Visa information om Superbee Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for Solaris</source>
-        <translation>Ändra konfigurationsval för Solaris</translation>
+        <source>Modify configuration options for Superbee</source>
+        <translation>Ändra konfigurationsval för Superbee</translation>
     </message>
     <message>
-        <source>Sign messages with your Solaris addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Solaris adress för att visa att du äger dem</translation>
+        <source>Sign messages with your Superbee addresses to prove you own them</source>
+        <translation>Signera meddelanden med din Superbee adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Solaris addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Solaris adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified Superbee addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Superbee adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>Solaris Core client</source>
-        <translation>Solaris kärn klient</translation>
+        <source>Superbee Core client</source>
+        <translation>Superbee kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -837,15 +837,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Solaris Core</source>
-        <translation>Solaris Kärna</translation>
+        <source>Superbee Core</source>
+        <translation>Superbee Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Solaris Core</source>
-        <translation>Solaris Kärna</translation>
+        <source>Superbee Core</source>
+        <translation>Superbee Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1157,8 +1157,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Solaris address to sign the message with</source>
-        <translation>Solaris adressen för signera meddelandet med</translation>
+        <source>The Superbee address to sign the message with</source>
+        <translation>Superbee adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1181,16 +1181,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Solaris address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Solaris adress</translation>
+        <source>Sign the message to prove you own this Superbee address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Superbee adress</translation>
     </message>
     <message>
-        <source>The Solaris address the message was signed with</source>
-        <translation>Solaris adressen meddelandet blev signerat med</translation>
+        <source>The Superbee address the message was signed with</source>
+        <translation>Superbee adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Solaris address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Solaris adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Superbee address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Superbee adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1232,8 +1232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Solaris Core</source>
-        <translation>Solaris Kärna</translation>
+        <source>Superbee Core</source>
+        <translation>Superbee Kärna</translation>
     </message>
     </context>
 <context>
@@ -1419,7 +1419,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     <name>ZXLRControlDialog</name>
     </context>
 <context>
-    <name>solaris-core</name>
+    <name>superbee-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

@@ -1,25 +1,25 @@
-# /etc/conf.d/solarisd: config file for /etc/init.d/solarisd
+# /etc/conf.d/superbeed: config file for /etc/init.d/superbeed
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/solaris/solaris.conf"
+#BITCOIND_CONFIGFILE="/etc/superbee/superbee.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/solarisd"
+#BITCOIND_PIDDIR="/var/run/superbeed"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/solarisd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/superbeed.pid"
 
-# Where to write solarisd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/solarisd"
+# Where to write superbeed data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/superbeed"
 
-# User and group to own solarisd process
-#BITCOIND_USER="solaris"
-#BITCOIND_GROUP="solaris"
+# User and group to own superbeed process
+#BITCOIND_USER="superbee"
+#BITCOIND_GROUP="superbee"
 
-# Path to solarisd executable
-#BITCOIND_BIN="/usr/bin/solarisd"
+# Path to superbeed executable
+#BITCOIND_BIN="/usr/bin/superbeed"
 
-# Nice value to run solarisd under
+# Nice value to run superbeed under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

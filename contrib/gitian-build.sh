@@ -17,7 +17,7 @@ osx=true
 SIGNER=
 VERSION=
 commit=false
-url=https://github.com/solaris-project/solaris
+url=https://github.com/listedlinked/superbee
 proc=2
 mem=2000
 lxc=true
@@ -31,7 +31,7 @@ commitFiles=true
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
-Run this script from the directory containing the solaris, gitian-builder, gitian.sigs, and solaris-detached-sigs.
+Run this script from the directory containing the superbee, gitian-builder, gitian.sigs, and superbee-detached-sigs.
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -39,7 +39,7 @@ version		Version number, commit, or branch to build. If building a commit or bra
 
 Options:
 -c|--commit	Indicate that the version argument is for a commit or branch
--u|--url	Specify the URL of the repository. Default is https://github.com/solaris-project/solaris
+-u|--url	Specify the URL of the repository. Default is https://github.com/listedlinked/superbee
 -v|--verify 	Verify the gitian build
 -b|--build	Do a gitian build
 -s|--sign	Make signed binaries for Windows and Mac OSX
@@ -237,8 +237,8 @@ echo ${COMMIT}
 if [[ $setup = true ]]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
-    git clone https://github.com/solaris-project/gitian.sigs.git
-    git clone https://github.com/solaris-project/solaris-detached-sigs.git
+    git clone https://github.com/superbee-project/gitian.sigs.git
+    git clone https://github.com/listedlinked/superbee-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
     if [[ -n "$USE_LXC" ]]
@@ -252,7 +252,7 @@ then
 fi
 
 # Set up build
-pushd ./solaris
+pushd ./superbee
 git fetch
 git checkout ${COMMIT}
 popd
@@ -261,7 +261,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./solaris-binaries/${VERSION}
+	mkdir -p ./superbee-binaries/${VERSION}
 
 	# Build Dependencies
 	echo ""
@@ -271,7 +271,7 @@ then
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
-	make -C ../solaris/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../superbee/depends download SOURCES_PATH=`pwd`/cache/common
 
 	# Linux
 	if [[ $linux = true ]]
@@ -279,9 +279,9 @@ then
             echo ""
 	    echo "Compiling ${VERSION} Linux"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit solaris=${COMMIT} --url solaris=${url} ../solaris/contrib/gitian-descriptors/gitian-linux.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../solaris/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/solaris-*.tar.gz build/out/src/solaris-*.tar.gz ../solaris-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit superbee=${COMMIT} --url superbee=${url} ../superbee/contrib/gitian-descriptors/gitian-linux.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../superbee/contrib/gitian-descriptors/gitian-linux.yml
+	    mv build/out/superbee-*.tar.gz build/out/src/superbee-*.tar.gz ../superbee-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -289,10 +289,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit solaris=${COMMIT} --url solaris=${url} ../solaris/contrib/gitian-descriptors/gitian-win.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../solaris/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/solaris-*-win-unsigned.tar.gz inputs/solaris-win-unsigned.tar.gz
-	    mv build/out/solaris-*.zip build/out/solaris-*.exe ../solaris-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit superbee=${COMMIT} --url superbee=${url} ../superbee/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../superbee/contrib/gitian-descriptors/gitian-win.yml
+	    mv build/out/superbee-*-win-unsigned.tar.gz inputs/superbee-win-unsigned.tar.gz
+	    mv build/out/superbee-*.zip build/out/superbee-*.exe ../superbee-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -300,10 +300,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit solaris=${COMMIT} --url solaris=${url} ../solaris/contrib/gitian-descriptors/gitian-osx.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../solaris/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/solaris-*-osx-unsigned.tar.gz inputs/solaris-osx-unsigned.tar.gz
-	    mv build/out/solaris-*.tar.gz build/out/solaris-*.dmg ../solaris-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit superbee=${COMMIT} --url superbee=${url} ../superbee/contrib/gitian-descriptors/gitian-osx.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../superbee/contrib/gitian-descriptors/gitian-osx.yml
+	    mv build/out/superbee-*-osx-unsigned.tar.gz inputs/superbee-osx-unsigned.tar.gz
+	    mv build/out/superbee-*.tar.gz build/out/superbee-*.dmg ../superbee-binaries/${VERSION}
 	fi
 	# AArch64
 	if [[ $aarch64 = true ]]
@@ -311,9 +311,9 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} AArch64"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit solaris=${COMMIT} --url solaris=${url} ../solaris/contrib/gitian-descriptors/gitian-aarch64.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../solaris/contrib/gitian-descriptors/gitian-aarch64.yml
-	    mv build/out/solaris-*.tar.gz build/out/src/solaris-*.tar.gz ../solaris-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit superbee=${COMMIT} --url superbee=${url} ../superbee/contrib/gitian-descriptors/gitian-aarch64.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../superbee/contrib/gitian-descriptors/gitian-aarch64.yml
+	    mv build/out/superbee-*.tar.gz build/out/src/superbee-*.tar.gz ../superbee-binaries/${VERSION}
 	popd
 
         if [[ $commitFiles = true ]]
@@ -340,32 +340,32 @@ then
 	echo ""
 	echo "Verifying v${VERSION} Linux"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../solaris/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../superbee/contrib/gitian-descriptors/gitian-linux.yml
 	# Windows
 	echo ""
 	echo "Verifying v${VERSION} Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../solaris/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../superbee/contrib/gitian-descriptors/gitian-win.yml
 	# Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../solaris/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../superbee/contrib/gitian-descriptors/gitian-osx.yml
 	# AArch64
 	echo ""
 	echo "Verifying v${VERSION} AArch64"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../solaris/contrib/gitian-descriptors/gitian-aarch64.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../superbee/contrib/gitian-descriptors/gitian-aarch64.yml
 	# Signed Windows
 	echo ""
 	echo "Verifying v${VERSION} Signed Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../solaris/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../superbee/contrib/gitian-descriptors/gitian-osx-signer.yml
 	# Signed Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Signed Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../solaris/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../superbee/contrib/gitian-descriptors/gitian-osx-signer.yml
 	popd
 fi
 
@@ -380,10 +380,10 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../solaris/contrib/gitian-descriptors/gitian-win-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../solaris/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/solaris-*win64-setup.exe ../solaris-binaries/${VERSION}
-	    mv build/out/solaris-*win32-setup.exe ../solaris-binaries/${VERSION}
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../superbee/contrib/gitian-descriptors/gitian-win-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../superbee/contrib/gitian-descriptors/gitian-win-signer.yml
+	    mv build/out/superbee-*win64-setup.exe ../superbee-binaries/${VERSION}
+	    mv build/out/superbee-*win32-setup.exe ../superbee-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -391,9 +391,9 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../solaris/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../solaris/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/solaris-osx-signed.dmg ../solaris-binaries/${VERSION}/solaris-${VERSION}-osx.dmg
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../superbee/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../superbee/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    mv build/out/superbee-osx-signed.dmg ../superbee-binaries/${VERSION}/superbee-${VERSION}-osx.dmg
 	fi
 	popd
 

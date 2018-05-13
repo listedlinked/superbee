@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between solaris-cli and solarisd)
- * of a given instance of the Solaris system.
+ * CBaseChainParams defines the base parameters (shared between superbee-cli and superbeed)
+ * of a given instance of the Superbee system.
  */
 class CBaseChainParams
 {

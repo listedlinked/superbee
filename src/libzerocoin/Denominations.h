@@ -3,7 +3,7 @@
  *
  * @brief      Denomination info for the Zerocoin library.
  *
- * @copyright  Copyright 2017 Solaris Developers
+ * @copyright  Copyright 2017 Superbee Developers
  * @license    This project is released under the MIT license.
  **/
 

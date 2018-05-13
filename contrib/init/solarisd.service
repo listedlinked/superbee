@@ -1,19 +1,19 @@
 [Unit]
-Description=Solaris's distributed currency daemon
+Description=Superbee's distributed currency daemon
 After=network.target
 
 [Service]
-User=solaris
-Group=solaris
+User=superbee
+Group=superbee
 
 Type=forking
-PIDFile=/var/lib/solarisd/solarisd.pid
+PIDFile=/var/lib/superbeed/superbeed.pid
 
-ExecStart=/usr/bin/solarisd -daemon -pid=/var/lib/solarisd/solarisd.pid \
-          -conf=/etc/solaris/solaris.conf -datadir=/var/lib/solarisd
+ExecStart=/usr/bin/superbeed -daemon -pid=/var/lib/superbeed/superbeed.pid \
+          -conf=/etc/superbee/superbee.conf -datadir=/var/lib/superbeed
 
-ExecStop=-/usr/bin/solaris-cli -conf=/etc/solaris/solaris.conf \
-         -datadir=/var/lib/solarisd stop
+ExecStop=-/usr/bin/superbee-cli -conf=/etc/superbee/superbee.conf \
+         -datadir=/var/lib/superbeed stop
 
 Restart=always
 PrivateTmp=true

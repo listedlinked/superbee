@@ -266,6 +266,6 @@
     <name>ZXLRControlDialog</name>
     </context>
 <context>
-    <name>solaris-core</name>
+    <name>superbee-core</name>
     </context>
 </TS>

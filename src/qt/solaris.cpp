@@ -1,12 +1,12 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The Solaris developers
+// Copyright (c) 2017-2018 The Superbee developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/solaris-config.h"
+#include "config/superbee-config.h"
 #endif
 
 #include "bitcoingui.h"
@@ -94,7 +94,7 @@ static void InitMessage(const std::string& message)
  */
 static std::string Translate(const char* psz)
 {
-    return QCoreApplication::translate("solaris-core", psz).toStdString();
+    return QCoreApplication::translate("superbee-core", psz).toStdString();
 }
 
 static QString GetLangTerritory()
@@ -141,11 +141,11 @@ static void initTranslations(QTranslator& qtTranslatorBase, QTranslator& qtTrans
     if (qtTranslator.load("qt_" + lang_territory, QLibraryInfo::location(QLibraryInfo::TranslationsPath)))
         QApplication::installTranslator(&qtTranslator);
 
-    // Load e.g. bitcoin_de.qm (shortcut "de" needs to be defined in solaris.qrc)
+    // Load e.g. bitcoin_de.qm (shortcut "de" needs to be defined in superbee.qrc)
     if (translatorBase.load(lang, ":/translations/"))
         QApplication::installTranslator(&translatorBase);
 
-    // Load e.g. bitcoin_de_DE.qm (shortcut "de_DE" needs to be defined in solaris.qrc)
+    // Load e.g. bitcoin_de_DE.qm (shortcut "de_DE" needs to be defined in superbee.qrc)
     if (translator.load(lang_territory, ":/translations/"))
         QApplication::installTranslator(&translator);
 }
@@ -166,7 +166,7 @@ void DebugMessageHandler(QtMsgType type, const QMessageLogContext& context, cons
 }
 #endif
 
-/** Class encapsulating Solaris Core startup and shutdown.
+/** Class encapsulating Superbee Core startup and shutdown.
  * Allows running startup and shutdown in a different thread from the UI thread.
  */
 class BitcoinCore : public QObject
@@ -195,7 +195,7 @@ private:
     void handleRunawayException(std::exception* e);
 };
 
-/** Main Solaris application object */
+/** Main Superbee application object */
 class BitcoinApplication : public QApplication
 {
     Q_OBJECT
@@ -253,7 +253,7 @@ private:
     void startThread();
 };
 
-#include "solaris.moc"
+#include "superbee.moc"
 
 BitcoinCore::BitcoinCore() : QObject()
 {
@@ -484,7 +484,7 @@ void BitcoinApplication::initializeResult(int retval)
 
 #ifdef ENABLE_WALLET
         // Now that initialization/startup is done, process any command-line
-        // Solaris: URIs or payment requests:
+        // Superbee: URIs or payment requests:
         connect(paymentServer, SIGNAL(receivedPaymentRequest(SendCoinsRecipient)),
             window, SLOT(handlePaymentRequest(SendCoinsRecipient)));
         connect(window, SIGNAL(receivedURI(QString)),
@@ -506,7 +506,7 @@ void BitcoinApplication::shutdownResult(int retval)
 
 void BitcoinApplication::handleRunawayException(const QString& message)
 {
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Solaris can no longer continue safely and will quit.") + QString("\n\n") + message);
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Superbee can no longer continue safely and will quit.") + QString("\n\n") + message);
     ::exit(1);
 }
 
@@ -536,8 +536,8 @@ int main(int argc, char* argv[])
     QTextCodec::setCodecForCStrings(QTextCodec::codecForTr());
 #endif
 
-    Q_INIT_RESOURCE(solaris_locale);
-    Q_INIT_RESOURCE(solaris);
+    Q_INIT_RESOURCE(superbee_locale);
+    Q_INIT_RESOURCE(superbee);
 
     BitcoinApplication app(argc, argv);
 #if QT_VERSION > 0x050100
@@ -596,17 +596,17 @@ int main(int argc, char* argv[])
     if (!Intro::pickDataDirectory())
         return 0;
 
-    /// 6. Determine availability of data directory and parse solaris.conf
+    /// 6. Determine availability of data directory and parse superbee.conf
     /// - Do not call GetDataDir(true) before this step finishes
     if (!boost::filesystem::is_directory(GetDataDir(false))) {
-        QMessageBox::critical(0, QObject::tr("Solaris Core"),
+        QMessageBox::critical(0, QObject::tr("Superbee Core"),
             QObject::tr("Error: Specified data directory \"%1\" does not exist.").arg(QString::fromStdString(mapArgs["-datadir"])));
         return 1;
     }
     try {
         ReadConfigFile(mapArgs, mapMultiArgs);
     } catch (std::exception& e) {
-        QMessageBox::critical(0, QObject::tr("Solaris Core"),
+        QMessageBox::critical(0, QObject::tr("Superbee Core"),
             QObject::tr("Error: Cannot parse configuration file: %1. Only use key=value syntax.").arg(e.what()));
         return 0;
     }
@@ -619,7 +619,7 @@ int main(int argc, char* argv[])
 
     // Check for -testnet or -regtest parameter (Params() calls are only valid after this clause)
     if (!SelectParamsFromCommandLine()) {
-        QMessageBox::critical(0, QObject::tr("Solaris Core"), QObject::tr("Error: Invalid combination of -regtest and -testnet."));
+        QMessageBox::critical(0, QObject::tr("Superbee Core"), QObject::tr("Error: Invalid combination of -regtest and -testnet."));
         return 1;
     }
 #ifdef ENABLE_WALLET
@@ -638,7 +638,7 @@ int main(int argc, char* argv[])
     /// 7a. parse masternode.conf
     string strErr;
     if (!masternodeConfig.read(strErr)) {
-        QMessageBox::critical(0, QObject::tr("Solaris Core"),
+        QMessageBox::critical(0, QObject::tr("Superbee Core"),
             QObject::tr("Error reading masternode configuration file: %1").arg(strErr.c_str()));
         return 0;
     }
@@ -653,7 +653,7 @@ int main(int argc, char* argv[])
         exit(0);
 
     // Start up the payment server early, too, so impatient users that click on
-    // solaris: links repeatedly have their payment requests routed to this process:
+    // superbee: links repeatedly have their payment requests routed to this process:
     app.createPaymentServer();
 #endif
 
@@ -684,7 +684,7 @@ int main(int argc, char* argv[])
         app.createWindow(networkStyle.data());
         app.requestInitialize();
 #if defined(Q_OS_WIN) && QT_VERSION >= 0x050000
-        WinShutdownMonitor::registerShutdownBlockReason(QObject::tr("Solaris Core didn't yet exit safely..."), (HWND)app.getMainWinId());
+        WinShutdownMonitor::registerShutdownBlockReason(QObject::tr("Superbee Core didn't yet exit safely..."), (HWND)app.getMainWinId());
 #endif
         app.exec();
         app.requestShutdown();

@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Solaris"
-            VALUE "FileDescription",    "Solaris Core (OSS GUI client for Solaris)"
+            VALUE "CompanyName",        "Superbee"
+            VALUE "FileDescription",    "Superbee Core (OSS GUI client for Superbee)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "solaris-qt"
+            VALUE "InternalName",       "superbee-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "solaris-qt.exe"
-            VALUE "ProductName",        "Solaris Core"
+            VALUE "OriginalFilename",   "superbee-qt.exe"
+            VALUE "ProductName",        "Superbee Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

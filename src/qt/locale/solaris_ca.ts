@@ -62,12 +62,12 @@
         <translation>Adreces de recepció</translation>
     </message>
     <message>
-        <source>These are your Solaris addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són les teves adreces Solaris per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
+        <source>These are your Superbee addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són les teves adreces Superbee per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
     </message>
     <message>
-        <source>These are your Solaris addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Aquestes són les teves adreces Solaris per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
+        <source>These are your Superbee addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Aquestes són les teves adreces Superbee per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,8 +168,8 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>Solaris will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
-        <translation>Solaris es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus XLR de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
+        <source>Superbee will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XLRs from being stolen by malware infecting your computer.</source>
+        <translation>Superbee es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus XLR de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -418,12 +418,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>Solaris Core</source>
-        <translation>Solaris Core</translation>
+        <source>Superbee Core</source>
+        <translation>Superbee Core</translation>
     </message>
     <message>
-        <source>Send coins to a Solaris address</source>
-        <translation>Envia monedes a una adreça Solaris</translation>
+        <source>Send coins to a Superbee address</source>
+        <translation>Envia monedes a una adreça Superbee</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -434,8 +434,8 @@
         <translation>&amp;Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Solaris Core</source>
-        <translation>&amp;Sobre Solaris Core</translation>
+        <source>&amp;About Superbee Core</source>
+        <translation>&amp;Sobre Superbee Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -458,12 +458,12 @@
         <translation>Obre el fitxer de configuració del Masternode</translation>
     </message>
     <message>
-        <source>Solaris Core client</source>
-        <translation>Client Solaris core</translation>
+        <source>Superbee Core client</source>
+        <translation>Client Superbee core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Solaris network</source>
-        <translation><numerusform>%n connexió activa a la xarxa Solaris</numerusform><numerusform>%n connexions actives a la xarxa Solaris</numerusform></translation>
+        <source>%n active connection(s) to Superbee network</source>
+        <translation><numerusform>%n connexió activa a la xarxa Superbee</numerusform><numerusform>%n connexions actives a la xarxa Superbee</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -814,8 +814,8 @@
         <translation>Edita l'adreça d'enviament</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Solaris address.</source>
-        <translation>L'adreça introduïda "%1" no és una adreça Solaris vàlida.</translation>
+        <source>The entered address "%1" is not a valid Superbee address.</source>
+        <translation>L'adreça introduïda "%1" no és una adreça Superbee vàlida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -860,16 +860,16 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>Solaris Core</source>
-        <translation>Solaris Core</translation>
+        <source>Superbee Core</source>
+        <translation>Superbee Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Solaris Core</source>
-        <translation>Sobre Solaris Core</translation>
+        <source>About Superbee Core</source>
+        <translation>Sobre Superbee Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -915,12 +915,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to Solaris Core.</source>
-        <translation>Benvingut a Solaris Core.</translation>
+        <source>Welcome to Superbee Core.</source>
+        <translation>Benvingut a Superbee Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Solaris Core will store its data.</source>
-        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del Solaris Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Superbee Core will store its data.</source>
+        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del Superbee Core.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -931,8 +931,8 @@
         <translation>Usar una carpeta de dades personalitzada:</translation>
     </message>
     <message>
-        <source>Solaris Core</source>
-        <translation>Solaris Core</translation>
+        <source>Superbee Core</source>
+        <translation>Superbee Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1208,8 +1208,8 @@
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Solaris after logging in to the system.</source>
-        <translation>Inicia Solaris automàticament després d'identificar-te en el sistema.</translation>
+        <source>Automatically start Superbee after logging in to the system.</source>
+        <translation>Inicia Superbee automàticament després d'identificar-te en el sistema.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1304,8 +1304,8 @@
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>ZeroSolaris (zXLR)</source>
-        <translation>ZeroSolaris (zXLR)</translation>
+        <source>ZeroSuperbee (zXLR)</source>
+        <translation>ZeroSuperbee (zXLR)</translation>
     </message>
     <message>
         <source>0</source>
@@ -1719,8 +1719,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Solaris Core is shutting down...</source>
-        <translation>Solaris Core s'està tancant...</translation>
+        <source>Superbee Core is shutting down...</source>
+        <translation>Superbee Core s'està tancant...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1785,8 +1785,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Solaris Core</source>
-        <translation>Solaris Core</translation>
+        <source>Superbee Core</source>
+        <translation>Superbee Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1984,7 +1984,7 @@
     </message>
     </context>
 <context>
-    <name>solaris-core</name>
+    <name>superbee-core</name>
     <message>
         <source>Can't mix while sync in progress.</source>
         <translation>No es pot mesclar mentre s'està sincronitzant.</translation>

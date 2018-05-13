@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: solarisd.service
-Upstart: solarisd.conf
-OpenRC:  solarisd.openrc
-         solarisd.openrcconf
-CentOS:  solarisd.init
+SystemD: superbeed.service
+Upstart: superbeed.conf
+OpenRC:  superbeed.openrc
+         superbeed.openrcconf
+CentOS:  superbeed.init
 
 have been made available to assist packagers in creating node packages here.
 
